@@ -1,2 +1,2 @@
 # FuturoImperfecto
-Juego creado para mi proyecto de TFG de temática distópica y del género de plataformas 2.5D arcade tipo Megaman aunque también tendrá otros típos de géneros como action-rpg
+Juego creado para mi proyecto de TFG de temática distópica y del hack 'n' slash en 3D también tendrá otros típos de géneros como rpg, se mejorará al personaje como en el Megaman al acabar recibes una mejora que aumenta tus habilidades y acción. La historia del juego se desarrollará en forma de fases o zonas que el jugador tendrá que pasarselas. Se desarrollará el juego usando el motor de Unreal
