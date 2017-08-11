@@ -1,0 +1,494 @@
+﻿Log file open, 08/11/17 16:41:59
+LogInit:Display: Running engine for game: ThreePersonMovement
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-189168472) SRandInit(-189168471).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.080699
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: D:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.11-14.42.00:239][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.11-14.42.00:239][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.11-14.42.00:251][  0]LogInit: Computer: DAVIDMASTERRACE
+[2017.08.11-14.42.00:251][  0]LogInit: User: David
+[2017.08.11-14.42.00:251][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.11-14.42.00:251][  0]LogInit: High frequency timer resolution =3.417962 MHz
+[2017.08.11-14.42.00:251][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.11-14.42.00:251][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.11-14.42.00:251][  0]LogMemory: Process Physical Memory: 271.24 MB used, 271.24 MB peak
+[2017.08.11-14.42.00:251][  0]LogMemory: Process Virtual Memory: 266.50 MB used, 266.50 MB peak
+[2017.08.11-14.42.00:251][  0]LogMemory: Physical Memory: 4392.86 MB used,  11933.59 MB free, 16326.44 MB total
+[2017.08.11-14.42.00:251][  0]LogMemory: Virtual Memory: 622.98 MB used,  11933.59 MB free, 134217728.00 MB total
+[2017.08.11-14.42.00:293][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.08.11-14.42.00:293][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.08.11-14.42.01:049][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.11-14.42.01:529][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.08.11-14.42.01:529][  0]LogD3D11RHI:       3975/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.11-14.42.01:530][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.11-14.42.01:530][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.11-14.42.01:530][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.11-14.42.01:535][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.11-14.42.01:535][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.11-14.42.01:535][  0]LogWindows: EnumDisplayDevices:
+[2017.08.11-14.42.01:535][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.08.11-14.42.01:539][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.08.11-14.42.01:539][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.08.11-14.42.01:539][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.08.11-14.42.01:539][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.11-14.42.01:539][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.08.11-14.42.01:539][  0]LogD3D11RHI:   Driver Version: 376.51 (internal:21.21.13.7651, unified:376.51)
+[2017.08.11-14.42.01:539][  0]LogD3D11RHI:      Driver Date: 12-25-2016
+[2017.08.11-14.42.01:539][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.11-14.42.02:006][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.11-14.42.02:032][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.08.11-14.42.02:076][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Intermediate/Shaders/WorkingDirectory/2468/).
+[2017.08.11-14.42.02:076][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/David/AppData/Local/Temp/UnrealShaderWorkingDir/5BFA45734439ABAB36FFA6AEDCE6C1A5/'.
+[2017.08.11-14.42.02:076][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.11-14.42.03:062][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.11-14.42.03:159][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.11-14.42.03:213][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.11-14.42.03:269][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.11-14.42.03:313][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.11-14.42.03:350][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.11-14.42.03:386][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.11-14.42.03:423][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.11-14.42.03:453][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.11-14.42.03:487][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.11-14.42.03:547][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.11-14.42.03:582][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.11-14.42.03:613][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.11-14.42.03:646][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.11-14.42.03:677][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.11-14.42.03:745][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.11-14.42.03:745][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.11-14.42.03:768][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.11-14.42.03:833][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.11-14.42.03:855][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.11-14.42.03:889][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.11-14.42.03:922][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.11-14.42.03:959][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.11-14.42.03:990][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.11-14.42.03:990][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.11-14.42.04:283][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.11-14.42.04:360][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.11-14.42.04:360][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.11-14.42.04:360][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.11-14.42.04:360][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.11-14.42.04:360][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.11-14.42.04:360][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.11-14.42.04:376][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.11-14.42.04:387][  0]LogDerivedDataCache: Using Local data cache path C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.11-14.42.04:395][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.11-14.42.04:395][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.11-14.42.04:395][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.11-14.42.04:396][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.11-14.42.04:652][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.11-14.42.04:713][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.11-14.42.04:831][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.11-14.42.04:856][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.11-14.42.04:883][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.11-14.42.04:883][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.11-14.42.04:883][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.11-14.42.05:310][  0]LogNetVersion: ThreePersonMovement , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2529145923)
+[2017.08.11-14.42.05:363][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
+[2017.08.11-14.42.05:394][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.017598 seconds
+[2017.08.11-14.42.05:399][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.11-14.42.05:399][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.11-14.42.05:399][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.11-14.42.05:438][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.11-14.42.07:036][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.11-14.42.07:064][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.11-14.42.07:401][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.11-14.42.07:639][  0]SourceControl: Info Source control is disabled
+[2017.08.11-14.42.07:661][  0]SourceControl: Info Source control is disabled
+[2017.08.11-14.42.07:687][  0]SourceControl: Info Source control is disabled
+[2017.08.11-14.42.07:713][  0]SourceControl: Info Source control is disabled
+[2017.08.11-14.42.07:861][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.08.11-14.42.07:861][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.08.11-14.42.07:861][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2017.08.11-14.42.08:103][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.11-14.42.08:473][  0]LogEngine: Initializing Engine...
+[2017.08.11-14.42.08:473][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.11-14.42.08:634][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.11-14.42.08:634][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.11-14.42.08:710][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.11-14.42.08:730][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-14.42.08:737][  0]LogInit: FAudioDevice initialized.
+[2017.08.11-14.42.08:770][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.11-14.42.08:776][  0]LogInit: Texture streaming: Enabled
+[2017.08.11-14.42.08:831][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.11-14.42.08:951][  0]LogInit: Transaction tracking system initialized
+[2017.08.11-14.42.09:126][  0]BlueprintLog: New page: Editor Load
+[2017.08.11-14.42.09:661][  0]LocalizationService: Info Localization service is disabled
+[2017.08.11-14.42.10:044][  0]LogConsoleResponse:Display: 
+[2017.08.11-14.42.10:171][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.11-14.42.10:171][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.11-14.42.10:721][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/' took 0.02s
+[2017.08.11-14.42.10:749][  0]SourceControl: Info Source control is disabled
+[2017.08.11-14.42.10:749][  0]Cmd: MAP LOAD FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.11-14.42.10:751][  0]LightingResults: New page: Lighting Build
+[2017.08.11-14.42.10:775][  0]MapCheck: New page: Map Check
+[2017.08.11-14.42.10:775][  0]LightingResults: New page: Lighting Build
+[2017.08.11-14.42.11:742][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.08.11-14.42.11:908][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.11-14.42.11:986][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.11-14.42.12:042][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 55.562ms to complete.
+[2017.08.11-14.42.12:042][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.293
+[2017.08.11-14.42.12:521][  0]LogCollectionManager: Loaded 0 collections in 0.001966 seconds
+[2017.08.11-14.42.12:675][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Collections/' took 0.01s
+[2017.08.11-14.42.12:675][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Developers/David/Collections/' took 0.01s
+[2017.08.11-14.42.12:675][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Collections/' took 0.01s
+[2017.08.11-14.42.12:675][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.11-14.42.12:701][  0]LogContentBrowser: Native class hierarchy populated in 0.0245 seconds. Added 2329 classes and 491 folders.
+[2017.08.11-14.42.12:779][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.08.11-14.42.13:683][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0018 seconds. Added 0 classes and 0 folders.
+[2017.08.11-14.42.13:792][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.08.11-14.42.14:571][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.11-14.42.14:605][  0]LogSlate: Took 0.000481 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.11-14.42.14:609][  0]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.11-14.42.14:657][  0]LogSlate: Took 0.014591 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.11-14.42.15:027][  0]LogRenderer: Reallocating scene render targets to support 1204x576 NumSamples 1 (Frame:1).
+[2017.08.11-14.42.15:438][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.11-14.42.15:498][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.08.11-14.42.15:498][  0]LogLoad: (Engine Initialization) Total time: 16.48 seconds
+[2017.08.11-14.42.15:498][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.16 seconds
+[2017.08.11-14.42.15:498][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.11-14.42.15:498][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.11-14.42.15:839][  0]LogOcInput: OculusInput pre-init called
+[2017.08.11-14.42.15:840][  0]LogHMD: Starting GearVRController plugin
+[2017.08.11-14.42.15:916][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.11-14.42.16:079][  0]LogSlate: Took 0.017830 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.11-14.42.16:863][  3]LogAssetRegistry: Asset discovery search completed in 11.5223 seconds
+[2017.08.11-14.42.16:869][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.11-14.42.16:869][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000090 seconds (updated 0 objects)
+[2017.08.11-14.42.57:491][187]MapCheck: New page: Map Check
+[2017.08.11-14.42.57:535][187]Cmd: MAP REBUILD ALLVISIBLE
+[2017.08.11-14.42.57:535][187]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.08.11-14.42.57:768][187]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.08.11-14.42.57:803][187]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Brushed_Nickel, compiling. 
+[2017.08.11-14.42.57:808][187]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TableRound, compiling. 
+[2017.08.11-14.42.57:813][187]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
+[2017.08.11-14.42.57:819][187]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Copper, compiling. 
+[2017.08.11-14.42.57:825][187]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_StatueGlass, compiling. 
+[2017.08.11-14.42.57:830][187]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Burnished_Steel, compiling. 
+[2017.08.11-14.42.57:834][187]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2017.08.11-14.42.57:839][187]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy NewMaterial_Inst, compiling. 
+[2017.08.11-14.42.57:844][187]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2017.08.11-14.42.59:230][187]TextureStreamingBuild:Display: Compiling optional shaders took 1.475 seconds.
+[2017.08.11-14.42.59:276][187]LogLevel:Display: Export Material TexCoord Scales took 0.046 seconds.
+[2017.08.11-14.42.59:280][187]TextureStreamingBuild:Display: Build Texture Streaming took 0.004 seconds.
+[2017.08.11-14.42.59:317][187]LightingResults: New page: Lighting Build - Aug 11, 2017, 6:42:59 PM
+[2017.08.11-14.42.59:528][187]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.08.11-14.42.59:576][187]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.08.11-14.42.59:587][187]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.08.11-14.43.00:620][187]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.08.11-14.43.00:620][187]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2468
+[2017.08.11-14.43.05:342][187]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.08.11-14.43.05:342][187]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.08.11-14.43.05:342][187]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.08.11-14.43.05:342][187]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.08.11-14.43.05:342][187]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.08.11-14.43.05:342][187]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.08.11-14.43.05:562][187]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.08.11-14.43.05:562][187]MapCheck: New page: Minimal_Default - Aug 11, 2017, 6:43:05 PM
+[2017.08.11-14.43.05:589][187]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.08.11-14.43.05:624][187]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 60.968ms to complete.
+[2017.08.11-14.43.05:646][187]LogEditorBuildUtils: Build time 0:08
+[2017.08.11-14.43.05:670][187]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Brushed_Nickel, compiling. 
+[2017.08.11-14.43.05:677][187]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Brushed_Nickel, compiling. 
+[2017.08.11-14.43.05:737][188]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_TableRound, compiling. 
+[2017.08.11-14.43.05:743][188]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_TableRound, compiling. 
+[2017.08.11-14.43.05:774][189]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
+[2017.08.11-14.43.05:779][189]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
+[2017.08.11-14.43.05:825][190]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Copper, compiling. 
+[2017.08.11-14.43.05:830][190]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Copper, compiling. 
+[2017.08.11-14.43.05:872][191]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_StatueGlass, compiling. 
+[2017.08.11-14.43.05:878][191]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_StatueGlass, compiling. 
+[2017.08.11-14.43.05:906][192]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Burnished_Steel, compiling. 
+[2017.08.11-14.43.05:912][192]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Burnished_Steel, compiling. 
+[2017.08.11-14.43.05:939][193]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
+[2017.08.11-14.43.05:944][193]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
+[2017.08.11-14.43.12:299][609]LogStaticLightingSystem:Warning: Failed to build lighting!!! Lighting build canceled.
+[2017.08.11-14.43.12:349][609]Job has failed! Job is closed while Tasks are still PENDING
+[2017.08.11-14.43.12:349][609]DumpUnbuiltLightIteractions
+[2017.08.11-14.43.12:349][609]Lights with unbuilt interactions: 1
+[2017.08.11-14.43.12:349][609]    Light LightSource
+[2017.08.11-14.43.12:349][609]
+[2017.08.11-14.43.12:349][609]Primitives with unbuilt interactions: 1
+[2017.08.11-14.43.12:349][609]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Floor.StaticMeshComponent0
+[2017.08.11-14.43.12:355][610]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.08.11-14.43.12:355][610]MapCheck: New page: Minimal_Default - Aug 11, 2017, 6:43:12 PM
+[2017.08.11-14.43.12:389][610]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.08.11-14.43.12:423][610]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 68.319ms to complete.
+[2017.08.11-14.43.18:289][278]MapCheck: New page: Map Check
+[2017.08.11-14.43.18:301][278]LightingResults: New page: Lighting Build - Aug 11, 2017, 6:43:18 PM
+[2017.08.11-14.43.18:310][278]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.08.11-14.43.18:310][278]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.08.11-14.43.18:310][278]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.08.11-14.43.18:311][278]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.08.11-14.43.18:311][278]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2468
+[2017.08.11-14.43.22:824][278]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.08.11-14.43.22:824][278]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.08.11-14.43.22:824][278]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.08.11-14.43.22:825][278]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.08.11-14.43.22:825][278]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.08.11-14.43.22:825][278]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.08.11-14.43.22:952][278]LogEditorBuildUtils: Build time 0:04
+[2017.08.11-14.43.24:537][395]Job is a success!
+[2017.08.11-14.43.24:613][397]LogSlate: Took 0.000278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.11-14.43.24:876][397]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256)
+[2017.08.11-14.43.24:876][397]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2017.08.11-14.43.24:876][397]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2017.08.11-14.43.24:876][397]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2017.08.11-14.43.24:876][397]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2017.08.11-14.43.24:876][397]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2017.08.11-14.43.24:876][397]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2017.08.11-14.43.24:889][397]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X128)
+[2017.08.11-14.43.24:913][397]Lightmass on DAVIDMASTERRACE: 1.40 sec total, 95 ms importing, 25 ms setup, 173 ms photons, 1.10 sec processing, 0 ms extra exporting [7/7 mappings]. Threads: 4.37 sec total, 1.74 sec processing.
+[2017.08.11-14.43.24:968][397]LogStaticLightingSystem: Illumination: 6.64 sec (181 ms encoding lightmaps, 28 ms encoding shadowmaps)
+[2017.08.11-14.43.24:968][397]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.08.11-14.43.24:968][397]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.08.11-14.43.25:826][397]DumpUnbuiltLightIteractions
+[2017.08.11-14.43.25:826][397]Lights with unbuilt interactions: 0
+[2017.08.11-14.43.25:826][397]
+[2017.08.11-14.43.25:826][397]Primitives with unbuilt interactions: 0
+[2017.08.11-14.43.25:842][398]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.08.11-14.43.25:842][398]MapCheck: New page: Minimal_Default - Aug 11, 2017, 6:43:25 PM
+[2017.08.11-14.43.26:055][398]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 213.576ms to complete.
+[2017.08.11-14.44.12:040][808]LogSlate: Took 0.016455 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.11-14.44.46:061][586]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.11-14.44.46:491][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.11-14.44.46:865][586]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.11-14.44.47:187][586]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 112 classes and 0 folders.
+[2017.08.11-14.44.48:208][586]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.08.11-14.44.49:025][586]LogSlate: Took 0.016728 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.11-14.44.49:132][586]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0007 seconds. Added 1 classes and 0 folders.
+[2017.08.11-14.44.49:280][586]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.11-14.45.53:036][741]LogRenderer: Reallocating scene render targets to support 1204x632 NumSamples 1 (Frame:1).
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.Character:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.Character_C:InpTchEvt_K2Node_InputTouchEvent_1' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.Character_C' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.Character:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.Character:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.Character:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.Character_C:InpAxisEvt_LatealMovement_K2Node_InputAxisEvent_3' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.Character_C:InpAxisEvt_Turn_K2Node_InputAxisEvent_6' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.Character_C:InpAxisEvt_LookUp_K2Node_InputAxisEvent_9' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.Character_C:InpAxisEvt_TurnRate_K2Node_InputAxisEvent_68' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.Character_C:InpAxisEvt_LookUpPoint_K2Node_InputAxisEvent_69' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.Character_C:InpAxisEvt_MovingForward_K2Node_InputAxisEvent_0' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.Character_C:ExecuteUbergraph_Character' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.Character_C:UserConstructionScript' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.Character_C:Camera' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.Character_C:CamaraBoom' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.Character_C:InvertCamera' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.Character_C:Sensibilidad' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.Character_C:SensibilidadX' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.SKEL_Character_C:SensibilidadX' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.SKEL_Character_C:Sensibilidad' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.SKEL_Character_C:InvertCamera' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.SKEL_Character_C:CamaraBoom' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.SKEL_Character_C:Camera' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.SKEL_Character_C:UserConstructionScript' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.SKEL_Character_C:ExecuteUbergraph_Character' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.SKEL_Character_C:InpAxisEvt_MovingForward_K2Node_InputAxisEvent_0' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.SKEL_Character_C:InpAxisEvt_LookUpPoint_K2Node_InputAxisEvent_69' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.SKEL_Character_C:InpAxisEvt_TurnRate_K2Node_InputAxisEvent_68' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.SKEL_Character_C:InpAxisEvt_LookUp_K2Node_InputAxisEvent_9' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.SKEL_Character_C:InpAxisEvt_Turn_K2Node_InputAxisEvent_6' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.SKEL_Character_C:InpAxisEvt_LatealMovement_K2Node_InputAxisEvent_3' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:473][517]LogMetaData: Removing '/Game/Character/BluePrints/Character.SKEL_Character_C' ref from Metadata '/Game/Character/Character.PackageMetaData'
+[2017.08.11-14.48.21:479][517]LogMetaData: Removing '/Game/Character/BluePrints/CharacterBP.CharacterBP_C' ref from Metadata '/Game/Character/CharacterBP.PackageMetaData'
+[2017.08.11-14.48.21:480][517]LogMetaData: Removing '/Game/Character/BluePrints/CharacterBP.CharacterBP_C:ExecuteUbergraph_CharacterBP' ref from Metadata '/Game/Character/CharacterBP.PackageMetaData'
+[2017.08.11-14.48.21:480][517]LogMetaData: Removing '/Game/Character/BluePrints/CharacterBP.CharacterBP:AnimGraph.AnimGraphNode_StateMachine_0.Locomotion.AnimStateTransitionNode_0.Transition.AnimGraphNode_TransitionResult_0' ref from Metadata '/Game/Character/CharacterBP.PackageMetaData'
+[2017.08.11-14.48.21:480][517]LogMetaData: Removing '/Game/Character/BluePrints/CharacterBP.CharacterBP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Character/CharacterBP.PackageMetaData'
+[2017.08.11-14.48.21:480][517]LogMetaData: Removing '/Game/Character/BluePrints/CharacterBP.CharacterBP:AnimGraph.AnimGraphNode_Root_0' ref from Metadata '/Game/Character/CharacterBP.PackageMetaData'
+[2017.08.11-14.48.21:480][517]LogMetaData: Removing '/Game/Character/BluePrints/CharacterBP.CharacterBP:AnimGraph.AnimGraphNode_StateMachine_0.Locomotion.AnimStateNode_1.idle_walk_run.AnimGraphNode_StateResult_0' ref from Metadata '/Game/Character/CharacterBP.PackageMetaData'
+[2017.08.11-14.48.21:480][517]LogMetaData: Removing '/Game/Character/BluePrints/CharacterBP.CharacterBP:AnimGraph.AnimGraphNode_StateMachine_0.Locomotion.AnimStateEntryNode_0' ref from Metadata '/Game/Character/CharacterBP.PackageMetaData'
+[2017.08.11-14.48.21:480][517]LogMetaData: Removing '/Game/Character/BluePrints/CharacterBP.CharacterBP:AnimGraph.AnimGraphNode_StateMachine_0.Locomotion.AnimStateNode_3.Jump-Start.AnimGraphNode_StateResult_5' ref from Metadata '/Game/Character/CharacterBP.PackageMetaData'
+[2017.08.11-14.48.21:480][517]LogMetaData: Removing '/Game/Character/BluePrints/CharacterBP.CharacterBP:AnimGraph.AnimGraphNode_StateMachine_0.Locomotion.AnimStateTransitionNode_1.Transition.AnimGraphNode_TransitionResult_6' ref from Metadata '/Game/Character/CharacterBP.PackageMetaData'
+[2017.08.11-14.48.21:480][517]LogMetaData: Removing '/Game/Character/BluePrints/CharacterBP.CharacterBP:AnimGraph.AnimGraphNode_StateMachine_0.Locomotion.AnimStateTransitionNode_2.Transition.AnimGraphNode_TransitionResult_15' ref from Metadata '/Game/Character/CharacterBP.PackageMetaData'
+[2017.08.11-14.48.21:480][517]LogMetaData: Removing '/Game/Character/BluePrints/CharacterBP.CharacterBP:AnimGraph.AnimGraphNode_StateMachine_0.Locomotion.AnimStateNode_4.Jump-Loop.AnimGraphNode_StateResult_19' ref from Metadata '/Game/Character/CharacterBP.PackageMetaData'
+[2017.08.11-14.48.21:480][517]LogMetaData: Removing '/Game/Character/BluePrints/CharacterBP.CharacterBP:AnimGraph.AnimGraphNode_StateMachine_0.Locomotion.AnimStateNode_5.Jump_End.AnimGraphNode_StateResult_34' ref from Metadata '/Game/Character/CharacterBP.PackageMetaData'
+[2017.08.11-14.48.21:480][517]LogMetaData: Removing '/Game/Character/BluePrints/CharacterBP.CharacterBP:AnimGraph.AnimGraphNode_StateMachine_0.Locomotion.AnimStateTransitionNode_3.Transition.AnimGraphNode_TransitionResult_27' ref from Metadata '/Game/Character/CharacterBP.PackageMetaData'
+[2017.08.11-14.48.21:480][517]LogMetaData: Removing '/Game/Character/BluePrints/CharacterBP.CharacterBP_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Character/CharacterBP.PackageMetaData'
+[2017.08.11-14.48.21:480][517]LogMetaData: Removing '/Game/Character/BluePrints/CharacterBP.CharacterBP_C:Speed' ref from Metadata '/Game/Character/CharacterBP.PackageMetaData'
+[2017.08.11-14.48.21:480][517]LogMetaData: Removing '/Game/Character/BluePrints/CharacterBP.CharacterBP_C:IsInAir?' ref from Metadata '/Game/Character/CharacterBP.PackageMetaData'
+[2017.08.11-14.48.21:480][517]LogMetaData: Removing '/Game/Character/BluePrints/CharacterBP.SKEL_CharacterBP_C:IsInAir?' ref from Metadata '/Game/Character/CharacterBP.PackageMetaData'
+[2017.08.11-14.48.21:480][517]LogMetaData: Removing '/Game/Character/BluePrints/CharacterBP.SKEL_CharacterBP_C:Speed' ref from Metadata '/Game/Character/CharacterBP.PackageMetaData'
+[2017.08.11-14.48.21:480][517]LogMetaData: Removing '/Game/Character/BluePrints/CharacterBP.SKEL_CharacterBP_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Character/CharacterBP.PackageMetaData'
+[2017.08.11-14.48.21:480][517]LogMetaData: Removing '/Game/Character/BluePrints/CharacterBP.SKEL_CharacterBP_C:ExecuteUbergraph_CharacterBP' ref from Metadata '/Game/Character/CharacterBP.PackageMetaData'
+[2017.08.11-14.48.21:480][517]LogMetaData: Removing '/Game/Character/BluePrints/CharacterBP.SKEL_CharacterBP_C' ref from Metadata '/Game/Character/CharacterBP.PackageMetaData'
+[2017.08.11-14.48.21:485][517]LogMetaData: Removing '/Game/Character/BluePrints/MyGame.MyGame:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Character/MyGame.PackageMetaData'
+[2017.08.11-14.48.21:485][517]LogMetaData: Removing '/Game/Character/BluePrints/MyGame.MyGame_C:DefaultSceneRoot' ref from Metadata '/Game/Character/MyGame.PackageMetaData'
+[2017.08.11-14.48.21:485][517]LogMetaData: Removing '/Game/Character/BluePrints/MyGame.MyGame_C' ref from Metadata '/Game/Character/MyGame.PackageMetaData'
+[2017.08.11-14.48.21:485][517]LogMetaData: Removing '/Game/Character/BluePrints/MyGame.MyGame:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Character/MyGame.PackageMetaData'
+[2017.08.11-14.48.21:485][517]LogMetaData: Removing '/Game/Character/BluePrints/MyGame.MyGame:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Character/MyGame.PackageMetaData'
+[2017.08.11-14.48.21:485][517]LogMetaData: Removing '/Game/Character/BluePrints/MyGame.MyGame_C:UserConstructionScript' ref from Metadata '/Game/Character/MyGame.PackageMetaData'
+[2017.08.11-14.48.21:485][517]LogMetaData: Removing '/Game/Character/BluePrints/MyGame.SKEL_MyGame_C:DefaultSceneRoot' ref from Metadata '/Game/Character/MyGame.PackageMetaData'
+[2017.08.11-14.48.21:485][517]LogMetaData: Removing '/Game/Character/BluePrints/MyGame.SKEL_MyGame_C:UserConstructionScript' ref from Metadata '/Game/Character/MyGame.PackageMetaData'
+[2017.08.11-14.48.21:485][517]LogMetaData: Removing '/Game/Character/BluePrints/MyGame.SKEL_MyGame_C' ref from Metadata '/Game/Character/MyGame.PackageMetaData'
+[2017.08.11-14.48.21:622][517]LogSavePackage: Save=91.08ms
+[2017.08.11-14.48.21:622][517]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Character657E013E4469BC50BCAD7D8055E25C21.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/BluePrints/Character.uasset'
+[2017.08.11-14.48.21:626][517]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/BluePrints/Character.uasset
+[2017.08.11-14.48.21:629][517]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Character" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/Character.uasset" SILENT=true
+[2017.08.11-14.48.21:650][517]LogSavePackage: Save=3.57ms
+[2017.08.11-14.48.21:650][517]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Character1DE2A56A441265C5E37F0A8A8C2DBC93.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/Character.uasset'
+[2017.08.11-14.48.21:652][517]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/Character.uasset
+[2017.08.11-14.48.21:746][517]LogSavePackage: Save=79.97ms
+[2017.08.11-14.48.21:746][517]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/CharacterBP8791D5964B0715D77B33B1BDCA6BFB17.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/BluePrints/CharacterBP.uasset'
+[2017.08.11-14.48.21:748][517]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/BluePrints/CharacterBP.uasset
+[2017.08.11-14.48.21:751][517]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/BluePrints/MyGame" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/BluePrints/MyGame.uasset" SILENT=true
+[2017.08.11-14.48.21:761][517]LogSavePackage: Save=8.07ms
+[2017.08.11-14.48.21:761][517]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/MyGame3B50084848337E22B45FE381645AFF16.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/BluePrints/MyGame.uasset'
+[2017.08.11-14.48.21:763][517]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/BluePrints/MyGame.uasset
+[2017.08.11-14.48.21:766][517]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyGame" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MyGame.uasset" SILENT=true
+[2017.08.11-14.48.21:775][517]LogSavePackage: Save=3.45ms
+[2017.08.11-14.48.21:775][517]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/MyGame9FD8798D4CC8966F310572959A227067.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MyGame.uasset'
+[2017.08.11-14.48.21:777][517]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MyGame.uasset
+[2017.08.11-14.48.45:569][249]LogSavePackage: Save=8.38ms
+[2017.08.11-14.48.45:569][249]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/2b_hair1_dif17E42DBA441917C81E64C59DA3BFF36A.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Textures/2b_hair1_dif.uasset'
+[2017.08.11-14.48.45:571][249]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Textures/2b_hair1_dif.uasset
+[2017.08.11-14.48.45:592][249]LogSavePackage: Save=11.23ms
+[2017.08.11-14.48.45:592][249]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/2b_hair1_nrm38422EB742E27C738D652DBA7ABD8F69.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Textures/2b_hair1_nrm.uasset'
+[2017.08.11-14.48.45:594][249]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Textures/2b_hair1_nrm.uasset
+[2017.08.11-14.48.45:614][249]LogSavePackage: Save=9.77ms
+[2017.08.11-14.48.45:614][249]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/2b_hair2_dif8D3FD8E84FAFAEE3AAFCA99F92BE9392.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Textures/2b_hair2_dif.uasset'
+[2017.08.11-14.48.45:616][249]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Textures/2b_hair2_dif.uasset
+[2017.08.11-14.48.45:635][249]LogSavePackage: Save=8.46ms
+[2017.08.11-14.48.45:635][249]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/2b_hair2_nrmA705A6034D13F0E40EC7169F1D7722D0.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Textures/2b_hair2_nrm.uasset'
+[2017.08.11-14.48.45:636][249]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Textures/2b_hair2_nrm.uasset
+[2017.08.11-14.48.45:660][249]LogSavePackage: Save=12.73ms
+[2017.08.11-14.48.45:660][249]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/2b_head_dif3BC0597949D06F337B5CA192EE06D248.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Textures/2b_head_dif.uasset'
+[2017.08.11-14.48.45:661][249]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Textures/2b_head_dif.uasset
+[2017.08.11-14.48.45:683][249]LogSavePackage: Save=11.91ms
+[2017.08.11-14.48.45:683][249]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/2b_head_nrm3CE9D74F4D5CA1F4A614429F41B41DC3.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Textures/2b_head_nrm.uasset'
+[2017.08.11-14.48.45:685][249]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Textures/2b_head_nrm.uasset
+[2017.08.11-14.48.45:710][249]LogSavePackage: Save=15.42ms
+[2017.08.11-14.48.45:710][249]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/2b_suit_dif8A95CE65430DEE017F19B4B78A1B0D98.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Textures/2b_suit_dif.uasset'
+[2017.08.11-14.48.45:712][249]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Textures/2b_suit_dif.uasset
+[2017.08.11-14.48.45:762][249]LogSavePackage: Save=39.31ms
+[2017.08.11-14.48.45:762][249]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/2b_suit_nrmEA1D75E34985713F49D4C7AD19458E06.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Textures/2b_suit_nrm.uasset'
+[2017.08.11-14.48.45:763][249]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Textures/2b_suit_nrm.uasset
+[2017.08.11-14.48.46:246][249]LogSavePackage: Save=12.01ms
+[2017.08.11-14.48.46:246][249]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Material__274500E2154B73A0872239EE9974532A5D.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Material__27.uasset'
+[2017.08.11-14.48.46:246][249]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Material__27.uasset
+[2017.08.11-14.48.46:257][249]LogSavePackage: Save=5.00ms
+[2017.08.11-14.48.46:257][249]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Material__27AD034D884196C9A1156AC0B72A07E320.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Material__27.uasset'
+[2017.08.11-14.48.46:258][249]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Material__27.uasset
+[2017.08.11-14.48.46:304][249]LogSavePackage: Save=12.00ms
+[2017.08.11-14.48.46:304][249]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Material__28E71B24314590BE2BB5FC7BB9BBFB1247.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Material__28.uasset'
+[2017.08.11-14.48.46:305][249]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Material__28.uasset
+[2017.08.11-14.48.46:316][249]LogSavePackage: Save=5.15ms
+[2017.08.11-14.48.46:316][249]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Material__28D7D6810A424BE1D6FA6FC98DBD2AD67C.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Material__28.uasset'
+[2017.08.11-14.48.46:317][249]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Material__28.uasset
+[2017.08.11-14.48.46:365][249]LogSavePackage: Save=12.56ms
+[2017.08.11-14.48.46:365][249]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Material__26D765763240BA03CC8AFCE7A307EC4AAE.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Material__26.uasset'
+[2017.08.11-14.48.46:366][249]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Material__26.uasset
+[2017.08.11-14.48.46:376][249]LogSavePackage: Save=4.97ms
+[2017.08.11-14.48.46:376][249]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Material__2683BDC1404F20DED9B3AC4FBF985CDEB5.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Material__26.uasset'
+[2017.08.11-14.48.46:377][249]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Material__26.uasset
+[2017.08.11-14.48.46:424][249]LogSavePackage: Save=12.61ms
+[2017.08.11-14.48.46:424][249]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Material__25C854A24F4F9AF831130FD9AEBB711068.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Material__25.uasset'
+[2017.08.11-14.48.46:425][249]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Material__25.uasset
+[2017.08.11-14.48.46:435][249]LogSavePackage: Save=4.91ms
+[2017.08.11-14.48.46:435][249]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Material__25586EA7D4464C5CF690D86E9745ED6E02.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Material__25.uasset'
+[2017.08.11-14.48.46:436][249]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/MaterialNier/Material__25.uasset
+[2017.08.11-14.48.47:631][355]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.08.11-14.48.47:669][355]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.08.11-14.48.47:945][356]LogRenderer: Reallocating scene render targets to support 1204x784 NumSamples 1 (Frame:1).
+[2017.08.11-14.49.03:971][870]LogSavePackage: Save=56.42ms
+[2017.08.11-14.49.03:971][870]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/CharacterB0D3C36F4C258C8E5184BFB0FD57B54A.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/BluePrints/Character.uasset'
+[2017.08.11-14.49.03:973][870]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/BluePrints/Character.uasset
+[2017.08.11-14.49.04:223][870]LogSavePackage: Save=165.26ms
+[2017.08.11-14.49.04:223][870]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Minimal_DefaultF28394784B6AFAEB5BAD89B91F4E0095.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.08.11-14.49.04:225][870]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.08.11-14.49.04:246][870]LogFileHelpers: Saving map 'Minimal_Default' took 0.271
+[2017.08.11-14.49.04:281][870]LogSavePackage: Save=26.23ms
+[2017.08.11-14.49.04:281][870]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Minimal_Default_BuiltData1E735E3343E32ECDA9A80784C44B8AB3.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2017.08.11-14.49.04:283][870]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2017.08.11-14.49.49:926][933]LogSavePackage: Save=12.45ms
+[2017.08.11-14.49.49:926][933]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/AttackMontageE1462992466C0CA09A4307AAA4DAE1FF.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/Animations/Montages/AttackMontage.uasset'
+[2017.08.11-14.49.49:928][933]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/Animations/Montages/AttackMontage.uasset
+[2017.08.11-14.49.52:609][202]LogSavePackage: Save=11.63ms
+[2017.08.11-14.49.52:609][202]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Quieto_Andar_Correr548E7C66416DB3B0F223D397628F9B55.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/Animations/BlendSpace/Quieto_Andar_Correr.uasset'
+[2017.08.11-14.49.52:611][202]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/Animations/BlendSpace/Quieto_Andar_Correr.uasset
+[2017.08.11-14.49.52:813][202]LogSavePackage: Save=77.11ms
+[2017.08.11-14.49.52:813][202]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/CharacterBPBB1E303F427D638D7AC8E588B31C3BE4.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/BluePrints/CharacterBP.uasset'
+[2017.08.11-14.49.52:815][202]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/BluePrints/CharacterBP.uasset
+[2017.08.11-15.53.20:261][681]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-15.53.20:306][681]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.11-15.53.20:306][681]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.11-15.53.20:306][681]LogPlayLevel: [PlayLevel] Compiling Character before play...
+[2017.08.11-15.53.20:590][681]LogPlayLevel: [PlayLevel] Compiling CharacterBP before play...
+[2017.08.11-15.53.20:684][681]LogPlayLevel: PlayLevel: Blueprint regeneration took 377 ms (2 blueprints)
+[2017.08.11-15.53.20:707][681]PIE: New page: PIE session: Minimal_Default (Aug 11, 2017, 7:53:20 PM)
+[2017.08.11-15.53.20:707][681]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.08.11-15.53.20:746][681]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038944s)
+[2017.08.11-15.53.20:747][681]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.08.11-15.53.20:747][681]LogPlayLevel: PIE: World Init took: (0.000849s)
+[2017.08.11-15.53.20:747][681]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.040010s)
+[2017.08.11-15.53.20:806][681]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-15.53.20:812][681]LogInit: FAudioDevice initialized.
+[2017.08.11-15.53.20:869][681]LogLoad: Game class is 'MyGame_C'
+[2017.08.11-15.53.20:874][681]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.08.11-17.53.20
+[2017.08.11-15.53.20:874][681]LogWorld: Bringing up level for play took: 0.001638
+[2017.08.11-15.53.20:998][681]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.08.11-15.53.20:999][681]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.006
+[2017.08.11-15.53.20:999][681]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.11-15.53.53:210][523]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.11-15.53.53:274][523]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.11-15.54.23:324][793]LogSlate: Took 0.000473 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.11-15.54.23:586][793]LogSavePackage: Save=167.68ms
+[2017.08.11-15.54.23:586][793]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Minimal_Default_Auto1A6FE4C7F4DC07D3003F2939C2810AC09.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2017.08.11-15.54.23:587][793]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap
+[2017.08.11-15.54.23:589][793]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.196
+[2017.08.11-15.54.23:589][793]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.196
+[2017.08.11-15.57.02:613][786]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.11-15.57.03:720][908]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.08.11-15.57.12:538][944]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.Actor_2.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2017.08.11-15.57.12:568][944]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_11:PersistentLevel.Actor_2.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2017.08.11-15.57.12:812][944]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
