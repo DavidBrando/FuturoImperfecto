@@ -1,0 +1,1292 @@
+﻿Log file open, 10/07/17 17:57:56
+LogInit:Display: Running engine for game: ThreePersonMovement
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1132028139) SRandInit(1132028139).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.078349
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: D:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.07-15.57.56:635][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.07-15.57.56:635][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.07-15.57.56:649][  0]LogInit: Computer: DAVIDMASTERRACE
+[2017.10.07-15.57.56:649][  0]LogInit: User: David
+[2017.10.07-15.57.56:649][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.07-15.57.56:649][  0]LogInit: High frequency timer resolution =3.417967 MHz
+[2017.10.07-15.57.56:650][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.10.07-15.57.56:650][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.07-15.57.56:650][  0]LogMemory: Process Physical Memory: 270.50 MB used, 270.50 MB peak
+[2017.10.07-15.57.56:650][  0]LogMemory: Process Virtual Memory: 258.48 MB used, 258.48 MB peak
+[2017.10.07-15.57.56:650][  0]LogMemory: Physical Memory: 4887.23 MB used,  11439.21 MB free, 16326.44 MB total
+[2017.10.07-15.57.56:650][  0]LogMemory: Virtual Memory: 614.99 MB used,  11439.21 MB free, 134217728.00 MB total
+[2017.10.07-15.57.56:689][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.10.07-15.57.56:690][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.10.07-15.57.57:474][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.07-15.57.57:502][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.10.07-15.57.57:502][  0]LogD3D11RHI:       3975/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.07-15.57.57:503][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.07-15.57.57:503][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.07-15.57.57:503][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.07-15.57.57:506][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.07-15.57.57:506][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.07-15.57.57:506][  0]LogWindows: EnumDisplayDevices:
+[2017.10.07-15.57.57:506][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.10.07-15.57.57:506][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.10.07-15.57.57:506][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.10.07-15.57.57:506][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.10.07-15.57.57:506][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.10.07-15.57.57:506][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.10.07-15.57.57:506][  0]LogD3D11RHI:   Driver Version: 385.41 (internal:22.21.13.8541, unified:385.41)
+[2017.10.07-15.57.57:506][  0]LogD3D11RHI:      Driver Date: 8-21-2017
+[2017.10.07-15.57.57:506][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.07-15.57.57:527][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.07-15.57.57:548][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.10.07-15.57.57:592][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Intermediate/Shaders/WorkingDirectory/5300/).
+[2017.10.07-15.57.57:592][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/David/AppData/Local/Temp/UnrealShaderWorkingDir/698A5968479B518CDC0FACAB91D9540F/'.
+[2017.10.07-15.57.57:592][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.07-15.57.58:425][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.07-15.57.58:455][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.07-15.57.58:485][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.07-15.57.58:516][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.07-15.57.58:546][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.07-15.57.58:577][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.07-15.57.58:607][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.07-15.57.58:637][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.07-15.57.58:661][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.07-15.57.58:690][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.07-15.57.58:718][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.07-15.57.58:747][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.07-15.57.58:776][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.07-15.57.58:805][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.07-15.57.58:834][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.07-15.57.58:891][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.07-15.57.58:891][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.07-15.57.58:912][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.07-15.57.58:974][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.07-15.57.58:993][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.07-15.57.59:023][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.07-15.57.59:052][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.07-15.57.59:082][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.07-15.57.59:112][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.07-15.57.59:112][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.07-15.57.59:401][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.07-15.57.59:480][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.07-15.57.59:480][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.10.07-15.57.59:480][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.07-15.57.59:480][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.07-15.57.59:480][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.07-15.57.59:480][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.07-15.57.59:496][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.07-15.57.59:508][  0]LogDerivedDataCache: Using Local data cache path C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.07-15.57.59:516][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.07-15.57.59:516][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.07-15.57.59:516][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.07-15.57.59:516][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.07-15.57.59:768][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.07-15.57.59:826][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.07-15.57.59:935][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.07-15.57.59:958][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.07-15.57.59:983][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.07-15.57.59:983][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.07-15.57.59:983][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.07-15.58.00:500][  0]LogNetVersion: ThreePersonMovement , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2529145923)
+[2017.10.07-15.58.00:553][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2017.10.07-15.58.00:586][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.020387 seconds
+[2017.10.07-15.58.00:592][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.10.07-15.58.00:592][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.10.07-15.58.00:592][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.07-15.58.00:626][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.07-15.58.02:160][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.07-15.58.02:187][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.07-15.58.02:511][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.07-15.58.02:743][  0]SourceControl: Info Source control is disabled
+[2017.10.07-15.58.02:767][  0]SourceControl: Info Source control is disabled
+[2017.10.07-15.58.02:794][  0]SourceControl: Info Source control is disabled
+[2017.10.07-15.58.02:820][  0]SourceControl: Info Source control is disabled
+[2017.10.07-15.58.02:960][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.10.07-15.58.02:960][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.10.07-15.58.02:960][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2017.10.07-15.58.03:178][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.07-15.58.03:504][  0]LogEngine: Initializing Engine...
+[2017.10.07-15.58.03:505][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.07-15.58.03:659][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.07-15.58.03:659][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.07-15.58.03:732][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.07-15.58.03:754][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-15.58.03:760][  0]LogInit: FAudioDevice initialized.
+[2017.10.07-15.58.03:796][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.07-15.58.03:803][  0]LogInit: Texture streaming: Enabled
+[2017.10.07-15.58.03:857][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.07-15.58.03:978][  0]LogInit: Transaction tracking system initialized
+[2017.10.07-15.58.04:146][  0]BlueprintLog: New page: Editor Load
+[2017.10.07-15.58.04:744][  0]LocalizationService: Info Localization service is disabled
+[2017.10.07-15.58.05:165][  0]LogConsoleResponse:Display: 
+[2017.10.07-15.58.05:289][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.07-15.58.05:289][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.07-15.58.05:827][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/' took 0.02s
+[2017.10.07-15.58.05:827][  0]SourceControl: Info Source control is disabled
+[2017.10.07-15.58.05:827][  0]Cmd: MAP LOAD FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.07-15.58.05:827][  0]LightingResults: New page: Lighting Build
+[2017.10.07-15.58.05:850][  0]MapCheck: New page: Map Check
+[2017.10.07-15.58.05:850][  0]LightingResults: New page: Lighting Build
+[2017.10.07-15.58.07:479][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.10.07-15.58.07:681][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.07-15.58.07:744][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.07-15.58.07:795][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.168ms to complete.
+[2017.10.07-15.58.07:796][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.968
+[2017.10.07-15.58.08:293][  0]LogCollectionManager: Loaded 0 collections in 0.000890 seconds
+[2017.10.07-15.58.08:425][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Collections/' took 0.01s
+[2017.10.07-15.58.08:425][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Developers/David/Collections/' took 0.01s
+[2017.10.07-15.58.08:425][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Collections/' took 0.01s
+[2017.10.07-15.58.08:425][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.10.07-15.58.08:460][  0]LogContentBrowser: Native class hierarchy populated in 0.0332 seconds. Added 2329 classes and 491 folders.
+[2017.10.07-15.58.08:619][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.10.07-15.58.09:691][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2017.10.07-15.58.09:817][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.07-15.58.10:521][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.07-15.58.10:560][  0]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.07-15.58.10:562][  0]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.07-15.58.10:598][  0]LogSlate: Took 0.017072 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.07-15.58.11:008][  0]LogRenderer: Reallocating scene render targets to support 1204x576 NumSamples 1 (Frame:1).
+[2017.10.07-15.58.11:310][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.10.07-15.58.11:390][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.10.07-15.58.11:390][  0]LogLoad: (Engine Initialization) Total time: 15.90 seconds
+[2017.10.07-15.58.11:390][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.35 seconds
+[2017.10.07-15.58.11:390][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.07-15.58.11:390][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.07-15.58.11:730][  0]LogOcInput: OculusInput pre-init called
+[2017.10.07-15.58.11:730][  0]LogHMD: Starting GearVRController plugin
+[2017.10.07-15.58.11:788][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.07-15.58.12:401][  2]LogAssetRegistry: Asset discovery search completed in 11.8697 seconds
+[2017.10.07-15.58.12:402][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.07-15.58.12:402][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2017.10.07-15.58.15:162][245]LogSlate: Took 0.011095 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.07-15.58.25:284][708]LogSlate: Took 0.000686 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.07-15.58.25:330][708]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\David\Documents\GitHub\FuturoImperfecto\MODELS\2B\newSource\animations\jumpStartto.fbx)
+[2017.10.07-15.58.25:422][708]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.10.07-15.58.25:422][708]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.10.07-15.58.25:422][708]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.10.07-15.58.25:422][708]LogFbx: ItemName: NodeAttribute, ItemCount : 99
+[2017.10.07-15.58.25:422][708]LogFbx: ItemName: Model, ItemCount : 99
+[2017.10.07-15.58.25:422][708]LogFbx: ItemName: AnimationCurveNode, ItemCount : 410
+[2017.10.07-15.58.25:422][708]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2017.10.07-15.58.25:422][708]LogFbx: ItemName: AnimationCurve, ItemCount : 129
+[2017.10.07-15.58.25:457][708]LogFbx: Loading FBX Scene from C:\Users\David\Documents\GitHub\FuturoImperfecto\MODELS\2B\newSource\animations\jumpStartto.fbx
+[2017.10.07-15.58.25:536][708]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.07-15.58.58:320][708]LogSlate: Took 0.000332 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.07-15.59.01:584][708]LogFbx: Loading FBX Scene from C:\Users\David\Documents\GitHub\FuturoImperfecto\MODELS\2B\newSource\animations\jumpStartto.fbx
+[2017.10.07-15.59.01:619][708]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(0) root ground
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(1) unused root ground 2
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(2) root hips
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(3) spine lower
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(4) spine middle
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(5) spine upper
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(6) unused bip spine 3
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(7) head neck lower
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(8) head neck upper
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(9) head jaw
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(10) head tongue 1
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(11) head tongue 2
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(12) unused tongue2 end
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(13) arm left shoulder 1
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(14) arm left shoulder 2
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(15) arm left elbow
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(16) arm left wrist
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(17) arm left finger 1a
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(18) arm left finger 1b
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(19) arm left finger 1c
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(20) unused bip thumb 2 l end
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(21) arm left finger 2a
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(22) arm left finger 2b
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(23) arm left finger 2c
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(24) unused bip index 2 l end
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(25) arm left finger 3a
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(26) arm left finger 3b
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(27) arm left finger 3c
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(28) unused bip middle 2 l end
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(29) arm left finger 4a
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(30) arm left finger 4b
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(31) arm left finger 4c
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(32) unused bip ring 2 l end
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(33) arm left finger 5a
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(34) arm left finger 5b
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(35) arm left finger 5c
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(36) unused bip pinky 2 l end
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(37) boob left
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(38) unused breast l end
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(39) arm right shoulder 1
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(40) arm right shoulder 2
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(41) arm right elbow
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(42) arm right wrist
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(43) arm right finger 1a
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(44) arm right finger 1b
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(45) arm right finger 1c
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(46) unused bip thumb 2 r end
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(47) arm right finger 2a
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(48) arm right finger 2b
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(49) arm right finger 2c
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(50) unused bip index 2 r end
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(51) arm right finger 3a
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(52) arm right finger 3b
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(53) arm right finger 3c
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(54) unused bip middle 2 r end
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(55) arm right finger 4a
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(56) arm right finger 4b
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(57) arm right finger 4c
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(58) unused bip ring 2 r end
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(59) arm right finger 5a
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(60) arm right finger 5b
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(61) arm right finger 5c
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(62) unused bip pinky 2 r end
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(63) boob right
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(64) unused breast r end
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(65) leg left thigh
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(66) leg left knee
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(67) leg left ankle
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(68) leg left toes
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(69) unused bip toe l end
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(70) leg right thigh
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(71) leg right knee
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(72) leg right ankle
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(73) leg right toes
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(74) unused bip toe r end
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(75) skirt front 1
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(76) skirt front 2
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(77) unused skirt front2 end
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(78) skirt front 3
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(79) skirt front 4
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(80) unused skirt front4 end
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(81) skirt left 1
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(82) skirt left 2
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(83) unused skirt left2 end
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(84) skirt left 3
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(85) unused skirt left2 end
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(86) skirt back 1
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(87) skirt back 2
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(88) unused skirt back2 end
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(89) skirt back 3
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(90) skirt back 4
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(91) unused skirt back4 end
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(92) skirt right 1
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(93) skirt right 2
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(94) unused skirt right2 end
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(95) skirt ribbon 1
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(96) unused skirt ribbona end
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(97) skirt ribbon 2
+[2017.10.07-15.59.01:631][708]LogFbx: SortedLinks :(98) unused skirt ribbonb end
+[2017.10.07-15.59.01:632][708]LogFbx: Parsing AnimStack Take 001
+[2017.10.07-15.59.01:651][708]LogLinker: Can't find file '/Game/Character/2BPlaceHolder/animations/jumpStartto'
+[2017.10.07-15.59.01:651][708]LogLinker: Can't find file '/Game/Character/2BPlaceHolder/animations/jumpStartto'
+[2017.10.07-15.59.01:651][708]LogFbx: CurveName : MaxHandle
+[2017.10.07-15.59.01:871][708]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/2BPlaceHolder/animations/jumpStartto.jumpStartto
+[2017.10.07-15.59.01:917][708]FBXImport:Warning: Warning Could not import jumpStartto.
+Duplicate bone name found ('unused-skirt-left2-end'). Each bone must have a unique name. 
+[2017.10.07-15.59.01:917][708]FBXImport:Warning: Warning The following bones exist in the imported animation, but not in the Skeleton asset nier_Skeleton.  Any animation on these bones will not be imported: 
+
+ skirt-left-3  
+ 
+[2017.10.07-15.59.01:978][708]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\David\Documents\GitHub\FuturoImperfecto\MODELS\2B\newSource\animations\run.fbx)
+[2017.10.07-15.59.01:985][708]LogFbx: Loading FBX Scene from C:\Users\David\Documents\GitHub\FuturoImperfecto\MODELS\2B\newSource\animations\run.fbx
+[2017.10.07-15.59.02:021][708]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.07-15.59.02:028][708]LogFbx: SortedLinks :(0) root ground
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(1) unused root ground 2
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(2) root hips
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(3) spine lower
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(4) spine middle
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(5) spine upper
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(6) unused bip spine 3
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(7) head neck lower
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(8) head neck upper
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(9) head jaw
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(10) head tongue 1
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(11) head tongue 2
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(12) unused tongue2 end
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(13) arm left shoulder 1
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(14) arm left shoulder 2
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(15) arm left elbow
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(16) arm left wrist
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(17) arm left finger 1a
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(18) arm left finger 1b
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(19) arm left finger 1c
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(20) unused bip thumb 2 l end
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(21) arm left finger 2a
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(22) arm left finger 2b
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(23) arm left finger 2c
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(24) unused bip index 2 l end
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(25) arm left finger 3a
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(26) arm left finger 3b
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(27) arm left finger 3c
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(28) unused bip middle 2 l end
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(29) arm left finger 4a
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(30) arm left finger 4b
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(31) arm left finger 4c
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(32) unused bip ring 2 l end
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(33) arm left finger 5a
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(34) arm left finger 5b
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(35) arm left finger 5c
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(36) unused bip pinky 2 l end
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(37) boob left
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(38) unused breast l end
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(39) arm right shoulder 1
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(40) arm right shoulder 2
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(41) arm right elbow
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(42) arm right wrist
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(43) arm right finger 1a
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(44) arm right finger 1b
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(45) arm right finger 1c
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(46) unused bip thumb 2 r end
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(47) arm right finger 2a
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(48) arm right finger 2b
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(49) arm right finger 2c
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(50) unused bip index 2 r end
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(51) arm right finger 3a
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(52) arm right finger 3b
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(53) arm right finger 3c
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(54) unused bip middle 2 r end
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(55) arm right finger 4a
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(56) arm right finger 4b
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(57) arm right finger 4c
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(58) unused bip ring 2 r end
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(59) arm right finger 5a
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(60) arm right finger 5b
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(61) arm right finger 5c
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(62) unused bip pinky 2 r end
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(63) boob right
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(64) unused breast r end
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(65) leg left thigh
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(66) leg left knee
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(67) leg left ankle
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(68) leg left toes
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(69) unused bip toe l end
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(70) leg right thigh
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(71) leg right knee
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(72) leg right ankle
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(73) leg right toes
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(74) unused bip toe r end
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(75) skirt front 1
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(76) skirt front 2
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(77) unused skirt front2 end
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(78) skirt front 3
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(79) skirt front 4
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(80) unused skirt front4 end
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(81) skirt left 1
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(82) skirt left 2
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(83) unused skirt left2 end
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(84) skirt left 3
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(85) unused skirt left2 end
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(86) skirt back 1
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(87) skirt back 2
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(88) unused skirt back2 end
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(89) skirt back 3
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(90) skirt back 4
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(91) unused skirt back4 end
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(92) skirt right 1
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(93) skirt right 2
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(94) unused skirt right2 end
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(95) skirt ribbon 1
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(96) unused skirt ribbona end
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(97) skirt ribbon 2
+[2017.10.07-15.59.02:029][708]LogFbx: SortedLinks :(98) unused skirt ribbonb end
+[2017.10.07-15.59.02:030][708]LogFbx: Parsing AnimStack Take 001
+[2017.10.07-15.59.02:031][708]LogLinker: Can't find file '/Game/Character/2BPlaceHolder/animations/run'
+[2017.10.07-15.59.02:031][708]LogLinker: Can't find file '/Game/Character/2BPlaceHolder/animations/run'
+[2017.10.07-15.59.02:031][708]LogFbx: CurveName : MaxHandle
+[2017.10.07-15.59.02:495][708]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.07-15.59.02:601][708]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/2BPlaceHolder/animations/run.run
+[2017.10.07-15.59.02:613][708]FBXImport:Warning: Warning Could not import run.
+Duplicate bone name found ('unused-skirt-left2-end'). Each bone must have a unique name. 
+[2017.10.07-15.59.02:613][708]FBXImport:Warning: Warning The following bones exist in the imported animation, but not in the Skeleton asset nier_Skeleton.  Any animation on these bones will not be imported: 
+
+ skirt-left-3  
+ 
+[2017.10.07-15.59.02:634][708]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\David\Documents\GitHub\FuturoImperfecto\MODELS\2B\newSource\animations\walk.fbx)
+[2017.10.07-15.59.02:654][708]LogFbx: Loading FBX Scene from C:\Users\David\Documents\GitHub\FuturoImperfecto\MODELS\2B\newSource\animations\walk.fbx
+[2017.10.07-15.59.02:683][708]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(0) root ground
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(1) unused root ground 2
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(2) root hips
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(3) spine lower
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(4) spine middle
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(5) spine upper
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(6) unused bip spine 3
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(7) head neck lower
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(8) head neck upper
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(9) head jaw
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(10) head tongue 1
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(11) head tongue 2
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(12) unused tongue2 end
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(13) arm left shoulder 1
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(14) arm left shoulder 2
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(15) arm left elbow
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(16) arm left wrist
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(17) arm left finger 1a
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(18) arm left finger 1b
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(19) arm left finger 1c
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(20) unused bip thumb 2 l end
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(21) arm left finger 2a
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(22) arm left finger 2b
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(23) arm left finger 2c
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(24) unused bip index 2 l end
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(25) arm left finger 3a
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(26) arm left finger 3b
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(27) arm left finger 3c
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(28) unused bip middle 2 l end
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(29) arm left finger 4a
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(30) arm left finger 4b
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(31) arm left finger 4c
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(32) unused bip ring 2 l end
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(33) arm left finger 5a
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(34) arm left finger 5b
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(35) arm left finger 5c
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(36) unused bip pinky 2 l end
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(37) arm right shoulder 1
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(38) arm right shoulder 2
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(39) arm right elbow
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(40) arm right wrist
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(41) arm right finger 1a
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(42) arm right finger 1b
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(43) arm right finger 1c
+[2017.10.07-15.59.02:687][708]LogFbx: SortedLinks :(44) unused bip thumb 2 r end
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(45) arm right finger 2a
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(46) arm right finger 2b
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(47) arm right finger 2c
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(48) unused bip index 2 r end
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(49) arm right finger 3a
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(50) arm right finger 3b
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(51) arm right finger 3c
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(52) unused bip middle 2 r end
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(53) arm right finger 4a
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(54) arm right finger 4b
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(55) arm right finger 4c
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(56) unused bip ring 2 r end
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(57) arm right finger 5a
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(58) arm right finger 5b
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(59) arm right finger 5c
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(60) unused bip pinky 2 r end
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(61) leg left thigh
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(62) leg left knee
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(63) leg left ankle
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(64) leg left toes
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(65) unused bip toe l end
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(66) leg right thigh
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(67) leg right knee
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(68) leg right ankle
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(69) leg right toes
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(70) unused bip toe r end
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(71) skirt front 1
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(72) skirt front 2
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(73) unused skirt front2 end
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(74) skirt front 3
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(75) skirt front 4
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(76) unused skirt front4 end
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(77) skirt left 1
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(78) skirt left 2
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(79) unused skirt left2 end
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(80) skirt left 3
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(81) unused skirt left2 end
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(82) skirt back 1
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(83) skirt back 2
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(84) unused skirt back2 end
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(85) skirt back 3
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(86) skirt back 4
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(87) unused skirt back4 end
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(88) skirt right 1
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(89) skirt right 2
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(90) unused skirt right2 end
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(91) skirt ribbon 1
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(92) unused skirt ribbona end
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(93) skirt ribbon 2
+[2017.10.07-15.59.02:688][708]LogFbx: SortedLinks :(94) unused skirt ribbonb end
+[2017.10.07-15.59.02:688][708]LogFbx: Parsing AnimStack Take 001
+[2017.10.07-15.59.02:689][708]LogLinker: Can't find file '/Game/Character/2BPlaceHolder/animations/walk'
+[2017.10.07-15.59.02:689][708]LogLinker: Can't find file '/Game/Character/2BPlaceHolder/animations/walk'
+[2017.10.07-15.59.02:689][708]LogFbx: CurveName : MaxHandle
+[2017.10.07-15.59.02:972][708]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/2BPlaceHolder/animations/walk.walk
+[2017.10.07-15.59.02:980][708]FBXImport:Warning: Warning Could not import walk.
+Duplicate bone name found ('unused-skirt-left2-end'). Each bone must have a unique name. 
+[2017.10.07-15.59.02:980][708]FBXImport:Warning: Warning The following bones exist in the imported animation, but not in the Skeleton asset nier_Skeleton.  Any animation on these bones will not be imported: 
+
+ skirt-left-3  
+ 
+[2017.10.07-15.59.02:983][708]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\David\Documents\GitHub\FuturoImperfecto\MODELS\2B\newSource\animations\jumpEnd.fbx)
+[2017.10.07-15.59.02:992][708]LogFbx: Loading FBX Scene from C:\Users\David\Documents\GitHub\FuturoImperfecto\MODELS\2B\newSource\animations\jumpEnd.fbx
+[2017.10.07-15.59.03:026][708]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(0) root ground
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(1) unused root ground 2
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(2) root hips
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(3) spine lower
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(4) spine middle
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(5) spine upper
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(6) unused bip spine 3
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(7) head neck lower
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(8) head neck upper
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(9) head jaw
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(10) head tongue 1
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(11) head tongue 2
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(12) unused tongue2 end
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(13) arm left shoulder 1
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(14) arm left shoulder 2
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(15) arm left elbow
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(16) arm left wrist
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(17) arm left finger 1a
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(18) arm left finger 1b
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(19) arm left finger 1c
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(20) unused bip thumb 2 l end
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(21) arm left finger 2a
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(22) arm left finger 2b
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(23) arm left finger 2c
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(24) unused bip index 2 l end
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(25) arm left finger 3a
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(26) arm left finger 3b
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(27) arm left finger 3c
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(28) unused bip middle 2 l end
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(29) arm left finger 4a
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(30) arm left finger 4b
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(31) arm left finger 4c
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(32) unused bip ring 2 l end
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(33) arm left finger 5a
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(34) arm left finger 5b
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(35) arm left finger 5c
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(36) unused bip pinky 2 l end
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(37) boob left
+[2017.10.07-15.59.03:030][708]LogFbx: SortedLinks :(38) unused breast l end
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(39) arm right shoulder 1
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(40) arm right shoulder 2
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(41) arm right elbow
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(42) arm right wrist
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(43) arm right finger 1a
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(44) arm right finger 1b
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(45) arm right finger 1c
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(46) unused bip thumb 2 r end
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(47) arm right finger 2a
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(48) arm right finger 2b
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(49) arm right finger 2c
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(50) unused bip index 2 r end
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(51) arm right finger 3a
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(52) arm right finger 3b
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(53) arm right finger 3c
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(54) unused bip middle 2 r end
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(55) arm right finger 4a
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(56) arm right finger 4b
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(57) arm right finger 4c
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(58) unused bip ring 2 r end
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(59) arm right finger 5a
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(60) arm right finger 5b
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(61) arm right finger 5c
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(62) unused bip pinky 2 r end
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(63) boob right
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(64) unused breast r end
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(65) leg left thigh
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(66) leg left knee
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(67) leg left ankle
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(68) leg left toes
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(69) unused bip toe l end
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(70) leg right thigh
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(71) leg right knee
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(72) leg right ankle
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(73) leg right toes
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(74) unused bip toe r end
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(75) skirt front 1
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(76) skirt front 2
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(77) unused skirt front2 end
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(78) skirt front 3
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(79) skirt front 4
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(80) unused skirt front4 end
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(81) skirt left 1
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(82) skirt left 2
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(83) unused skirt left2 end
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(84) skirt left 3
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(85) unused skirt left2 end
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(86) skirt back 1
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(87) skirt back 2
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(88) unused skirt back2 end
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(89) skirt back 3
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(90) skirt back 4
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(91) unused skirt back4 end
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(92) skirt right 1
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(93) skirt right 2
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(94) unused skirt right2 end
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(95) skirt ribbon 1
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(96) unused skirt ribbona end
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(97) skirt ribbon 2
+[2017.10.07-15.59.03:031][708]LogFbx: SortedLinks :(98) unused skirt ribbonb end
+[2017.10.07-15.59.03:031][708]LogFbx: Parsing AnimStack Take 001
+[2017.10.07-15.59.03:032][708]LogLinker: Can't find file '/Game/Character/2BPlaceHolder/animations/jumpEnd'
+[2017.10.07-15.59.03:032][708]LogLinker: Can't find file '/Game/Character/2BPlaceHolder/animations/jumpEnd'
+[2017.10.07-15.59.03:033][708]LogFbx: CurveName : MaxHandle
+[2017.10.07-15.59.03:223][708]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/2BPlaceHolder/animations/jumpEnd.jumpEnd
+[2017.10.07-15.59.03:232][708]FBXImport:Warning: Warning Could not import jumpEnd.
+Duplicate bone name found ('unused-skirt-left2-end'). Each bone must have a unique name. 
+[2017.10.07-15.59.03:232][708]FBXImport:Warning: Warning The following bones exist in the imported animation, but not in the Skeleton asset nier_Skeleton.  Any animation on these bones will not be imported: 
+
+ skirt-left-3  
+ 
+[2017.10.07-15.59.03:234][708]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\David\Documents\GitHub\FuturoImperfecto\MODELS\2B\newSource\animations\jumpLoop.fbx)
+[2017.10.07-15.59.03:243][708]LogFbx: Loading FBX Scene from C:\Users\David\Documents\GitHub\FuturoImperfecto\MODELS\2B\newSource\animations\jumpLoop.fbx
+[2017.10.07-15.59.03:274][708]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(0) root ground
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(1) unused root ground 2
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(2) root hips
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(3) spine lower
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(4) spine middle
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(5) spine upper
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(6) unused bip spine 3
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(7) head neck lower
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(8) head neck upper
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(9) head jaw
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(10) head tongue 1
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(11) head tongue 2
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(12) unused tongue2 end
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(13) arm left shoulder 1
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(14) arm left shoulder 2
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(15) arm left elbow
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(16) arm left wrist
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(17) arm left finger 1a
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(18) arm left finger 1b
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(19) arm left finger 1c
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(20) unused bip thumb 2 l end
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(21) arm left finger 2a
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(22) arm left finger 2b
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(23) arm left finger 2c
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(24) unused bip index 2 l end
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(25) arm left finger 3a
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(26) arm left finger 3b
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(27) arm left finger 3c
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(28) unused bip middle 2 l end
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(29) arm left finger 4a
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(30) arm left finger 4b
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(31) arm left finger 4c
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(32) unused bip ring 2 l end
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(33) arm left finger 5a
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(34) arm left finger 5b
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(35) arm left finger 5c
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(36) unused bip pinky 2 l end
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(37) boob left
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(38) unused breast l end
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(39) arm right shoulder 1
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(40) arm right shoulder 2
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(41) arm right elbow
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(42) arm right wrist
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(43) arm right finger 1a
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(44) arm right finger 1b
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(45) arm right finger 1c
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(46) unused bip thumb 2 r end
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(47) arm right finger 2a
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(48) arm right finger 2b
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(49) arm right finger 2c
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(50) unused bip index 2 r end
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(51) arm right finger 3a
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(52) arm right finger 3b
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(53) arm right finger 3c
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(54) unused bip middle 2 r end
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(55) arm right finger 4a
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(56) arm right finger 4b
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(57) arm right finger 4c
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(58) unused bip ring 2 r end
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(59) arm right finger 5a
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(60) arm right finger 5b
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(61) arm right finger 5c
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(62) unused bip pinky 2 r end
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(63) boob right
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(64) unused breast r end
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(65) leg left thigh
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(66) leg left knee
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(67) leg left ankle
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(68) leg left toes
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(69) unused bip toe l end
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(70) leg right thigh
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(71) leg right knee
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(72) leg right ankle
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(73) leg right toes
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(74) unused bip toe r end
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(75) skirt front 1
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(76) skirt front 2
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(77) unused skirt front2 end
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(78) skirt front 3
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(79) skirt front 4
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(80) unused skirt front4 end
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(81) skirt left 1
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(82) skirt left 2
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(83) unused skirt left2 end
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(84) skirt left 3
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(85) unused skirt left2 end
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(86) skirt back 1
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(87) skirt back 2
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(88) unused skirt back2 end
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(89) skirt back 3
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(90) skirt back 4
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(91) unused skirt back4 end
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(92) skirt right 1
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(93) skirt right 2
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(94) unused skirt right2 end
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(95) skirt ribbon 1
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(96) unused skirt ribbona end
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(97) skirt ribbon 2
+[2017.10.07-15.59.03:279][708]LogFbx: SortedLinks :(98) unused skirt ribbonb end
+[2017.10.07-15.59.03:280][708]LogFbx: Parsing AnimStack Take 001
+[2017.10.07-15.59.03:281][708]LogLinker: Can't find file '/Game/Character/2BPlaceHolder/animations/jumpLoop'
+[2017.10.07-15.59.03:281][708]LogLinker: Can't find file '/Game/Character/2BPlaceHolder/animations/jumpLoop'
+[2017.10.07-15.59.03:281][708]LogFbx: CurveName : MaxHandle
+[2017.10.07-15.59.03:574][708]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/2BPlaceHolder/animations/jumpLoop.jumpLoop
+[2017.10.07-15.59.03:585][708]FBXImport:Warning: Warning Could not import jumpLoop.
+Duplicate bone name found ('unused-skirt-left2-end'). Each bone must have a unique name. 
+[2017.10.07-15.59.03:585][708]FBXImport:Warning: Warning The following bones exist in the imported animation, but not in the Skeleton asset nier_Skeleton.  Any animation on these bones will not be imported: 
+
+ skirt-left-3  
+ 
+[2017.10.07-15.59.28:105][400]LogSavePackage: Save=37.03ms
+[2017.10.07-15.59.28:105][400]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/jumpEnd6EDAAACE41B283AE626FA6A20E96145D.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/2BPlaceHolder/animations/jumpEnd.uasset'
+[2017.10.07-15.59.28:109][400]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/2BPlaceHolder/animations/jumpEnd.uasset
+[2017.10.07-15.59.28:144][400]LogSavePackage: Save=12.96ms
+[2017.10.07-15.59.28:144][400]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/jumpLoop59A1CB0F49BB8CB16DA6BC8989753CB7.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/2BPlaceHolder/animations/jumpLoop.uasset'
+[2017.10.07-15.59.28:147][400]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/2BPlaceHolder/animations/jumpLoop.uasset
+[2017.10.07-15.59.28:177][400]LogSavePackage: Save=13.68ms
+[2017.10.07-15.59.28:177][400]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/jumpStarttoF17C8E1F47A7D91D7738CAAE7260A6C4.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/2BPlaceHolder/animations/jumpStartto.uasset'
+[2017.10.07-15.59.28:179][400]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/2BPlaceHolder/animations/jumpStartto.uasset
+[2017.10.07-15.59.28:207][400]LogSavePackage: Save=12.15ms
+[2017.10.07-15.59.28:207][400]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/run59D6C66C42A6F7101775DB92AF8F1845.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/2BPlaceHolder/animations/run.uasset'
+[2017.10.07-15.59.28:209][400]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/2BPlaceHolder/animations/run.uasset
+[2017.10.07-15.59.28:236][400]LogSavePackage: Save=12.06ms
+[2017.10.07-15.59.28:236][400]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/walkEA71895A462DC7DEBC5613A90F3BB3B9.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/2BPlaceHolder/animations/walk.uasset'
+[2017.10.07-15.59.28:238][400]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/2BPlaceHolder/animations/walk.uasset
+[2017.10.07-15.59.31:404][749]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.10.07-15.59.31:817][749]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.10.07-15.59.32:058][749]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.10.07-15.59.32:741][749]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0009 seconds. Added 1 classes and 0 folders.
+[2017.10.07-15.59.32:754][749]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.07-15.59.56:889][ 86]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.10.07-15.59.56:916][ 86]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_4:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.10.07-15.59.57:159][ 86]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.07-16.00.33:703][ 70]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.10.07-16.00.33:730][ 70]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2017.10.07-16.00.33:941][ 70]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.07-16.00.48:220][445]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_3.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2017.10.07-16.00.48:246][445]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.Actor_3.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2017.10.07-16.00.48:458][445]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.07-16.02.21:420][407]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_4.DebugSkelMeshComponent_8) Already registered. Aborting.
+[2017.10.07-16.02.21:448][407]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.Actor_4.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2017.10.07-16.02.21:660][407]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.07-16.02.23:596][581]LogEditorFactories: Performing atomic reimport of [C:/Users/David/Documents/GitHub/FuturoImperfecto/MODELS/2B/newSource/animations/run.fbx]
+[2017.10.07-16.02.23:624][581]LogFbx: Loading FBX Scene from C:/Users/David/Documents/GitHub/FuturoImperfecto/MODELS/2B/newSource/animations/run.fbx
+[2017.10.07-16.02.23:654][581]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.07-16.02.23:659][581]LogFbx: Parsing AnimStack Take 001
+[2017.10.07-16.02.23:660][581]LogFbx: CurveName : MaxHandle
+[2017.10.07-16.02.24:180][581]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/2BPlaceHolder/animations/run.run
+[2017.10.07-16.02.24:201][581]LogEditorFactories: -- imported successfully
+[2017.10.07-16.02.24:203][581]FBXImport:Warning: Warning Could not import C:/Users/David/Documents/GitHub/FuturoImperfecto/MODELS/2B/newSource/animations/run.fbx.
+Duplicate bone name found ('unused-skirt-left2-end'). Each bone must have a unique name. 
+[2017.10.07-16.02.24:203][581]FBXImport:Warning: Warning The following bones exist in the imported animation, but not in the Skeleton asset nier_Skeleton.  Any animation on these bones will not be imported: 
+
+ skirt-left-3  
+ 
+[2017.10.07-16.02.38:586][822]LogSavePackage: Save=12.35ms
+[2017.10.07-16.02.38:586][822]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/runAD2A106C4B6FDFE2A0DB34A505E6D8CC.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/2BPlaceHolder/animations/run.uasset'
+[2017.10.07-16.02.38:588][822]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/2BPlaceHolder/animations/run.uasset
+[2017.10.07-16.02.42:619][264]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.Actor_5.DebugSkelMeshComponent_10) Already registered. Aborting.
+[2017.10.07-16.02.42:647][264]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_14:PersistentLevel.Actor_5.DebugSkelMeshComponent_10) - call TermArticulated first.
+[2017.10.07-16.02.42:868][264]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.07-16.02.51:838][167]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.Actor_6.DebugSkelMeshComponent_12) Already registered. Aborting.
+[2017.10.07-16.02.51:865][167]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.Actor_6.DebugSkelMeshComponent_12) - call TermArticulated first.
+[2017.10.07-16.02.52:083][167]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.07-16.02.59:429][837]LogEditorTransaction: Undo Mouse Drag
+[2017.10.07-16.02.59:537][837]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.Actor_6.DebugSkelMeshComponent_12) Already registered. Aborting.
+[2017.10.07-16.03.23:213][107]LogSavePackage: Save=113.08ms
+[2017.10.07-16.03.23:213][107]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Minimal_DefaultC6646DAB4EA1A1A9E62C0EAEB67A7A6C.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.10.07-16.03.23:214][107]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.10.07-16.03.23:283][107]LogSavePackage: Save=34.56ms
+[2017.10.07-16.03.23:283][107]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Minimal_Default_BuiltDataF3E69EFD4A90672912A1A19E489BB8A9.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2017.10.07-16.03.23:284][107]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2017.10.07-16.03.27:476][375]LogSavePackage: Save=13.24ms
+[2017.10.07-16.03.27:476][375]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/run5F4460D14CFE5F076C23DE92C25B75D9.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/2BPlaceHolder/animations/run.uasset'
+[2017.10.07-16.03.27:479][375]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/2BPlaceHolder/animations/run.uasset
+[2017.10.07-16.03.29:186][557]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.Actor_7.DebugSkelMeshComponent_14) Already registered. Aborting.
+[2017.10.07-16.03.29:213][557]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_18:PersistentLevel.Actor_7.DebugSkelMeshComponent_14) - call TermArticulated first.
+[2017.10.07-16.03.29:421][557]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.07-16.03.41:657][731]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.Actor_8.DebugSkelMeshComponent_16) Already registered. Aborting.
+[2017.10.07-16.03.41:685][731]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_20:PersistentLevel.Actor_8.DebugSkelMeshComponent_16) - call TermArticulated first.
+[2017.10.07-16.03.41:900][731]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.07-16.04.12:119][445]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.Actor_9.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.10.07-16.04.12:146][445]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_22:PersistentLevel.Actor_9.DebugSkelMeshComponent_18) - call TermArticulated first.
+[2017.10.07-16.04.12:363][445]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.07-16.04.13:448][543]LogEditorFactories: Performing atomic reimport of [C:/Users/David/Documents/GitHub/FuturoImperfecto/MODELS/2B/newSource/animations/run.fbx]
+[2017.10.07-16.04.13:471][543]LogFbx: Loading FBX Scene from C:/Users/David/Documents/GitHub/FuturoImperfecto/MODELS/2B/newSource/animations/run.fbx
+[2017.10.07-16.04.13:501][543]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.07-16.04.13:506][543]LogFbx: Parsing AnimStack Take 001
+[2017.10.07-16.04.13:508][543]LogFbx: CurveName : MaxHandle
+[2017.10.07-16.04.13:658][543]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/2BPlaceHolder/animations/run.run
+[2017.10.07-16.04.13:665][543]LogEditorFactories: -- imported successfully
+[2017.10.07-16.04.13:667][543]FBXImport:Warning: Warning Could not import C:/Users/David/Documents/GitHub/FuturoImperfecto/MODELS/2B/newSource/animations/run.fbx.
+Duplicate bone name found ('unused-skirt-left2-end'). Each bone must have a unique name. 
+[2017.10.07-16.04.13:667][543]FBXImport:Warning: Warning The following bones exist in the imported animation, but not in the Skeleton asset nier_Skeleton.  Any animation on these bones will not be imported: 
+
+ skirt-left-3  
+ 
+[2017.10.07-16.04.25:140][559]LogSavePackage: Save=11.88ms
+[2017.10.07-16.04.25:140][559]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/run306AFA354B1F8BD5D7495EACC7823D29.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/2BPlaceHolder/animations/run.uasset'
+[2017.10.07-16.04.25:142][559]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/2BPlaceHolder/animations/run.uasset
+[2017.10.07-16.04.40:052][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.Actor_10.DebugSkelMeshComponent_20) Already registered. Aborting.
+[2017.10.07-16.04.40:080][231]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_25:PersistentLevel.Actor_10.DebugSkelMeshComponent_20) - call TermArticulated first.
+[2017.10.07-16.04.40:314][231]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.07-16.05.53:189][655]Cmd: TRANSACTION UNDO
+[2017.10.07-16.05.53:189][655]LogEditorTransaction: Undo Moving Blend Grid Sample
+[2017.10.07-16.05.53:269][655]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.Actor_10.DebugSkelMeshComponent_20) Already registered. Aborting.
+[2017.10.07-16.06.11:984][612]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.Actor_11.DebugSkelMeshComponent_22) Already registered. Aborting.
+[2017.10.07-16.06.12:010][612]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_27:PersistentLevel.Actor_11.DebugSkelMeshComponent_22) - call TermArticulated first.
+[2017.10.07-16.06.12:230][612]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.07-16.07.12:135][139]Cmd: TRANSACTION UNDO
+[2017.10.07-16.07.12:135][139]LogEditorTransaction: Undo Adding Blend Grid Sample
+[2017.10.07-16.07.12:464][170]Cmd: TRANSACTION UNDO
+[2017.10.07-16.07.12:464][170]LogEditorTransaction: Undo Adding Blend Grid Sample
+[2017.10.07-16.07.13:177][244]Cmd: TRANSACTION UNDO
+[2017.10.07-16.07.13:177][244]LogEditorTransaction: Undo Edit Preview Base Pose
+[2017.10.07-16.07.13:576][291]Cmd: TRANSACTION UNDO
+[2017.10.07-16.07.13:576][291]LogEditorTransaction: Undo Adding Blend Grid Sample
+[2017.10.07-16.07.14:408][390]Cmd: TRANSACTION UNDO
+[2017.10.07-16.07.14:408][390]LogEditorTransaction: Undo Moving Blend Grid Sample
+[2017.10.07-16.07.14:856][443]Cmd: TRANSACTION UNDO
+[2017.10.07-16.07.14:856][443]LogEditorTransaction: Undo Moving Blend Grid Sample
+[2017.10.07-16.07.15:313][497]Cmd: TRANSACTION UNDO
+[2017.10.07-16.07.15:313][497]LogEditorTransaction: Undo Moving Blend Grid Sample
+[2017.10.07-16.07.15:785][553]Cmd: TRANSACTION UNDO
+[2017.10.07-16.07.15:785][553]LogEditorTransaction: Undo Moving Blend Grid Sample
+[2017.10.07-16.07.16:233][606]Cmd: TRANSACTION UNDO
+[2017.10.07-16.07.16:233][606]LogEditorTransaction: Undo Moving Blend Grid Sample
+[2017.10.07-16.07.16:705][662]Cmd: TRANSACTION UNDO
+[2017.10.07-16.07.16:705][662]LogEditorTransaction: Undo Moving Blend Grid Sample
+[2017.10.07-16.07.17:545][762]Cmd: TRANSACTION UNDO
+[2017.10.07-16.07.17:545][762]LogEditorTransaction: Undo Moving Blend Grid Sample
+[2017.10.07-16.07.18:217][842]Cmd: TRANSACTION UNDO
+[2017.10.07-16.07.18:217][842]LogEditorTransaction: Undo Moving Blend Grid Sample
+[2017.10.07-16.07.19:234][961]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.Actor_12.DebugSkelMeshComponent_24) Already registered. Aborting.
+[2017.10.07-16.07.19:261][961]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_29:PersistentLevel.Actor_12.DebugSkelMeshComponent_24) - call TermArticulated first.
+[2017.10.07-16.07.19:471][961]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.07-16.07.24:417][464]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_31:PersistentLevel.Actor_13.DebugSkelMeshComponent_26) Already registered. Aborting.
+[2017.10.07-16.07.24:444][464]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_31:PersistentLevel.Actor_13.DebugSkelMeshComponent_26) - call TermArticulated first.
+[2017.10.07-16.07.24:668][464]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.07-16.07.49:734][887]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.Actor_14.DebugSkelMeshComponent_28) Already registered. Aborting.
+[2017.10.07-16.07.49:761][887]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_33:PersistentLevel.Actor_14.DebugSkelMeshComponent_28) - call TermArticulated first.
+[2017.10.07-16.07.49:971][887]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.07-16.09.30:820][980]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_30' or package '/Engine/Transient'.
+[2017.10.07-16.09.30:820][980]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_26' or package '/Engine/Transient'.
+[2017.10.07-16.09.30:820][980]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_24' or package '/Engine/Transient'.
+[2017.10.07-16.10.05:433][874]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.Actor_15.DebugSkelMeshComponent_30) Already registered. Aborting.
+[2017.10.07-16.10.05:460][874]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_35:PersistentLevel.Actor_15.DebugSkelMeshComponent_30) - call TermArticulated first.
+[2017.10.07-16.10.05:666][874]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.07-16.11.04:235][652]LogSavePackage: Save=11.08ms
+[2017.10.07-16.11.04:235][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Quiero_Andar_Correr31B591B642BAB1A7914AB59B399A6E46.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/2BPlaceHolder/BlendSpace/Quiero_Andar_Correr.uasset'
+[2017.10.07-16.11.04:237][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/2BPlaceHolder/BlendSpace/Quiero_Andar_Correr.uasset
+[2017.10.07-16.11.14:998][306]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.Actor_16.DebugSkelMeshComponent_32) Already registered. Aborting.
+[2017.10.07-16.11.15:021][306]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_37:PersistentLevel.Actor_16.DebugSkelMeshComponent_32) - call TermArticulated first.
+[2017.10.07-16.11.15:241][306]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.07-16.11.45:878][278]LogSavePackage: Save=12.52ms
+[2017.10.07-16.11.45:878][278]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Quieto_Andar_Correr877B7D124607B0651BA464962BE09EE0.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/Animations/BlendSpace/Quieto_Andar_Correr.uasset'
+[2017.10.07-16.11.45:880][278]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/Animations/BlendSpace/Quieto_Andar_Correr.uasset
+[2017.10.07-16.12.00:100][947]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.Actor_17.DebugSkelMeshComponent_34) Already registered. Aborting.
+[2017.10.07-16.12.00:736][947]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 112 classes and 0 folders.
+[2017.10.07-16.12.01:567][947]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_41:PersistentLevel.Actor_17.DebugSkelMeshComponent_34) - call TermArticulated first.
+[2017.10.07-16.12.01:908][947]LogSlate: Took 0.015953 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.07-16.12.02:198][947]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.07-16.12.02:238][948]LogSlate: Took 0.014556 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.07-16.14.11:261][730]LogRenderer: Reallocating scene render targets to support 1204x676 NumSamples 1 (Frame:1).
+[2017.10.07-16.14.26:679][117]LogAnimation:Warning: AnimBP CharacterBP_C is incompatible with skeleton nier_Skeleton, removing AnimBP from actor.
+[2017.10.07-16.14.26:680][117]LogAnimation:Warning: AnimBP CharacterBP_C is incompatible with skeleton nier_Skeleton, removing AnimBP from actor.
+[2017.10.07-16.14.26:681][117]LogAnimation:Warning: AnimBP CharacterBP_C is incompatible with skeleton nier_Skeleton, removing AnimBP from actor.
+[2017.10.07-16.14.26:681][117]LogAnimation:Warning: AnimBP CharacterBP_C is incompatible with skeleton nier_Skeleton, removing AnimBP from actor.
+[2017.10.07-16.14.35:625][910]BlueprintLog: New page: Compile Character_BP
+[2017.10.07-16.14.45:405][919]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.07-16.14.45:462][919]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.07-16.14.45:462][919]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-16.14.45:483][919]PIE: New page: PIE session: Minimal_Default (Oct 7, 2017, 8:14:45 PM)
+[2017.10.07-16.14.45:483][919]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.10.07-16.14.45:504][919]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020693s)
+[2017.10.07-16.14.45:504][919]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.10.07-16.14.45:504][919]LogPlayLevel: PIE: World Init took: (0.000540s)
+[2017.10.07-16.14.45:504][919]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.021439s)
+[2017.10.07-16.14.45:538][919]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-16.14.45:544][919]LogInit: FAudioDevice initialized.
+[2017.10.07-16.14.45:594][919]LogLoad: Game class is 'MyGame_C'
+[2017.10.07-16.14.45:596][919]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.10.07-18.14.45
+[2017.10.07-16.14.45:596][919]LogWorld: Bringing up level for play took: 0.001375
+[2017.10.07-16.14.45:743][919]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
+[2017.10.07-16.14.45:744][919]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.247
+[2017.10.07-16.14.45:744][919]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.07-16.14.48:054][153]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.07-16.14.48:112][153]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.07-16.14.52:240][612]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.07-16.14.52:258][612]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.07-16.14.52:258][612]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-16.14.52:258][612]PIE: New page: PIE session: Minimal_Default (Oct 7, 2017, 8:14:52 PM)
+[2017.10.07-16.14.52:258][612]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.10.07-16.14.52:262][612]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004232s)
+[2017.10.07-16.14.52:263][612]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.10.07-16.14.52:263][612]LogPlayLevel: PIE: World Init took: (0.000487s)
+[2017.10.07-16.14.52:263][612]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004902s)
+[2017.10.07-16.14.52:295][612]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-16.14.52:300][612]LogInit: FAudioDevice initialized.
+[2017.10.07-16.14.52:335][612]LogLoad: Game class is 'MyGame_C'
+[2017.10.07-16.14.52:337][612]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.10.07-18.14.52
+[2017.10.07-16.14.52:337][612]LogWorld: Bringing up level for play took: 0.001398
+[2017.10.07-16.14.52:337][612]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.841
+[2017.10.07-16.14.52:338][612]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.07-16.14.56:989][166]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.07-16.14.57:020][166]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.07-16.15.30:537][ 65]LogSavePackage: Save=89.05ms
+[2017.10.07-16.15.30:537][ 65]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Character_BPDE4001404CE89C2C2F216B9E611F18C0.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/BluePrints/Character_BP.uasset'
+[2017.10.07-16.15.30:539][ 65]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/BluePrints/Character_BP.uasset
+[2017.10.07-16.15.31:871][183]BlueprintLog: New page: Compile Character_BP
+[2017.10.07-16.15.37:350][717]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.07-16.15.37:364][717]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.07-16.15.37:364][717]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-16.15.37:365][717]PIE: New page: PIE session: Minimal_Default (Oct 7, 2017, 8:15:37 PM)
+[2017.10.07-16.15.37:365][717]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.10.07-16.15.37:369][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004492s)
+[2017.10.07-16.15.37:370][717]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.10.07-16.15.37:370][717]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2017.10.07-16.15.37:370][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005215s)
+[2017.10.07-16.15.37:400][717]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-16.15.37:405][717]LogInit: FAudioDevice initialized.
+[2017.10.07-16.15.37:434][717]LogLoad: Game class is 'MyGame_C'
+[2017.10.07-16.15.37:437][717]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.10.07-18.15.37
+[2017.10.07-16.15.37:437][717]LogWorld: Bringing up level for play took: 0.001607
+[2017.10.07-16.15.37:438][717]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.059
+[2017.10.07-16.15.37:438][717]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.07-16.15.41:649][218]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.07-16.15.41:696][218]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.07-16.15.48:950][699]LogSavePackage: Save=107.77ms
+[2017.10.07-16.15.48:950][699]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Minimal_Default7046C0614E60F3D0FF89A3B89B86B909.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.10.07-16.15.48:952][699]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.10.07-16.15.48:976][699]LogFileHelpers: Saving map 'Minimal_Default' took 0.200
+[2017.10.07-16.15.52:575][101]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.10.07-16.15.52:735][102]Cmd: QUIT_EDITOR
+[2017.10.07-16.15.53:455][102]LogExit: Preparing to exit.
+[2017.10.07-16.15.54:406][102]LogExit: Editor shut down
+[2017.10.07-16.15.54:410][102]LogExit: Transaction tracking system shut down
+[2017.10.07-16.15.54:535][102]LogObj: Freed 0b from 0 cluster array pools.
+[2017.10.07-16.15.54:535][102]LogExit: Object subsystem successfully closed.
+[2017.10.07-16.15.54:553][102]LogD3D11RHI: Shutdown
+[2017.10.07-16.15.54:553][102]LogD3D11RHI: CleanupD3DDevice
+[2017.10.07-16.15.54:642][102]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.07-16.15.54:664][102]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (538)
+[2017.10.07-16.15.54:664][102]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2017.10.07-16.15.54:664][102]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2017.10.07-16.15.54:672][102]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (532)
+[2017.10.07-16.15.54:672][102]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (530)
+[2017.10.07-16.15.54:672][102]LogModuleManager: Shutting down and abandoning module SkeletonEditor (528)
+[2017.10.07-16.15.54:672][102]LogModuleManager: Shutting down and abandoning module AnimationEditor (526)
+[2017.10.07-16.15.54:672][102]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.10.07-16.15.54:672][102]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.10.07-16.15.54:672][102]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.10.07-16.15.54:672][102]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.10.07-16.15.54:686][102]LogDirectoryWatcher: A directory notification for 'D:/Program Files (x86)/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.10.07-16.15.54:687][102]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.10.07-16.15.54:687][102]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.10.07-16.15.54:687][102]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.10.07-16.15.54:687][102]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Collections/' was aborted.
+[2017.10.07-16.15.54:687][102]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Developers/David/Collections/' was aborted.
+[2017.10.07-16.15.54:687][102]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Collections/' was aborted.
+[2017.10.07-16.15.54:687][102]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.10.07-16.15.54:687][102]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.10.07-16.15.54:687][102]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.10.07-16.15.54:687][102]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.10.07-16.15.54:687][102]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.10.07-16.15.54:687][102]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.10.07-16.15.54:687][102]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.10.07-16.15.54:687][102]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.10.07-16.15.54:687][102]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.10.07-16.15.54:687][102]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.10.07-16.15.54:687][102]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.10.07-16.15.54:687][102]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.10.07-16.15.54:687][102]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.10.07-16.15.54:687][102]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.10.07-16.15.54:687][102]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.10.07-16.15.54:687][102]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.10.07-16.15.54:687][102]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.10.07-16.15.54:687][102]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.10.07-16.15.54:687][102]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.10.07-16.15.54:687][102]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.10.07-16.15.54:687][102]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.10.07-16.15.54:687][102]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.10.07-16.15.54:687][102]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.10.07-16.15.54:687][102]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.10.07-16.15.54:687][102]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.10.07-16.15.54:688][102]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.10.07-16.15.54:688][102]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.10.07-16.15.54:688][102]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.10.07-16.15.54:688][102]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.10.07-16.15.54:688][102]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.10.07-16.15.54:688][102]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.10.07-16.15.54:688][102]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.10.07-16.15.54:688][102]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.10.07-16.15.54:688][102]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.10.07-16.15.54:688][102]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.10.07-16.15.54:688][102]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.10.07-16.15.54:688][102]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.10.07-16.15.54:688][102]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.10.07-16.15.54:954][102]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.10.07-16.15.54:954][102]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.10.07-16.15.54:954][102]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.10.07-16.15.54:954][102]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.10.07-16.15.54:954][102]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.10.07-16.15.54:954][102]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.10.07-16.15.54:954][102]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.10.07-16.15.54:954][102]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.10.07-16.15.54:954][102]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.10.07-16.15.54:954][102]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.10.07-16.15.54:954][102]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.10.07-16.15.54:954][102]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.10.07-16.15.54:954][102]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.10.07-16.15.54:954][102]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.10.07-16.15.54:954][102]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.10.07-16.15.54:954][102]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.10.07-16.15.54:954][102]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.10.07-16.15.54:955][102]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.10.07-16.15.54:955][102]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.10.07-16.15.54:955][102]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.10.07-16.15.54:955][102]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.10.07-16.15.54:955][102]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.10.07-16.15.54:955][102]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.10.07-16.15.54:955][102]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.10.07-16.15.54:999][102]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.10.07-16.15.54:999][102]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.10.07-16.15.54:999][102]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.10.07-16.15.54:999][102]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.10.07-16.15.54:999][102]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.10.07-16.15.54:999][102]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.10.07-16.15.54:999][102]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.10.07-16.15.54:999][102]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.10.07-16.15.54:999][102]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.10.07-16.15.54:999][102]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.10.07-16.15.55:017][102]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.10.07-16.15.55:021][102]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.10.07-16.15.55:021][102]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.10.07-16.15.55:021][102]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.10.07-16.15.55:022][102]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.10.07-16.15.55:022][102]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.10.07-16.15.55:022][102]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.10.07-16.15.55:022][102]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.10.07-16.15.55:022][102]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.10.07-16.15.55:022][102]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.10.07-16.15.55:022][102]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.10.07-16.15.55:023][102]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.10.07-16.15.55:023][102]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.10.07-16.15.55:023][102]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.10.07-16.15.55:023][102]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.10.07-16.15.55:023][102]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.10.07-16.15.55:023][102]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.10.07-16.15.55:023][102]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.10.07-16.15.55:023][102]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.10.07-16.15.55:023][102]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.10.07-16.15.55:253][102]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.10.07-16.15.55:253][102]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.10.07-16.15.55:253][102]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.10.07-16.15.55:253][102]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.10.07-16.15.55:253][102]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.10.07-16.15.55:253][102]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.10.07-16.15.55:253][102]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.10.07-16.15.55:253][102]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.10.07-16.15.55:253][102]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.10.07-16.15.55:253][102]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.10.07-16.15.55:253][102]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.10.07-16.15.55:253][102]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.10.07-16.15.55:253][102]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.10.07-16.15.55:253][102]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.10.07-16.15.55:253][102]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.10.07-16.15.55:253][102]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.10.07-16.15.55:253][102]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.10.07-16.15.55:253][102]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.10.07-16.15.55:253][102]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.10.07-16.15.55:253][102]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.10.07-16.15.55:253][102]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.10.07-16.15.55:253][102]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.10.07-16.15.55:253][102]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.10.07-16.15.55:253][102]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.10.07-16.15.55:253][102]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.10.07-16.15.55:253][102]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.10.07-16.15.55:253][102]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.10.07-16.15.55:253][102]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.10.07-16.15.55:253][102]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.10.07-16.15.55:253][102]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.10.07-16.15.55:254][102]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.10.07-16.15.55:254][102]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.10.07-16.15.55:254][102]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.10.07-16.15.55:254][102]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.10.07-16.15.55:254][102]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.10.07-16.15.55:254][102]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.10.07-16.15.55:255][102]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.10.07-16.15.55:255][102]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.10.07-16.15.55:255][102]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.10.07-16.15.55:256][102]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.10.07-16.15.55:256][102]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.10.07-16.15.55:256][102]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.10.07-16.15.55:256][102]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.10.07-16.15.55:256][102]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.10.07-16.15.55:256][102]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.10.07-16.15.55:358][102]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.10.07-16.15.55:459][102]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.10.07-16.15.55:459][102]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.10.07-16.15.55:459][102]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.10.07-16.15.55:459][102]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.10.07-16.15.55:459][102]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.10.07-16.15.55:459][102]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.10.07-16.15.55:462][102]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.10.07-16.15.55:462][102]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.10.07-16.15.55:462][102]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.10.07-16.15.55:462][102]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.10.07-16.15.55:462][102]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.10.07-16.15.55:462][102]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.10.07-16.15.55:462][102]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.10.07-16.15.55:462][102]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.10.07-16.15.55:462][102]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.10.07-16.15.55:463][102]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.10.07-16.15.55:463][102]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.10.07-16.15.55:463][102]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.10.07-16.15.55:463][102]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.10.07-16.15.55:463][102]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.10.07-16.15.55:463][102]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.10.07-16.15.55:463][102]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.10.07-16.15.55:463][102]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.10.07-16.15.55:463][102]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.10.07-16.15.55:463][102]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.10.07-16.15.55:463][102]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.10.07-16.15.55:463][102]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.10.07-16.15.55:463][102]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.10.07-16.15.55:463][102]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.10.07-16.15.55:470][102]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.10.07-16.15.55:470][102]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.10.07-16.15.55:470][102]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.10.07-16.15.55:470][102]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.10.07-16.15.55:470][102]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.10.07-16.15.55:470][102]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.10.07-16.15.55:627][102]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.07-16.15.55:627][102]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/' was aborted.
+[2017.10.07-16.15.55:627][102]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.07-16.15.55:627][102]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.10.07-16.15.55:630][102]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.10.07-16.15.55:631][102]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.10.07-16.15.55:631][102]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.10.07-16.15.55:631][102]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.10.07-16.15.55:631][102]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.10.07-16.15.55:631][102]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.10.07-16.15.55:631][102]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.10.07-16.15.55:631][102]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.10.07-16.15.55:631][102]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.10.07-16.15.55:654][102]LogDerivedDataCache: Shutdown
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.10.07-16.15.55:654][102]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.10.07-16.15.55:655][102]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.10.07-16.15.55:655][102]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.10.07-16.15.55:655][102]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.10.07-16.15.55:655][102]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.10.07-16.15.55:655][102]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.10.07-16.15.55:655][102]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.07-16.15.55:655][102]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.07-16.15.55:655][102]LogOnline:Display: Unloading online subsystem: NULL
+[2017.10.07-16.15.55:655][102]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.10.07-16.15.55:655][102]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.10.07-16.15.55:655][102]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.07-16.15.55:655][102]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE918A11A-4874-36D3-5A53-718FDF2E3B62%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=eedd91be406e0cd25ea0748277e6e73c%7C7a211806f70b4509a5be2640357744fc%7Caa6de738-987c-4c76-bb80-6cc1d099ea00&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.07-16.15.55:686][102]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.10.07-16.15.55:688][102]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.10.07-16.15.55:688][102]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.10.07-16.15.55:688][102]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.10.07-16.15.55:689][102]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.10.07-16.15.55:689][102]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.10.07-16.15.55:689][102]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.10.07-16.15.55:689][102]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.10.07-16.15.55:689][102]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.10.07-16.15.55:691][102]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.10.07-16.15.55:691][102]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.10.07-16.15.55:691][102]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.10.07-16.15.55:691][102]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.10.07-16.15.55:691][102]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.10.07-16.15.55:692][102]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.10.07-16.15.55:692][102]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.10.07-16.15.55:692][102]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.07-16.15.55:692][102]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.07-16.15.55:692][102]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.07-16.15.55:694][102]LogExit: Exiting.
+[2017.10.07-16.15.55:727][102]Log file closed, 10/07/17 18:15:55

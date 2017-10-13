@@ -1,0 +1,911 @@
+﻿Log file open, 10/13/17 19:09:37
+LogInit:Display: Running engine for game: MechHackAndSlash
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1871863103) SRandInit(-1871863103).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.079104
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.13-17.09.37:494][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.13-17.09.37:494][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.13-17.09.37:508][  0]LogInit: Computer: DAVIDMASTERRACE
+[2017.10.13-17.09.37:508][  0]LogInit: User: David
+[2017.10.13-17.09.37:508][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.13-17.09.37:508][  0]LogInit: High frequency timer resolution =3.417962 MHz
+[2017.10.13-17.09.37:508][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.10.13-17.09.37:508][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.13-17.09.37:508][  0]LogMemory: Process Physical Memory: 271.50 MB used, 271.50 MB peak
+[2017.10.13-17.09.37:508][  0]LogMemory: Process Virtual Memory: 266.48 MB used, 266.48 MB peak
+[2017.10.13-17.09.37:508][  0]LogMemory: Physical Memory: 6008.25 MB used,  10318.19 MB free, 16326.44 MB total
+[2017.10.13-17.09.37:508][  0]LogMemory: Virtual Memory: 622.99 MB used,  10318.19 MB free, 134217728.00 MB total
+[2017.10.13-17.09.37:552][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.10.13-17.09.37:552][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.10.13-17.09.38:279][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.13-17.09.38:302][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.10.13-17.09.38:302][  0]LogD3D11RHI:       3975/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.13-17.09.38:303][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.13-17.09.38:303][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.13-17.09.38:303][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.13-17.09.38:306][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.13-17.09.38:306][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.13-17.09.38:306][  0]LogWindows: EnumDisplayDevices:
+[2017.10.13-17.09.38:306][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.10.13-17.09.38:306][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.10.13-17.09.38:306][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.10.13-17.09.38:306][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.10.13-17.09.38:306][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.10.13-17.09.38:306][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.10.13-17.09.38:306][  0]LogD3D11RHI:   Driver Version: 385.41 (internal:22.21.13.8541, unified:385.41)
+[2017.10.13-17.09.38:306][  0]LogD3D11RHI:      Driver Date: 8-21-2017
+[2017.10.13-17.09.38:306][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.13-17.09.38:314][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.13-17.09.38:330][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.10.13-17.09.38:374][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Intermediate/Shaders/WorkingDirectory/576/).
+[2017.10.13-17.09.38:374][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/David/AppData/Local/Temp/UnrealShaderWorkingDir/67A98A574E20673B8EC492B9D171E369/'.
+[2017.10.13-17.09.38:374][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.13-17.09.39:226][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.13-17.09.39:256][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.13-17.09.39:286][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.13-17.09.39:316][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.13-17.09.39:348][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.13-17.09.39:378][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.13-17.09.39:408][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.13-17.09.39:439][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.13-17.09.39:464][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.13-17.09.39:493][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.13-17.09.39:523][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.13-17.09.39:553][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.13-17.09.39:582][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.13-17.09.39:611][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.13-17.09.39:641][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.13-17.09.39:699][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.13-17.09.39:699][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.13-17.09.39:719][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.13-17.09.39:782][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.13-17.09.39:801][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.13-17.09.39:830][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.13-17.09.39:859][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.13-17.09.39:887][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.13-17.09.39:917][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.13-17.09.39:917][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.13-17.09.40:180][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.13-17.09.40:256][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.13-17.09.40:256][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.10.13-17.09.40:256][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.13-17.09.40:256][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.13-17.09.40:256][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.13-17.09.40:256][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.13-17.09.40:272][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.13-17.09.40:283][  0]LogDerivedDataCache: Using Local data cache path C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.13-17.09.40:291][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.13-17.09.40:291][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.13-17.09.40:292][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.13-17.09.40:292][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.13-17.09.40:549][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.13-17.09.40:608][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.13-17.09.40:719][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.13-17.09.40:742][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.13-17.09.40:767][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.13-17.09.40:767][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.13-17.09.40:767][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.13-17.09.41:136][  0]LogNetVersion: MechHackAndSlash , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 86869316)
+[2017.10.13-17.09.41:184][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
+[2017.10.13-17.09.41:211][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.014768 seconds
+[2017.10.13-17.09.41:215][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.10.13-17.09.41:215][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.10.13-17.09.41:215][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.13-17.09.41:249][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.13-17.09.42:799][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.13-17.09.42:827][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.13-17.09.43:206][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.13-17.09.43:438][  0]SourceControl: Info Source control is disabled
+[2017.10.13-17.09.43:461][  0]SourceControl: Info Source control is disabled
+[2017.10.13-17.09.43:489][  0]SourceControl: Info Source control is disabled
+[2017.10.13-17.09.43:513][  0]SourceControl: Info Source control is disabled
+[2017.10.13-17.09.43:885][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.13-17.09.44:213][  0]LogEngine: Initializing Engine...
+[2017.10.13-17.09.44:213][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.13-17.09.44:369][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.13-17.09.44:369][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.13-17.09.44:440][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.13-17.09.44:478][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.13-17.09.44:485][  0]LogInit: FAudioDevice initialized.
+[2017.10.13-17.09.44:519][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.13-17.09.44:525][  0]LogInit: Texture streaming: Enabled
+[2017.10.13-17.09.44:580][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.13-17.09.44:698][  0]LogInit: Transaction tracking system initialized
+[2017.10.13-17.09.44:861][  0]BlueprintLog: New page: Editor Load
+[2017.10.13-17.09.45:360][  0]LocalizationService: Info Localization service is disabled
+[2017.10.13-17.09.45:731][  0]LogConsoleResponse:Display: 
+[2017.10.13-17.09.45:830][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.13-17.09.45:830][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.13-17.09.46:104][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/' took 0.01s
+[2017.10.13-17.09.46:375][  0]SourceControl: Info Source control is disabled
+[2017.10.13-17.09.46:376][  0]Cmd: MAP LOAD FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.13-17.09.46:376][  0]LightingResults: New page: Lighting Build
+[2017.10.13-17.09.46:398][  0]MapCheck: New page: Map Check
+[2017.10.13-17.09.46:398][  0]LightingResults: New page: Lighting Build
+[2017.10.13-17.09.46:720][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.13-17.09.46:726][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.13-17.09.46:736][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.13-17.09.46:769][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.069ms to complete.
+[2017.10.13-17.09.46:769][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.393
+[2017.10.13-17.09.46:873][  0]LogCollectionManager: Loaded 0 collections in 0.000827 seconds
+[2017.10.13-17.09.46:930][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Collections/' took 0.01s
+[2017.10.13-17.09.46:930][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Developers/David/Collections/' took 0.01s
+[2017.10.13-17.09.46:930][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Collections/' took 0.01s
+[2017.10.13-17.09.46:930][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.13-17.09.46:938][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2329 classes and 491 folders.
+[2017.10.13-17.09.46:973][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.10.13-17.09.46:999][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.10.13-17.09.47:023][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.10.13-17.09.47:090][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.13-17.09.47:095][  0]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.13-17.09.47:097][  0]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.13-17.09.47:103][  0]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.13-17.09.47:179][  0]LogRenderer: Reallocating scene render targets to support 1204x576 NumSamples 1 (Frame:1).
+[2017.10.13-17.09.47:287][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.10.13-17.09.47:332][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.10.13-17.09.47:332][  0]LogLoad: (Engine Initialization) Total time: 10.88 seconds
+[2017.10.13-17.09.47:332][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2017.10.13-17.09.47:332][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.13-17.09.47:332][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.13-17.09.47:674][  0]LogOcInput: OculusInput pre-init called
+[2017.10.13-17.09.47:674][  0]LogHMD: Starting GearVRController plugin
+[2017.10.13-17.09.47:706][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.13-17.09.47:784][  0]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.13-17.09.48:342][  2]LogAssetRegistry: Asset discovery search completed in 7.1802 seconds
+[2017.10.13-17.09.48:343][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.13-17.09.48:343][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2017.10.13-17.10.05:770][355]LogSlate: Took 0.001190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.13-17.10.05:871][355]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\David\Desktop\models\Boss\Warrok_W_Kurniawan.fbx)
+[2017.10.13-17.10.05:955][355]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.10.13-17.10.05:955][355]LogFbx: ItemName: Model, ItemCount : 66
+[2017.10.13-17.10.05:955][355]LogFbx: ItemName: NodeAttribute, ItemCount : 65
+[2017.10.13-17.10.05:955][355]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.10.13-17.10.05:955][355]LogFbx: ItemName: Texture, ItemCount : 4
+[2017.10.13-17.10.05:955][355]LogFbx: ItemName: Video, ItemCount : 4
+[2017.10.13-17.10.05:955][355]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.10.13-17.10.05:955][355]LogFbx: ItemName: Deformer, ItemCount : 66
+[2017.10.13-17.10.05:955][355]LogFbx: ItemName: AnimationStack, ItemCount : 2
+[2017.10.13-17.10.05:955][355]LogFbx: ItemName: AnimationLayer, ItemCount : 2
+[2017.10.13-17.10.05:955][355]LogFbx: ItemName: Material, ItemCount : 1
+[2017.10.13-17.10.05:955][355]LogFbx: ItemName: AnimationCurveNode, ItemCount : 67
+[2017.10.13-17.10.05:955][355]LogFbx: ItemName: AnimationCurve, ItemCount : 354
+[2017.10.13-17.10.05:960][355]LogFbx: Loading FBX Scene from C:\Users\David\Desktop\models\Boss\Warrok_W_Kurniawan.fbx
+[2017.10.13-17.10.06:037][355]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.13-17.10.12:228][355]LogFbx: Loading FBX Scene from C:\Users\David\Desktop\models\Boss\Warrok_W_Kurniawan.fbx
+[2017.10.13-17.10.12:304][355]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.13-17.10.12:310][355]LogFbx: =================================================
+[2017.10.13-17.10.12:310][355]LogFbx: Dumping Node START [Warrok] 
+[2017.10.13-17.10.12:310][355]LogFbx: 	Total Deformer Count -1030426896.
+[2017.10.13-17.10.12:310][355]LogFbx: 		[Node 1] Skin Warrok (Type Skin).
+[2017.10.13-17.10.12:310][355]LogFbx: =================================================
+[2017.10.13-17.10.12:310][355]LogFbx: 	Attribute (Warrok) Type (4).
+[2017.10.13-17.10.12:310][355]LogFbx: 		[Node Attribute Child 1] Warrok (Type Mesh).
+[2017.10.13-17.10.12:310][355]LogFbx: Dumping Node END [Warrok]
+[2017.10.13-17.10.12:311][355]LogFbx: =================================================
+[2017.10.13-17.10.12:311][355]LogFbx: Dumping Node START [Warrok] 
+[2017.10.13-17.10.12:311][355]LogFbx: 	Total Deformer Count -1030423088.
+[2017.10.13-17.10.12:311][355]LogFbx: 		[Node 1] Skin Warrok (Type Skin).
+[2017.10.13-17.10.12:311][355]LogFbx: =================================================
+[2017.10.13-17.10.12:311][355]LogFbx: 	Attribute (Warrok) Type (4).
+[2017.10.13-17.10.12:311][355]LogFbx: 		[Node Attribute Child 1] Warrok (Type Mesh).
+[2017.10.13-17.10.12:311][355]LogFbx: Dumping Node END [Warrok]
+[2017.10.13-17.10.12:312][355]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node Warrok : The relative matrices do not match
+[2017.10.13-17.10.12:312][355]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.10.13-17.10.12:312][355]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Warrok
+[2017.10.13-17.10.12:312][355]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.10.13-17.10.12:314][355]LogLinker: Can't find file '/Game/Boss/warrok_MAT'
+[2017.10.13-17.10.12:314][355]LogLinker: Can't find file '/Game/Boss/warrok_MAT'
+[2017.10.13-17.10.12:314][355]LogMaterial:Warning: Material /Game/Boss/warrok_MAT.warrok_MAT needed to have new flag set bUsedWithSkeletalMesh !
+[2017.10.13-17.10.12:315][355]LogMaterial: Missing cached shader map for material warrok_MAT, compiling. 
+[2017.10.13-17.10.12:360][355]LogLinker: Can't find file '/Game/Boss/bear_diffuse'
+[2017.10.13-17.10.12:361][355]LogLinker: Can't find file '/Game/Boss/bear_diffuse'
+[2017.10.13-17.10.12:591][355]LogTexture:Display: Building textures: bear_diffuse (AutoDXT, 2048X2048)
+[2017.10.13-17.10.14:994][355]LogLinker: Can't find file '/Game/Boss/bear_specular'
+[2017.10.13-17.10.14:994][355]LogLinker: Can't find file '/Game/Boss/bear_specular'
+[2017.10.13-17.10.15:224][355]LogTexture:Display: Building textures: bear_specular (AutoDXT, 2048X2048)
+[2017.10.13-17.10.16:919][355]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.13-17.10.16:933][355]LogLinker: Can't find file '/Game/Boss/bear_normal'
+[2017.10.13-17.10.16:933][355]LogLinker: Can't find file '/Game/Boss/bear_normal'
+[2017.10.13-17.10.17:162][355]LogTexture:Display: Building textures: bear_normal (BC5, 2048X2048)
+[2017.10.13-17.10.17:709][355]LogLinker: Can't find file '/Game/Boss/bear_alpha'
+[2017.10.13-17.10.17:709][355]LogLinker: Can't find file '/Game/Boss/bear_alpha'
+[2017.10.13-17.10.17:860][355]LogTexture:Display: Building textures: bear_alpha (AutoDXT, 2048X2048)
+[2017.10.13-17.10.18:348][355]LogMaterial: Missing cached shader map for material warrok_MAT, compiling. 
+[2017.10.13-17.10.18:422][355]LogFbx:Warning: Bones digested - 65  Depth of hierarchy - 12
+[2017.10.13-17.10.18:728][355]LogSkeletalMesh: Section 0: 7873 vertices, 52 active bones
+[2017.10.13-17.10.18:741][355]LogSkeletalMesh: Section 0: Material=0, 12626 triangles
+[2017.10.13-17.10.18:746][355]LogLinker: Can't find file '/Game/Boss/Warrok_W_Kurniawan_Skeleton'
+[2017.10.13-17.10.18:746][355]LogLinker: Can't find file '/Game/Boss/Warrok_W_Kurniawan_Skeleton'
+[2017.10.13-17.10.18:748][355]LogLinker: Can't find file '/Game/Boss/Warrok_W_Kurniawan_PhysicsAsset'
+[2017.10.13-17.10.18:748][355]LogLinker: Can't find file '/Game/Boss/Warrok_W_Kurniawan_PhysicsAsset'
+[2017.10.13-17.10.18:756][355]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.10.13-17.10.38:715][775]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\David\Desktop\models\Boss\Animations\standing_melee_attack_360_high.fbx)
+[2017.10.13-17.10.38:860][775]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.10.13-17.10.38:860][775]LogFbx: ItemName: Model, ItemCount : 66
+[2017.10.13-17.10.38:860][775]LogFbx: ItemName: NodeAttribute, ItemCount : 65
+[2017.10.13-17.10.38:860][775]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.10.13-17.10.38:860][775]LogFbx: ItemName: Texture, ItemCount : 4
+[2017.10.13-17.10.38:860][775]LogFbx: ItemName: Video, ItemCount : 4
+[2017.10.13-17.10.38:860][775]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.10.13-17.10.38:860][775]LogFbx: ItemName: Deformer, ItemCount : 66
+[2017.10.13-17.10.38:860][775]LogFbx: ItemName: AnimationStack, ItemCount : 2
+[2017.10.13-17.10.38:860][775]LogFbx: ItemName: AnimationLayer, ItemCount : 2
+[2017.10.13-17.10.38:860][775]LogFbx: ItemName: Material, ItemCount : 1
+[2017.10.13-17.10.38:860][775]LogFbx: ItemName: AnimationCurveNode, ItemCount : 54
+[2017.10.13-17.10.38:860][775]LogFbx: ItemName: AnimationCurve, ItemCount : 315
+[2017.10.13-17.10.38:871][775]LogFbx: Loading FBX Scene from C:\Users\David\Desktop\models\Boss\Animations\standing_melee_attack_360_high.fbx
+[2017.10.13-17.10.38:960][775]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.13-17.10.41:955][775]LogSlate: Took 0.000340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.13-17.10.45:373][775]LogFbx: Loading FBX Scene from C:\Users\David\Desktop\models\Boss\Animations\standing_melee_attack_360_high.fbx
+[2017.10.13-17.10.45:450][775]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.13-17.10.45:456][775]LogFbx: =================================================
+[2017.10.13-17.10.45:456][775]LogFbx: Dumping Node START [Warrok] 
+[2017.10.13-17.10.45:456][775]LogFbx: 	Total Deformer Count -1052552688.
+[2017.10.13-17.10.45:456][775]LogFbx: 		[Node 1] Skin Warrok (Type Skin).
+[2017.10.13-17.10.45:456][775]LogFbx: =================================================
+[2017.10.13-17.10.45:456][775]LogFbx: 	Attribute (Warrok) Type (4).
+[2017.10.13-17.10.45:456][775]LogFbx: 		[Node Attribute Child 1] Warrok (Type Mesh).
+[2017.10.13-17.10.45:456][775]LogFbx: Dumping Node END [Warrok]
+[2017.10.13-17.10.45:457][775]LogFbx: =================================================
+[2017.10.13-17.10.45:457][775]LogFbx: Dumping Node START [Warrok] 
+[2017.10.13-17.10.45:457][775]LogFbx: 	Total Deformer Count -1052541040.
+[2017.10.13-17.10.45:457][775]LogFbx: 		[Node 1] Skin Warrok (Type Skin).
+[2017.10.13-17.10.45:457][775]LogFbx: =================================================
+[2017.10.13-17.10.45:457][775]LogFbx: 	Attribute (Warrok) Type (4).
+[2017.10.13-17.10.45:457][775]LogFbx: 		[Node Attribute Child 1] Warrok (Type Mesh).
+[2017.10.13-17.10.45:457][775]LogFbx: Dumping Node END [Warrok]
+[2017.10.13-17.10.45:458][775]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node Warrok : The relative matrices do not match
+[2017.10.13-17.10.45:458][775]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.10.13-17.10.45:459][775]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Warrok
+[2017.10.13-17.10.45:459][775]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.10.13-17.10.45:460][775]LogLinker: Can't find file '/Game/Boss/Animations/warrok_MAT'
+[2017.10.13-17.10.45:460][775]LogLinker: Can't find file '/Game/Boss/Animations/warrok_MAT'
+[2017.10.13-17.10.45:460][775]LogMaterial:Warning: Material /Game/Boss/Animations/warrok_MAT.warrok_MAT needed to have new flag set bUsedWithSkeletalMesh !
+[2017.10.13-17.10.45:462][775]LogMaterial: Missing cached shader map for material warrok_MAT, compiling. 
+[2017.10.13-17.10.45:491][775]LogLinker: Can't find file '/Game/Boss/Animations/bear_diffuse'
+[2017.10.13-17.10.45:491][775]LogLinker: Can't find file '/Game/Boss/Animations/bear_diffuse'
+[2017.10.13-17.10.45:730][775]LogTexture:Display: Building textures: bear_diffuse (AutoDXT, 2048X2048)
+[2017.10.13-17.10.48:123][775]LogLinker: Can't find file '/Game/Boss/Animations/bear_specular'
+[2017.10.13-17.10.48:123][775]LogLinker: Can't find file '/Game/Boss/Animations/bear_specular'
+[2017.10.13-17.10.48:351][775]LogTexture:Display: Building textures: bear_specular (AutoDXT, 2048X2048)
+[2017.10.13-17.10.50:070][775]LogLinker: Can't find file '/Game/Boss/Animations/bear_normal'
+[2017.10.13-17.10.50:070][775]LogLinker: Can't find file '/Game/Boss/Animations/bear_normal'
+[2017.10.13-17.10.50:310][775]LogTexture:Display: Building textures: bear_normal (BC5, 2048X2048)
+[2017.10.13-17.10.50:856][775]LogLinker: Can't find file '/Game/Boss/Animations/bear_alpha'
+[2017.10.13-17.10.50:856][775]LogLinker: Can't find file '/Game/Boss/Animations/bear_alpha'
+[2017.10.13-17.10.51:009][775]LogTexture:Display: Building textures: bear_alpha (AutoDXT, 2048X2048)
+[2017.10.13-17.10.51:494][775]LogMaterial: Missing cached shader map for material warrok_MAT, compiling. 
+[2017.10.13-17.10.51:564][775]LogFbx:Warning: Bones digested - 65  Depth of hierarchy - 12
+[2017.10.13-17.10.51:865][775]LogSkeletalMesh: Section 0: 7873 vertices, 52 active bones
+[2017.10.13-17.10.51:877][775]LogSkeletalMesh: Section 0: Material=0, 12626 triangles
+[2017.10.13-17.10.51:882][775]LogLinker: Can't find file '/Game/Boss/Animations/standing_melee_attack_360_high_Skeleton'
+[2017.10.13-17.10.51:882][775]LogLinker: Can't find file '/Game/Boss/Animations/standing_melee_attack_360_high_Skeleton'
+[2017.10.13-17.10.51:884][775]LogLinker: Can't find file '/Game/Boss/Animations/standing_melee_attack_360_high_PhysicsAsset'
+[2017.10.13-17.10.51:884][775]LogLinker: Can't find file '/Game/Boss/Animations/standing_melee_attack_360_high_PhysicsAsset'
+[2017.10.13-17.10.51:893][775]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.10.13-17.10.51:933][775]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 C:\Users\David\Desktop\models\Boss\Animations\standing_taunt_chest_thump.fbx)
+[2017.10.13-17.10.51:992][775]LogFbx: Loading FBX Scene from C:\Users\David\Desktop\models\Boss\Animations\standing_taunt_chest_thump.fbx
+[2017.10.13-17.10.52:068][775]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.13-17.10.52:074][775]LogFbx: =================================================
+[2017.10.13-17.10.52:074][775]LogFbx: Dumping Node START [Warrok] 
+[2017.10.13-17.10.52:074][775]LogFbx: 	Total Deformer Count -1030837000.
+[2017.10.13-17.10.52:074][775]LogFbx: 		[Node 1] Skin Warrok (Type Skin).
+[2017.10.13-17.10.52:074][775]LogFbx: =================================================
+[2017.10.13-17.10.52:074][775]LogFbx: 	Attribute (Warrok) Type (4).
+[2017.10.13-17.10.52:074][775]LogFbx: 		[Node Attribute Child 1] Warrok (Type Mesh).
+[2017.10.13-17.10.52:074][775]LogFbx: Dumping Node END [Warrok]
+[2017.10.13-17.10.52:075][775]LogFbx: =================================================
+[2017.10.13-17.10.52:075][775]LogFbx: Dumping Node START [Warrok] 
+[2017.10.13-17.10.52:075][775]LogFbx: 	Total Deformer Count -1030834928.
+[2017.10.13-17.10.52:075][775]LogFbx: 		[Node 1] Skin Warrok (Type Skin).
+[2017.10.13-17.10.52:075][775]LogFbx: =================================================
+[2017.10.13-17.10.52:075][775]LogFbx: 	Attribute (Warrok) Type (4).
+[2017.10.13-17.10.52:075][775]LogFbx: 		[Node Attribute Child 1] Warrok (Type Mesh).
+[2017.10.13-17.10.52:075][775]LogFbx: Dumping Node END [Warrok]
+[2017.10.13-17.10.52:075][775]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node Warrok : The relative matrices do not match
+[2017.10.13-17.10.52:076][775]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.10.13-17.10.52:076][775]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Warrok
+[2017.10.13-17.10.52:076][775]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.10.13-17.10.52:098][775]LogFbx:Warning: Bones digested - 65  Depth of hierarchy - 12
+[2017.10.13-17.10.52:404][775]LogSkeletalMesh: Section 0: 7873 vertices, 52 active bones
+[2017.10.13-17.10.52:415][775]LogSkeletalMesh: Section 0: Material=0, 12626 triangles
+[2017.10.13-17.10.52:420][775]LogLinker: Can't find file '/Game/Boss/Animations/standing_taunt_chest_thump_Skeleton'
+[2017.10.13-17.10.52:420][775]LogLinker: Can't find file '/Game/Boss/Animations/standing_taunt_chest_thump_Skeleton'
+[2017.10.13-17.10.52:421][775]LogLinker: Can't find file '/Game/Boss/Animations/standing_taunt_chest_thump_PhysicsAsset'
+[2017.10.13-17.10.52:421][775]LogLinker: Can't find file '/Game/Boss/Animations/standing_taunt_chest_thump_PhysicsAsset'
+[2017.10.13-17.10.52:429][775]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.10.13-17.10.52:464][775]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 C:\Users\David\Desktop\models\Boss\Animations\boxing.fbx)
+[2017.10.13-17.10.52:527][775]LogFbx: Loading FBX Scene from C:\Users\David\Desktop\models\Boss\Animations\boxing.fbx
+[2017.10.13-17.10.52:606][775]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.13-17.10.52:612][775]LogFbx: =================================================
+[2017.10.13-17.10.52:612][775]LogFbx: Dumping Node START [Warrok] 
+[2017.10.13-17.10.52:612][775]LogFbx: 	Total Deformer Count -1030846016.
+[2017.10.13-17.10.52:612][775]LogFbx: 		[Node 1] Skin Warrok (Type Skin).
+[2017.10.13-17.10.52:612][775]LogFbx: =================================================
+[2017.10.13-17.10.52:612][775]LogFbx: 	Attribute (Warrok) Type (4).
+[2017.10.13-17.10.52:612][775]LogFbx: 		[Node Attribute Child 1] Warrok (Type Mesh).
+[2017.10.13-17.10.52:612][775]LogFbx: Dumping Node END [Warrok]
+[2017.10.13-17.10.52:613][775]LogFbx: =================================================
+[2017.10.13-17.10.52:613][775]LogFbx: Dumping Node START [Warrok] 
+[2017.10.13-17.10.52:613][775]LogFbx: 	Total Deformer Count -1030840080.
+[2017.10.13-17.10.52:613][775]LogFbx: 		[Node 1] Skin Warrok (Type Skin).
+[2017.10.13-17.10.52:613][775]LogFbx: =================================================
+[2017.10.13-17.10.52:613][775]LogFbx: 	Attribute (Warrok) Type (4).
+[2017.10.13-17.10.52:613][775]LogFbx: 		[Node Attribute Child 1] Warrok (Type Mesh).
+[2017.10.13-17.10.52:613][775]LogFbx: Dumping Node END [Warrok]
+[2017.10.13-17.10.52:613][775]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node Warrok : The relative matrices do not match
+[2017.10.13-17.10.52:613][775]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.10.13-17.10.52:614][775]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Warrok
+[2017.10.13-17.10.52:614][775]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.10.13-17.10.52:634][775]LogFbx:Warning: Bones digested - 65  Depth of hierarchy - 12
+[2017.10.13-17.10.52:937][775]LogSkeletalMesh: Section 0: 7873 vertices, 52 active bones
+[2017.10.13-17.10.52:947][775]LogSkeletalMesh: Section 0: Material=0, 12626 triangles
+[2017.10.13-17.10.52:952][775]LogLinker: Can't find file '/Game/Boss/Animations/boxing_Skeleton'
+[2017.10.13-17.10.52:952][775]LogLinker: Can't find file '/Game/Boss/Animations/boxing_Skeleton'
+[2017.10.13-17.10.52:954][775]LogLinker: Can't find file '/Game/Boss/Animations/boxing_PhysicsAsset'
+[2017.10.13-17.10.52:954][775]LogLinker: Can't find file '/Game/Boss/Animations/boxing_PhysicsAsset'
+[2017.10.13-17.10.52:962][775]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.10.13-17.10.52:997][775]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 C:\Users\David\Desktop\models\Boss\Animations\cross_punch.fbx)
+[2017.10.13-17.10.53:059][775]LogFbx: Loading FBX Scene from C:\Users\David\Desktop\models\Boss\Animations\cross_punch.fbx
+[2017.10.13-17.10.53:137][775]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.13-17.10.53:143][775]LogFbx: =================================================
+[2017.10.13-17.10.53:143][775]LogFbx: Dumping Node START [Warrok] 
+[2017.10.13-17.10.53:143][775]LogFbx: 	Total Deformer Count -1030836720.
+[2017.10.13-17.10.53:143][775]LogFbx: 		[Node 1] Skin Warrok (Type Skin).
+[2017.10.13-17.10.53:143][775]LogFbx: =================================================
+[2017.10.13-17.10.53:143][775]LogFbx: 	Attribute (Warrok) Type (4).
+[2017.10.13-17.10.53:143][775]LogFbx: 		[Node Attribute Child 1] Warrok (Type Mesh).
+[2017.10.13-17.10.53:143][775]LogFbx: Dumping Node END [Warrok]
+[2017.10.13-17.10.53:144][775]LogFbx: =================================================
+[2017.10.13-17.10.53:144][775]LogFbx: Dumping Node START [Warrok] 
+[2017.10.13-17.10.53:144][775]LogFbx: 	Total Deformer Count -1030833808.
+[2017.10.13-17.10.53:144][775]LogFbx: 		[Node 1] Skin Warrok (Type Skin).
+[2017.10.13-17.10.53:144][775]LogFbx: =================================================
+[2017.10.13-17.10.53:144][775]LogFbx: 	Attribute (Warrok) Type (4).
+[2017.10.13-17.10.53:144][775]LogFbx: 		[Node Attribute Child 1] Warrok (Type Mesh).
+[2017.10.13-17.10.53:144][775]LogFbx: Dumping Node END [Warrok]
+[2017.10.13-17.10.53:145][775]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node Warrok : The relative matrices do not match
+[2017.10.13-17.10.53:145][775]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.10.13-17.10.53:145][775]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Warrok
+[2017.10.13-17.10.53:146][775]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.10.13-17.10.53:167][775]LogFbx:Warning: Bones digested - 65  Depth of hierarchy - 12
+[2017.10.13-17.10.53:466][775]LogSkeletalMesh: Section 0: 7873 vertices, 52 active bones
+[2017.10.13-17.10.53:478][775]LogSkeletalMesh: Section 0: Material=0, 12626 triangles
+[2017.10.13-17.10.53:483][775]LogLinker: Can't find file '/Game/Boss/Animations/cross_punch_Skeleton'
+[2017.10.13-17.10.53:483][775]LogLinker: Can't find file '/Game/Boss/Animations/cross_punch_Skeleton'
+[2017.10.13-17.10.53:485][775]LogLinker: Can't find file '/Game/Boss/Animations/cross_punch_PhysicsAsset'
+[2017.10.13-17.10.53:485][775]LogLinker: Can't find file '/Game/Boss/Animations/cross_punch_PhysicsAsset'
+[2017.10.13-17.10.53:494][775]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.10.13-17.10.53:531][775]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 C:\Users\David\Desktop\models\Boss\Animations\falling_back_death.fbx)
+[2017.10.13-17.10.53:606][775]LogFbx: Loading FBX Scene from C:\Users\David\Desktop\models\Boss\Animations\falling_back_death.fbx
+[2017.10.13-17.10.53:669][775]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.13-17.10.53:675][775]LogFbx: =================================================
+[2017.10.13-17.10.53:675][775]LogFbx: Dumping Node START [Kachujin] 
+[2017.10.13-17.10.53:675][775]LogFbx: 	Total Deformer Count -1030840976.
+[2017.10.13-17.10.53:675][775]LogFbx: 		[Node 1] Skin Kachujin (Type Skin).
+[2017.10.13-17.10.53:675][775]LogFbx: =================================================
+[2017.10.13-17.10.53:675][775]LogFbx: 	Attribute (Kachujin) Type (4).
+[2017.10.13-17.10.53:675][775]LogFbx: 		[Node Attribute Child 1] Kachujin (Type Mesh).
+[2017.10.13-17.10.53:675][775]LogFbx: Dumping Node END [Kachujin]
+[2017.10.13-17.10.53:676][775]LogFbx: =================================================
+[2017.10.13-17.10.53:676][775]LogFbx: Dumping Node START [Kachujin] 
+[2017.10.13-17.10.53:676][775]LogFbx: 	Total Deformer Count -1030840696.
+[2017.10.13-17.10.53:676][775]LogFbx: 		[Node 1] Skin Kachujin (Type Skin).
+[2017.10.13-17.10.53:676][775]LogFbx: =================================================
+[2017.10.13-17.10.53:676][775]LogFbx: 	Attribute (Kachujin) Type (4).
+[2017.10.13-17.10.53:676][775]LogFbx: 		[Node Attribute Child 1] Kachujin (Type Mesh).
+[2017.10.13-17.10.53:676][775]LogFbx: Dumping Node END [Kachujin]
+[2017.10.13-17.10.53:677][775]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node Kachujin : The relative matrices do not match
+[2017.10.13-17.10.53:677][775]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.10.13-17.10.53:677][775]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Kachujin
+[2017.10.13-17.10.53:677][775]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.10.13-17.10.53:679][775]LogLinker: Can't find file '/Game/Boss/Animations/kachujin_MAT'
+[2017.10.13-17.10.53:679][775]LogLinker: Can't find file '/Game/Boss/Animations/kachujin_MAT'
+[2017.10.13-17.10.53:679][775]LogMaterial:Warning: Material /Game/Boss/Animations/kachujin_MAT.kachujin_MAT needed to have new flag set bUsedWithSkeletalMesh !
+[2017.10.13-17.10.53:681][775]LogMaterial: Missing cached shader map for material kachujin_MAT, compiling. 
+[2017.10.13-17.10.53:713][775]LogLinker: Can't find file '/Game/Boss/Animations/Kachujin_diffuse'
+[2017.10.13-17.10.53:713][775]LogLinker: Can't find file '/Game/Boss/Animations/Kachujin_diffuse'
+[2017.10.13-17.10.53:989][775]LogTexture:Display: Building textures: Kachujin_diffuse (AutoDXT, 2048X2048)
+[2017.10.13-17.10.58:816][775]LogLinker: Can't find file '/Game/Boss/Animations/Kachujin_specular'
+[2017.10.13-17.10.58:816][775]LogLinker: Can't find file '/Game/Boss/Animations/Kachujin_specular'
+[2017.10.13-17.10.59:020][775]LogTexture:Display: Building textures: Kachujin_specular (AutoDXT, 2048X2048)
+[2017.10.13-17.10.59:921][775]LogLinker: Can't find file '/Game/Boss/Animations/Kachujin_normal'
+[2017.10.13-17.10.59:921][775]LogLinker: Can't find file '/Game/Boss/Animations/Kachujin_normal'
+[2017.10.13-17.11.00:161][775]LogTexture:Display: Building textures: Kachujin_normal (BC5, 2048X2048)
+[2017.10.13-17.11.01:017][775]LogTexture:Display: Building textures: Kachujin_diffuse (AutoDXT, 2048X2048)
+[2017.10.13-17.11.05:801][775]LogMaterial: Missing cached shader map for material kachujin_MAT, compiling. 
+[2017.10.13-17.11.05:852][775]LogFbx: Triangulating skeletal mesh Kachujin
+[2017.10.13-17.11.07:105][775]LogFbx:Warning: Bones digested - 65  Depth of hierarchy - 12
+[2017.10.13-17.11.07:317][775]LogSkeletalMesh: Section 0: 7665 vertices, 53 active bones
+[2017.10.13-17.11.07:329][775]LogSkeletalMesh: Section 0: Material=0, 12610 triangles
+[2017.10.13-17.11.07:334][775]LogLinker: Can't find file '/Game/Boss/Animations/falling_back_death_Skeleton'
+[2017.10.13-17.11.07:334][775]LogLinker: Can't find file '/Game/Boss/Animations/falling_back_death_Skeleton'
+[2017.10.13-17.11.07:336][775]LogLinker: Can't find file '/Game/Boss/Animations/falling_back_death_PhysicsAsset'
+[2017.10.13-17.11.07:336][775]LogLinker: Can't find file '/Game/Boss/Animations/falling_back_death_PhysicsAsset'
+[2017.10.13-17.11.07:345][775]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.10.13-17.11.07:383][775]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 C:\Users\David\Desktop\models\Boss\Animations\hit_to_body.fbx)
+[2017.10.13-17.11.07:441][775]LogFbx: Loading FBX Scene from C:\Users\David\Desktop\models\Boss\Animations\hit_to_body.fbx
+[2017.10.13-17.11.07:519][775]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.13-17.11.07:526][775]LogFbx: =================================================
+[2017.10.13-17.11.07:526][775]LogFbx: Dumping Node START [Warrok] 
+[2017.10.13-17.11.07:526][775]LogFbx: 	Total Deformer Count -2062995168.
+[2017.10.13-17.11.07:526][775]LogFbx: 		[Node 1] Skin Warrok (Type Skin).
+[2017.10.13-17.11.07:526][775]LogFbx: =================================================
+[2017.10.13-17.11.07:526][775]LogFbx: 	Attribute (Warrok) Type (4).
+[2017.10.13-17.11.07:526][775]LogFbx: 		[Node Attribute Child 1] Warrok (Type Mesh).
+[2017.10.13-17.11.07:526][775]LogFbx: Dumping Node END [Warrok]
+[2017.10.13-17.11.07:527][775]LogFbx: =================================================
+[2017.10.13-17.11.07:527][775]LogFbx: Dumping Node START [Warrok] 
+[2017.10.13-17.11.07:527][775]LogFbx: 	Total Deformer Count -2062993152.
+[2017.10.13-17.11.07:527][775]LogFbx: 		[Node 1] Skin Warrok (Type Skin).
+[2017.10.13-17.11.07:527][775]LogFbx: =================================================
+[2017.10.13-17.11.07:527][775]LogFbx: 	Attribute (Warrok) Type (4).
+[2017.10.13-17.11.07:527][775]LogFbx: 		[Node Attribute Child 1] Warrok (Type Mesh).
+[2017.10.13-17.11.07:527][775]LogFbx: Dumping Node END [Warrok]
+[2017.10.13-17.11.07:529][775]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node Warrok : The relative matrices do not match
+[2017.10.13-17.11.07:529][775]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.10.13-17.11.07:529][775]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Warrok
+[2017.10.13-17.11.07:529][775]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.10.13-17.11.07:551][775]LogFbx:Warning: Bones digested - 65  Depth of hierarchy - 12
+[2017.10.13-17.11.07:856][775]LogSkeletalMesh: Section 0: 7873 vertices, 52 active bones
+[2017.10.13-17.11.07:867][775]LogSkeletalMesh: Section 0: Material=0, 12626 triangles
+[2017.10.13-17.11.07:872][775]LogLinker: Can't find file '/Game/Boss/Animations/hit_to_body_Skeleton'
+[2017.10.13-17.11.07:872][775]LogLinker: Can't find file '/Game/Boss/Animations/hit_to_body_Skeleton'
+[2017.10.13-17.11.07:874][775]LogLinker: Can't find file '/Game/Boss/Animations/hit_to_body_PhysicsAsset'
+[2017.10.13-17.11.07:874][775]LogLinker: Can't find file '/Game/Boss/Animations/hit_to_body_PhysicsAsset'
+[2017.10.13-17.11.07:883][775]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.10.13-17.11.07:918][775]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 C:\Users\David\Desktop\models\Boss\Animations\hook_punch.fbx)
+[2017.10.13-17.11.07:981][775]LogFbx: Loading FBX Scene from C:\Users\David\Desktop\models\Boss\Animations\hook_punch.fbx
+[2017.10.13-17.11.08:058][775]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.13-17.11.08:064][775]LogFbx: =================================================
+[2017.10.13-17.11.08:064][775]LogFbx: Dumping Node START [Warrok] 
+[2017.10.13-17.11.08:064][775]LogFbx: 	Total Deformer Count -2063004016.
+[2017.10.13-17.11.08:064][775]LogFbx: 		[Node 1] Skin Warrok (Type Skin).
+[2017.10.13-17.11.08:064][775]LogFbx: =================================================
+[2017.10.13-17.11.08:064][775]LogFbx: 	Attribute (Warrok) Type (4).
+[2017.10.13-17.11.08:064][775]LogFbx: 		[Node Attribute Child 1] Warrok (Type Mesh).
+[2017.10.13-17.11.08:064][775]LogFbx: Dumping Node END [Warrok]
+[2017.10.13-17.11.08:064][775]LogFbx: =================================================
+[2017.10.13-17.11.08:064][775]LogFbx: Dumping Node START [Warrok] 
+[2017.10.13-17.11.08:064][775]LogFbx: 	Total Deformer Count -2063002504.
+[2017.10.13-17.11.08:065][775]LogFbx: 		[Node 1] Skin Warrok (Type Skin).
+[2017.10.13-17.11.08:065][775]LogFbx: =================================================
+[2017.10.13-17.11.08:065][775]LogFbx: 	Attribute (Warrok) Type (4).
+[2017.10.13-17.11.08:065][775]LogFbx: 		[Node Attribute Child 1] Warrok (Type Mesh).
+[2017.10.13-17.11.08:065][775]LogFbx: Dumping Node END [Warrok]
+[2017.10.13-17.11.08:065][775]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node Warrok : The relative matrices do not match
+[2017.10.13-17.11.08:065][775]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.10.13-17.11.08:066][775]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Warrok
+[2017.10.13-17.11.08:066][775]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.10.13-17.11.08:087][775]LogFbx:Warning: Bones digested - 65  Depth of hierarchy - 12
+[2017.10.13-17.11.08:383][775]LogSkeletalMesh: Section 0: 7873 vertices, 52 active bones
+[2017.10.13-17.11.08:395][775]LogSkeletalMesh: Section 0: Material=0, 12626 triangles
+[2017.10.13-17.11.08:399][775]LogLinker: Can't find file '/Game/Boss/Animations/hook_punch_Skeleton'
+[2017.10.13-17.11.08:400][775]LogLinker: Can't find file '/Game/Boss/Animations/hook_punch_Skeleton'
+[2017.10.13-17.11.08:401][775]LogLinker: Can't find file '/Game/Boss/Animations/hook_punch_PhysicsAsset'
+[2017.10.13-17.11.08:401][775]LogLinker: Can't find file '/Game/Boss/Animations/hook_punch_PhysicsAsset'
+[2017.10.13-17.11.08:410][775]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.10.13-17.11.08:445][775]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 C:\Users\David\Desktop\models\Boss\Animations\medium_run.fbx)
+[2017.10.13-17.11.08:505][775]LogFbx: Loading FBX Scene from C:\Users\David\Desktop\models\Boss\Animations\medium_run.fbx
+[2017.10.13-17.11.08:582][775]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.13-17.11.08:587][775]LogFbx: =================================================
+[2017.10.13-17.11.08:587][775]LogFbx: Dumping Node START [Warrok] 
+[2017.10.13-17.11.08:587][775]LogFbx: 	Total Deformer Count -2062995112.
+[2017.10.13-17.11.08:587][775]LogFbx: 		[Node 1] Skin Warrok (Type Skin).
+[2017.10.13-17.11.08:587][775]LogFbx: =================================================
+[2017.10.13-17.11.08:587][775]LogFbx: 	Attribute (Warrok) Type (4).
+[2017.10.13-17.11.08:587][775]LogFbx: 		[Node Attribute Child 1] Warrok (Type Mesh).
+[2017.10.13-17.11.08:587][775]LogFbx: Dumping Node END [Warrok]
+[2017.10.13-17.11.08:588][775]LogFbx: =================================================
+[2017.10.13-17.11.08:588][775]LogFbx: Dumping Node START [Warrok] 
+[2017.10.13-17.11.08:588][775]LogFbx: 	Total Deformer Count -2062996120.
+[2017.10.13-17.11.08:588][775]LogFbx: 		[Node 1] Skin Warrok (Type Skin).
+[2017.10.13-17.11.08:588][775]LogFbx: =================================================
+[2017.10.13-17.11.08:588][775]LogFbx: 	Attribute (Warrok) Type (4).
+[2017.10.13-17.11.08:588][775]LogFbx: 		[Node Attribute Child 1] Warrok (Type Mesh).
+[2017.10.13-17.11.08:588][775]LogFbx: Dumping Node END [Warrok]
+[2017.10.13-17.11.08:589][775]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node Warrok : The relative matrices do not match
+[2017.10.13-17.11.08:589][775]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.10.13-17.11.08:590][775]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Warrok
+[2017.10.13-17.11.08:590][775]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.10.13-17.11.08:612][775]LogFbx:Warning: Bones digested - 65  Depth of hierarchy - 12
+[2017.10.13-17.11.08:910][775]LogSkeletalMesh: Section 0: 7873 vertices, 52 active bones
+[2017.10.13-17.11.08:920][775]LogSkeletalMesh: Section 0: Material=0, 12626 triangles
+[2017.10.13-17.11.08:924][775]LogLinker: Can't find file '/Game/Boss/Animations/medium_run_Skeleton'
+[2017.10.13-17.11.08:925][775]LogLinker: Can't find file '/Game/Boss/Animations/medium_run_Skeleton'
+[2017.10.13-17.11.08:926][775]LogLinker: Can't find file '/Game/Boss/Animations/medium_run_PhysicsAsset'
+[2017.10.13-17.11.08:926][775]LogLinker: Can't find file '/Game/Boss/Animations/medium_run_PhysicsAsset'
+[2017.10.13-17.11.08:934][775]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.10.13-17.11.08:970][775]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 C:\Users\David\Desktop\models\Boss\Animations\roar.fbx)
+[2017.10.13-17.11.09:039][775]LogFbx: Loading FBX Scene from C:\Users\David\Desktop\models\Boss\Animations\roar.fbx
+[2017.10.13-17.11.09:122][775]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.13-17.11.09:128][775]LogFbx: =================================================
+[2017.10.13-17.11.09:128][775]LogFbx: Dumping Node START [Warrok] 
+[2017.10.13-17.11.09:128][775]LogFbx: 	Total Deformer Count -2063005416.
+[2017.10.13-17.11.09:128][775]LogFbx: 		[Node 1] Skin Warrok (Type Skin).
+[2017.10.13-17.11.09:128][775]LogFbx: =================================================
+[2017.10.13-17.11.09:128][775]LogFbx: 	Attribute (Warrok) Type (4).
+[2017.10.13-17.11.09:128][775]LogFbx: 		[Node Attribute Child 1] Warrok (Type Mesh).
+[2017.10.13-17.11.09:128][775]LogFbx: Dumping Node END [Warrok]
+[2017.10.13-17.11.09:129][775]LogFbx: =================================================
+[2017.10.13-17.11.09:129][775]LogFbx: Dumping Node START [Warrok] 
+[2017.10.13-17.11.09:129][775]LogFbx: 	Total Deformer Count -2062999368.
+[2017.10.13-17.11.09:129][775]LogFbx: 		[Node 1] Skin Warrok (Type Skin).
+[2017.10.13-17.11.09:129][775]LogFbx: =================================================
+[2017.10.13-17.11.09:129][775]LogFbx: 	Attribute (Warrok) Type (4).
+[2017.10.13-17.11.09:129][775]LogFbx: 		[Node Attribute Child 1] Warrok (Type Mesh).
+[2017.10.13-17.11.09:129][775]LogFbx: Dumping Node END [Warrok]
+[2017.10.13-17.11.09:130][775]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node Warrok : The relative matrices do not match
+[2017.10.13-17.11.09:130][775]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.10.13-17.11.09:131][775]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Warrok
+[2017.10.13-17.11.09:131][775]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.10.13-17.11.09:151][775]LogFbx:Warning: Bones digested - 65  Depth of hierarchy - 12
+[2017.10.13-17.11.09:455][775]LogSkeletalMesh: Section 0: 7873 vertices, 52 active bones
+[2017.10.13-17.11.09:468][775]LogSkeletalMesh: Section 0: Material=0, 12626 triangles
+[2017.10.13-17.11.09:473][775]LogLinker: Can't find file '/Game/Boss/Animations/roar_Skeleton'
+[2017.10.13-17.11.09:473][775]LogLinker: Can't find file '/Game/Boss/Animations/roar_Skeleton'
+[2017.10.13-17.11.09:474][775]LogLinker: Can't find file '/Game/Boss/Animations/roar_PhysicsAsset'
+[2017.10.13-17.11.09:474][775]LogLinker: Can't find file '/Game/Boss/Animations/roar_PhysicsAsset'
+[2017.10.13-17.11.09:485][775]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.10.13-17.11.23:698][386]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.10.13-17.11.23:797][386]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.10.13-17.11.23:815][386]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.10.13-17.11.23:984][386]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.13-17.11.24:030][386]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2017.10.13-17.11.24:034][387]LogRenderer: Reallocating scene render targets to support 1204x840 NumSamples 1 (Frame:1).
+[2017.10.13-17.11.50:974][981]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_0' or package '/Engine/Transient'.
+[2017.10.13-17.11.50:974][981]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_0' or package '/Engine/Transient'.
+[2017.10.13-17.11.50:990][981]LogMaterial: Missing cached shader map for material kachujin_MAT, compiling. 
+[2017.10.13-17.11.50:990][981]LogMaterial:Warning: Failed to compile Material /Game/Boss/Animations/kachujin_MAT.kachujin_MAT for platform PCD3D_SM5, Default Material will be used in game.
+[2017.10.13-17.11.50:990][981]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.10.13-17.11.50:992][981]LogMaterial: Missing cached shader map for material kachujin_MAT, compiling. 
+[2017.10.13-17.11.50:992][981]LogMaterial:Warning: Failed to compile Material /Game/Boss/Animations/kachujin_MAT.kachujin_MAT for platform PCD3D_SM5, Default Material will be used in game.
+[2017.10.13-17.11.50:992][981]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.10.13-17.11.50:994][981]LogMaterial: Missing cached shader map for material kachujin_MAT, compiling. 
+[2017.10.13-17.11.50:995][981]LogMaterial:Warning: Failed to compile Material /Game/Boss/Animations/kachujin_MAT.kachujin_MAT for platform PCD3D_SM5, Default Material will be used in game.
+[2017.10.13-17.11.50:995][981]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.10.13-17.11.51:011][981]LogMaterial: Missing cached shader map for material warrok_MAT, compiling. 
+[2017.10.13-17.11.51:011][981]LogMaterial:Warning: Failed to compile Material /Game/Boss/Animations/warrok_MAT.warrok_MAT for platform PCD3D_SM5, Default Material will be used in game.
+[2017.10.13-17.11.51:011][981]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.10.13-17.11.51:013][981]LogMaterial: Missing cached shader map for material warrok_MAT, compiling. 
+[2017.10.13-17.11.51:014][981]LogMaterial:Warning: Failed to compile Material /Game/Boss/Animations/warrok_MAT.warrok_MAT for platform PCD3D_SM5, Default Material will be used in game.
+[2017.10.13-17.11.51:014][981]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.10.13-17.11.51:016][981]LogMaterial: Missing cached shader map for material warrok_MAT, compiling. 
+[2017.10.13-17.11.51:016][981]LogMaterial:Warning: Failed to compile Material /Game/Boss/Animations/warrok_MAT.warrok_MAT for platform PCD3D_SM5, Default Material will be used in game.
+[2017.10.13-17.11.51:016][981]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.10.13-17.11.51:018][981]LogMaterial: Missing cached shader map for material warrok_MAT, compiling. 
+[2017.10.13-17.11.51:018][981]LogMaterial:Warning: Failed to compile Material /Game/Boss/Animations/warrok_MAT.warrok_MAT for platform PCD3D_SM5, Default Material will be used in game.
+[2017.10.13-17.11.51:018][981]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.10.13-17.12.01:019][771]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.10.13-17.12.01:171][772]Cmd: QUIT_EDITOR
+[2017.10.13-17.12.01:197][772]LogExit: Preparing to exit.
+[2017.10.13-17.12.02:092][772]LogExit: Editor shut down
+[2017.10.13-17.12.02:096][772]LogExit: Transaction tracking system shut down
+[2017.10.13-17.12.02:168][772]LogObj: Freed 0b from 0 cluster array pools.
+[2017.10.13-17.12.02:168][772]LogExit: Object subsystem successfully closed.
+[2017.10.13-17.12.02:180][772]LogD3D11RHI: Shutdown
+[2017.10.13-17.12.02:180][772]LogD3D11RHI: CleanupD3DDevice
+[2017.10.13-17.12.02:240][772]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.13-17.12.02:246][772]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (530)
+[2017.10.13-17.12.02:247][772]LogModuleManager: Shutting down and abandoning module SkeletonEditor (528)
+[2017.10.13-17.12.02:247][772]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (526)
+[2017.10.13-17.12.02:247][772]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.10.13-17.12.02:247][772]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.10.13-17.12.02:247][772]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.10.13-17.12.02:247][772]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.10.13-17.12.02:247][772]LogDirectoryWatcher: A directory notification for 'D:/Program Files (x86)/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.10.13-17.12.02:249][772]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Collections/' was aborted.
+[2017.10.13-17.12.02:249][772]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Developers/David/Collections/' was aborted.
+[2017.10.13-17.12.02:249][772]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Collections/' was aborted.
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.10.13-17.12.02:249][772]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.10.13-17.12.02:250][772]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.10.13-17.12.02:250][772]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.10.13-17.12.02:250][772]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.10.13-17.12.02:250][772]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.10.13-17.12.02:650][772]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.10.13-17.12.02:650][772]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.10.13-17.12.02:650][772]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.10.13-17.12.02:650][772]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.10.13-17.12.02:650][772]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.10.13-17.12.02:650][772]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.10.13-17.12.02:650][772]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.10.13-17.12.02:650][772]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.10.13-17.12.02:650][772]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.10.13-17.12.02:650][772]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.10.13-17.12.02:650][772]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.10.13-17.12.02:651][772]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.10.13-17.12.02:651][772]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.10.13-17.12.02:651][772]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.10.13-17.12.02:651][772]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.10.13-17.12.02:651][772]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.10.13-17.12.02:651][772]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.10.13-17.12.02:651][772]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.10.13-17.12.02:652][772]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.10.13-17.12.02:652][772]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.10.13-17.12.02:652][772]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.10.13-17.12.02:652][772]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.10.13-17.12.02:652][772]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.10.13-17.12.02:652][772]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.10.13-17.12.02:697][772]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.10.13-17.12.02:697][772]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.10.13-17.12.02:697][772]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.10.13-17.12.02:697][772]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.10.13-17.12.02:697][772]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.10.13-17.12.02:697][772]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.10.13-17.12.02:697][772]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.10.13-17.12.02:697][772]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.10.13-17.12.02:697][772]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.10.13-17.12.02:697][772]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.10.13-17.12.02:698][772]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.10.13-17.12.02:698][772]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.10.13-17.12.02:698][772]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.10.13-17.12.02:698][772]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.10.13-17.12.02:699][772]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.10.13-17.12.02:699][772]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.10.13-17.12.02:699][772]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.10.13-17.12.02:699][772]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.10.13-17.12.02:699][772]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.10.13-17.12.02:699][772]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.10.13-17.12.02:699][772]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.10.13-17.12.02:699][772]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.10.13-17.12.02:699][772]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.10.13-17.12.02:699][772]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.10.13-17.12.02:699][772]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.10.13-17.12.02:699][772]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.10.13-17.12.02:699][772]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.10.13-17.12.02:699][772]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.10.13-17.12.02:699][772]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.10.13-17.12.02:699][772]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.10.13-17.12.02:828][772]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.10.13-17.12.02:828][772]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.10.13-17.12.02:828][772]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.10.13-17.12.02:828][772]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.10.13-17.12.02:828][772]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.10.13-17.12.02:828][772]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.10.13-17.12.02:828][772]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.10.13-17.12.02:828][772]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.10.13-17.12.02:828][772]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.10.13-17.12.02:828][772]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.10.13-17.12.02:828][772]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.10.13-17.12.02:828][772]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.10.13-17.12.02:828][772]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.10.13-17.12.02:828][772]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.10.13-17.12.02:828][772]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.10.13-17.12.02:828][772]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.10.13-17.12.02:828][772]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.10.13-17.12.02:828][772]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.10.13-17.12.02:828][772]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.10.13-17.12.02:828][772]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.10.13-17.12.02:828][772]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.10.13-17.12.02:828][772]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.10.13-17.12.02:828][772]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.10.13-17.12.02:829][772]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.10.13-17.12.02:829][772]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.10.13-17.12.02:829][772]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.10.13-17.12.02:829][772]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.10.13-17.12.02:829][772]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.10.13-17.12.02:829][772]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.10.13-17.12.02:829][772]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.10.13-17.12.02:829][772]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.10.13-17.12.02:829][772]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.10.13-17.12.02:829][772]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.10.13-17.12.02:829][772]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.10.13-17.12.02:829][772]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.10.13-17.12.02:829][772]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.10.13-17.12.02:831][772]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.10.13-17.12.02:831][772]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.10.13-17.12.02:831][772]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.10.13-17.12.02:832][772]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.10.13-17.12.02:832][772]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.10.13-17.12.02:832][772]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.10.13-17.12.02:832][772]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.10.13-17.12.02:832][772]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.10.13-17.12.02:832][772]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.10.13-17.12.02:933][772]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.10.13-17.12.03:033][772]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.10.13-17.12.03:033][772]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.10.13-17.12.03:033][772]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.10.13-17.12.03:033][772]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.10.13-17.12.03:033][772]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.10.13-17.12.03:033][772]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.10.13-17.12.03:036][772]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.10.13-17.12.03:036][772]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.10.13-17.12.03:036][772]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.10.13-17.12.03:036][772]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.10.13-17.12.03:036][772]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.10.13-17.12.03:036][772]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.10.13-17.12.03:036][772]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.10.13-17.12.03:036][772]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.10.13-17.12.03:036][772]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.10.13-17.12.03:036][772]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.10.13-17.12.03:036][772]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.10.13-17.12.03:037][772]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.10.13-17.12.03:037][772]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.10.13-17.12.03:037][772]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.10.13-17.12.03:037][772]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.10.13-17.12.03:037][772]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.10.13-17.12.03:037][772]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.10.13-17.12.03:037][772]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.10.13-17.12.03:037][772]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.10.13-17.12.03:037][772]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.10.13-17.12.03:037][772]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.10.13-17.12.03:037][772]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.10.13-17.12.03:037][772]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.10.13-17.12.03:044][772]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.10.13-17.12.03:044][772]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.10.13-17.12.03:044][772]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.10.13-17.12.03:044][772]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.10.13-17.12.03:044][772]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.10.13-17.12.03:044][772]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.10.13-17.12.03:132][772]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.13-17.12.03:132][772]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/' was aborted.
+[2017.10.13-17.12.03:132][772]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.13-17.12.03:132][772]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.10.13-17.12.03:137][772]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.10.13-17.12.03:138][772]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.10.13-17.12.03:138][772]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.10.13-17.12.03:138][772]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.10.13-17.12.03:138][772]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.10.13-17.12.03:138][772]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.10.13-17.12.03:138][772]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.10.13-17.12.03:138][772]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.10.13-17.12.03:138][772]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.10.13-17.12.03:187][772]LogDerivedDataCache: Shutdown
+[2017.10.13-17.12.03:187][772]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.10.13-17.12.03:187][772]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.10.13-17.12.03:187][772]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.10.13-17.12.03:187][772]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.10.13-17.12.03:187][772]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.10.13-17.12.03:187][772]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.10.13-17.12.03:187][772]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.10.13-17.12.03:187][772]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.10.13-17.12.03:187][772]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.10.13-17.12.03:187][772]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.10.13-17.12.03:187][772]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.10.13-17.12.03:187][772]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.10.13-17.12.03:187][772]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.10.13-17.12.03:187][772]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.10.13-17.12.03:187][772]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.10.13-17.12.03:187][772]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.10.13-17.12.03:187][772]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.10.13-17.12.03:187][772]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.10.13-17.12.03:187][772]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.10.13-17.12.03:187][772]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.10.13-17.12.03:187][772]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.10.13-17.12.03:187][772]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.10.13-17.12.03:187][772]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.10.13-17.12.03:187][772]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.10.13-17.12.03:188][772]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.10.13-17.12.03:188][772]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.10.13-17.12.03:188][772]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.10.13-17.12.03:188][772]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.10.13-17.12.03:188][772]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.10.13-17.12.03:188][772]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.10.13-17.12.03:188][772]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.10.13-17.12.03:188][772]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.10.13-17.12.03:188][772]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.10.13-17.12.03:188][772]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.10.13-17.12.03:188][772]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.10.13-17.12.03:188][772]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.10.13-17.12.03:188][772]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.10.13-17.12.03:188][772]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.10.13-17.12.03:188][772]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.10.13-17.12.03:188][772]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.10.13-17.12.03:188][772]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.10.13-17.12.03:188][772]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.10.13-17.12.03:188][772]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.10.13-17.12.03:188][772]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.10.13-17.12.03:188][772]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.10.13-17.12.03:188][772]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.10.13-17.12.03:188][772]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.10.13-17.12.03:188][772]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.13-17.12.03:188][772]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.13-17.12.03:188][772]LogOnline:Display: Unloading online subsystem: NULL
+[2017.10.13-17.12.03:188][772]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.10.13-17.12.03:189][772]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.10.13-17.12.03:189][772]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.13-17.12.03:189][772]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFE38C60A-4C89-789D-5554-99868700AB27%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=eedd91be406e0cd25ea0748277e6e73c%7C7a211806f70b4509a5be2640357744fc%7Caa6de738-987c-4c76-bb80-6cc1d099ea00&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.13-17.12.03:212][772]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.10.13-17.12.03:216][772]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.10.13-17.12.03:216][772]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.10.13-17.12.03:216][772]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.10.13-17.12.03:216][772]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.10.13-17.12.03:216][772]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.10.13-17.12.03:216][772]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.10.13-17.12.03:216][772]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.10.13-17.12.03:216][772]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.10.13-17.12.03:218][772]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.10.13-17.12.03:218][772]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.10.13-17.12.03:218][772]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.10.13-17.12.03:218][772]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.10.13-17.12.03:218][772]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.10.13-17.12.03:218][772]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.10.13-17.12.03:218][772]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.10.13-17.12.03:218][772]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.13-17.12.03:218][772]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.13-17.12.03:218][772]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.13-17.12.03:222][772]LogExit: Exiting.
+[2017.10.13-17.12.03:259][772]Log file closed, 10/13/17 19:12:03

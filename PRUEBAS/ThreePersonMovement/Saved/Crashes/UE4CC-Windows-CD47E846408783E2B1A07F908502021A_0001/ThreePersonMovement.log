@@ -1,0 +1,364 @@
+﻿Log file open, 10/09/17 16:10:50
+LogInit:Display: Running engine for game: ThreePersonMovement
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1424724499) SRandInit(-1424724499).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.080556
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: D:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.09-14.10.51:058][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.09-14.10.51:058][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.09-14.10.51:076][  0]LogInit: Computer: DAVIDMASTERRACE
+[2017.10.09-14.10.51:076][  0]LogInit: User: David
+[2017.10.09-14.10.51:076][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.09-14.10.51:076][  0]LogInit: High frequency timer resolution =3.417967 MHz
+[2017.10.09-14.10.51:076][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.10.09-14.10.51:076][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.09-14.10.51:076][  0]LogMemory: Process Physical Memory: 270.52 MB used, 270.52 MB peak
+[2017.10.09-14.10.51:076][  0]LogMemory: Process Virtual Memory: 258.50 MB used, 258.50 MB peak
+[2017.10.09-14.10.51:076][  0]LogMemory: Physical Memory: 6000.94 MB used,  10325.50 MB free, 16326.44 MB total
+[2017.10.09-14.10.51:076][  0]LogMemory: Virtual Memory: 614.99 MB used,  10325.50 MB free, 134217728.00 MB total
+[2017.10.09-14.10.51:118][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.10.09-14.10.51:118][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.10.09-14.10.51:949][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.09-14.10.51:975][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.10.09-14.10.51:975][  0]LogD3D11RHI:       3975/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.09-14.10.51:976][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.09-14.10.51:976][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.09-14.10.51:976][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.09-14.10.51:980][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.09-14.10.51:980][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.09-14.10.51:980][  0]LogWindows: EnumDisplayDevices:
+[2017.10.09-14.10.51:980][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.10.09-14.10.51:980][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.10.09-14.10.51:980][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.10.09-14.10.51:980][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.10.09-14.10.51:980][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.10.09-14.10.51:980][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.10.09-14.10.51:980][  0]LogD3D11RHI:   Driver Version: 385.41 (internal:22.21.13.8541, unified:385.41)
+[2017.10.09-14.10.51:980][  0]LogD3D11RHI:      Driver Date: 8-21-2017
+[2017.10.09-14.10.51:980][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.09-14.10.51:991][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.09-14.10.52:007][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.10.09-14.10.52:051][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Intermediate/Shaders/WorkingDirectory/5924/).
+[2017.10.09-14.10.52:051][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/David/AppData/Local/Temp/UnrealShaderWorkingDir/572BD53E4B2628C718F173854970A674/'.
+[2017.10.09-14.10.52:051][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.09-14.10.52:958][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.09-14.10.52:988][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.09-14.10.53:020][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.09-14.10.53:052][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.09-14.10.53:091][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.09-14.10.53:122][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.09-14.10.53:153][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.09-14.10.53:182][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.09-14.10.53:208][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.09-14.10.53:237][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.09-14.10.53:266][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.09-14.10.53:297][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.09-14.10.53:327][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.09-14.10.53:357][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.09-14.10.53:386][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.09-14.10.53:465][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.09-14.10.53:465][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.09-14.10.53:486][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.09-14.10.53:549][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.09-14.10.53:568][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.09-14.10.53:597][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.09-14.10.53:626][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.09-14.10.53:656][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.09-14.10.53:686][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.09-14.10.53:686][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.09-14.10.53:960][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.09-14.10.54:066][  0]LogDerivedDataCache: Loaded boot cache 0.11s 90MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.09-14.10.54:066][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.10.09-14.10.54:066][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.09-14.10.54:066][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.09-14.10.54:066][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.09-14.10.54:066][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.09-14.10.54:082][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.09-14.10.54:094][  0]LogDerivedDataCache: Using Local data cache path C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.09-14.10.54:103][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.09-14.10.54:104][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.09-14.10.54:104][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.09-14.10.54:104][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.09-14.10.54:375][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.09-14.10.54:445][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.09-14.10.54:563][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.09-14.10.54:586][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.09-14.10.54:614][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.09-14.10.54:614][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.09-14.10.54:614][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.09-14.10.55:042][  0]LogNetVersion: ThreePersonMovement , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2529145923)
+[2017.10.09-14.10.55:093][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
+[2017.10.09-14.10.55:124][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.019422 seconds
+[2017.10.09-14.10.55:130][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.10.09-14.10.55:130][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.10.09-14.10.55:130][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.09-14.10.55:168][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.09-14.10.56:735][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.09-14.10.56:762][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.09-14.10.57:076][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.09-14.10.57:309][  0]SourceControl: Info Source control is disabled
+[2017.10.09-14.10.57:331][  0]SourceControl: Info Source control is disabled
+[2017.10.09-14.10.57:357][  0]SourceControl: Info Source control is disabled
+[2017.10.09-14.10.57:382][  0]SourceControl: Info Source control is disabled
+[2017.10.09-14.10.57:530][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.10.09-14.10.57:530][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.10.09-14.10.57:530][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2017.10.09-14.10.57:752][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.09-14.10.58:081][  0]LogEngine: Initializing Engine...
+[2017.10.09-14.10.58:081][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.09-14.10.58:236][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.09-14.10.58:236][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.09-14.10.58:309][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.09-14.10.58:332][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.09-14.10.58:339][  0]LogInit: FAudioDevice initialized.
+[2017.10.09-14.10.58:374][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.09-14.10.58:382][  0]LogInit: Texture streaming: Enabled
+[2017.10.09-14.10.58:438][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.09-14.10.58:561][  0]LogInit: Transaction tracking system initialized
+[2017.10.09-14.10.58:734][  0]BlueprintLog: New page: Editor Load
+[2017.10.09-14.10.59:242][  0]LocalizationService: Info Localization service is disabled
+[2017.10.09-14.10.59:618][  0]LogConsoleResponse:Display: 
+[2017.10.09-14.10.59:748][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.09-14.10.59:748][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.09-14.10.59:953][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/' took 0.02s
+[2017.10.09-14.11.00:294][  0]SourceControl: Info Source control is disabled
+[2017.10.09-14.11.00:294][  0]Cmd: MAP LOAD FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.09-14.11.00:294][  0]LightingResults: New page: Lighting Build
+[2017.10.09-14.11.00:316][  0]MapCheck: New page: Map Check
+[2017.10.09-14.11.00:316][  0]LightingResults: New page: Lighting Build
+[2017.10.09-14.11.01:617][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.10.09-14.11.01:815][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.09-14.11.01:852][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.09-14.11.01:885][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.887ms to complete.
+[2017.10.09-14.11.01:885][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.592
+[2017.10.09-14.11.02:313][  0]LogCollectionManager: Loaded 0 collections in 0.000887 seconds
+[2017.10.09-14.11.02:475][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Collections/' took 0.01s
+[2017.10.09-14.11.02:475][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Developers/David/Collections/' took 0.01s
+[2017.10.09-14.11.02:475][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Collections/' took 0.01s
+[2017.10.09-14.11.02:475][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.10.09-14.11.02:485][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2329 classes and 491 folders.
+[2017.10.09-14.11.02:578][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.10.09-14.11.03:535][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.10.09-14.11.03:602][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.10.09-14.11.04:211][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.09-14.11.04:279][  0]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.09-14.11.04:284][  0]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.09-14.11.04:334][  0]LogSlate: Took 0.016823 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.09-14.11.04:619][  0]LogRenderer: Reallocating scene render targets to support 1204x576 NumSamples 1 (Frame:1).
+[2017.10.09-14.11.05:020][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.10.09-14.11.05:066][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.10.09-14.11.05:066][  0]LogLoad: (Engine Initialization) Total time: 15.35 seconds
+[2017.10.09-14.11.05:066][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.18 seconds
+[2017.10.09-14.11.05:066][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.09-14.11.05:066][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.09-14.11.05:407][  0]LogOcInput: OculusInput pre-init called
+[2017.10.09-14.11.05:407][  0]LogHMD: Starting GearVRController plugin
+[2017.10.09-14.11.05:466][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.09-14.11.05:539][  0]LogSlate: Took 0.010930 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.09-14.11.05:762][  1]LogAssetRegistry: Asset discovery search completed in 10.6911 seconds
+[2017.10.09-14.11.05:763][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.09-14.11.05:763][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2017.10.09-14.11.06:417][  3]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.09-14.11.34:907][807]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.09-14.11.35:268][807]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.10.09-14.11.35:624][807]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.09-14.11.35:766][807]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.10.09-14.11.36:007][807]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.10.09-14.11.37:043][807]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0019 seconds. Added 1 classes and 0 folders.
+[2017.10.09-14.11.37:078][807]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.09-14.12.04:919][923]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.09-14.12.04:955][923]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.09-14.12.04:955][923]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-14.12.04:991][923]PIE: New page: PIE session: Minimal_Default (Oct 9, 2017, 6:12:04 PM)
+[2017.10.09-14.12.04:991][923]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.10.09-14.12.05:016][923]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025674s)
+[2017.10.09-14.12.05:017][923]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.10.09-14.12.05:017][923]LogPlayLevel: PIE: World Init took: (0.000476s)
+[2017.10.09-14.12.05:017][923]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.026308s)
+[2017.10.09-14.12.05:056][923]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.09-14.12.05:062][923]LogInit: FAudioDevice initialized.
+[2017.10.09-14.12.05:115][923]LogLoad: Game class is 'MyGame_C'
+[2017.10.09-14.12.05:123][923]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.10.09-16.12.05
+[2017.10.09-14.12.05:123][923]LogWorld: Bringing up level for play took: 0.001627
+[2017.10.09-14.12.05:267][923]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
+[2017.10.09-14.12.05:268][923]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.64
+[2017.10.09-14.12.05:268][923]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.09-14.12.28:928][718]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.09-14.12.29:002][718]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.09-14.12.30:350][876]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.09-14.12.30:366][876]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.09-14.12.30:366][876]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-14.12.30:366][876]PIE: New page: PIE session: Minimal_Default (Oct 9, 2017, 6:12:30 PM)
+[2017.10.09-14.12.30:366][876]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.10.09-14.12.30:370][876]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004162s)
+[2017.10.09-14.12.30:370][876]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.10.09-14.12.30:370][876]LogPlayLevel: PIE: World Init took: (0.000474s)
+[2017.10.09-14.12.30:371][876]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004795s)
+[2017.10.09-14.12.30:397][876]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.09-14.12.30:402][876]LogInit: FAudioDevice initialized.
+[2017.10.09-14.12.30:431][876]LogLoad: Game class is 'MyGame_C'
+[2017.10.09-14.12.30:432][876]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.10.09-16.12.30
+[2017.10.09-14.12.30:433][876]LogWorld: Bringing up level for play took: 0.001406
+[2017.10.09-14.12.30:433][876]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.526
+[2017.10.09-14.12.30:433][876]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.09-14.12.35:384][466]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.09-14.12.35:418][466]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.09-14.25.23:062][ 10]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2017.10.09-14.25.24:993][ 10]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2017.10.09-14.25.25:591][ 10]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2017.10.09-14.25.26:784][ 10]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2017.10.09-14.26.14:834][367]LogSavePackage: Save=35.75ms
+[2017.10.09-14.26.14:834][367]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Nier_BP-Animation808E5D5B4CABFB3E4DEEEAA35C3E21A6.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/2BPlaceHolder/Nier_BP-Animation.uasset'
+[2017.10.09-14.26.14:838][367]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/2BPlaceHolder/Nier_BP-Animation.uasset
+[2017.10.09-14.26.15:956][480]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2017.10.09-14.26.16:591][480]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0021 seconds. Added 112 classes and 0 folders.
+[2017.10.09-14.26.17:393][480]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2017.10.09-14.26.17:736][480]LogSlate: Took 0.007969 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.09-14.26.18:003][480]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.09-14.26.30:692][814]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.10.09-14.26.30:870][814]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) - call TermArticulated first.
+[2017.10.09-14.26.31:159][814]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.09-14.26.31:192][815]LogSlate: Took 0.015612 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.09-14.29.28:858][463]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Animation/Persona/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu_asset
+[2017.10.09-14.32.33:332][905]LogSavePackage: Save=23.50ms
+[2017.10.09-14.32.33:332][905]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Nier_BP-Animation55B4C054440FAD5535E885A29AB55213.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/2BPlaceHolder/Nier_BP-Animation.uasset'
+[2017.10.09-14.32.33:334][905]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/2BPlaceHolder/Nier_BP-Animation.uasset
+[2017.10.09-14.33.08:503][284]LogEditorTransaction: Undo Add Node
+[2017.10.09-14.33.08:672][284]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2017.10.09-14.33.08:674][284]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.10.09-14.38.27:360][240]LogStats: FPlatformStackWalk::StackWalkAndDump - 47.877 s
+[2017.10.09-14.38.27:360][240]LogOutputDevice:Error: === Handled ensure: ===
+[2017.10.09-14.38.27:360][240]LogOutputDevice:Error: 
+[2017.10.09-14.38.27:360][240]LogOutputDevice:Error: Ensure condition failed: ToPin->LinkedTo.Contains(this) [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 333]
+[2017.10.09-14.38.27:360][240]LogOutputDevice:Error: UEdGraphPin::BreakLinkTo Pin 'Out' on node 'Trans AnimationTransitionGraph_1}' not reciprocally linked with pin 'In' on node 'AnimationTransitionGraph_0'
+[2017.10.09-14.38.27:360][240]LogOutputDevice:Error: Stack: 
+[2017.10.09-14.38.27:360][240]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:200]
+[2017.10.09-14.38.27:360][240]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:233]
+[2017.10.09-14.38.27:360][240]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:360]
+[2017.10.09-14.38.27:360][240]LogOutputDevice:Error: UE4Editor-Engine.dll!UEdGraphPin::BreakLinkTo() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\engine\private\edgraph\edgraphpin.cpp:333]
+[2017.10.09-14.38.27:360][240]LogOutputDevice:Error: UE4Editor-Engine.dll!UEdGraphPin::BreakAllPinLinks() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\engine\private\edgraph\edgraphpin.cpp:349]
+[2017.10.09-14.38.27:360][240]LogOutputDevice:Error: UE4Editor-Engine.dll!UEdGraphPin::DestroyImpl() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\engine\private\edgraph\edgraphpin.cpp:1259]
+[2017.10.09-14.38.27:360][240]LogOutputDevice:Error: UE4Editor-Engine.dll!UEdGraphNode::BeginDestroy() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\engine\private\edgraph\edgraphnode.cpp:536]
+[2017.10.09-14.38.27:360][240]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!UObject::ConditionalBeginDestroy() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\coreuobject\private\uobject\obj.cpp:845]
+[2017.10.09-14.38.27:360][240]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!CollectGarbageInternal() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\coreuobject\private\uobject\garbagecollection.cpp:1602]
+[2017.10.09-14.38.27:360][240]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!CollectGarbage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\coreuobject\private\uobject\garbagecollection.cpp:1654]
+[2017.10.09-14.38.27:361][240]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!FEditorFileUtils::AutosaveMapEx() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\unrealed\private\filehelpers.cpp:2404]
+[2017.10.09-14.38.27:361][240]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!FPackageAutoSaver::AttemptAutoSave() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\unrealed\private\packageautosaver.cpp:195]
+[2017.10.09-14.38.27:361][240]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\unrealed\private\unrealedengine.cpp:414]
+[2017.10.09-14.38.27:361][240]LogOutputDevice:Error: UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3119]
+[2017.10.09-14.38.27:361][240]LogOutputDevice:Error: UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launch.cpp:166]
+[2017.10.09-14.38.27:361][240]LogOutputDevice:Error: UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2017.10.09-14.38.27:361][240]LogOutputDevice:Error: UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:210]
+[2017.10.09-14.38.27:361][240]LogOutputDevice:Error: UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
+[2017.10.09-14.38.27:361][240]LogOutputDevice:Error: KERNEL32.DLL!0x00000000D16B13D2
+[2017.10.09-14.38.27:361][240]LogOutputDevice:Error: ntdll.dll!0x00000000D3BA54F4
+[2017.10.09-14.38.27:361][240]LogOutputDevice:Error: 
+[2017.10.09-14.38.27:371][240]LogStats:                SubmitErrorReport -  0.000 s
+[2017.10.09-14.38.32:132][240]LogStats:                    SendNewReport -  4.761 s
+[2017.10.09-14.38.32:132][240]LogStats:             FDebug::EnsureFailed - 52.648 s
+[2017.10.09-14.38.32:155][240]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 52.687
+[2017.10.09-14.38.32:226][240]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/2BPlaceHolder/Nier_BP-Animation] ([1] browsable assets)...
+[2017.10.09-14.38.32:280][240]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Character/2BPlaceHolder/Nier_BP-Animation.Nier_BP-Animation]
+[2017.10.09-14.38.32:280][240]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/2BPlaceHolder/Nier_BP-Animation]
+[2017.10.09-14.38.32:398][240]LogSavePackage: Save=84.87ms
+[2017.10.09-14.38.32:398][240]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Nier_BP-Animation_Auto1D8C5D0EE465302CB6DDF3D999DCFB7ED.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Autosaves/Game/Character/2BPlaceHolder/Nier_BP-Animation_Auto1.uasset'
+[2017.10.09-14.38.32:398][240]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Autosaves/Game/Character/2BPlaceHolder/Nier_BP-Animation_Auto1.uasset
+[2017.10.09-14.38.32:398][240]LogFileHelpers: Auto-saving content packages took 0.236
+[2017.10.09-14.39.23:616][313]LogEditorTransaction: Undo Promote To Variable
+[2017.10.09-14.39.23:789][313]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2017.10.09-14.39.23:792][313]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.10.09-14.39.50:952][971]LogSavePackage: Save=58.62ms
+[2017.10.09-14.39.50:952][971]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Nier_BP-AnimationCBF0848F41F397347EF5378BBCD6C999.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/2BPlaceHolder/Nier_BP-Animation.uasset'
+[2017.10.09-14.39.50:954][971]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/2BPlaceHolder/Nier_BP-Animation.uasset
+[2017.10.09-14.41.11:305][153]LogSavePackage: Save=63.66ms
+[2017.10.09-14.41.11:305][153]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Nier_BP-Animation882021C147543D8208591484B564E726.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/2BPlaceHolder/Nier_BP-Animation.uasset'
+[2017.10.09-14.41.11:307][153]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/2BPlaceHolder/Nier_BP-Animation.uasset
+[2017.10.09-14.41.14:967][526]BlueprintLog: New page: Compile Nier_BP-Animation
+[2017.10.09-14.41.49:592][933]LogSavePackage: Save=66.99ms
+[2017.10.09-14.41.49:592][933]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Saved/Nier_BP-AnimationBBF2CFF2419544BCFBF4C793C9802A38.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/2BPlaceHolder/Nier_BP-Animation.uasset'
+[2017.10.09-14.41.49:594][933]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/ThreePersonMovement/Content/Character/2BPlaceHolder/Nier_BP-Animation.uasset
+[2017.10.09-14.42.03:217][321]BlueprintLog: New page: Compile Nier_BP-Animation
+[2017.10.09-14.43.00:111][930]LogUObjectArray:Warning: Other object in slot
+[2017.10.09-14.43.01:145][930]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.034 s
+[2017.10.09-14.43.01:145][930]LogOutputDevice:Error: === Handled ensure: ===
+[2017.10.09-14.43.01:145][930]LogOutputDevice:Error: 
+[2017.10.09-14.43.01:145][930]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.10.09-14.43.01:145][930]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.10.09-14.43.01:145][930]LogOutputDevice:Error: Stack: 
+[2017.10.09-14.43.01:145][930]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:200]
+[2017.10.09-14.43.01:145][930]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:233]
+[2017.10.09-14.43.01:145][930]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:360]
+[2017.10.09-14.43.01:145][930]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!FKismetDebugUtilities::GetWatchText() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\unrealed\private\kismet2\kismetdebugutilities.cpp:1037]
+[2017.10.09-14.43.01:145][930]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!UK2Node::GetPinHoverText() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\blueprintgraph\private\k2node.cpp:1251]
+[2017.10.09-14.43.01:145][930]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!SGraphPin::GetTooltipText() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\grapheditor\private\sgraphpin.cpp:1085]
+[2017.10.09-14.43.01:145][930]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!TMemberFunctionCaller<SGraphPin,FText (__cdecl SGraphPin::*)(void)const __ptr64>::operator()<>() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegateinstanceinterface.h:165]
+[2017.10.09-14.43.01:145][930]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!UE4Tuple_Private::TTupleImpl<TIntegerSequence<unsigned int> >::ApplyAfter<TMemberFunctionCaller<SGraphPin,FText (__cdecl SGraphPin::*)(void)const __ptr64> >() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\templates\tuple.h:497]
+[2017.10.09-14.43.01:145][930]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!TBaseSPMethodDelegateInstance<1,SGraphPin,0,FText __cdecl(void)>::Execute() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:327]
+[2017.10.09-14.43.01:145][930]LogOutputDevice:Error: UE4Editor-Slate.dll!TBaseDelegate<FText>::Execute() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:537]
+[2017.10.09-14.43.01:145][930]LogOutputDevice:Error: UE4Editor-Slate.dll!TAttribute<FText>::Get() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\misc\attribute.h:137]
+[2017.10.09-14.43.01:145][930]LogOutputDevice:Error: UE4Editor-Slate.dll!SToolTip::IsEmpty() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\widgets\stooltip.cpp:87]
+[2017.10.09-14.43.01:145][930]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::UpdateToolTip() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3444]
+[2017.10.09-14.43.01:145][930]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::ProcessMouseMoveEvent() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5697]
+[2017.10.09-14.43.01:146][930]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::OnMouseMove() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5647]
+[2017.10.09-14.43.01:146][930]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:1742]
+[2017.10.09-14.43.01:146][930]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:2127]
+[2017.10.09-14.43.01:146][930]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:867]
+[2017.10.09-14.43.01:146][930]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:714]
+[2017.10.09-14.43.01:146][930]LogOutputDevice:Error: USER32.dll!0x00000000D17F24FD
+[2017.10.09-14.43.01:146][930]LogOutputDevice:Error: USER32.dll!0x00000000D17F2357
+[2017.10.09-14.43.01:146][930]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:1009]
+[2017.10.09-14.43.01:146][930]LogOutputDevice:Error: UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3058]
+[2017.10.09-14.43.01:146][930]LogOutputDevice:Error: UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launch.cpp:166]
+[2017.10.09-14.43.01:146][930]LogOutputDevice:Error: UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2017.10.09-14.43.01:146][930]LogOutputDevice:Error: UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:210]
+[2017.10.09-14.43.01:146][930]LogOutputDevice:Error: UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
+[2017.10.09-14.43.01:146][930]LogOutputDevice:Error: KERNEL32.DLL!0x00000000D16B13D2
+[2017.10.09-14.43.01:146][930]LogOutputDevice:Error: ntdll.dll!0x00000000D3BA54F4
+[2017.10.09-14.43.01:146][930]LogOutputDevice:Error: 
+[2017.10.09-14.43.01:154][930]LogStats:                SubmitErrorReport -  0.000 s
