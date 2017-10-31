@@ -1,0 +1,252 @@
+﻿Log file open, 10/31/17 17:27:55
+LogInit:Display: Running engine for game: MechHackAndSlash
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1720272338) SRandInit(1720272338).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.078900
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: D:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.31-16.27.55:924][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.31-16.27.55:924][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.31-16.27.55:937][  0]LogInit: Computer: DAVIDMASTERRACE
+[2017.10.31-16.27.55:937][  0]LogInit: User: David
+[2017.10.31-16.27.55:937][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.31-16.27.55:937][  0]LogInit: High frequency timer resolution =3.417963 MHz
+[2017.10.31-16.27.55:937][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.10.31-16.27.55:937][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.31-16.27.55:937][  0]LogMemory: Process Physical Memory: 270.69 MB used, 270.69 MB peak
+[2017.10.31-16.27.55:937][  0]LogMemory: Process Virtual Memory: 266.48 MB used, 266.48 MB peak
+[2017.10.31-16.27.55:937][  0]LogMemory: Physical Memory: 5147.27 MB used,  11179.18 MB free, 16326.44 MB total
+[2017.10.31-16.27.55:937][  0]LogMemory: Virtual Memory: 622.99 MB used,  11179.18 MB free, 134217728.00 MB total
+[2017.10.31-16.27.55:976][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.10.31-16.27.55:976][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.10.31-16.27.56:712][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.31-16.27.56:736][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.10.31-16.27.56:736][  0]LogD3D11RHI:       3975/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.31-16.27.56:737][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.31-16.27.56:737][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.31-16.27.56:737][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.31-16.27.56:739][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.31-16.27.56:740][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.31-16.27.56:740][  0]LogWindows: EnumDisplayDevices:
+[2017.10.31-16.27.56:740][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.10.31-16.27.56:740][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.10.31-16.27.56:740][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.10.31-16.27.56:740][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.10.31-16.27.56:740][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.10.31-16.27.56:740][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.10.31-16.27.56:740][  0]LogD3D11RHI:   Driver Version: 385.41 (internal:22.21.13.8541, unified:385.41)
+[2017.10.31-16.27.56:740][  0]LogD3D11RHI:      Driver Date: 8-21-2017
+[2017.10.31-16.27.56:740][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.31-16.27.56:748][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.31-16.27.56:765][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.10.31-16.27.56:809][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Intermediate/Shaders/WorkingDirectory/3596/).
+[2017.10.31-16.27.56:809][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/David/AppData/Local/Temp/UnrealShaderWorkingDir/ABECACC14184CAF37D9ACFB79D2A1DD2/'.
+[2017.10.31-16.27.56:809][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.31-16.27.57:670][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.31-16.27.57:705][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.31-16.27.57:739][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.31-16.27.57:770][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.31-16.27.57:801][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.31-16.27.57:832][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.31-16.27.57:864][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.31-16.27.57:895][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.31-16.27.57:922][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.31-16.27.57:955][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.31-16.27.57:987][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.31-16.27.58:020][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.31-16.27.58:054][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.31-16.27.58:085][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.31-16.27.58:115][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.31-16.27.58:176][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.31-16.27.58:176][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.31-16.27.58:197][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.31-16.27.58:260][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.31-16.27.58:280][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.31-16.27.58:309][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.31-16.27.58:347][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.31-16.27.58:377][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.31-16.27.58:406][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.31-16.27.58:406][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.31-16.27.58:692][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.31-16.27.58:766][  0]LogDerivedDataCache: Loaded boot cache 0.07s 90MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.31-16.27.58:766][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.10.31-16.27.58:766][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.31-16.27.58:766][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.31-16.27.58:766][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.31-16.27.58:766][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.31-16.27.58:782][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.31-16.27.58:794][  0]LogDerivedDataCache: Using Local data cache path C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.31-16.27.58:802][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.31-16.27.58:802][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.31-16.27.58:803][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.31-16.27.58:803][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.31-16.27.59:070][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.31-16.27.59:128][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.31-16.27.59:243][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.31-16.27.59:278][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.31-16.27.59:302][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.31-16.27.59:302][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.31-16.27.59:302][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.31-16.27.59:719][  0]LogNetVersion: MechHackAndSlash , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 86869316)
+[2017.10.31-16.27.59:768][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
+[2017.10.31-16.27.59:797][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.016666 seconds
+[2017.10.31-16.27.59:803][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.10.31-16.27.59:803][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.10.31-16.27.59:803][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.31-16.27.59:838][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.31-16.28.01:392][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.31-16.28.01:419][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.31-16.28.01:737][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.31-16.28.01:964][  0]SourceControl: Info Source control is disabled
+[2017.10.31-16.28.01:988][  0]SourceControl: Info Source control is disabled
+[2017.10.31-16.28.02:013][  0]SourceControl: Info Source control is disabled
+[2017.10.31-16.28.02:038][  0]SourceControl: Info Source control is disabled
+[2017.10.31-16.28.02:418][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.31-16.28.02:749][  0]LogEngine: Initializing Engine...
+[2017.10.31-16.28.02:749][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.31-16.28.02:904][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.31-16.28.02:904][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.31-16.28.02:974][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.31-16.28.02:996][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.31-16.28.03:002][  0]LogInit: FAudioDevice initialized.
+[2017.10.31-16.28.03:036][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.31-16.28.03:043][  0]LogInit: Texture streaming: Enabled
+[2017.10.31-16.28.03:095][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.31-16.28.03:216][  0]LogInit: Transaction tracking system initialized
+[2017.10.31-16.28.03:383][  0]BlueprintLog: New page: Editor Load
+[2017.10.31-16.28.03:878][  0]LocalizationService: Info Localization service is disabled
+[2017.10.31-16.28.04:248][  0]LogConsoleResponse:Display: 
+[2017.10.31-16.28.04:376][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.31-16.28.04:376][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.31-16.28.04:583][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/' took 0.02s
+[2017.10.31-16.28.04:919][  0]SourceControl: Info Source control is disabled
+[2017.10.31-16.28.04:919][  0]Cmd: MAP LOAD FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.31-16.28.04:926][  0]LightingResults: New page: Lighting Build
+[2017.10.31-16.28.04:949][  0]MapCheck: New page: Map Check
+[2017.10.31-16.28.04:949][  0]LightingResults: New page: Lighting Build
+[2017.10.31-16.28.06:919][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.31-16.28.07:169][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.31-16.28.07:195][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.31-16.28.07:233][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.53ms to complete.
+[2017.10.31-16.28.07:234][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.314
+[2017.10.31-16.28.07:705][  0]LogCollectionManager: Loaded 0 collections in 0.001101 seconds
+[2017.10.31-16.28.07:883][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Collections/' took 0.01s
+[2017.10.31-16.28.07:884][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Developers/David/Collections/' took 0.01s
+[2017.10.31-16.28.07:884][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Collections/' took 0.01s
+[2017.10.31-16.28.07:884][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.31-16.28.07:893][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2329 classes and 491 folders.
+[2017.10.31-16.28.07:965][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.10.31-16.28.08:934][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.10.31-16.28.09:039][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.10.31-16.28.09:170][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0006 seconds. Added 1 classes and 3 folders.
+[2017.10.31-16.28.09:829][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.31-16.28.09:866][  0]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.31-16.28.09:871][  0]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.31-16.28.09:927][  0]LogSlate: Took 0.017924 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.31-16.28.10:252][  0]LogRenderer: Reallocating scene render targets to support 1204x576 NumSamples 1 (Frame:1).
+[2017.10.31-16.28.10:516][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.10.31-16.28.10:562][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.10.31-16.28.10:562][  0]LogLoad: (Engine Initialization) Total time: 15.77 seconds
+[2017.10.31-16.28.10:562][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.38 seconds
+[2017.10.31-16.28.10:562][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.31-16.28.10:562][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.31-16.28.10:901][  0]LogOcInput: OculusInput pre-init called
+[2017.10.31-16.28.10:901][  0]LogHMD: Starting GearVRController plugin
+[2017.10.31-16.28.10:964][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.31-16.28.11:082][  0]LogSlate: Took 0.013000 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.31-16.28.11:590][  2]LogAssetRegistry: Asset discovery search completed in 11.8429 seconds
+[2017.10.31-16.28.11:593][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.31-16.28.11:593][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000050 seconds (updated 0 objects)
+[2017.10.31-16.28.11:929][  3]LogSlate: Took 0.000284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.31-16.31.00:202][798]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.31-16.31.00:709][798]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.31-16.31.00:924][798]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0018 seconds. Added 112 classes and 0 folders.
+[2017.10.31-16.31.02:083][798]LogSlate: Took 0.015546 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.31-16.31.02:592][799]LogSlate: Took 0.014682 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.31-16.31.38:385][884]BlueprintLog: New page: Compile Warrior_BP
+[2017.10.31-16.31.46:275][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Warrior/Warrior_BP" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset" SILENT=true
+[2017.10.31-16.31.46:590][640]LogSavePackage: Save=236.24ms
+[2017.10.31-16.31.46:590][640]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Warrior_BP40FD7F7C48E23C4C998DFD98B99C4C3C.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset'
+[2017.10.31-16.31.46:593][640]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset
+[2017.10.31-16.31.49:858][956]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.10.31-16.31.50:297][956]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.10.31-16.31.50:685][956]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.10.31-16.31.51:383][956]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0010 seconds. Added 1 classes and 0 folders.
+[2017.10.31-16.31.51:501][956]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.31-16.33.13:332][679]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.31-16.33.13:383][679]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.31-16.33.13:383][679]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.10.31-16.33.13:383][679]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.31-16.33.13:406][679]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 31, 2017, 6:33:13 PM)
+[2017.10.31-16.33.13:406][679]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.10.31-16.33.13:439][679]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032767s)
+[2017.10.31-16.33.13:440][679]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.31-16.33.13:440][679]LogPlayLevel: PIE: World Init took: (0.000929s)
+[2017.10.31-16.33.13:440][679]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.033936s)
+[2017.10.31-16.33.13:503][679]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.31-16.33.13:508][679]LogInit: FAudioDevice initialized.
+[2017.10.31-16.33.13:704][679]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.10.31-16.33.13:707][679]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.10.31-17.33.13
+[2017.10.31-16.33.13:708][679]LogWorld: Bringing up level for play took: 0.002308
+[2017.10.31-16.33.13:832][679]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
+[2017.10.31-16.33.13:859][679]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2017.10.31-16.33.13:859][679]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.148
+[2017.10.31-16.33.13:859][679]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.31-16.33.13:859][679]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.10.31-16.33.13:861][679]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2017.10.31-16.33.15:144][808]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 1 1 0
+[2017.10.31-16.33.15:157][809]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2017.10.31-16.33.17:824][128]LogBlueprintUserMessages: [StatsWarrior_C_1] Translation: X=0.000 Y=0.000 Z=0.000 Rotation: P=0.000000 Y=0.000000 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2017.10.31-16.33.49:991][987]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.31-16.33.49:991][987]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.10.31-16.33.50:063][987]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.31-16.33.50:063][987]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.10.31-16.33.56:000][643]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.10.31-16.33.56:039][643]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_11:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.10.31-16.33.56:309][643]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.31-16.34.09:803][ 10]LogWindows: Windows GetLastError: La operación se completó correctamente. (0)
