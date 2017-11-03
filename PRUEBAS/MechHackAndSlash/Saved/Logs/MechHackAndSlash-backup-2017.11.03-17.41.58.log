@@ -1,0 +1,1145 @@
+﻿Log file open, 11/03/17 16:34:36
+LogInit:Display: Running engine for game: MechHackAndSlash
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1104600964) SRandInit(-1104600964).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.082458
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: D:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.03-15.34.36:422][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.03-15.34.36:422][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.03-15.34.36:437][  0]LogInit: Computer: DAVIDMASTERRACE
+[2017.11.03-15.34.36:437][  0]LogInit: User: David
+[2017.11.03-15.34.36:437][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.03-15.34.36:437][  0]LogInit: High frequency timer resolution =3.417967 MHz
+[2017.11.03-15.34.36:437][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.03-15.34.36:437][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.03-15.34.36:437][  0]LogMemory: Process Physical Memory: 270.82 MB used, 270.82 MB peak
+[2017.11.03-15.34.36:437][  0]LogMemory: Process Virtual Memory: 266.52 MB used, 266.52 MB peak
+[2017.11.03-15.34.36:437][  0]LogMemory: Physical Memory: 4988.58 MB used,  11337.86 MB free, 16326.44 MB total
+[2017.11.03-15.34.36:437][  0]LogMemory: Virtual Memory: 622.99 MB used,  11337.86 MB free, 134217728.00 MB total
+[2017.11.03-15.34.36:475][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.11.03-15.34.36:475][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.11.03-15.34.37:229][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.03-15.34.37:257][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.11.03-15.34.37:257][  0]LogD3D11RHI:       3975/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.11.03-15.34.37:258][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.03-15.34.37:258][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.03-15.34.37:258][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.03-15.34.37:260][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.03-15.34.37:260][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.03-15.34.37:260][  0]LogWindows: EnumDisplayDevices:
+[2017.11.03-15.34.37:260][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.11.03-15.34.37:260][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.11.03-15.34.37:260][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.11.03-15.34.37:260][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.11.03-15.34.37:260][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.11.03-15.34.37:260][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.11.03-15.34.37:260][  0]LogD3D11RHI:   Driver Version: 385.41 (internal:22.21.13.8541, unified:385.41)
+[2017.11.03-15.34.37:260][  0]LogD3D11RHI:      Driver Date: 8-21-2017
+[2017.11.03-15.34.37:260][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.03-15.34.37:269][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.03-15.34.37:285][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.11.03-15.34.37:330][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Intermediate/Shaders/WorkingDirectory/6420/).
+[2017.11.03-15.34.37:330][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/David/AppData/Local/Temp/UnrealShaderWorkingDir/0419D1B941C5A81C7C7EBF859AB7F03B/'.
+[2017.11.03-15.34.37:330][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.11.03-15.34.38:224][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.03-15.34.38:253][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.11.03-15.34.38:282][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.03-15.34.38:312][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.11.03-15.34.38:342][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.11.03-15.34.38:371][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.03-15.34.38:402][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.03-15.34.38:431][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.03-15.34.38:455][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.11.03-15.34.38:483][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.11.03-15.34.38:512][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.03-15.34.38:541][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.03-15.34.38:570][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.03-15.34.38:598][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.03-15.34.38:627][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.03-15.34.38:687][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.03-15.34.38:687][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.03-15.34.38:710][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.11.03-15.34.38:775][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.11.03-15.34.38:794][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.11.03-15.34.38:824][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.03-15.34.38:853][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.03-15.34.38:881][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.03-15.34.38:911][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.11.03-15.34.38:911][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.11.03-15.34.39:177][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.11.03-15.34.39:251][  0]LogDerivedDataCache: Loaded boot cache 0.07s 90MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.03-15.34.39:251][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.11.03-15.34.39:251][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.03-15.34.39:251][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.03-15.34.39:251][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.03-15.34.39:251][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.03-15.34.39:267][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.03-15.34.39:279][  0]LogDerivedDataCache: Using Local data cache path C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.03-15.34.39:287][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.03-15.34.39:288][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.03-15.34.39:288][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.03-15.34.39:288][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.03-15.34.39:548][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.03-15.34.39:605][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.03-15.34.39:737][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.03-15.34.39:759][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.03-15.34.39:784][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.03-15.34.39:784][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.11.03-15.34.39:784][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.11.03-15.34.40:168][  0]LogNetVersion: MechHackAndSlash , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 86869316)
+[2017.11.03-15.34.40:220][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
+[2017.11.03-15.34.40:248][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.015728 seconds
+[2017.11.03-15.34.40:253][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.11.03-15.34.40:253][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.11.03-15.34.40:253][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.03-15.34.40:287][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.03-15.34.41:841][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.03-15.34.41:868][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.03-15.34.42:206][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.03-15.34.42:428][  0]SourceControl: Info Source control is disabled
+[2017.11.03-15.34.42:450][  0]SourceControl: Info Source control is disabled
+[2017.11.03-15.34.42:474][  0]SourceControl: Info Source control is disabled
+[2017.11.03-15.34.42:498][  0]SourceControl: Info Source control is disabled
+[2017.11.03-15.34.42:858][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.03-15.34.43:176][  0]LogEngine: Initializing Engine...
+[2017.11.03-15.34.43:176][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.03-15.34.43:328][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.03-15.34.43:328][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.03-15.34.43:397][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.03-15.34.43:419][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.03-15.34.43:425][  0]LogInit: FAudioDevice initialized.
+[2017.11.03-15.34.43:460][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.03-15.34.43:469][  0]LogInit: Texture streaming: Enabled
+[2017.11.03-15.34.43:519][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.03-15.34.43:720][  0]LogInit: Transaction tracking system initialized
+[2017.11.03-15.34.43:978][  0]BlueprintLog: New page: Editor Load
+[2017.11.03-15.34.44:485][  0]LocalizationService: Info Localization service is disabled
+[2017.11.03-15.34.44:864][  0]LogConsoleResponse:Display: 
+[2017.11.03-15.34.44:998][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.03-15.34.44:998][  0]LogCook:Display: Mobile HDR setting 1
+[2017.11.03-15.34.45:547][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/' took 0.02s
+[2017.11.03-15.34.45:547][  0]SourceControl: Info Source control is disabled
+[2017.11.03-15.34.45:547][  0]Cmd: MAP LOAD FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.03-15.34.45:555][  0]LightingResults: New page: Lighting Build
+[2017.11.03-15.34.45:578][  0]MapCheck: New page: Map Check
+[2017.11.03-15.34.45:578][  0]LightingResults: New page: Lighting Build
+[2017.11.03-15.34.47:796][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.03-15.34.48:077][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.03-15.34.48:110][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.03-15.34.48:153][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.182ms to complete.
+[2017.11.03-15.34.48:153][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.605
+[2017.11.03-15.34.48:682][  0]LogCollectionManager: Loaded 0 collections in 0.002693 seconds
+[2017.11.03-15.34.48:858][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Collections/' took 0.01s
+[2017.11.03-15.34.48:858][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Developers/David/Collections/' took 0.01s
+[2017.11.03-15.34.48:858][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Collections/' took 0.01s
+[2017.11.03-15.34.48:858][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.11.03-15.34.48:884][  0]LogContentBrowser: Native class hierarchy populated in 0.0246 seconds. Added 2329 classes and 491 folders.
+[2017.11.03-15.34.48:979][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.11.03-15.34.49:975][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.11.03-15.34.50:093][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.11.03-15.34.50:227][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0012 seconds. Added 1 classes and 3 folders.
+[2017.11.03-15.34.50:945][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.11.03-15.34.50:982][  0]LogSlate: Took 0.000248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.03-15.34.50:985][  0]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.03-15.34.51:058][  0]LogSlate: Took 0.026623 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.03-15.34.51:447][  0]LogRenderer: Reallocating scene render targets to support 1204x576 NumSamples 1 (Frame:1).
+[2017.11.03-15.34.51:788][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.03-15.34.51:871][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.11.03-15.34.51:871][  0]LogLoad: (Engine Initialization) Total time: 16.56 seconds
+[2017.11.03-15.34.51:871][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.37 seconds
+[2017.11.03-15.34.51:871][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.03-15.34.51:871][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.03-15.34.52:212][  0]LogOcInput: OculusInput pre-init called
+[2017.11.03-15.34.52:212][  0]LogHMD: Starting GearVRController plugin
+[2017.11.03-15.34.52:279][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.03-15.34.52:430][  0]LogSlate: Took 0.020688 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.03-15.34.52:893][  2]LogAssetRegistry: Asset discovery search completed in 12.6954 seconds
+[2017.11.03-15.34.52:896][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.11.03-15.34.52:896][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
+[2017.11.03-15.34.53:244][  3]LogSlate: Took 0.000625 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.03-15.41.04:429][350]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MechHackAndSlash
+[2017.11.03-15.41.04:429][350]LogTemp: CWD: D:\Program Files (x86)\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.11.03-15.41.04:429][350]LogTemp: Initial Dir: D:\Program Files (x86)\Epic Games\UE_4.16
+[2017.11.03-15.41.04:429][350]LogTemp: Env CWD: D:\Program Files (x86)\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.11.03-15.41.04:429][350]LogTemp: BranchPath = DAVIDMASTERRACE/D/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = DAVIDMASTERRACE/D/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries
+[2017.11.03-15.41.04:429][350]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\David\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.11.03-15.41.04:429][350]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.11.03-15.41.09:914][954]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.03-15.41.10:515][954]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.11.03-15.41.11:335][954]LogSlate: Took 0.014393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.03-15.41.11:619][955]LogSlate: Took 0.013990 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.03-15.45.17:614][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/StatsWarrior" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Widgets/StatsWarrior.uasset" SILENT=true
+[2017.11.03-15.45.17:766][309]LogSavePackage: Save=72.64ms
+[2017.11.03-15.45.17:766][309]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/StatsWarrior70A9EE474FAFDD9C213A2C9E1727D887.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Widgets/StatsWarrior.uasset'
+[2017.11.03-15.45.17:768][309]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Widgets/StatsWarrior.uasset
+[2017.11.03-15.45.18:229][363]BlueprintLog: New page: Compile StatsWarrior
+[2017.11.03-15.45.18:371][363]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.11.03-15.45.29:992][748]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2017.11.03-15.45.31:266][887]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.11.03-15.45.31:912][960]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2017.11.03-15.45.54:601][303]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2017.11.03-15.45.55:390][393]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.11.03-15.46.04:108][925]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2017.11.03-15.46.05:143][ 45]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2017.11.03-15.48.35:217][118]LogSavePackage: Save=276.10ms
+[2017.11.03-15.48.35:217][118]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonExampleMap78FD1ABC41D26B9CBEB26694AB8EB132.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.11.03-15.48.35:220][118]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.11.03-15.48.35:251][118]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.460
+[2017.11.03-15.48.35:631][153]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2017.11.03-15.48.38:607][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/StatsWarrior" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Widgets/StatsWarrior.uasset" SILENT=true
+[2017.11.03-15.48.38:685][485]LogSavePackage: Save=62.22ms
+[2017.11.03-15.48.38:685][485]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/StatsWarriorAF21787A45ABCFE2D9D902B778D08C89.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Widgets/StatsWarrior.uasset'
+[2017.11.03-15.48.38:687][485]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Widgets/StatsWarrior.uasset
+[2017.11.03-15.52.27:040][ 86]LogSlate: Took 0.021802 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.11.03-15.52.55:773][767]BlueprintLog: New page: Compile StatsWarrior
+[2017.11.03-15.52.55:990][767]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.11.03-15.53.02:971][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/StatsWarrior" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Widgets/StatsWarrior.uasset" SILENT=true
+[2017.11.03-15.53.03:062][133]LogSavePackage: Save=66.61ms
+[2017.11.03-15.53.03:062][133]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/StatsWarriorFDE6C5E44E9EF9BE011C6B9F8D7B17C9.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Widgets/StatsWarrior.uasset'
+[2017.11.03-15.53.03:064][133]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Widgets/StatsWarrior.uasset
+[2017.11.03-15.53.38:426][265]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2017.11.03-15.53.59:465][178]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2017.11.03-15.54.53:073][ 85]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2017.11.03-15.55.33:903][730]LogEditorTransaction: Undo Move Node
+[2017.11.03-15.55.42:329][451]LogEditorTransaction: Undo Create Pin Link
+[2017.11.03-15.55.42:623][473]LogEditorTransaction: Undo Create Pin Link
+[2017.11.03-15.55.42:954][497]LogEditorTransaction: Undo Create Pin Link
+[2017.11.03-15.55.43:197][519]LogEditorTransaction: Undo Move Node
+[2017.11.03-15.55.43:523][541]LogEditorTransaction: Undo Move Node
+[2017.11.03-15.55.43:953][573]LogEditorTransaction: Undo Move Node
+[2017.11.03-15.55.44:405][607]LogEditorTransaction: Undo Delete current selection
+[2017.11.03-15.55.47:550][885]LogEditorTransaction: Undo Create Pin Link
+[2017.11.03-15.55.48:286][935]LogEditorTransaction: Undo Create Pin Link
+[2017.11.03-15.55.54:484][495]LogEditorTransaction: Undo Move Node
+[2017.11.03-15.55.54:990][522]LogEditorTransaction: Undo Create Pin Link
+[2017.11.03-15.55.56:004][616]LogEditorTransaction: Undo Add Node
+[2017.11.03-15.55.56:214][628]LogEditorTransaction: Undo Move Node
+[2017.11.03-15.55.56:704][668]LogEditorTransaction: Undo Move Node
+[2017.11.03-15.55.58:182][799]LogEditorTransaction: Undo Move Node
+[2017.11.03-15.56.00:386][995]LogEditorTransaction: Redo Move Node
+[2017.11.03-15.56.08:439][672]LogEditorTransaction: Redo Move Node
+[2017.11.03-15.56.11:079][857]LogEditorTransaction: Redo Move Node
+[2017.11.03-15.56.12:297][942]LogEditorTransaction: Redo Add Node
+[2017.11.03-15.56.13:961][ 63]LogEditorTransaction: Undo Add Node
+[2017.11.03-15.56.44:557][798]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2017.11.03-15.57.21:835][259]LogEditorTransaction: Undo Move Node
+[2017.11.03-15.57.22:172][277]LogEditorTransaction: Undo Promote To Variable
+[2017.11.03-15.57.23:407][385]LogEditorTransaction: Undo Delete current selection
+[2017.11.03-15.58.28:110][754]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2017.11.03-15.58.53:383][542]LogSavePackage: Save=268.66ms
+[2017.11.03-15.58.53:383][542]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonExampleMap_Auto109E9BA394A0FE4B62DBCC584017C123B.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2017.11.03-15.58.53:385][542]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2017.11.03-15.58.53:386][542]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.350
+[2017.11.03-15.58.53:386][542]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.350
+[2017.11.03-15.58.55:557][727]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2017.11.03-15.59.12:254][166]LogEditorTransaction: Undo Create Pin Link
+[2017.11.03-15.59.12:436][180]LogEditorTransaction: Undo Create Pin Link
+[2017.11.03-15.59.12:604][185]LogEditorTransaction: Undo Move Node
+[2017.11.03-15.59.12:768][190]LogEditorTransaction: Undo Create Pin Link
+[2017.11.03-15.59.12:928][196]LogEditorTransaction: Undo Move Node
+[2017.11.03-15.59.13:073][201]LogEditorTransaction: Undo Create Pin Link
+[2017.11.03-15.59.13:243][209]LogEditorTransaction: Undo Move Node
+[2017.11.03-15.59.13:374][213]LogEditorTransaction: Undo Create Pin Link
+[2017.11.03-15.59.13:503][217]LogEditorTransaction: Undo Move Node
+[2017.11.03-15.59.13:676][225]LogEditorTransaction: Undo Create Pin Link
+[2017.11.03-15.59.13:806][229]LogEditorTransaction: Undo Add Node
+[2017.11.03-15.59.13:967][236]LogEditorTransaction: Undo Create Pin Link
+[2017.11.03-15.59.14:149][245]LogEditorTransaction: Undo Create Pin Link
+[2017.11.03-15.59.14:279][249]LogEditorTransaction: Undo Move Node
+[2017.11.03-15.59.14:421][254]LogEditorTransaction: Undo Create Pin Link
+[2017.11.03-15.59.14:574][260]LogEditorTransaction: Undo Create Pin Link
+[2017.11.03-15.59.14:717][265]LogEditorTransaction: Undo Create Pin Link
+[2017.11.03-15.59.14:879][272]LogEditorTransaction: Undo Change Parameter Type
+[2017.11.03-15.59.15:222][296]LogEditorTransaction: Undo Change Parameter Type
+[2017.11.03-15.59.15:460][310]LogEditorTransaction: Undo Move Node
+[2017.11.03-15.59.15:656][320]LogEditorTransaction: Undo Create Pin Link
+[2017.11.03-15.59.15:841][337]LogEditorTransaction: Undo Move Node
+[2017.11.03-15.59.16:010][344]LogEditorTransaction: Undo Move Node
+[2017.11.03-15.59.16:225][356]LogEditorTransaction: Undo Delete current selection
+[2017.11.03-15.59.16:407][365]LogEditorTransaction: Undo Delete current selection
+[2017.11.03-15.59.16:573][372]LogEditorTransaction: Undo Add Node
+[2017.11.03-15.59.16:761][381]LogEditorTransaction: Undo Move Node
+[2017.11.03-15.59.16:958][391]LogEditorTransaction: Undo Move Node
+[2017.11.03-15.59.17:164][402]LogEditorTransaction: Undo Move Node
+[2017.11.03-15.59.17:517][428]LogEditorTransaction: Undo Create Pin Link
+[2017.11.03-15.59.17:682][435]LogEditorTransaction: Undo Create Pin Link
+[2017.11.03-15.59.17:934][450]LogEditorTransaction: Undo Move Node
+[2017.11.03-15.59.18:508][497]LogEditorTransaction: Undo Move Nodes
+[2017.11.03-15.59.18:843][521]LogEditorTransaction: Undo Move Nodes
+[2017.11.03-15.59.19:524][580]LogEditorTransaction: Undo Create Pin Link
+[2017.11.03-15.59.20:896][702]LogEditorTransaction: Undo Move Node
+[2017.11.03-15.59.21:327][735]LogEditorTransaction: Undo Add Node
+[2017.11.03-15.59.21:569][750]LogEditorTransaction: Undo Add Node
+[2017.11.03-15.59.21:799][764]LogEditorTransaction: Undo Remove Variable
+[2017.11.03-15.59.22:034][778]LogEditorTransaction: Undo Delete current selection
+[2017.11.03-15.59.22:316][797]LogEditorTransaction: Undo Rename Variable
+[2017.11.03-15.59.22:540][810]LogEditorTransaction: Undo Change Parameter Type
+[2017.11.03-15.59.22:544][810]LogClass:Warning: Type mismatch in NewVar_0 of SKEL_ThirdPersonExampleMap_C - Previous (StructProperty) Current(BoolProperty) for package:  FObjectReader
+[2017.11.03-15.59.22:724][819]LogEditorTransaction: Undo Add Variable
+[2017.11.03-15.59.22:940][831]LogEditorTransaction: Undo Create Pin Link
+[2017.11.03-15.59.23:189][852]LogEditorTransaction: Undo Add Node
+[2017.11.03-15.59.23:592][889]LogEditorTransaction: Undo Rename Node
+[2017.11.03-15.59.23:842][911]LogEditorTransaction: Undo Rename Node
+[2017.11.03-15.59.24:178][942]LogEditorTransaction: Undo Add Node
+[2017.11.03-15.59.24:615][982]LogEditorTransaction: Undo Create Pin Link
+[2017.11.03-15.59.25:021][ 19]LogEditorTransaction: Undo Rename Parameter
+[2017.11.03-15.59.25:370][ 51]LogEditorTransaction: Undo Change Parameter Type
+[2017.11.03-15.59.25:583][ 69]LogEditorTransaction: Undo Add In Parameter
+[2017.11.03-15.59.25:788][ 86]LogEditorTransaction: Undo Create Pin Link
+[2017.11.03-15.59.25:987][103]LogEditorTransaction: Undo Move Node
+[2017.11.03-15.59.26:210][123]LogEditorTransaction: Undo Paste clipboard contents
+[2017.11.03-15.59.26:529][152]LogEditorTransaction: Undo Rename Node
+[2017.11.03-15.59.28:537][335]LogEditorTransaction: Undo Add Node
+[2017.11.03-15.59.28:998][376]LogEditorTransaction: Undo Break Pin Link
+[2017.11.03-15.59.30:203][485]LogEditorTransaction: Undo Delete current selection
+[2017.11.03-15.59.31:492][597]LogEditorTransaction: Undo Move Node
+[2017.11.03-15.59.37:080][ 93]LogEditorTransaction: Redo Move Node
+[2017.11.03-15.59.37:421][111]LogEditorTransaction: Redo Delete current selection
+[2017.11.03-15.59.37:926][146]LogEditorTransaction: Redo Break Pin Link
+[2017.11.03-15.59.38:364][184]LogEditorTransaction: Redo Add Node
+[2017.11.03-15.59.38:904][231]LogEditorTransaction: Redo Rename Node
+[2017.11.03-15.59.39:326][267]LogEditorTransaction: Redo Paste clipboard contents
+[2017.11.03-15.59.39:741][302]LogEditorTransaction: Redo Move Node
+[2017.11.03-15.59.40:116][334]LogEditorTransaction: Redo Create Pin Link
+[2017.11.03-15.59.40:508][368]LogEditorTransaction: Redo Add In Parameter
+[2017.11.03-15.59.40:915][403]LogEditorTransaction: Redo Change Parameter Type
+[2017.11.03-15.59.41:290][435]LogEditorTransaction: Redo Rename Parameter
+[2017.11.03-15.59.41:674][468]LogEditorTransaction: Redo Create Pin Link
+[2017.11.03-15.59.42:060][501]LogEditorTransaction: Redo Add Node
+[2017.11.03-15.59.42:358][526]LogEditorTransaction: Redo Rename Node
+[2017.11.03-15.59.48:441][ 79]LogEditorTransaction: Redo Rename Node
+[2017.11.03-15.59.48:842][103]LogEditorTransaction: Redo Add Node
+[2017.11.03-15.59.49:326][135]LogEditorTransaction: Redo Create Pin Link
+[2017.11.03-15.59.51:375][282]LogEditorTransaction: Redo Add Variable
+[2017.11.03-15.59.51:725][303]LogEditorTransaction: Redo Change Parameter Type
+[2017.11.03-15.59.52:012][319]LogEditorTransaction: Redo Rename Variable
+[2017.11.03-15.59.52:500][352]LogEditorTransaction: Redo Delete current selection
+[2017.11.03-15.59.53:928][462]LogEditorTransaction: Redo Remove Variable
+[2017.11.03-15.59.54:427][496]LogEditorTransaction: Redo Add Node
+[2017.11.03-15.59.55:223][554]LogEditorTransaction: Redo Add Node
+[2017.11.03-15.59.55:853][598]LogEditorTransaction: Redo Move Node
+[2017.11.03-15.59.56:118][612]LogEditorTransaction: Redo Create Pin Link
+[2017.11.03-15.59.56:381][626]LogEditorTransaction: Redo Move Nodes
+[2017.11.03-15.59.56:703][645]LogEditorTransaction: Redo Move Nodes
+[2017.11.03-15.59.57:910][737]LogEditorTransaction: Redo Move Node
+[2017.11.03-15.59.58:329][763]LogEditorTransaction: Redo Create Pin Link
+[2017.11.03-15.59.58:707][785]LogEditorTransaction: Redo Create Pin Link
+[2017.11.03-15.59.59:094][809]LogEditorTransaction: Redo Move Node
+[2017.11.03-16.00.01:459][981]LogEditorTransaction: Redo Move Node
+[2017.11.03-16.00.03:394][118]LogEditorTransaction: Redo Move Node
+[2017.11.03-16.00.04:063][160]LogEditorTransaction: Redo Add Node
+[2017.11.03-16.00.04:654][196]LogEditorTransaction: Redo Delete current selection
+[2017.11.03-16.00.05:339][237]LogEditorTransaction: Redo Delete current selection
+[2017.11.03-16.00.05:927][273]LogEditorTransaction: Redo Move Node
+[2017.11.03-16.00.07:193][357]LogEditorTransaction: Undo Move Node
+[2017.11.03-16.00.07:423][367]LogEditorTransaction: Undo Delete current selection
+[2017.11.03-16.00.07:677][379]LogEditorTransaction: Undo Delete current selection
+[2017.11.03-16.00.08:032][398]LogEditorTransaction: Undo Add Node
+[2017.11.03-16.00.10:300][536]LogSavePackage: Save=276.59ms
+[2017.11.03-16.00.10:301][536]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonExampleMap4AF79BCE466EC304233A519D7C4E2B79.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.11.03-16.00.10:303][536]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.11.03-16.00.10:331][536]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.412
+[2017.11.03-16.00.21:932][412]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:059][412]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:115][412]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:119][412]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:120][412]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:124][412]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:126][412]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:135][412]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:138][412]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:139][412]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:142][412]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:143][412]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:154][412]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:156][412]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:158][412]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:162][412]LogSavePackage: Save=261.44ms
+[2017.11.03-16.00.22:162][412]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BP_LightStudio570DFFBB43E340AAABFBA5B17D9D30C2.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/StarterContent/Blueprints/BP_LightStudio.uasset'
+[2017.11.03-16.00.22:164][412]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:165][412]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:165][412]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/StarterContent/Blueprints/BP_LightStudio.uasset
+[2017.11.03-16.00.22:369][413]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:376][413]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:381][413]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:383][413]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:386][413]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:387][413]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:389][413]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:391][413]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:392][413]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:394][413]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:396][413]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:398][413]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:400][413]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:403][413]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:407][413]LogSavePackage: Save=77.45ms
+[2017.11.03-16.00.22:408][413]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:408][413]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Blueprint_CeilingLightB6967B8948EB62387B05299DF375A426.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset'
+[2017.11.03-16.00.22:411][413]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:412][413]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset
+[2017.11.03-16.00.22:521][414]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:523][414]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:526][414]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:527][414]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:528][414]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:529][414]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:530][414]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:532][414]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:534][414]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:535][414]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:537][414]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:538][414]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:540][414]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:542][414]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:546][414]LogSavePackage: Save=62.96ms
+[2017.11.03-16.00.22:547][414]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:547][414]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Blueprint_Effect_ExplosionD404C4954A06F53BAF3E139B8785DF0C.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset'
+[2017.11.03-16.00.22:549][414]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:550][414]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset
+[2017.11.03-16.00.22:720][415]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:722][415]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:725][415]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:727][415]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:728][415]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:729][415]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:730][415]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:732][415]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:734][415]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:735][415]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:736][415]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:737][415]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:739][415]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:740][415]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:744][415]LogSavePackage: Save=41.59ms
+[2017.11.03-16.00.22:744][415]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:745][415]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Blueprint_Effect_Fire84C586934EA6FF708AD0C6B710F75220.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset'
+[2017.11.03-16.00.22:747][415]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:748][415]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset
+[2017.11.03-16.00.22:837][416]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:840][416]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:842][416]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:844][416]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:845][416]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:846][416]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:847][416]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:849][416]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:850][416]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:851][416]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:852][416]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:853][416]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:855][416]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:856][416]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:860][416]LogSavePackage: Save=46.81ms
+[2017.11.03-16.00.22:860][416]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:861][416]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Blueprint_Effect_Smoke0013116B48B7DDDF465AFBB97DDA1147.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset'
+[2017.11.03-16.00.22:863][416]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:864][416]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset
+[2017.11.03-16.00.22:970][417]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:973][417]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:976][417]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:977][417]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:978][417]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:980][417]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:981][417]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:983][417]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:985][417]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:986][417]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:987][417]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:988][417]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:990][417]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:991][417]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:995][417]LogSavePackage: Save=39.35ms
+[2017.11.03-16.00.22:995][417]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:996][417]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Blueprint_Effect_SparksB786B80C479A8FD6AF092B94C12BB5D8.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset'
+[2017.11.03-16.00.22:998][417]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.22:999][417]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset
+[2017.11.03-16.00.23:087][418]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:090][418]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:092][418]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:094][418]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:095][418]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:096][418]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:097][418]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:100][418]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:101][418]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:102][418]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:103][418]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:105][418]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:106][418]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:107][418]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:112][418]LogSavePackage: Save=37.55ms
+[2017.11.03-16.00.23:112][418]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:112][418]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Blueprint_Effect_SteamD77EE7E84DDC92193D8E8DBE62C8A479.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset'
+[2017.11.03-16.00.23:115][418]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:116][418]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset
+[2017.11.03-16.00.23:185][419]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:193][419]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:198][419]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:200][419]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:201][419]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:202][419]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:203][419]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:205][419]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:206][419]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:207][419]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:208][419]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:209][419]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:211][419]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:212][419]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:217][419]LogSavePackage: Save=39.71ms
+[2017.11.03-16.00.23:217][419]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:217][419]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Blueprint_WallSconce1AB1F38F4E788B1749FEBC9FFF729964.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset'
+[2017.11.03-16.00.23:220][419]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.11.03-16.00.23:220][419]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset
+[2017.11.03-16.02.22:617][525]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2017.11.03-16.02.23:683][573]LogSavePackage: Save=271.01ms
+[2017.11.03-16.02.23:684][573]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonExampleMap92CE07554644F07F57E33988CF247E6A.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.11.03-16.02.23:686][573]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.11.03-16.02.23:712][573]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.378
+[2017.11.03-16.02.25:367][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/StatsWarrior" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Widgets/StatsWarrior.uasset" SILENT=true
+[2017.11.03-16.02.25:452][716]LogSavePackage: Save=64.93ms
+[2017.11.03-16.02.25:452][716]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/StatsWarriorB026B3C9425FED5242BFCFBC5D03C5EB.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Widgets/StatsWarrior.uasset'
+[2017.11.03-16.02.25:454][716]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Widgets/StatsWarrior.uasset
+[2017.11.03-16.02.25:936][761]BlueprintLog: New page: Compile StatsWarrior
+[2017.11.03-16.02.26:059][761]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.11.03-16.02.29:056][ 72]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.03-16.02.29:113][ 72]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.02.29:113][ 72]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.02.29:113][ 72]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.03-16.02.29:155][ 72]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 3, 2017, 6:02:29 PM)
+[2017.11.03-16.02.29:155][ 72]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.03-16.02.29:234][ 72]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079082s)
+[2017.11.03-16.02.29:236][ 72]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.03-16.02.29:236][ 72]LogPlayLevel: PIE: World Init took: (0.002563s)
+[2017.11.03-16.02.29:237][ 72]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.082233s)
+[2017.11.03-16.02.29:298][ 72]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.03-16.02.29:304][ 72]LogInit: FAudioDevice initialized.
+[2017.11.03-16.02.29:354][ 72]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.03-16.02.29:357][ 72]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.03-17.02.29
+[2017.11.03-16.02.29:357][ 72]LogWorld: Bringing up level for play took: 0.002322
+[2017.11.03-16.02.29:423][ 72]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.11.03-16.02.29:444][ 72]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2017.11.03-16.02.29:444][ 72]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.436
+[2017.11.03-16.02.29:444][ 72]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.02.29:444][ 72]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.02.29:447][ 72]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2017.11.03-16.02.30:934][224]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 1 1 0
+[2017.11.03-16.02.30:949][225]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2017.11.03-16.02.35:474][767]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.02.35:474][767]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.02.35:528][767]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.02.35:528][767]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.03.47:793][ 60]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2017.11.03-16.03.48:738][100]LogSavePackage: Save=276.86ms
+[2017.11.03-16.03.48:738][100]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonExampleMap8FD2FC364A393FB8A3D20CB102BEA14F.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.11.03-16.03.48:741][100]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.11.03-16.03.48:766][100]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.382
+[2017.11.03-16.03.50:015][214]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.03-16.03.50:032][214]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.03.50:032][214]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.03.50:033][214]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.03-16.03.50:033][214]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 3, 2017, 6:03:50 PM)
+[2017.11.03-16.03.50:033][214]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.03-16.03.50:050][214]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016941s)
+[2017.11.03-16.03.50:050][214]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.03-16.03.50:050][214]LogPlayLevel: PIE: World Init took: (0.000744s)
+[2017.11.03-16.03.50:051][214]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017908s)
+[2017.11.03-16.03.50:085][214]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.03-16.03.50:090][214]LogInit: FAudioDevice initialized.
+[2017.11.03-16.03.50:124][214]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.03-16.03.50:126][214]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.03-17.03.50
+[2017.11.03-16.03.50:127][214]LogWorld: Bringing up level for play took: 0.002229
+[2017.11.03-16.03.50:128][214]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2017.11.03-16.03.50:128][214]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.88
+[2017.11.03-16.03.50:128][214]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.03.50:128][214]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.03.50:130][214]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2017.11.03-16.03.51:211][338]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 1 1 0
+[2017.11.03-16.03.51:227][339]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2017.11.03-16.03.52:135][448]LogScript:Warning: Accessed None trying to read property MageStatsMenu
+	ThirdPersonExampleMap_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap_C_0
+	Function /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C:ExecuteUbergraph_ThirdPersonExampleMap:089C
+[2017.11.03-16.03.52:135][448]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property MageStatsMenu from function: 'ExecuteUbergraph_ThirdPersonExampleMap' from node: Remove from Parent in graph: EventGraph in object: ThirdPersonExampleMap with description: Accessed None trying to read property MageStatsMenu
+[2017.11.03-16.03.56:329][945]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=-42.000 Z=0.000] for [Warrior_BP_C]
+[2017.11.03-16.03.58:756][236]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.03.58:756][236]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.03.58:811][236]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.03.58:811][236]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.04.47:750][769]LogEditorTransaction: Undo Create Pin Link
+[2017.11.03-16.05.06:231][465]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2017.11.03-16.05.54:805][431]LogEditorTransaction: Undo Create Pin Link
+[2017.11.03-16.05.56:025][528]LogEditorTransaction: Undo Delete current selection
+[2017.11.03-16.05.56:383][553]LogEditorTransaction: Undo Delete current selection
+[2017.11.03-16.05.57:495][654]LogEditorTransaction: Redo Delete current selection
+[2017.11.03-16.05.57:815][676]LogEditorTransaction: Redo Delete current selection
+[2017.11.03-16.05.58:165][701]LogEditorTransaction: Redo Create Pin Link
+[2017.11.03-16.06.32:898][851]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2017.11.03-16.06.33:856][894]LogSavePackage: Save=268.61ms
+[2017.11.03-16.06.33:856][894]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonExampleMapCD670E6A4D476AA1938569B3781EC4D1.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.11.03-16.06.33:858][894]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.11.03-16.06.33:884][894]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.385
+[2017.11.03-16.06.37:747][196]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.03-16.06.37:765][196]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.06.37:765][196]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.06.37:765][196]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.03-16.06.37:765][196]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 3, 2017, 6:06:37 PM)
+[2017.11.03-16.06.37:765][196]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.03-16.06.37:782][196]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016480s)
+[2017.11.03-16.06.37:783][196]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.03-16.06.37:783][196]LogPlayLevel: PIE: World Init took: (0.000844s)
+[2017.11.03-16.06.37:783][196]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017536s)
+[2017.11.03-16.06.37:817][196]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.03-16.06.37:822][196]LogInit: FAudioDevice initialized.
+[2017.11.03-16.06.37:855][196]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.03-16.06.37:857][196]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.03-17.06.37
+[2017.11.03-16.06.37:858][196]LogWorld: Bringing up level for play took: 0.002284
+[2017.11.03-16.06.37:859][196]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2017.11.03-16.06.37:859][196]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.851
+[2017.11.03-16.06.37:859][196]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.06.37:859][196]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.06.37:861][196]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2017.11.03-16.06.39:448][383]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 1 1 0
+[2017.11.03-16.06.39:463][384]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2017.11.03-16.06.47:305][325]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=-84.000 Z=0.000] for [Warrior_BP_C]
+[2017.11.03-16.06.49:147][546]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.06.49:147][546]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.06.49:201][546]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.06.49:201][546]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.06.54:839][215]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (LeftArm_StaticMesh)
+[2017.11.03-16.07.23:071][923]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2017.11.03-16.07.24:340][997]LogSavePackage: Save=264.68ms
+[2017.11.03-16.07.24:340][997]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonExampleMap7C8561CA436C7E1D65A9159CCCCBC8EB.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.11.03-16.07.24:342][997]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.11.03-16.07.24:367][997]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.368
+[2017.11.03-16.07.26:047][160]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.03-16.07.26:064][160]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.07.26:064][160]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.07.26:064][160]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.03-16.07.26:064][160]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 3, 2017, 6:07:26 PM)
+[2017.11.03-16.07.26:064][160]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.03-16.07.26:081][160]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016245s)
+[2017.11.03-16.07.26:081][160]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.03-16.07.26:081][160]LogPlayLevel: PIE: World Init took: (0.000745s)
+[2017.11.03-16.07.26:082][160]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017221s)
+[2017.11.03-16.07.26:115][160]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.03-16.07.26:120][160]LogInit: FAudioDevice initialized.
+[2017.11.03-16.07.26:153][160]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.03-16.07.26:155][160]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.03-17.07.26
+[2017.11.03-16.07.26:156][160]LogWorld: Bringing up level for play took: 0.002173
+[2017.11.03-16.07.26:157][160]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2017.11.03-16.07.26:157][160]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.852
+[2017.11.03-16.07.26:157][160]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.07.26:157][160]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.07.26:159][160]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2017.11.03-16.07.26:995][257]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 1 1 0
+[2017.11.03-16.07.27:010][258]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2017.11.03-16.07.27:661][336]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
+	ThirdPersonExampleMap_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap_C_1
+	Function /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C:ExecuteUbergraph_ThirdPersonExampleMap:0830
+[2017.11.03-16.07.27:661][336]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonExampleMap' from node: Remove from Parent in graph: EventGraph in object: ThirdPersonExampleMap with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2017.11.03-16.07.35:604][284]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.07.35:604][284]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.07.35:661][284]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.07.35:661][284]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.11.42:993][274]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2017.11.03-16.11.43:018][274]LogBlueprint:Error: [Compiler PersistentLevel.ThirdPersonExampleMap] Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.11.03-16.11.43:018][274]LogBlueprint:Error: [Compiler PersistentLevel.ThirdPersonExampleMap] Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.11.03-16.11.43:239][274]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.11.03-16.11.43:239][274]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.11.03-16.11.43:239][274]LogBlueprint:Warning: [Compiler PersistentLevel.ThirdPersonExampleMap] Warning [2227.93] Compile of PersistentLevel.ThirdPersonExampleMap failed. 2 Fatal Issue(s) 0 Warning(s) [in 246 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.11.03-16.11.43:841][312]LogBlueprint:Error: [Compiler PersistentLevel.ThirdPersonExampleMap] Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.11.03-16.11.43:841][312]LogBlueprint:Error: [Compiler PersistentLevel.ThirdPersonExampleMap] Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.11.03-16.11.43:987][312]LogBlueprint:Warning: [Compiler PersistentLevel.ThirdPersonExampleMap] Warning [2228.68] Compile of PersistentLevel.ThirdPersonExampleMap failed. 2 Fatal Issue(s) 0 Warning(s) [in 153 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.11.03-16.11.43:987][312]LogBlueprint:Warning: [Compiler PersistentLevel.ThirdPersonExampleMap] Warning [2228.68] Compile of PersistentLevel.ThirdPersonExampleMap failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.11.03-16.11.43:987][312]LogBlueprint:Warning: [Compiler PersistentLevel.ThirdPersonExampleMap] Warning [2228.68] Compile of PersistentLevel.ThirdPersonExampleMap failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.11.03-16.11.43:987][312]LogBlueprint:Warning: [Compiler PersistentLevel.ThirdPersonExampleMap] Warning [2228.68] Compile of PersistentLevel.ThirdPersonExampleMap failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.11.03-16.11.43:989][312]LogBlueprint:Warning: [Compiler PersistentLevel.ThirdPersonExampleMap] Warning [2228.68] Compile of PersistentLevel.ThirdPersonExampleMap failed. 2 Fatal Issue(s) 4 Warning(s) [in 2 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.11.03-16.11.43:989][312]LogBlueprint:Warning: [Compiler PersistentLevel.ThirdPersonExampleMap] Warning [2228.68] Compile of PersistentLevel.ThirdPersonExampleMap failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.11.03-16.11.44:157][312]LogSavePackage: Save=339.20ms
+[2017.11.03-16.11.44:157][312]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonExampleMap97E12F3040C808CEF60E07B3AADB5FFC.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.11.03-16.11.44:159][312]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.11.03-16.11.44:187][312]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.458
+[2017.11.03-16.11.44:645][349]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2017.11.03-16.11.44:668][349]LogBlueprint:Error: [Compiler PersistentLevel.ThirdPersonExampleMap] Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.11.03-16.11.44:668][349]LogBlueprint:Error: [Compiler PersistentLevel.ThirdPersonExampleMap] Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.11.03-16.11.44:835][349]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.11.03-16.11.44:835][349]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.11.03-16.11.44:835][349]LogBlueprint:Warning: [Compiler PersistentLevel.ThirdPersonExampleMap] Warning [2229.53] Compile of PersistentLevel.ThirdPersonExampleMap failed. 2 Fatal Issue(s) 0 Warning(s) [in 190 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.11.03-16.11.54:358][155]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2017.11.03-16.12.00:212][739]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.03-16.12.00:230][739]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.12.00:230][739]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.12.00:230][739]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.03-16.12.00:230][739]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 3, 2017, 6:12:00 PM)
+[2017.11.03-16.12.00:230][739]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.03-16.12.00:247][739]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016774s)
+[2017.11.03-16.12.00:247][739]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.03-16.12.00:247][739]LogPlayLevel: PIE: World Init took: (0.000816s)
+[2017.11.03-16.12.00:248][739]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017839s)
+[2017.11.03-16.12.00:281][739]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.03-16.12.00:287][739]LogInit: FAudioDevice initialized.
+[2017.11.03-16.12.00:321][739]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.03-16.12.00:323][739]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.03-17.12.00
+[2017.11.03-16.12.00:324][739]LogWorld: Bringing up level for play took: 0.002350
+[2017.11.03-16.12.00:325][739]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2017.11.03-16.12.00:325][739]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.683
+[2017.11.03-16.12.00:325][739]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.12.00:325][739]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.12.00:327][739]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2017.11.03-16.12.01:331][856]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 1 1 0
+[2017.11.03-16.12.01:346][857]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2017.11.03-16.12.13:197][279]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.12.13:197][279]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.12.13:258][279]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.12.13:258][279]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.12.15:670][564]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.03-16.12.15:688][564]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.12.15:688][564]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.12.15:688][564]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.03-16.12.15:688][564]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 3, 2017, 6:12:15 PM)
+[2017.11.03-16.12.15:688][564]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.03-16.12.15:705][564]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016636s)
+[2017.11.03-16.12.15:705][564]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.03-16.12.15:706][564]LogPlayLevel: PIE: World Init took: (0.000688s)
+[2017.11.03-16.12.15:706][564]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017560s)
+[2017.11.03-16.12.15:739][564]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.03-16.12.15:744][564]LogInit: FAudioDevice initialized.
+[2017.11.03-16.12.15:775][564]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.03-16.12.15:777][564]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.03-17.12.15
+[2017.11.03-16.12.15:778][564]LogWorld: Bringing up level for play took: 0.002271
+[2017.11.03-16.12.15:779][564]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2017.11.03-16.12.15:779][564]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.771
+[2017.11.03-16.12.15:779][564]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.12.15:779][564]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.12.15:781][564]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2017.11.03-16.12.16:975][704]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 1 1 0
+[2017.11.03-16.12.16:990][705]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2017.11.03-16.12.22:324][345]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.12.22:324][345]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.12.22:370][345]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.12.22:370][345]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.12.57:797][ 34]LogBlueprint:Error: [Compiler PersistentLevel.ThirdPersonExampleMap] Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.11.03-16.12.57:797][ 34]LogBlueprint:Error: [Compiler PersistentLevel.ThirdPersonExampleMap] Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.11.03-16.12.57:941][ 34]LogBlueprint:Warning: [Compiler PersistentLevel.ThirdPersonExampleMap] Warning [2302.63] Compile of PersistentLevel.ThirdPersonExampleMap failed. 2 Fatal Issue(s) 0 Warning(s) [in 152 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.11.03-16.12.57:941][ 34]LogBlueprint:Warning: [Compiler PersistentLevel.ThirdPersonExampleMap] Warning [2302.63] Compile of PersistentLevel.ThirdPersonExampleMap failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.11.03-16.12.57:941][ 34]LogBlueprint:Warning: [Compiler PersistentLevel.ThirdPersonExampleMap] Warning [2302.63] Compile of PersistentLevel.ThirdPersonExampleMap failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.11.03-16.12.57:941][ 34]LogBlueprint:Warning: [Compiler PersistentLevel.ThirdPersonExampleMap] Warning [2302.63] Compile of PersistentLevel.ThirdPersonExampleMap failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.11.03-16.12.57:943][ 34]LogBlueprint:Warning: [Compiler PersistentLevel.ThirdPersonExampleMap] Warning [2302.64] Compile of PersistentLevel.ThirdPersonExampleMap failed. 2 Fatal Issue(s) 4 Warning(s) [in 2 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.11.03-16.12.57:943][ 34]LogBlueprint:Warning: [Compiler PersistentLevel.ThirdPersonExampleMap] Warning [2302.64] Compile of PersistentLevel.ThirdPersonExampleMap failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.11.03-16.12.58:111][ 34]LogSavePackage: Save=337.75ms
+[2017.11.03-16.12.58:111][ 34]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonExampleMapC0EEE1AB4A14D9E8F53985B9903BEDE2.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.11.03-16.12.58:113][ 34]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.11.03-16.12.58:138][ 34]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.443
+[2017.11.03-16.13.22:645][203]LogEditorTransaction: Undo Create Pin Link
+[2017.11.03-16.13.23:080][228]LogEditorTransaction: Undo Delete current selection
+[2017.11.03-16.13.37:507][553]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2017.11.03-16.13.38:386][592]LogSavePackage: Save=263.69ms
+[2017.11.03-16.13.38:386][592]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonExampleMapA7C3478D42D54CDEAC72E4AC3823B5AB.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.11.03-16.13.38:388][592]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.11.03-16.13.38:413][592]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.368
+[2017.11.03-16.13.39:703][720]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.03-16.13.39:720][720]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.13.39:720][720]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.13.39:720][720]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.03-16.13.39:720][720]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 3, 2017, 6:13:39 PM)
+[2017.11.03-16.13.39:720][720]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.03-16.13.39:737][720]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016590s)
+[2017.11.03-16.13.39:738][720]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.03-16.13.39:738][720]LogPlayLevel: PIE: World Init took: (0.000751s)
+[2017.11.03-16.13.39:738][720]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017576s)
+[2017.11.03-16.13.39:772][720]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.03-16.13.39:777][720]LogInit: FAudioDevice initialized.
+[2017.11.03-16.13.39:811][720]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.03-16.13.39:813][720]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.03-17.13.39
+[2017.11.03-16.13.39:814][720]LogWorld: Bringing up level for play took: 0.002219
+[2017.11.03-16.13.39:815][720]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2017.11.03-16.13.39:815][720]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.807
+[2017.11.03-16.13.39:815][720]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.13.39:815][720]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.13.39:816][720]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2017.11.03-16.13.40:796][834]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 1 1 0
+[2017.11.03-16.13.40:810][835]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2017.11.03-16.13.41:377][903]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
+	ThirdPersonExampleMap_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap_C_0
+	Function /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C:ExecuteUbergraph_ThirdPersonExampleMap:04A5
+[2017.11.03-16.13.41:378][903]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonExampleMap' from node: Remove from Parent in graph: EventGraph in object: ThirdPersonExampleMap with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2017.11.03-16.13.45:169][358]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.13.45:169][358]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.13.45:225][358]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.13.45:225][358]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.15.24:626][277]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2017.11.03-16.15.25:826][342]LogSavePackage: Save=268.19ms
+[2017.11.03-16.15.25:826][342]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonExampleMapBFF67BC640F1554756C6109D4DD808DA.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.11.03-16.15.25:830][342]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.11.03-16.15.25:857][342]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.379
+[2017.11.03-16.15.28:648][656]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.03-16.15.28:666][656]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.15.28:666][656]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.15.28:666][656]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.03-16.15.28:666][656]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 3, 2017, 6:15:28 PM)
+[2017.11.03-16.15.28:666][656]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.03-16.15.28:683][656]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016843s)
+[2017.11.03-16.15.28:683][656]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.03-16.15.28:683][656]LogPlayLevel: PIE: World Init took: (0.000797s)
+[2017.11.03-16.15.28:684][656]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017882s)
+[2017.11.03-16.15.28:717][656]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.03-16.15.28:723][656]LogInit: FAudioDevice initialized.
+[2017.11.03-16.15.28:757][656]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.03-16.15.28:759][656]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.03-17.15.28
+[2017.11.03-16.15.28:760][656]LogWorld: Bringing up level for play took: 0.002211
+[2017.11.03-16.15.28:761][656]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2017.11.03-16.15.28:761][656]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.247
+[2017.11.03-16.15.28:761][656]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.15.28:761][656]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.15.28:763][656]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2017.11.03-16.15.30:298][837]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 1 1 0
+[2017.11.03-16.15.30:313][838]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2017.11.03-16.15.33:914][270]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.15.33:914][270]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.15.33:975][270]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.03-16.15.33:975][270]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.03-16.17.52:858][716]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2017.11.03-16.17.53:798][762]LogSavePackage: Save=265.77ms
+[2017.11.03-16.17.53:798][762]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonExampleMap4093709F49FEB691A24991A66E232091.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.11.03-16.17.53:801][762]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.11.03-16.17.53:827][762]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.384
+[2017.11.03-16.18.03:274][655]LogSavePackage: Save=272.42ms
+[2017.11.03-16.18.03:274][655]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonExampleMap0197DE2E41E275AAB9137AB52F5E16A6.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.11.03-16.18.03:277][655]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.11.03-16.18.03:301][655]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.375
+[2017.11.03-16.18.23:940][457]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.03-16.18.24:122][458]Cmd: QUIT_EDITOR
+[2017.11.03-16.18.24:795][458]LogExit: Preparing to exit.
+[2017.11.03-16.18.25:598][458]LogExit: Editor shut down
+[2017.11.03-16.18.25:601][458]LogExit: Transaction tracking system shut down
+[2017.11.03-16.18.25:691][458]LogObj: Freed 0b from 0 cluster array pools.
+[2017.11.03-16.18.25:691][458]LogExit: Object subsystem successfully closed.
+[2017.11.03-16.18.25:709][458]LogD3D11RHI: Shutdown
+[2017.11.03-16.18.25:709][458]LogD3D11RHI: CleanupD3DDevice
+[2017.11.03-16.18.25:778][458]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.03-16.18.25:786][458]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (536)
+[2017.11.03-16.18.25:786][458]LogModuleManager: Shutting down and abandoning module SequencerWidgets (534)
+[2017.11.03-16.18.25:787][458]LogModuleManager: Shutting down and abandoning module BlueprintGraph (532)
+[2017.11.03-16.18.25:787][458]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (530)
+[2017.11.03-16.18.25:794][458]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (528)
+[2017.11.03-16.18.25:794][458]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
+[2017.11.03-16.18.25:794][458]LogModuleManager: Shutting down and abandoning module CrashTracker (524)
+[2017.11.03-16.18.25:794][458]LogModuleManager: Shutting down and abandoning module WorldBrowser (522)
+[2017.11.03-16.18.25:794][458]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.11.03-16.18.25:794][458]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.11.03-16.18.25:804][458]LogDirectoryWatcher: A directory notification for 'D:/Program Files (x86)/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.11.03-16.18.25:805][458]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Collections/' was aborted.
+[2017.11.03-16.18.25:805][458]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Developers/David/Collections/' was aborted.
+[2017.11.03-16.18.25:805][458]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Collections/' was aborted.
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.11.03-16.18.25:805][458]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.11.03-16.18.26:183][458]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.11.03-16.18.26:183][458]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.11.03-16.18.26:183][458]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.11.03-16.18.26:183][458]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.11.03-16.18.26:183][458]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.11.03-16.18.26:183][458]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.11.03-16.18.26:183][458]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.11.03-16.18.26:183][458]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.11.03-16.18.26:183][458]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.11.03-16.18.26:183][458]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.11.03-16.18.26:183][458]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.11.03-16.18.26:183][458]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.11.03-16.18.26:183][458]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.11.03-16.18.26:183][458]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.11.03-16.18.26:183][458]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.11.03-16.18.26:183][458]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.11.03-16.18.26:183][458]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.11.03-16.18.26:183][458]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.11.03-16.18.26:183][458]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.11.03-16.18.26:183][458]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.11.03-16.18.26:183][458]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.11.03-16.18.26:183][458]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.11.03-16.18.26:183][458]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.11.03-16.18.26:183][458]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.11.03-16.18.26:227][458]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.11.03-16.18.26:227][458]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.11.03-16.18.26:227][458]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.11.03-16.18.26:227][458]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.11.03-16.18.26:227][458]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.11.03-16.18.26:227][458]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.11.03-16.18.26:227][458]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.11.03-16.18.26:227][458]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.11.03-16.18.26:227][458]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.11.03-16.18.26:227][458]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.11.03-16.18.26:233][458]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.11.03-16.18.26:234][458]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.11.03-16.18.26:234][458]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.11.03-16.18.26:234][458]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.11.03-16.18.26:234][458]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.11.03-16.18.26:234][458]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.11.03-16.18.26:234][458]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.11.03-16.18.26:234][458]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.11.03-16.18.26:234][458]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.11.03-16.18.26:234][458]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.11.03-16.18.26:234][458]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.11.03-16.18.26:234][458]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.11.03-16.18.26:234][458]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.11.03-16.18.26:234][458]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.11.03-16.18.26:234][458]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.11.03-16.18.26:234][458]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.11.03-16.18.26:234][458]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.11.03-16.18.26:234][458]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.11.03-16.18.26:234][458]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.11.03-16.18.26:234][458]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.11.03-16.18.26:435][458]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.11.03-16.18.26:436][458]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.11.03-16.18.26:436][458]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.11.03-16.18.26:436][458]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.11.03-16.18.26:436][458]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.11.03-16.18.26:436][458]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.11.03-16.18.26:436][458]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.11.03-16.18.26:436][458]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.11.03-16.18.26:436][458]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.11.03-16.18.26:436][458]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.11.03-16.18.26:537][458]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.11.03-16.18.26:638][458]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.11.03-16.18.26:638][458]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.11.03-16.18.26:638][458]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.11.03-16.18.26:638][458]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.11.03-16.18.26:638][458]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.11.03-16.18.26:638][458]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.11.03-16.18.26:638][458]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.11.03-16.18.26:639][458]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.11.03-16.18.26:639][458]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.11.03-16.18.26:639][458]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.11.03-16.18.26:639][458]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.11.03-16.18.26:639][458]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.11.03-16.18.26:639][458]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.11.03-16.18.26:639][458]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.11.03-16.18.26:639][458]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.11.03-16.18.26:639][458]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.11.03-16.18.26:639][458]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.11.03-16.18.26:639][458]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.11.03-16.18.26:639][458]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.11.03-16.18.26:639][458]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.11.03-16.18.26:639][458]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.11.03-16.18.26:639][458]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.11.03-16.18.26:639][458]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.11.03-16.18.26:639][458]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.11.03-16.18.26:639][458]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.11.03-16.18.26:639][458]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.11.03-16.18.26:639][458]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.11.03-16.18.26:639][458]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.11.03-16.18.26:639][458]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.11.03-16.18.26:640][458]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.11.03-16.18.26:640][458]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.11.03-16.18.26:641][458]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.11.03-16.18.26:641][458]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.11.03-16.18.26:641][458]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.11.03-16.18.26:641][458]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.11.03-16.18.26:760][458]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.03-16.18.26:760][458]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/' was aborted.
+[2017.11.03-16.18.26:760][458]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.03-16.18.26:760][458]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.11.03-16.18.26:763][458]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.11.03-16.18.26:763][458]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.11.03-16.18.26:763][458]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.11.03-16.18.26:763][458]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.11.03-16.18.26:763][458]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.11.03-16.18.26:763][458]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.11.03-16.18.26:763][458]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.11.03-16.18.26:763][458]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.11.03-16.18.26:763][458]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.03-16.18.26:836][458]LogDerivedDataCache: Shutdown
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.03-16.18.26:836][458]LogOnline:Display: Unloading online subsystem: NULL
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.03-16.18.26:836][458]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.03-16.18.26:836][458]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.03-16.18.26:836][458]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0296C7F1-49D5-0278-C95D-BABA526E7153%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=eedd91be406e0cd25ea0748277e6e73c%7C7a211806f70b4509a5be2640357744fc%7Caa6de738-987c-4c76-bb80-6cc1d099ea00&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.03-16.18.26:858][458]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.03-16.18.26:860][458]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.11.03-16.18.26:860][458]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.11.03-16.18.26:860][458]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.11.03-16.18.26:860][458]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.11.03-16.18.26:860][458]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.11.03-16.18.26:860][458]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.11.03-16.18.26:860][458]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.11.03-16.18.26:860][458]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.11.03-16.18.26:861][458]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.11.03-16.18.26:861][458]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.11.03-16.18.26:861][458]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.11.03-16.18.26:861][458]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.11.03-16.18.26:861][458]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.11.03-16.18.26:861][458]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.11.03-16.18.26:861][458]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.11.03-16.18.26:861][458]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.03-16.18.26:861][458]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.03-16.18.26:861][458]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.03-16.18.26:862][458]LogExit: Exiting.
+[2017.11.03-16.18.26:874][458]Log file closed, 11/03/17 17:18:26
