@@ -1,0 +1,882 @@
+﻿Log file open, 11/25/17 11:58:53
+LogInit:Display: Running engine for game: MechHackAndSlash
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(305707661) SRandInit(305707661).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.080659
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: D:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.25-10.58.54:174][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.25-10.58.54:175][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.25-10.58.54:189][  0]LogInit: Computer: DAVIDMASTERRACE
+[2017.11.25-10.58.54:189][  0]LogInit: User: David
+[2017.11.25-10.58.54:189][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.25-10.58.54:189][  0]LogInit: High frequency timer resolution =3.417970 MHz
+[2017.11.25-10.58.54:190][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.25-10.58.54:190][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.25-10.58.54:190][  0]LogMemory: Process Physical Memory: 271.59 MB used, 271.59 MB peak
+[2017.11.25-10.58.54:190][  0]LogMemory: Process Virtual Memory: 266.51 MB used, 266.51 MB peak
+[2017.11.25-10.58.54:190][  0]LogMemory: Physical Memory: 5684.39 MB used,  10642.05 MB free, 16326.44 MB total
+[2017.11.25-10.58.54:190][  0]LogMemory: Virtual Memory: 622.99 MB used,  10642.05 MB free, 134217728.00 MB total
+[2017.11.25-10.58.54:228][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.11.25-10.58.54:228][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.11.25-10.58.54:949][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.25-10.58.54:973][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.11.25-10.58.54:974][  0]LogD3D11RHI:       3975/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.11.25-10.58.54:975][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.25-10.58.54:975][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.25-10.58.54:975][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.25-10.58.54:977][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.25-10.58.54:977][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.25-10.58.54:977][  0]LogWindows: EnumDisplayDevices:
+[2017.11.25-10.58.54:977][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.11.25-10.58.54:977][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.11.25-10.58.54:977][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.11.25-10.58.54:977][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.11.25-10.58.54:978][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.11.25-10.58.54:978][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.11.25-10.58.54:978][  0]LogD3D11RHI:   Driver Version: 385.41 (internal:22.21.13.8541, unified:385.41)
+[2017.11.25-10.58.54:978][  0]LogD3D11RHI:      Driver Date: 8-21-2017
+[2017.11.25-10.58.54:978][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.25-10.58.54:986][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.25-10.58.55:002][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.11.25-10.58.55:046][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Intermediate/Shaders/WorkingDirectory/5536/).
+[2017.11.25-10.58.55:046][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/David/AppData/Local/Temp/UnrealShaderWorkingDir/8B74414F4CFE7A7D5EDFF29AABFFE7F6/'.
+[2017.11.25-10.58.55:046][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.11.25-10.58.55:873][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.25-10.58.55:901][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.11.25-10.58.55:930][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.25-10.58.55:959][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.11.25-10.58.55:988][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.11.25-10.58.56:017][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.25-10.58.56:045][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.25-10.58.56:075][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.25-10.58.56:098][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.11.25-10.58.56:126][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.11.25-10.58.56:154][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.25-10.58.56:182][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.25-10.58.56:210][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.25-10.58.56:238][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.25-10.58.56:266][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.25-10.58.56:322][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.25-10.58.56:322][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.25-10.58.56:363][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.11.25-10.58.56:426][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.11.25-10.58.56:445][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.11.25-10.58.56:487][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.25-10.58.56:516][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.25-10.58.56:545][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.25-10.58.56:575][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.11.25-10.58.56:575][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.11.25-10.58.56:852][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.11.25-10.58.56:931][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.25-10.58.56:931][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.11.25-10.58.56:931][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.25-10.58.56:931][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.25-10.58.56:931][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.25-10.58.56:931][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.25-10.58.56:947][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.25-10.58.56:959][  0]LogDerivedDataCache: Using Local data cache path C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.25-10.58.56:967][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.25-10.58.56:967][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.25-10.58.56:968][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.25-10.58.56:968][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.25-10.58.57:214][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.25-10.58.57:270][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.25-10.58.57:404][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.25-10.58.57:427][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.25-10.58.57:452][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.25-10.58.57:452][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.11.25-10.58.57:452][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.11.25-10.58.57:894][  0]LogNetVersion: MechHackAndSlash , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 86869316)
+[2017.11.25-10.58.57:944][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2017.11.25-10.58.57:973][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.017252 seconds
+[2017.11.25-10.58.57:979][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.11.25-10.58.57:979][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.11.25-10.58.57:979][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.25-10.58.58:016][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.25-10.58.59:800][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.25-10.58.59:826][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.25-10.59.00:140][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.25-10.59.00:369][  0]SourceControl: Info Source control is disabled
+[2017.11.25-10.59.00:392][  0]SourceControl: Info Source control is disabled
+[2017.11.25-10.59.00:420][  0]SourceControl: Info Source control is disabled
+[2017.11.25-10.59.00:447][  0]SourceControl: Info Source control is disabled
+[2017.11.25-10.59.00:854][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.25-10.59.01:211][  0]LogEngine: Initializing Engine...
+[2017.11.25-10.59.01:212][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.25-10.59.01:369][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.25-10.59.01:369][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.25-10.59.01:437][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.25-10.59.01:460][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.25-10.59.01:479][  0]LogInit: FAudioDevice initialized.
+[2017.11.25-10.59.01:518][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.25-10.59.01:530][  0]LogInit: Texture streaming: Enabled
+[2017.11.25-10.59.01:584][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.25-10.59.01:699][  0]LogInit: Transaction tracking system initialized
+[2017.11.25-10.59.01:869][  0]BlueprintLog: New page: Editor Load
+[2017.11.25-10.59.02:345][  0]LocalizationService: Info Localization service is disabled
+[2017.11.25-10.59.02:702][  0]LogConsoleResponse:Display: 
+[2017.11.25-10.59.02:828][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.25-10.59.02:828][  0]LogCook:Display: Mobile HDR setting 1
+[2017.11.25-10.59.03:040][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/' took 0.02s
+[2017.11.25-10.59.03:344][  0]SourceControl: Info Source control is disabled
+[2017.11.25-10.59.03:344][  0]Cmd: MAP LOAD FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.25-10.59.03:344][  0]LightingResults: New page: Lighting Build
+[2017.11.25-10.59.03:365][  0]MapCheck: New page: Map Check
+[2017.11.25-10.59.03:365][  0]LightingResults: New page: Lighting Build
+[2017.11.25-10.59.06:198][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.25-10.59.07:553][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.25-10.59.07:603][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.25-10.59.07:649][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.874ms to complete.
+[2017.11.25-10.59.07:649][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 4.306
+[2017.11.25-10.59.08:118][  0]LogCollectionManager: Loaded 0 collections in 0.001110 seconds
+[2017.11.25-10.59.08:341][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Collections/' took 0.01s
+[2017.11.25-10.59.08:341][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Developers/David/Collections/' took 0.01s
+[2017.11.25-10.59.08:341][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Collections/' took 0.01s
+[2017.11.25-10.59.08:341][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.11.25-10.59.08:375][  0]LogContentBrowser: Native class hierarchy populated in 0.0321 seconds. Added 2329 classes and 491 folders.
+[2017.11.25-10.59.08:460][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.11.25-10.59.09:624][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2017.11.25-10.59.09:774][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.11.25-10.59.09:881][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0019 seconds. Added 1 classes and 3 folders.
+[2017.11.25-10.59.10:677][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.11.25-10.59.10:713][  0]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.25-10.59.10:714][  0]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.25-10.59.10:747][  0]LogSlate: Took 0.017016 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.25-10.59.11:068][  0]LogRenderer: Reallocating scene render targets to support 1204x576 NumSamples 1 (Frame:1).
+[2017.11.25-10.59.11:380][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.25-10.59.11:437][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.11.25-10.59.11:437][  0]LogLoad: (Engine Initialization) Total time: 18.57 seconds
+[2017.11.25-10.59.11:437][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.67 seconds
+[2017.11.25-10.59.11:437][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.25-10.59.11:437][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.25-10.59.11:777][  0]LogOcInput: OculusInput pre-init called
+[2017.11.25-10.59.11:777][  0]LogHMD: Starting GearVRController plugin
+[2017.11.25-10.59.11:845][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.25-10.59.12:045][  0]LogSlate: Took 0.011741 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.25-10.59.12:795][  3]LogAssetRegistry: Asset discovery search completed in 14.8734 seconds
+[2017.11.25-10.59.12:801][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.25-10.59.12:801][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000073 seconds (updated 0 objects)
+[2017.11.25-10.59.12:841][  3]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.25-10.59.44:617][409]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.25-10.59.45:361][409]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 112 classes and 0 folders.
+[2017.11.25-10.59.46:423][409]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.25-10.59.46:866][409]LogSlate: Took 0.013087 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.25-10.59.47:714][410]LogSlate: Took 0.009891 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.25-11.03.21:978][424]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.11.25-11.03.22:394][424]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.25-11.03.22:598][424]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.11.25-11.03.23:472][424]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0019 seconds. Added 1 classes and 0 folders.
+[2017.11.25-11.03.23:595][424]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.11.25-11.04.14:862][431]LogSavePackage: Save=35.94ms
+[2017.11.25-11.04.14:862][431]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/w_ultimateEspada96F32CB94A55B527E668E9B5361F2854.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/AnimationMontage/w_ultimateEspada.uasset'
+[2017.11.25-11.04.14:866][431]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/AnimationMontage/w_ultimateEspada.uasset
+[2017.11.25-11.04.14:893][431]LogSavePackage: Save=13.11ms
+[2017.11.25-11.04.14:893][431]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/w_ultimateGS45BBFC714FD79540960BDC93E755AE9E.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/AnimationMontage/w_ultimateGS.uasset'
+[2017.11.25-11.04.14:895][431]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/AnimationMontage/w_ultimateGS.uasset
+[2017.11.25-11.05.28:366][767]LogRenderer: Reallocating scene render targets to support 1204x672 NumSamples 1 (Frame:1).
+[2017.11.25-11.06.01:811][570]LogMaterial: Missing cached shader map for material ultimateEspada, compiling. 
+[2017.11.25-11.06.01:958][570]LogMaterial: Missing cached shader map for material ultimateEspada, compiling. 
+[2017.11.25-11.06.01:981][570]LogMaterial: Missing cached shader map for material ultimateEspada, compiling. 
+[2017.11.25-11.06.04:530][795]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.11.25-11.06.04:530][795]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.25-11.06.04:530][795]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.25-11.06.11:493][488]LogMaterial: Missing cached shader map for material ultimateEspada, compiling. 
+[2017.11.25-11.06.11:503][488]LogMaterial: Missing cached shader map for material ultimateEspada, compiling. 
+[2017.11.25-11.06.11:504][488]LogMaterial:Warning: Failed to compile Material /Engine/Transient.ultimateEspada for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.25-11.06.11:504][488]LogMaterial:Warning: 	(Node Desaturation) Missing Desaturation input
+[2017.11.25-11.06.11:506][488]MaterialEditorStats:Error: Error [SM5] (Node Desaturation) Missing Desaturation input
+[2017.11.25-11.06.13:346][671]LogMaterial: Missing cached shader map for material ultimateEspada, compiling. 
+[2017.11.25-11.06.14:715][798]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.11.25-11.06.14:715][798]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.25-11.06.14:715][798]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.25-11.07.25:302][919]LogMaterial: Missing cached shader map for material defaultMat, compiling. 
+[2017.11.25-11.07.25:375][919]LogMaterial: Missing cached shader map for material defaultMat, compiling. 
+[2017.11.25-11.07.25:386][919]LogMaterial: Missing cached shader map for material defaultMat, compiling. 
+[2017.11.25-11.07.25:425][919]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.07.27:008][ 63]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.25-11.07.27:008][ 63]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.25-11.07.27:008][ 63]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.25-11.08.49:710][416]LogMaterial: Missing cached shader map for material espadaUltimate, compiling. 
+[2017.11.25-11.08.51:705][644]LogMaterial: Missing cached shader map for material espadaUltimate, compiling. 
+[2017.11.25-11.08.51:777][644]LogMaterial: Missing cached shader map for material espadaUltimate, compiling. 
+[2017.11.25-11.08.51:788][644]LogMaterial: Missing cached shader map for material espadaUltimate, compiling. 
+[2017.11.25-11.08.51:824][644]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.08.53:135][761]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.25-11.08.53:135][761]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.25-11.08.53:135][761]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.25-11.09.03:177][722]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.03:206][722]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.03:238][722]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.03:267][722]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.03:297][722]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.03:329][722]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.03:359][722]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.03:388][722]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.03:419][722]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.03:449][722]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.03:478][722]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.03:507][722]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.03:539][722]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.03:570][722]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.03:599][722]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.03:629][722]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.03:730][729]LogMaterial: Missing cached shader map for material espadaUltimate, compiling. 
+[2017.11.25-11.09.03:742][729]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.04:227][771]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.04:256][771]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.04:286][771]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.04:315][771]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.04:344][771]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.04:376][771]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.04:405][771]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.04:436][771]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.04:501][774]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.04:535][774]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.04:566][774]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.04:595][774]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.04:627][774]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.04:748][782]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.04:899][793]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.04:943][794]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.04:973][794]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.05:002][794]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.05:033][794]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.05:064][794]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.05:094][794]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.05:123][794]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.05:153][794]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.05:184][794]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.05:216][794]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.05:247][794]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.05:276][794]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.05:603][822]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.05:633][822]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.05:662][822]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.05:692][822]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.05:778][827]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.05:990][844]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.06:206][862]LogMaterial: Missing cached shader map for material espadaUltimate, compiling. 
+[2017.11.25-11.09.06:223][862]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.07:416][973]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.25-11.09.07:416][973]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.25-11.09.07:416][973]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.25-11.09.26:669][919]LogMaterial: Missing cached shader map for material espadaUltimate, compiling. 
+[2017.11.25-11.09.26:680][919]LogMaterial: Missing cached shader map for material espadaUltimate, compiling. 
+[2017.11.25-11.09.27:974][ 40]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.25-11.09.27:974][ 40]MaterialEditorStats: Info Vertex shader: 30 instructions
+[2017.11.25-11.09.27:974][ 40]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.25-11.09.37:169][959]LogMaterial: Missing cached shader map for material espadaUltimate, compiling. 
+[2017.11.25-11.09.37:184][959]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.09.38:482][ 76]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.25-11.09.38:482][ 76]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.25-11.09.38:482][ 76]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.25-11.09.40:463][275]LogMaterial: Missing cached shader map for material espadaUltimate, compiling. 
+[2017.11.25-11.09.41:720][393]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.11.25-11.09.41:720][393]MaterialEditorStats: Info Vertex shader: 30 instructions
+[2017.11.25-11.09.41:720][393]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.25-11.09.45:559][763]LogMaterial: Missing cached shader map for material espadaUltimate, compiling. 
+[2017.11.25-11.09.46:789][876]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.25-11.09.46:789][876]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.25-11.09.46:789][876]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.25-11.09.48:722][ 63]LogMaterial: Missing cached shader map for material espadaUltimate, compiling. 
+[2017.11.25-11.09.50:031][182]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.11.25-11.09.50:031][182]MaterialEditorStats: Info Vertex shader: 30 instructions
+[2017.11.25-11.09.50:031][182]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.25-11.09.55:468][728]LogMaterial: Missing cached shader map for material espadaUltimate, compiling. 
+[2017.11.25-11.09.55:479][728]LogMaterial: Missing cached shader map for material espadaUltimate, compiling. 
+[2017.11.25-11.09.56:639][834]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.11.25-11.09.56:639][834]MaterialEditorStats: Info Vertex shader: 30 instructions
+[2017.11.25-11.09.56:639][834]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.25-11.10.04:316][556]LogMaterial: Missing cached shader map for material espadaUltimate, compiling. 
+[2017.11.25-11.10.05:588][667]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.11.25-11.10.05:588][667]MaterialEditorStats: Info Vertex shader: 30 instructions
+[2017.11.25-11.10.05:588][667]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.25-11.10.07:960][887]LogMaterial: Missing cached shader map for material espadaUltimate, compiling. 
+[2017.11.25-11.10.09:837][ 64]LogMaterial: Missing cached shader map for material espadaUltimate, compiling. 
+[2017.11.25-11.10.11:048][174]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.11.25-11.10.11:048][174]MaterialEditorStats: Info Vertex shader: 30 instructions
+[2017.11.25-11.10.11:048][174]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.25-11.10.14:996][550]LogMaterialEditor: Saving and Compiling material espadaUltimate
+[2017.11.25-11.10.15:503][550]LogMaterial: Missing cached shader map for material espadaUltimate, compiling. 
+[2017.11.25-11.10.15:551][550]LogMaterial: Missing cached shader map for material espadaUltimate, compiling. 
+[2017.11.25-11.10.15:568][550]LogMaterial: Missing cached shader map for material espadaUltimate, compiling. 
+[2017.11.25-11.10.15:600][550]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy espadaUltimate, compiling. 
+[2017.11.25-11.10.16:150][550]TextureStreamingBuild:Display: Compiling optional shaders took 0.556 seconds.
+[2017.11.25-11.10.17:220][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Warrior/Mesh/espadaUltimate" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Mesh/espadaUltimate.uasset" SILENT=true
+[2017.11.25-11.10.17:234][550]LogSavePackage: Save=13.02ms
+[2017.11.25-11.10.17:234][550]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/espadaUltimateD447ED2F4E9274B2CC7972BE4E683DBD.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Mesh/espadaUltimate.uasset'
+[2017.11.25-11.10.17:236][550]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Mesh/espadaUltimate.uasset
+[2017.11.25-11.10.17:254][550]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.11.25-11.10.17:254][550]MaterialEditorStats: Info Vertex shader: 30 instructions
+[2017.11.25-11.10.17:254][550]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.11.25-11.10.34:711][202]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.34:740][202]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.34:825][207]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.34:855][207]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.34:884][207]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.34:914][207]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.34:945][207]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.34:980][207]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.35:065][210]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.35:097][210]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.35:126][210]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.35:155][210]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.35:185][210]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.35:214][210]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.35:258][211]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.35:380][219]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.35:411][219]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.35:441][219]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.35:471][219]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.35:630][231]LogMaterial: Missing cached shader map for material espadaUltimate, compiling. 
+[2017.11.25-11.10.35:648][231]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.37:110][362]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.11.25-11.10.37:110][362]MaterialEditorStats: Info Vertex shader: 30 instructions
+[2017.11.25-11.10.37:110][362]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.25-11.10.37:623][409]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.37:653][409]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.37:682][409]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.37:711][409]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.37:742][409]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.37:771][409]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.37:800][409]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.37:831][409]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.37:861][409]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.37:891][409]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.37:920][409]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.37:978][411]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.38:007][411]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.38:037][411]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.38:131][417]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.38:611][460]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.38:641][460]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.38:670][460]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.38:735][463]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.38:765][463]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.38:902][473]LogMaterial: Missing cached shader map for material espadaUltimate, compiling. 
+[2017.11.25-11.10.38:921][473]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.40:252][593]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.11.25-11.10.40:252][593]MaterialEditorStats: Info Vertex shader: 30 instructions
+[2017.11.25-11.10.40:252][593]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.25-11.10.41:472][706]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.41:546][710]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.41:576][710]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.41:606][710]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.41:637][710]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.41:668][710]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.41:698][710]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.41:730][710]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.41:761][710]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.41:805][711]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.41:973][724]LogMaterial: Missing cached shader map for material espadaUltimate, compiling. 
+[2017.11.25-11.10.41:987][724]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.43:504][859]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.11.25-11.10.43:504][859]MaterialEditorStats: Info Vertex shader: 30 instructions
+[2017.11.25-11.10.43:504][859]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.25-11.10.58:081][239]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.58:258][253]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.58:288][253]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.58:318][253]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.58:352][253]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.58:383][253]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.58:415][253]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.58:446][253]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.58:477][253]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.58:510][253]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.58:540][253]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.58:569][253]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.58:599][253]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.58:629][253]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.59:087][293]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.59:160][297]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.59:190][297]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.59:220][297]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.59:251][297]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.10.59:281][297]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.11.00:036][367]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.11.00:130][373]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.11.00:290][385]LogMaterial: Missing cached shader map for material espadaUltimate, compiling. 
+[2017.11.25-11.11.00:308][385]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.25-11.11.01:711][509]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.11.25-11.11.01:711][509]MaterialEditorStats: Info Vertex shader: 30 instructions
+[2017.11.25-11.11.01:711][509]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.25-11.11.35:388][525]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.015
+[2017.11.25-11.11.35:422][525]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Warrior/spell/swordUltimate] ([1] browsable assets)...
+[2017.11.25-11.11.35:462][525]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Warrior/spell/swordUltimate.swordUltimate]
+[2017.11.25-11.11.35:462][525]OBJ SavePackage: Finished generating thumbnails for package [/Game/Warrior/spell/swordUltimate]
+[2017.11.25-11.11.35:480][525]LogSavePackage: Save=16.31ms
+[2017.11.25-11.11.35:480][525]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/swordUltimate_Auto1EB26FF1347E8A5CB3CB896A5BE07AF5B.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Warrior/spell/swordUltimate_Auto1.uasset'
+[2017.11.25-11.11.35:480][525]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Warrior/spell/swordUltimate_Auto1.uasset
+[2017.11.25-11.11.35:481][525]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Warrior/AnimationMontage/w_ultimateEspada] ([1] browsable assets)...
+[2017.11.25-11.11.35:507][525]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/Warrior/AnimationMontage/w_ultimateEspada.w_ultimateEspada]
+[2017.11.25-11.11.35:507][525]OBJ SavePackage: Finished generating thumbnails for package [/Game/Warrior/AnimationMontage/w_ultimateEspada]
+[2017.11.25-11.11.35:609][525]LogSavePackage: Save=29.81ms
+[2017.11.25-11.11.35:609][525]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/w_ultimateEspada_Auto1B37D5B054778C519F118B4BF8EEB56A7.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Warrior/AnimationMontage/w_ultimateEspada_Auto1.uasset'
+[2017.11.25-11.11.35:610][525]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Warrior/AnimationMontage/w_ultimateEspada_Auto1.uasset
+[2017.11.25-11.11.35:611][525]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Warrior/AnimationMontage/w_ultimateGS] ([1] browsable assets)...
+[2017.11.25-11.11.35:641][525]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/Warrior/AnimationMontage/w_ultimateGS.w_ultimateGS]
+[2017.11.25-11.11.35:641][525]OBJ SavePackage: Finished generating thumbnails for package [/Game/Warrior/AnimationMontage/w_ultimateGS]
+[2017.11.25-11.11.35:685][525]LogSavePackage: Save=10.94ms
+[2017.11.25-11.11.35:685][525]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/w_ultimateGS_Auto1603D99A645525D506D32F09BB8C149AC.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Warrior/AnimationMontage/w_ultimateGS_Auto1.uasset'
+[2017.11.25-11.11.35:686][525]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Warrior/AnimationMontage/w_ultimateGS_Auto1.uasset
+[2017.11.25-11.11.35:686][525]LogFileHelpers: Auto-saving content packages took 0.297
+[2017.11.25-11.12.56:008][ 70]LogMaterial: Missing cached shader map for material espadaUltimate, compiling. 
+[2017.11.25-11.12.56:039][ 70]LogMaterial: Missing cached shader map for material espadaUltimate, compiling. 
+[2017.11.25-11.12.56:057][ 70]LogMaterial: Missing cached shader map for material espadaUltimate, compiling. 
+[2017.11.25-11.12.56:090][ 70]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy espadaUltimate, compiling. 
+[2017.11.25-11.12.56:815][ 70]TextureStreamingBuild:Display: Compiling optional shaders took 0.732 seconds.
+[2017.11.25-11.13.03:080][457]LogSavePackage: Save=4.79ms
+[2017.11.25-11.13.03:080][457]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/w_ultimateEspada28200CA24E0557375DC793AD8B82F175.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/AnimationMontage/w_ultimateEspada.uasset'
+[2017.11.25-11.13.03:084][457]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/AnimationMontage/w_ultimateEspada.uasset
+[2017.11.25-11.13.03:113][457]LogSavePackage: Save=4.73ms
+[2017.11.25-11.13.03:113][457]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/w_ultimateGS8FAABE2D42DF3A62CE83D2B809E382BE.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/AnimationMontage/w_ultimateGS.uasset'
+[2017.11.25-11.13.03:118][457]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/AnimationMontage/w_ultimateGS.uasset
+[2017.11.25-11.13.03:154][457]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Warrior/Mesh/espadaUltimate" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Mesh/espadaUltimate.uasset" SILENT=true
+[2017.11.25-11.13.03:190][457]LogSavePackage: Save=13.20ms
+[2017.11.25-11.13.03:190][457]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/espadaUltimate29B1D04141CF47FCE596E99F4EC4A5B1.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Mesh/espadaUltimate.uasset'
+[2017.11.25-11.13.03:192][457]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Mesh/espadaUltimate.uasset
+[2017.11.25-11.13.03:222][457]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Warrior/spell/swordUltimate" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/swordUltimate.uasset" SILENT=true
+[2017.11.25-11.13.03:239][457]LogSavePackage: Save=15.90ms
+[2017.11.25-11.13.03:239][457]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/swordUltimate9D6C5A5942CFF26B2228E39E1056BEB2.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/swordUltimate.uasset'
+[2017.11.25-11.13.03:240][457]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/swordUltimate.uasset
+[2017.11.25-11.19.11:759][ 77]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Warrior/spell/swordUltimate" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/swordUltimate.uasset" SILENT=true
+[2017.11.25-11.19.11:805][ 77]LogSavePackage: Save=20.88ms
+[2017.11.25-11.19.11:805][ 77]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/swordUltimateC6CAD0C546CB05A385800BABA63F38B4.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/swordUltimate.uasset'
+[2017.11.25-11.19.11:807][ 77]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/swordUltimate.uasset
+[2017.11.25-11.21.46:613][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Warrior/spell/swordUltimate" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/swordUltimate.uasset" SILENT=true
+[2017.11.25-11.21.46:647][868]LogSavePackage: Save=13.86ms
+[2017.11.25-11.21.46:647][868]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/swordUltimateC637D7A040F3560CB5C83C896A97D5C7.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/swordUltimate.uasset'
+[2017.11.25-11.21.46:648][868]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/swordUltimate.uasset
+[2017.11.25-11.21.47:048][904]BlueprintLog: New page: Compile swordUltimate
+[2017.11.25-11.25.37:209][106]LogEditorTransaction: Undo Set actor scale
+[2017.11.25-11.25.37:295][106]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.25-11.25.37:648][129]LogEditorTransaction: Undo Set actor scale
+[2017.11.25-11.25.37:746][129]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.25-11.25.38:162][169]LogEditorTransaction: Undo Set actor scale
+[2017.11.25-11.25.38:251][169]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.25-11.25.38:681][211]LogEditorTransaction: Undo Set actor scale
+[2017.11.25-11.25.38:768][211]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.25-11.25.39:194][255]LogEditorTransaction: Undo Set actor scale
+[2017.11.25-11.25.39:282][255]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.25-11.25.46:341][877]LogEditorTransaction: Undo Modify Component(s)
+[2017.11.25-11.25.46:428][877]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.25-11.26.14:273][286]LogEditorTransaction: Undo Modify Component(s)
+[2017.11.25-11.26.14:360][286]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.25-11.27.18:755][538]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Warrior/spell/swordUltimate" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/swordUltimate.uasset" SILENT=true
+[2017.11.25-11.27.18:805][538]LogSavePackage: Save=25.35ms
+[2017.11.25-11.27.18:805][538]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/swordUltimate58302A6945FAC19A54B4998242112F76.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/swordUltimate.uasset'
+[2017.11.25-11.27.18:807][538]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/swordUltimate.uasset
+[2017.11.25-11.27.43:607][729]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.095
+[2017.11.25-11.27.43:608][729]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Warrior/spell/swordUltimate] ([1] browsable assets)...
+[2017.11.25-11.27.43:608][729]OBJ SavePackage: Finished generating thumbnails for package [/Game/Warrior/spell/swordUltimate]
+[2017.11.25-11.27.43:647][729]LogSavePackage: Save=18.77ms
+[2017.11.25-11.27.43:647][729]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/swordUltimate_Auto21702F7C24B2E878B237593AA2A2DAFF7.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Warrior/spell/swordUltimate_Auto2.uasset'
+[2017.11.25-11.27.43:648][729]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Warrior/spell/swordUltimate_Auto2.uasset
+[2017.11.25-11.27.43:648][729]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Warrior/AnimationMontage/w_ultimateEspada] ([1] browsable assets)...
+[2017.11.25-11.27.43:660][729]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/Warrior/AnimationMontage/w_ultimateEspada.w_ultimateEspada]
+[2017.11.25-11.27.43:660][729]OBJ SavePackage: Finished generating thumbnails for package [/Game/Warrior/AnimationMontage/w_ultimateEspada]
+[2017.11.25-11.27.43:693][729]LogSavePackage: Save=10.81ms
+[2017.11.25-11.27.43:693][729]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/w_ultimateEspada_Auto268CB0A1A4A328E8BE673EEBA3F521005.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Warrior/AnimationMontage/w_ultimateEspada_Auto2.uasset'
+[2017.11.25-11.27.43:694][729]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Warrior/AnimationMontage/w_ultimateEspada_Auto2.uasset
+[2017.11.25-11.27.43:694][729]LogFileHelpers: Auto-saving content packages took 0.086
+[2017.11.25-11.27.43:898][750]Cmd: TRANSACTION UNDO
+[2017.11.25-11.27.43:898][750]LogEditorTransaction: Undo Rename Component Variable
+[2017.11.25-11.27.43:976][750]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.25-11.27.44:778][819]Cmd: TRANSACTION UNDO
+[2017.11.25-11.27.44:778][819]LogEditorTransaction: Undo Attach Component
+[2017.11.25-11.27.44:859][819]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.25-11.27.48:450][160]LogEditorTransaction: Undo Make New Scene Root
+[2017.11.25-11.27.48:530][160]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.25-11.28.24:485][333]LogEditorTransaction: Undo Modify Component(s)
+[2017.11.25-11.28.24:567][333]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.25-11.28.59:453][335]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Warrior/spell/swordUltimate" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/swordUltimate.uasset" SILENT=true
+[2017.11.25-11.28.59:499][335]LogSavePackage: Save=25.59ms
+[2017.11.25-11.28.59:499][335]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/swordUltimate8764D31F42AFB929990CB6AD2DDE6965.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/swordUltimate.uasset'
+[2017.11.25-11.28.59:503][335]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/swordUltimate.uasset
+[2017.11.25-11.29.53:033][908]BlueprintLog: New page: Compile swordUltimate
+[2017.11.25-11.29.55:351][ 34]LogSavePackage: Save=10.87ms
+[2017.11.25-11.29.55:351][ 34]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/w_ultimateEspada198FBB684AF9513C4952529D64DA9187.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/AnimationMontage/w_ultimateEspada.uasset'
+[2017.11.25-11.29.55:352][ 34]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/AnimationMontage/w_ultimateEspada.uasset
+[2017.11.25-11.31.09:470][958]BlueprintLog: New page: Compile swordUltimate
+[2017.11.25-11.32.24:602][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Warrior/spell/swordUltimate" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/swordUltimate.uasset" SILENT=true
+[2017.11.25-11.32.24:651][390]LogSavePackage: Save=24.87ms
+[2017.11.25-11.32.24:651][390]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/swordUltimateAF25F3914E5DAD5D41643E8A5CE5A388.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/swordUltimate.uasset'
+[2017.11.25-11.32.24:653][390]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/swordUltimate.uasset
+[2017.11.25-11.34.32:690][ 20]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_13:PersistentLevel.swordUltimate_C_191.Capsule1) Not currently registered. Aborting.
+[2017.11.25-11.34.32:690][ 20]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_17:PersistentLevel.swordUltimate_C_24.Capsule1) Not currently registered. Aborting.
+[2017.11.25-11.34.32:690][ 20]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_13:PersistentLevel.swordUltimate_C_191.Capsule) Not currently registered. Aborting.
+[2017.11.25-11.34.32:690][ 20]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_17:PersistentLevel.swordUltimate_C_24.Capsule) Not currently registered. Aborting.
+[2017.11.25-11.34.32:690][ 20]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_13:PersistentLevel.swordUltimate_C_191.Capsule2) Not currently registered. Aborting.
+[2017.11.25-11.34.32:690][ 20]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_17:PersistentLevel.swordUltimate_C_24.Capsule2) Not currently registered. Aborting.
+[2017.11.25-11.34.32:690][ 20]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_13:PersistentLevel.swordUltimate_C_191.Capsule3) Not currently registered. Aborting.
+[2017.11.25-11.34.32:690][ 20]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_17:PersistentLevel.swordUltimate_C_24.Capsule3) Not currently registered. Aborting.
+[2017.11.25-11.34.38:254][524]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_13:PersistentLevel.swordUltimate_C_191.Capsule1) Not currently registered. Aborting.
+[2017.11.25-11.34.38:254][524]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_17:PersistentLevel.swordUltimate_C_24.Capsule1) Not currently registered. Aborting.
+[2017.11.25-11.34.38:254][524]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_13:PersistentLevel.swordUltimate_C_191.Capsule) Not currently registered. Aborting.
+[2017.11.25-11.34.38:255][524]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_17:PersistentLevel.swordUltimate_C_24.Capsule) Not currently registered. Aborting.
+[2017.11.25-11.34.38:255][524]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_13:PersistentLevel.swordUltimate_C_191.Capsule2) Not currently registered. Aborting.
+[2017.11.25-11.34.38:255][524]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_17:PersistentLevel.swordUltimate_C_24.Capsule2) Not currently registered. Aborting.
+[2017.11.25-11.34.38:255][524]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_13:PersistentLevel.swordUltimate_C_191.Capsule3) Not currently registered. Aborting.
+[2017.11.25-11.34.38:255][524]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_17:PersistentLevel.swordUltimate_C_24.Capsule3) Not currently registered. Aborting.
+[2017.11.25-11.34.40:719][746]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_13:PersistentLevel.swordUltimate_C_191.Capsule1) Not currently registered. Aborting.
+[2017.11.25-11.34.40:719][746]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_17:PersistentLevel.swordUltimate_C_24.Capsule1) Not currently registered. Aborting.
+[2017.11.25-11.34.40:719][746]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_13:PersistentLevel.swordUltimate_C_191.Capsule) Not currently registered. Aborting.
+[2017.11.25-11.34.40:719][746]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_17:PersistentLevel.swordUltimate_C_24.Capsule) Not currently registered. Aborting.
+[2017.11.25-11.34.40:719][746]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_13:PersistentLevel.swordUltimate_C_191.Capsule2) Not currently registered. Aborting.
+[2017.11.25-11.34.40:719][746]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_17:PersistentLevel.swordUltimate_C_24.Capsule2) Not currently registered. Aborting.
+[2017.11.25-11.34.40:719][746]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_13:PersistentLevel.swordUltimate_C_191.Capsule3) Not currently registered. Aborting.
+[2017.11.25-11.34.40:719][746]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_17:PersistentLevel.swordUltimate_C_24.Capsule3) Not currently registered. Aborting.
+[2017.11.25-11.34.41:080][777]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_13:PersistentLevel.swordUltimate_C_191.Capsule1) Not currently registered. Aborting.
+[2017.11.25-11.34.41:080][777]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_17:PersistentLevel.swordUltimate_C_24.Capsule1) Not currently registered. Aborting.
+[2017.11.25-11.34.41:080][777]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_13:PersistentLevel.swordUltimate_C_191.Capsule) Not currently registered. Aborting.
+[2017.11.25-11.34.41:080][777]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_17:PersistentLevel.swordUltimate_C_24.Capsule) Not currently registered. Aborting.
+[2017.11.25-11.34.41:080][777]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_13:PersistentLevel.swordUltimate_C_191.Capsule2) Not currently registered. Aborting.
+[2017.11.25-11.34.41:080][777]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_17:PersistentLevel.swordUltimate_C_24.Capsule2) Not currently registered. Aborting.
+[2017.11.25-11.34.41:080][777]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_13:PersistentLevel.swordUltimate_C_191.Capsule3) Not currently registered. Aborting.
+[2017.11.25-11.34.41:080][777]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_17:PersistentLevel.swordUltimate_C_24.Capsule3) Not currently registered. Aborting.
+[2017.11.25-11.34.44:384][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Warrior/spell/swordUltimate" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/swordUltimate.uasset" SILENT=true
+[2017.11.25-11.34.44:430][ 69]LogSavePackage: Save=25.37ms
+[2017.11.25-11.34.44:430][ 69]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/swordUltimate35C24A7C4A2E513B610599B783A77A46.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/swordUltimate.uasset'
+[2017.11.25-11.34.44:432][ 69]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/swordUltimate.uasset
+[2017.11.25-11.34.44:967][117]BlueprintLog: New page: Compile swordUltimate
+[2017.11.25-11.35.41:335][117]BlueprintLog: New page: Compile swordUltimate
+[2017.11.25-11.35.42:000][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Warrior/spell/swordUltimate" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/swordUltimate.uasset" SILENT=true
+[2017.11.25-11.35.42:044][161]LogSavePackage: Save=24.24ms
+[2017.11.25-11.35.42:044][161]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/swordUltimateE440DCE24270E56B292D04B34DF03AF4.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/swordUltimate.uasset'
+[2017.11.25-11.35.42:045][161]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/swordUltimate.uasset
+[2017.11.25-11.36.18:166][220]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0012 seconds. Added 2 classes and 2 folders.
+[2017.11.25-11.37.09:330][768]LogEditorTransaction: Undo Create New Module
+[2017.11.25-11.37.09:411][768]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.25-11.37.12:979][128]LogEditorTransaction: Undo Create New Emitter
+[2017.11.25-11.37.13:058][128]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.25-11.37.14:630][276]LogEditorTransaction: Undo Modify Component(s)
+[2017.11.25-11.37.14:712][276]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.25-11.37.16:563][478]LogCascade: Quitting Cascade. FXSystem=0x00000086D1ECC400
+[2017.11.25-11.40.56:814][572]LogMaterial:Warning: Material /Game/Mannequin/Character/Materials/M_UE4Man_Body.M_UE4Man_Body needed to have new flag set bUsedWithBeamTrails !
+[2017.11.25-11.40.56:821][572]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.11.25-11.40.56:948][572]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.11.25-11.41.05:442][369]LogMaterial:Warning: Material /Game/Boss/character/warrok_MAT.warrok_MAT needed to have new flag set bUsedWithBeamTrails !
+[2017.11.25-11.41.05:447][369]LogMaterial: Missing cached shader map for material warrok_MAT, compiling. 
+[2017.11.25-11.41.09:050][712]LogEditorTransaction: Undo Edit Material
+[2017.11.25-11.41.09:138][712]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.25-11.41.09:800][762]LogEditorTransaction: Undo Edit Material
+[2017.11.25-11.41.09:891][762]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.25-11.41.33:311][809]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.014
+[2017.11.25-11.41.33:317][809]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Boss/character/warrok_MAT] ([1] browsable assets)...
+[2017.11.25-11.41.33:326][809]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Boss/character/warrok_MAT.warrok_MAT]
+[2017.11.25-11.41.33:326][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Boss/character/warrok_MAT]
+[2017.11.25-11.41.33:366][809]LogSavePackage: Save=14.48ms
+[2017.11.25-11.41.33:366][809]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/warrok_MAT_Auto37A5AB2CD410829B298EF029BD5918EA5.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Boss/character/warrok_MAT_Auto3.uasset'
+[2017.11.25-11.41.33:367][809]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Boss/character/warrok_MAT_Auto3.uasset
+[2017.11.25-11.41.33:367][809]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Warrior/AnimationMontage/w_ultimateEspada] ([1] browsable assets)...
+[2017.11.25-11.41.33:378][809]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/Warrior/AnimationMontage/w_ultimateEspada.w_ultimateEspada]
+[2017.11.25-11.41.33:378][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Warrior/AnimationMontage/w_ultimateEspada]
+[2017.11.25-11.41.33:412][809]LogSavePackage: Save=10.73ms
+[2017.11.25-11.41.33:412][809]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/w_ultimateEspada_Auto30A8F11DA4FCCBA5AABF494988F90CFA1.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Warrior/AnimationMontage/w_ultimateEspada_Auto3.uasset'
+[2017.11.25-11.41.33:413][809]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Warrior/AnimationMontage/w_ultimateEspada_Auto3.uasset
+[2017.11.25-11.41.33:413][809]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Particles/p_espadaUltimate] ([1] browsable assets)...
+[2017.11.25-11.41.33:417][809]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/StarterContent/Particles/p_espadaUltimate.p_espadaUltimate]
+[2017.11.25-11.41.33:417][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Particles/p_espadaUltimate]
+[2017.11.25-11.41.33:428][809]LogSavePackage: Save=9.46ms
+[2017.11.25-11.41.33:428][809]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/p_espadaUltimate_Auto3AA88A2C24A66B3DBA24AF09C93A10717.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/StarterContent/Particles/p_espadaUltimate_Auto3.uasset'
+[2017.11.25-11.41.33:428][809]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/StarterContent/Particles/p_espadaUltimate_Auto3.uasset
+[2017.11.25-11.41.33:429][809]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo] ([1] browsable assets)...
+[2017.11.25-11.41.33:440][809]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo.M_UE4Man_ChestLogo]
+[2017.11.25-11.41.33:440][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo]
+[2017.11.25-11.41.33:477][809]LogSavePackage: Save=13.53ms
+[2017.11.25-11.41.33:477][809]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/M_UE4Man_ChestLogo_Auto332F879924436AAD5490BCDB666E4CA51.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo_Auto3.uasset'
+[2017.11.25-11.41.33:478][809]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo_Auto3.uasset
+[2017.11.25-11.41.33:478][809]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mannequin/Character/Materials/M_UE4Man_Body] ([1] browsable assets)...
+[2017.11.25-11.41.33:490][809]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Mannequin/Character/Materials/M_UE4Man_Body.M_UE4Man_Body]
+[2017.11.25-11.41.33:490][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Character/Materials/M_UE4Man_Body]
+[2017.11.25-11.41.33:533][809]LogSavePackage: Save=18.67ms
+[2017.11.25-11.41.33:533][809]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/M_UE4Man_Body_Auto35EC9AD6E4FA3F82A4DFAED8BC580DF89.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Mannequin/Character/Materials/M_UE4Man_Body_Auto3.uasset'
+[2017.11.25-11.41.33:533][809]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Mannequin/Character/Materials/M_UE4Man_Body_Auto3.uasset
+[2017.11.25-11.41.33:533][809]LogFileHelpers: Auto-saving content packages took 0.222
+[2017.11.25-11.41.49:639][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boss/character/warrok_MAT" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/character/warrok_MAT.uasset" SILENT=true
+[2017.11.25-11.41.49:669][415]LogSavePackage: Save=7.46ms
+[2017.11.25-11.41.49:669][415]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/warrok_MATC60B750048D887106D85EDBEA72E4FAE.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/character/warrok_MAT.uasset'
+[2017.11.25-11.41.49:676][415]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/character/warrok_MAT.uasset
+[2017.11.25-11.41.49:709][415]LogSavePackage: Save=10.01ms
+[2017.11.25-11.41.49:709][415]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/M_UE4Man_Body9E7742A34A8D9F96760C24ACF024AFDD.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Mannequin/Character/Materials/M_UE4Man_Body.uasset'
+[2017.11.25-11.41.49:715][415]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Mannequin/Character/Materials/M_UE4Man_Body.uasset
+[2017.11.25-11.41.49:745][415]LogSavePackage: Save=6.31ms
+[2017.11.25-11.41.49:745][415]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/M_UE4Man_ChestLogo84F176D64D22933725496BB4E1017376.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset'
+[2017.11.25-11.41.49:751][415]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset
+[2017.11.25-11.41.49:769][415]LogSavePackage: Save=9.44ms
+[2017.11.25-11.41.49:769][415]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/p_espadaUltimate25E5F94747ECCE8BC51827BFD36C9693.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/StarterContent/Particles/p_espadaUltimate.uasset'
+[2017.11.25-11.41.49:772][415]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/StarterContent/Particles/p_espadaUltimate.uasset
+[2017.11.25-11.41.49:799][415]LogSavePackage: Save=4.48ms
+[2017.11.25-11.41.49:799][415]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/w_ultimateEspada467DAAAE49BA74A8F64A509E4A427DFD.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/AnimationMontage/w_ultimateEspada.uasset'
+[2017.11.25-11.41.49:801][415]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/AnimationMontage/w_ultimateEspada.uasset
+[2017.11.25-11.41.51:157][561]LogEditorViewport: Clicking on Actor (LMB): BlueBoos_C (BlueBoos)
+[2017.11.25-11.43.24:791][ 35]LogCascade: Insert New Emitter Before 1
+[2017.11.25-11.44.16:116][363]LogMaterial:Warning: Material /Game/StarterContent/Particles/Materials/M_Fire_SubUV.M_Fire_SubUV needed to have new flag set bUsedWithBeamTrails !
+[2017.11.25-11.44.16:119][363]LogMaterial: Missing cached shader map for material M_Fire_SubUV, compiling. 
+[2017.11.25-11.45.07:982][485]LogCascade: Non-seeded module ParticleModuleColor
+[2017.11.25-11.45.32:589][  0]LogCascade: Quitting Cascade. FXSystem=0x00000086F5660F40
+[2017.11.25-11.45.48:481][653]LogCascade: Quitting Cascade. FXSystem=0x00000086D8FFDE40
+[2017.11.25-11.45.48:513][653]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloorComponent) Not registered. Aborting.
+[2017.11.25-11.46.03:028][257]LogCascade: Quitting Cascade. FXSystem=0x00000086B8884CC0
+[2017.11.25-11.46.17:776][909]LogCascade: Quitting Cascade. FXSystem=0x00000086F0402020
+[2017.11.25-11.46.27:043][927]LogCascade: Quitting Cascade. FXSystem=0x000000864ABF80E0
+[2017.11.25-11.46.59:365][431]LogCascade: Quitting Cascade. FXSystem=0x00000086ED01E520
+[2017.11.25-11.47.09:367][483]LogCascade: Quitting Cascade. FXSystem=0x00000086F5660540
+[2017.11.25-11.47.10:181][563]LogCascade: Quitting Cascade. FXSystem=0x00000086603A51C0
+[2017.11.25-11.47.10:197][563]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloorComponent) Not registered. Aborting.
+[2017.11.25-11.52.03:822][881]BlueprintLog: New page: Compile swordUltimate
+[2017.11.25-11.52.04:575][899]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Warrior/spell/swordUltimate" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/swordUltimate.uasset" SILENT=true
+[2017.11.25-11.52.04:628][899]LogSavePackage: Save=27.84ms
+[2017.11.25-11.52.04:628][899]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/swordUltimate07207D414D841E4FD6D9EA9438B11A09.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/swordUltimate.uasset'
+[2017.11.25-11.52.04:629][899]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/swordUltimate.uasset
+[2017.11.25-11.52.37:604][746]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.024
+[2017.11.25-11.52.37:605][746]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Particles/Materials/M_Fire_SubUV] ([1] browsable assets)...
+[2017.11.25-11.52.37:620][746]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Particles/Materials/M_Fire_SubUV.M_Fire_SubUV]
+[2017.11.25-11.52.37:620][746]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Particles/Materials/M_Fire_SubUV]
+[2017.11.25-11.52.37:659][746]LogSavePackage: Save=15.46ms
+[2017.11.25-11.52.37:659][746]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/M_Fire_SubUV_Auto4C7DAA26244D51676586699B41B6354F4.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/StarterContent/Particles/Materials/M_Fire_SubUV_Auto4.uasset'
+[2017.11.25-11.52.37:660][746]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/StarterContent/Particles/Materials/M_Fire_SubUV_Auto4.uasset
+[2017.11.25-11.52.37:660][746]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Particles/p_espadaUltimate] ([1] browsable assets)...
+[2017.11.25-11.52.37:664][746]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/StarterContent/Particles/p_espadaUltimate.p_espadaUltimate]
+[2017.11.25-11.52.37:664][746]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Particles/p_espadaUltimate]
+[2017.11.25-11.52.37:699][746]LogSavePackage: Save=10.41ms
+[2017.11.25-11.52.37:699][746]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/p_espadaUltimate_Auto4D186A3DE4738E51E7A7875A00175DA09.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/StarterContent/Particles/p_espadaUltimate_Auto4.uasset'
+[2017.11.25-11.52.37:701][746]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/StarterContent/Particles/p_espadaUltimate_Auto4.uasset
+[2017.11.25-11.52.37:701][746]LogFileHelpers: Auto-saving content packages took 0.097
+[2017.11.25-11.54.58:290][145]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MechHackAndSlash
+[2017.11.25-11.54.58:290][145]LogTemp: CWD: D:\Program Files (x86)\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.11.25-11.54.58:290][145]LogTemp: Initial Dir: D:\Program Files (x86)\Epic Games\UE_4.16
+[2017.11.25-11.54.58:290][145]LogTemp: Env CWD: D:\Program Files (x86)\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.11.25-11.54.58:290][145]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.11.25-11.54.58:359][146]LogTemp: BranchPath = DAVIDMASTERRACE/D/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = DAVIDMASTERRACE/D/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries
+[2017.11.25-11.54.58:359][146]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\David\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.11.25-11.58.45:513][305]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.11.25-12.01.00:917][114]BlueprintLog: New page: Compile Warrior_BP
+[2017.11.25-12.01.05:983][484]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.25-12.01.06:047][484]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.25-12.01.06:047][484]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.25-12.01.06:047][484]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.25-12.01.06:070][484]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 25, 2017, 2:01:06 PM)
+[2017.11.25-12.01.06:070][484]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.25-12.01.06:111][484]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041270s)
+[2017.11.25-12.01.06:112][484]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.25-12.01.06:112][484]LogPlayLevel: PIE: World Init took: (0.000843s)
+[2017.11.25-12.01.06:113][484]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.042363s)
+[2017.11.25-12.01.06:151][484]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.25-12.01.06:156][484]LogInit: FAudioDevice initialized.
+[2017.11.25-12.01.06:201][484]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.25-12.01.06:204][484]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.25-13.01.06
+[2017.11.25-12.01.06:204][484]LogWorld: Bringing up level for play took: 0.002144
+[2017.11.25-12.01.06:273][484]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.11.25-12.01.06:286][484]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2017.11.25-12.01.06:286][484]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.257
+[2017.11.25-12.01.06:286][484]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.25-12.01.06:286][484]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.25-12.01.06:288][484]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2017.11.25-12.01.07:383][609]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 1 1 0
+[2017.11.25-12.01.07:413][609]LogStreaming:Display: UWorld::AddToWorld: routing Initialize on actors for /Game/Niveles/UEDPIE_0_BlueLevel took (less than) 27.43 ms
+[2017.11.25-12.01.07:449][611]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2017.11.25-12.01.08:792][769]LogBlueprintUserMessages: [Warrior_BP_C_0] 150.0
+[2017.11.25-12.01.09:064][801]LogBlueprintUserMessages: [Warrior_BP_C_0] 150.0
+[2017.11.25-12.01.10:007][913]LogBlueprintUserMessages: [Warrior_BP_C_0] 150.0
+[2017.11.25-12.01.26:116][527]LogBlueprintUserMessages: [Warrior_BP_C_0] me quemo
+[2017.11.25-12.01.26:116][527]LogBlueprintUserMessages: [Warrior_BP_C_0] AHHHH, SOY ASALTADO
+[2017.11.25-12.01.29:864][759]LogBlueprintUserMessages: [Warrior_BP_C_0] AHHHH, SOY ASALTADO
+[2017.11.25-12.01.30:649][804]LogBlueprintUserMessages: [BlueBoos_2] 0
+[2017.11.25-12.01.33:610][978]LogBlueprintUserMessages: [Warrior_BP_C_0] AHHHH, SOY ASALTADO
+[2017.11.25-12.01.34:675][ 48]LogBlueprintUserMessages: [BlueBoos_2] 6
+[2017.11.25-12.01.35:774][122]LogBlueprintUserMessages: [Warrior_BP_C_0] AHHHH, SOY ASALTADO
+[2017.11.25-12.01.35:954][134]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.25-12.01.35:954][134]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.25-12.01.36:056][134]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.25-12.01.36:056][134]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.25-12.02.35:945][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Warrior/Warrior_BP" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset" SILENT=true
+[2017.11.25-12.02.36:431][695]LogSavePackage: Save=461.27ms
+[2017.11.25-12.02.36:431][695]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Warrior_BP44C6A2B647A0E29C7F629F9B247EC698.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset'
+[2017.11.25-12.02.36:438][695]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset
+[2017.11.25-12.04.38:487][635]LogEditorTransaction: Undo Move Widget
+[2017.11.25-12.04.38:582][635]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.25-12.04.38:928][652]LogEditorTransaction: Undo Move Widget
+[2017.11.25-12.04.39:030][652]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.25-12.04.39:481][677]LogEditorTransaction: Undo Move Widgets
+[2017.11.25-12.04.39:584][677]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.25-12.05.42:420][ 74]LogSlate: Took 0.070028 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.11.25-12.06.13:068][591]LogEditorTransaction: Undo Edit Size
+[2017.11.25-12.06.13:164][591]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.25-12.06.39:570][755]BlueprintLog: New page: Compile DebugControles
+[2017.11.25-12.06.39:718][755]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.11.25-12.06.40:374][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/DebugControles" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Widgets/DebugControles.uasset" SILENT=true
+[2017.11.25-12.06.40:414][792]LogSavePackage: Save=15.54ms
+[2017.11.25-12.06.40:414][792]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/DebugControlesC4E481AE416A873011DDE1A57A750B4E.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Widgets/DebugControles.uasset'
+[2017.11.25-12.06.40:415][792]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Widgets/DebugControles.uasset
+[2017.11.25-12.06.43:403][ 15]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.25-12.06.43:427][ 15]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.25-12.06.43:427][ 15]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.25-12.06.43:427][ 15]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.25-12.06.43:428][ 15]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 25, 2017, 2:06:43 PM)
+[2017.11.25-12.06.43:428][ 15]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.25-12.06.43:446][ 15]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018055s)
+[2017.11.25-12.06.43:446][ 15]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.25-12.06.43:447][ 15]LogPlayLevel: PIE: World Init took: (0.000882s)
+[2017.11.25-12.06.43:447][ 15]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019159s)
+[2017.11.25-12.06.43:482][ 15]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.25-12.06.43:487][ 15]LogInit: FAudioDevice initialized.
+[2017.11.25-12.06.43:520][ 15]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.25-12.06.43:523][ 15]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.25-13.06.43
+[2017.11.25-12.06.43:523][ 15]LogWorld: Bringing up level for play took: 0.002139
+[2017.11.25-12.06.43:524][ 15]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2017.11.25-12.06.43:524][ 15]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.982
+[2017.11.25-12.06.43:524][ 15]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.25-12.06.43:524][ 15]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.25-12.06.43:526][ 15]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2017.11.25-12.06.44:640][145]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 1 1 0
+[2017.11.25-12.06.44:658][146]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2017.11.25-12.06.46:025][310]LogBlueprintUserMessages: [Warrior_BP_C_0] 150.0
+[2017.11.25-12.06.46:595][378]LogBlueprintUserMessages: [Warrior_BP_C_0] 150.0
+[2017.11.25-12.06.47:536][491]LogBlueprintUserMessages: [Warrior_BP_C_0] 150.0
+[2017.11.25-12.06.55:762][431]LogBlueprintUserMessages: [Warrior_BP_C_0] 150.0
+[2017.11.25-12.06.56:395][488]LogBlueprintUserMessages: [Warrior_BP_C_0] 150.0
+[2017.11.25-12.06.56:628][509]LogBlueprintUserMessages: [Warrior_BP_C_0] 150.0
+[2017.11.25-12.06.56:734][518]LogBlueprintUserMessages: [Warrior_BP_C_0] 150.0
+[2017.11.25-12.06.56:812][525]LogBlueprintUserMessages: [Warrior_BP_C_0] 150.0
+[2017.11.25-12.06.57:789][610]LogBlueprintUserMessages: [Warrior_BP_C_0] 150.0
+[2017.11.25-12.07.02:452][  8]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.25-12.07.02:452][  8]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.25-12.07.02:523][  8]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.25-12.07.02:523][  8]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2017.11.25-12.07.27:387][168]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.038
+[2017.11.25-12.07.27:389][168]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Warrior/AnimationMontage/w_ultimateEspada] ([1] browsable assets)...
+[2017.11.25-12.07.27:434][168]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/Warrior/AnimationMontage/w_ultimateEspada.w_ultimateEspada]
+[2017.11.25-12.07.27:434][168]OBJ SavePackage: Finished generating thumbnails for package [/Game/Warrior/AnimationMontage/w_ultimateEspada]
+[2017.11.25-12.07.27:483][168]LogSavePackage: Save=14.90ms
+[2017.11.25-12.07.27:483][168]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/w_ultimateEspada_Auto5914423624EAB716DFA7CE7B9D8AE489A.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Warrior/AnimationMontage/w_ultimateEspada_Auto5.uasset'
+[2017.11.25-12.07.27:484][168]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Warrior/AnimationMontage/w_ultimateEspada_Auto5.uasset
+[2017.11.25-12.07.27:484][168]LogFileHelpers: Auto-saving content packages took 0.096
+[2017.11.25-12.09.50:172][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/DebugControles" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Widgets/DebugControles.uasset" SILENT=true
+[2017.11.25-12.09.50:209][170]LogSavePackage: Save=14.76ms
+[2017.11.25-12.09.50:209][170]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/DebugControles7C17C2314D6BC275648AE79F0C63AF8E.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Widgets/DebugControles.uasset'
+[2017.11.25-12.09.50:209][170]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Widgets/DebugControles.uasset
+[2017.11.25-12.09.54:480][468]LogSavePackage: Save=4.52ms
+[2017.11.25-12.09.54:480][468]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/w_ultimateEspada91A45B7848247091716EA2BD25F244AA.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/AnimationMontage/w_ultimateEspada.uasset'
+[2017.11.25-12.09.54:482][468]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/AnimationMontage/w_ultimateEspada.uasset
+[2017.11.25-12.11.30:105][852]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/DebugControles" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Widgets/DebugControles.uasset" SILENT=true
+[2017.11.25-12.11.30:141][852]LogSavePackage: Save=15.19ms
+[2017.11.25-12.11.30:141][852]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/DebugControles4D5D3AF14F06D1908FBCE199DC4C7B14.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Widgets/DebugControles.uasset'
+[2017.11.25-12.11.30:143][852]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Widgets/DebugControles.uasset
+[2017.11.25-12.11.41:771][476]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/DebugControles" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Widgets/DebugControles.uasset" SILENT=true
+[2017.11.25-12.11.41:810][476]LogSavePackage: Save=14.51ms
+[2017.11.25-12.11.41:810][476]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/DebugControlesBC29E2F04D566DF4B3E31E9E66A0BF55.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Widgets/DebugControles.uasset'
+[2017.11.25-12.11.41:812][476]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Widgets/DebugControles.uasset
+[2017.11.25-12.11.59:288][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/DebugControles" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Widgets/DebugControles.uasset" SILENT=true
+[2017.11.25-12.11.59:325][237]LogSavePackage: Save=15.62ms
+[2017.11.25-12.11.59:325][237]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/DebugControles4E8A371A41DCB871AF100AA8E1A2C4A5.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Widgets/DebugControles.uasset'
+[2017.11.25-12.11.59:327][237]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Widgets/DebugControles.uasset
+[2017.11.25-12.23.17:062][853]LogRenderer: Reallocating scene render targets to support 1224x712 NumSamples 1 (Frame:107057).
+[2017.11.25-12.23.42:357][944]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2017.11.25-12.23.42:545][944]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_30:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2017.11.25-12.23.46:528][227]LogSavePackage: Save=4.74ms
+[2017.11.25-12.23.46:528][227]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/w_ultimateEspada291D9B30494C879FD4D7C9A99D454218.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/AnimationMontage/w_ultimateEspada.uasset'
+[2017.11.25-12.23.46:530][227]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/AnimationMontage/w_ultimateEspada.uasset
+[2017.11.25-12.24.35:010][983]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.032
+[2017.11.25-12.24.35:012][983]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Warrior/Warrior_BP] ([1] browsable assets)...
+[2017.11.25-12.24.35:037][983]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Warrior/Warrior_BP.Warrior_BP]
+[2017.11.25-12.24.35:037][983]OBJ SavePackage: Finished generating thumbnails for package [/Game/Warrior/Warrior_BP]
+[2017.11.25-12.24.35:532][983]LogSavePackage: Save=469.67ms
+[2017.11.25-12.24.35:532][983]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Warrior_BP_Auto69BC93A5740E7590F45C920AFCDA64D16.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Warrior/Warrior_BP_Auto6.uasset'
+[2017.11.25-12.24.35:533][983]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Warrior/Warrior_BP_Auto6.uasset
+[2017.11.25-12.24.35:533][983]LogFileHelpers: Auto-saving content packages took 0.522
+[2017.11.25-12.32.23:655][980]LogCascade: Quitting Cascade. FXSystem=0x00000086D93BC0E0
+[2017.11.25-12.32.36:125][242]LogSavePackage: Save=37.07ms
+[2017.11.25-12.32.36:125][242]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/golpeUltimateEspada6859B53745A0373D0AD675BBBD24543A.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/StarterContent/Particles/golpeUltimateEspada.uasset'
+[2017.11.25-12.32.36:126][242]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/StarterContent/Particles/golpeUltimateEspada.uasset
+[2017.11.25-12.33.09:077][854]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.11.25-12.35.42:093][431]LogSavePackage: Save=33.84ms
+[2017.11.25-12.35.42:093][431]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/golpeUltimateEspada38DFC68346A7D1215FF7A39F24B4957F.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/StarterContent/Particles/golpeUltimateEspada.uasset'
+[2017.11.25-12.35.42:095][431]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/StarterContent/Particles/golpeUltimateEspada.uasset
+[2017.11.25-12.35.43:462][573]LogCascade: Quitting Cascade. FXSystem=0x0000008650E89300
+[2017.11.25-12.37.00:545][436]LogWindows: Windows GetLastError: La operación se completó correctamente. (0)
+[2017.11.25-12.37.41:188][436]LogCrashTracker: 
+
+
+[2017.11.25-12.37.41:188][436]LogCrashTracker: 
+
+
+[2017.11.25-12.37.41:188][436]LogWindows:Error: === Critical error: ===
+[2017.11.25-12.37.41:188][436]LogWindows:Error: 
+[2017.11.25-12.37.41:188][436]LogWindows:Error: Assertion failed: IsValid() [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\SlateCore\Public\Layout/WidgetPath.h] [Line: 245] 
+[2017.11.25-12.37.41:188][436]LogWindows:Error: 
+[2017.11.25-12.37.41:188][436]LogWindows:Error: 
+[2017.11.25-12.37.41:188][436]LogWindows:Error: 
+[2017.11.25-12.37.41:188][436]LogWindows:Error: KERNELBASE.dll!0x00000000EE3D95FC
+[2017.11.25-12.37.41:188][436]LogWindows:Error: UE4Editor-Core.dll!FOutputDeviceWindowsError::Serialize() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsplatformoutputdevices.cpp:120]
+[2017.11.25-12.37.41:188][436]LogWindows:Error: UE4Editor-Core.dll!FOutputDevice::Logf__VA() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\outputdevice.cpp:70]
+[2017.11.25-12.37.41:188][436]LogWindows:Error: UE4Editor-Core.dll!FDebug::AssertFailed() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:349]
+[2017.11.25-12.37.41:188][436]LogWindows:Error: UE4Editor-SlateCore.dll!FWeakWidgetPath::GetLastWidget() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slatecore\public\layout\widgetpath.h:246]
+[2017.11.25-12.37.41:188][436]LogWindows:Error: UE4Editor-Slate.dll!FSlateApplication::RoutePointerMoveEvent() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5152]
+[2017.11.25-12.37.41:188][436]LogWindows:Error: UE4Editor-Slate.dll!FSlateApplication::ProcessMouseMoveEvent() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5713]
+[2017.11.25-12.37.41:188][436]LogWindows:Error: UE4Editor-Slate.dll!FSlateApplication::OnMouseMove() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5647]
+[2017.11.25-12.37.41:188][436]LogWindows:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:1742]
+[2017.11.25-12.37.41:188][436]LogWindows:Error: UE4Editor-Core.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:2127]
+[2017.11.25-12.37.41:188][436]LogWindows:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:867]
+[2017.11.25-12.37.41:188][436]LogWindows:Error: UE4Editor-Core.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:714]
+[2017.11.25-12.37.41:188][436]LogWindows:Error: USER32.dll!0x00000000F09C24FD
+[2017.11.25-12.37.41:188][436]LogWindows:Error: USER32.dll!0x00000000F09C2357
+[2017.11.25-12.37.41:188][436]LogWindows:Error: UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:1009]
+[2017.11.25-12.37.41:188][436]LogWindows:Error: UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3058]
+[2017.11.25-12.37.41:188][436]LogWindows:Error: UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launch.cpp:166]
+[2017.11.25-12.37.41:188][436]LogWindows:Error: UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2017.11.25-12.37.41:188][436]LogWindows:Error: UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:210]
+[2017.11.25-12.37.41:188][436]LogWindows:Error: UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
+[2017.11.25-12.37.41:188][436]LogWindows:Error: KERNEL32.DLL!0x00000000EE7A13D2
+[2017.11.25-12.37.41:188][436]LogWindows:Error: ntdll.dll!0x00000000F0E754F4
+[2017.11.25-12.37.41:188][436]LogWindows:Error: ntdll.dll!0x00000000F0E754F4
+[2017.11.25-12.37.41:188][436]LogWindows:Error: 
+[2017.11.25-12.37.41:200][436]LogExit: Executing StaticShutdownAfterError
+[2017.11.25-12.37.41:210][436]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.11.25-12.37.41:210][436]Log file closed, 11/25/17 13:37:41
