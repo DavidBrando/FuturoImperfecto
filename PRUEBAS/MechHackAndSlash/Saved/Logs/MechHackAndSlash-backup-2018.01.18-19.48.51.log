@@ -1,0 +1,933 @@
+﻿Log file open, 01/18/18 19:08:20
+LogInit:Display: Running engine for game: MechHackAndSlash
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1017016016) SRandInit(-1017016016).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.082336
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: D:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.18-18.08.20:736][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.18-18.08.20:736][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.18-18.08.20:765][  0]LogInit: Computer: DAVIDMASTERRACE
+[2018.01.18-18.08.20:765][  0]LogInit: User: David
+[2018.01.18-18.08.20:765][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.18-18.08.20:765][  0]LogInit: High frequency timer resolution =3.417967 MHz
+[2018.01.18-18.08.20:766][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.01.18-18.08.20:766][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.18-18.08.20:766][  0]LogMemory: Process Physical Memory: 272.25 MB used, 272.25 MB peak
+[2018.01.18-18.08.20:766][  0]LogMemory: Process Virtual Memory: 274.48 MB used, 274.48 MB peak
+[2018.01.18-18.08.20:766][  0]LogMemory: Physical Memory: 6651.10 MB used,  9675.34 MB free, 16326.44 MB total
+[2018.01.18-18.08.20:766][  0]LogMemory: Virtual Memory: 631.00 MB used,  9675.34 MB free, 134217728.00 MB total
+[2018.01.18-18.08.20:833][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.01.18-18.08.20:833][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.01.18-18.08.21:564][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.18-18.08.21:588][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.01.18-18.08.21:588][  0]LogD3D11RHI:       3975/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.18-18.08.21:589][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.18-18.08.21:589][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.18-18.08.21:589][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.18-18.08.21:592][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.18-18.08.21:592][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.18-18.08.21:592][  0]LogWindows: EnumDisplayDevices:
+[2018.01.18-18.08.21:592][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.01.18-18.08.21:592][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.01.18-18.08.21:592][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.01.18-18.08.21:592][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.01.18-18.08.21:592][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.01.18-18.08.21:592][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.01.18-18.08.21:592][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2018.01.18-18.08.21:592][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2018.01.18-18.08.21:592][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.18-18.08.21:602][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.18-18.08.21:618][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.01.18-18.08.21:662][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Intermediate/Shaders/WorkingDirectory/6704/).
+[2018.01.18-18.08.21:662][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/David/AppData/Local/Temp/UnrealShaderWorkingDir/606FB31546A61186960A6CA17977EFD4/'.
+[2018.01.18-18.08.21:662][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.18-18.08.22:494][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.18-18.08.22:526][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.18-18.08.22:556][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.18-18.08.22:587][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.18-18.08.22:620][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.18-18.08.22:651][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.18-18.08.22:683][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.18-18.08.22:714][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.18-18.08.22:740][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.18-18.08.22:771][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.18-18.08.22:803][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.18-18.08.22:833][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.18-18.08.22:863][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.18-18.08.22:894][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.18-18.08.22:925][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.18-18.08.22:986][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.18-18.08.22:986][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.18-18.08.23:009][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.18-18.08.23:073][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.18-18.08.23:093][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.18-18.08.23:123][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.18-18.08.23:153][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.18-18.08.23:183][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.18-18.08.23:214][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.18-18.08.23:214][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.18-18.08.23:491][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.18-18.08.23:575][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.18-18.08.23:575][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.18-18.08.23:575][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.18-18.08.23:575][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.18-18.08.23:575][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.18-18.08.23:575][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.18-18.08.23:591][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.18-18.08.23:603][  0]LogDerivedDataCache: Using Local data cache path C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.18-18.08.23:611][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.18-18.08.23:612][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.18-18.08.23:612][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.18-18.08.23:612][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.18-18.08.23:867][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.18-18.08.23:927][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.18-18.08.24:038][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.18-18.08.24:064][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.18-18.08.24:092][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.18-18.08.24:092][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.18-18.08.24:092][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.18-18.08.24:474][  0]LogNetVersion: MechHackAndSlash , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 86869316)
+[2018.01.18-18.08.24:523][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2018.01.18-18.08.24:549][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.013368 seconds
+[2018.01.18-18.08.24:554][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.01.18-18.08.24:554][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.01.18-18.08.24:554][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.18-18.08.24:588][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.18-18.08.26:173][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.18-18.08.26:200][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.18-18.08.26:520][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.18-18.08.26:755][  0]SourceControl: Info Source control is disabled
+[2018.01.18-18.08.26:780][  0]SourceControl: Info Source control is disabled
+[2018.01.18-18.08.26:807][  0]SourceControl: Info Source control is disabled
+[2018.01.18-18.08.26:833][  0]SourceControl: Info Source control is disabled
+[2018.01.18-18.08.27:213][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.18-18.08.27:551][  0]LogEngine: Initializing Engine...
+[2018.01.18-18.08.27:551][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.18-18.08.27:708][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.18-18.08.27:708][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.18-18.08.27:781][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.18-18.08.27:802][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.18-18.08.27:810][  0]LogInit: FAudioDevice initialized.
+[2018.01.18-18.08.27:844][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.18-18.08.27:853][  0]LogInit: Texture streaming: Enabled
+[2018.01.18-18.08.27:906][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.18-18.08.27:906][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={13E0F68C-4B96-27B2-2FB3-7C892E4CCE27}
+[2018.01.18-18.08.28:028][  0]LogInit: Transaction tracking system initialized
+[2018.01.18-18.08.28:197][  0]BlueprintLog: New page: Editor Load
+[2018.01.18-18.08.28:714][  0]LocalizationService: Info Localization service is disabled
+[2018.01.18-18.08.29:096][  0]LogConsoleResponse:Display: 
+[2018.01.18-18.08.29:196][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.18-18.08.29:196][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.18-18.08.29:476][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/' took 0.01s
+[2018.01.18-18.08.29:755][  0]SourceControl: Info Source control is disabled
+[2018.01.18-18.08.29:755][  0]Cmd: MAP LOAD FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.18-18.08.29:755][  0]LightingResults: New page: Lighting Build
+[2018.01.18-18.08.29:778][  0]MapCheck: New page: Map Check
+[2018.01.18-18.08.29:778][  0]LightingResults: New page: Lighting Build
+[2018.01.18-18.08.32:195][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.01.18-18.08.32:342][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.18-18.08.32:383][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.18-18.08.32:442][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 59.346ms to complete.
+[2018.01.18-18.08.32:442][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.687
+[2018.01.18-18.08.32:552][  0]LogCollectionManager: Loaded 0 collections in 0.000848 seconds
+[2018.01.18-18.08.32:609][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Collections/' took 0.01s
+[2018.01.18-18.08.32:609][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Developers/David/Collections/' took 0.01s
+[2018.01.18-18.08.32:609][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Collections/' took 0.01s
+[2018.01.18-18.08.32:609][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.01.18-18.08.32:617][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2329 classes and 491 folders.
+[2018.01.18-18.08.32:653][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.01.18-18.08.32:680][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.01.18-18.08.32:704][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.01.18-18.08.32:733][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0006 seconds. Added 1 classes and 3 folders.
+[2018.01.18-18.08.32:814][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.18-18.08.32:817][  0]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.18-18.08.32:819][  0]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.18-18.08.32:822][  0]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.18-18.08.32:896][  0]LogRenderer: Reallocating scene render targets to support 1204x576 NumSamples 1 (Frame:1).
+[2018.01.18-18.08.33:000][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.18-18.08.33:047][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.01.18-18.08.33:047][  0]LogLoad: (Engine Initialization) Total time: 13.43 seconds
+[2018.01.18-18.08.33:047][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.87 seconds
+[2018.01.18-18.08.33:047][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.01.18-18.08.33:047][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.01.18-18.08.33:056][  0]LogOcInput: OculusInput pre-init called
+[2018.01.18-18.08.33:056][  0]LogHMD: Starting GearVRController plugin
+[2018.01.18-18.08.33:080][  0]LogAssetRegistry: Asset discovery search completed in 8.5796 seconds
+[2018.01.18-18.08.33:082][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.01.18-18.08.33:082][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2018.01.18-18.08.33:085][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.18-18.08.33:136][  0]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.18-18.08.34:082][ 94]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.18-18.08.35:324][215]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.18-18.08.35:613][215]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2018.01.18-18.08.36:899][215]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.18-18.08.38:262][216]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.18-18.10.04:307][727]BlueprintLog: New page: Compile Enemigo
+[2018.01.18-18.10.05:015][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemigos/Enemigo" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset" SILENT=true
+[2018.01.18-18.10.05:041][785]LogSavePackage: Save=10.90ms
+[2018.01.18-18.10.05:041][785]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/EnemigoFA47662D4B258F56C9F460AEFD75EE07.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset'
+[2018.01.18-18.10.05:043][785]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset
+[2018.01.18-18.10.13:388][474]LogBlueprint:Warning: Reparenting blueprint Blueprint /Game/Boss/BlueBoosDummy.BlueBoosDummy from Character to Enemigo_C...
+[2018.01.18-18.10.13:471][474]BlueprintLog: New page: Compile BlueBoosDummy
+[2018.01.18-18.10.36:821][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boss/BlueBoosDummy" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummy.uasset" SILENT=true
+[2018.01.18-18.10.37:170][177]LogSavePackage: Save=337.92ms
+[2018.01.18-18.10.37:171][177]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueBoosDummy497216404ED949700288CBBF69485963.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummy.uasset'
+[2018.01.18-18.10.37:173][177]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummy.uasset
+[2018.01.18-18.11.24:598][919]BlueprintLog: New page: Compile Enemigo
+[2018.01.18-18.11.25:482][964]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemigos/Enemigo" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset" SILENT=true
+[2018.01.18-18.11.25:500][964]LogSavePackage: Save=10.67ms
+[2018.01.18-18.11.25:500][964]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Enemigo97EF49C74BDA3FBDB3ECB5883D46D48F.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset'
+[2018.01.18-18.11.25:502][964]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset
+[2018.01.18-18.11.43:539][599]BlueprintLog: New page: Compile BlueBoosDummy
+[2018.01.18-18.11.44:858][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boss/BlueBoosDummy" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummy.uasset" SILENT=true
+[2018.01.18-18.11.45:202][639]LogSavePackage: Save=335.47ms
+[2018.01.18-18.11.45:202][639]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueBoosDummyE0E21D3248FDD5CC396F3F9DF8841B2B.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummy.uasset'
+[2018.01.18-18.11.45:205][639]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummy.uasset
+[2018.01.18-18.14.15:409][323]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.01.18-18.14.23:903][986]LogClass:Warning: Property vecImpulso of vecImpulso has a struct type mismatch (tag Rotator != prop Vector) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.01.18-18.14.31:467][560]LogClass:Warning: Type mismatch in velImpulso of SKEL_Enemigo_C - Previous (StructProperty) Current(FloatProperty) for package:  FObjectReader
+[2018.01.18-18.14.48:833][880]LogClass:Warning: Property transformIni of transformIni has a struct type mismatch (tag Vector != prop Transform) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.01.18-18.14.53:156][200]BlueprintLog: New page: Compile Enemigo
+[2018.01.18-18.14.56:597][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemigos/Enemigo" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset" SILENT=true
+[2018.01.18-18.14.56:619][241]LogSavePackage: Save=11.99ms
+[2018.01.18-18.14.56:619][241]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/EnemigoC3C2A6EB4574286F1E29B299C3EE0090.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset'
+[2018.01.18-18.14.56:620][241]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset
+[2018.01.18-18.15.20:999][678]LogEditorTransaction: Undo Remove Variable
+[2018.01.18-18.15.21:948][753]LogEditorTransaction: Undo Remove Variable
+[2018.01.18-18.15.22:330][786]LogEditorTransaction: Undo Remove Variable
+[2018.01.18-18.15.22:822][829]LogEditorTransaction: Undo Remove Variable
+[2018.01.18-18.15.33:690][820]LogEditorTransaction: Redo Remove Variable
+[2018.01.18-18.15.33:966][839]LogEditorTransaction: Redo Remove Variable
+[2018.01.18-18.15.34:284][859]LogEditorTransaction: Redo Remove Variable
+[2018.01.18-18.15.34:769][899]LogEditorTransaction: Redo Remove Variable
+[2018.01.18-18.15.44:919][859]LogEditorTransaction: Undo Move Node
+[2018.01.18-18.15.45:300][886]LogEditorTransaction: Undo Remove Variable
+[2018.01.18-18.15.45:917][938]LogEditorTransaction: Undo Remove Variable
+[2018.01.18-18.15.46:312][972]LogEditorTransaction: Undo Remove Variable
+[2018.01.18-18.15.46:687][  4]LogEditorTransaction: Undo Remove Variable
+[2018.01.18-18.15.47:046][ 34]LogEditorTransaction: Undo Remove Variable
+[2018.01.18-18.15.47:920][111]LogEditorTransaction: Undo Remove Variable
+[2018.01.18-18.15.48:374][149]LogEditorTransaction: Undo Remove Variable
+[2018.01.18-18.15.48:782][183]LogEditorTransaction: Undo Change Parameter Type
+[2018.01.18-18.15.48:810][183]LogClass:Warning: Property transformIni of transformIni has a struct type mismatch (tag Transform != prop Vector) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.01.18-18.15.48:821][183]LogClass:Warning: Property transformIni of transformIni has a struct type mismatch (tag Transform != prop Vector) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.01.18-18.15.48:846][183]LogClass:Warning: Property transformIni of transformIni has a struct type mismatch (tag Transform != prop Vector) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.01.18-18.15.48:863][183]LogClass:Warning: Property transformIni of transformIni has a struct type mismatch (tag Transform != prop Vector) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.01.18-18.15.48:864][183]LogClass:Warning: Property transformIni of transformIni has a struct type mismatch (tag Transform != prop Vector) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.01.18-18.15.49:759][263]LogEditorTransaction: Redo Change Parameter Type
+[2018.01.18-18.15.49:772][263]LogActorComponent: ~FComponentReregisterContext: (/Game/Niveles/RedLevel.RedLevel:PersistentLevel.BlueBoosDummy11_2042.CharacterMesh0) Component already registered.
+[2018.01.18-18.15.49:775][263]LogActorComponent: ~FComponentReregisterContext: (/Game/Niveles/RedLevel.RedLevel:PersistentLevel.BlueBoosDummy2_380.CharacterMesh0) Component already registered.
+[2018.01.18-18.15.49:779][263]LogActorComponent: ~FComponentReregisterContext: (/Game/Niveles/RedLevel.RedLevel:PersistentLevel.BlueBoosDummy3_479.CharacterMesh0) Component already registered.
+[2018.01.18-18.15.49:783][263]LogActorComponent: ~FComponentReregisterContext: (/Game/Niveles/RedLevel.RedLevel:PersistentLevel.BlueBoosDummy4_698.CharacterMesh0) Component already registered.
+[2018.01.18-18.15.49:786][263]LogActorComponent: ~FComponentReregisterContext: (/Game/Niveles/RedLevel.RedLevel:PersistentLevel.BlueBoosDummy10_1559.CharacterMesh0) Component already registered.
+[2018.01.18-18.15.49:789][263]LogActorComponent: ~FComponentReregisterContext: (/Game/Niveles/RedLevel.RedLevel:PersistentLevel.BlueBoosDummy11_2042.CollisionCylinder) Component already registered.
+[2018.01.18-18.15.49:789][263]LogActorComponent: ~FComponentReregisterContext: (/Game/Niveles/RedLevel.RedLevel:PersistentLevel.BlueBoosDummy10_1559.CollisionCylinder) Component already registered.
+[2018.01.18-18.15.49:793][263]LogActorComponent: ~FComponentReregisterContext: (/Game/Niveles/RedLevel.RedLevel:PersistentLevel.BlueBoosDummy9_1322.CharacterMesh0) Component already registered.
+[2018.01.18-18.15.49:795][263]LogActorComponent: ~FComponentReregisterContext: (/Game/Niveles/RedLevel.RedLevel:PersistentLevel.BlueBoosDummy_227.CharacterMesh0) Component already registered.
+[2018.01.18-18.15.49:799][263]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.BlueBoosDummy_C_0.CharacterMesh0) Component already registered.
+[2018.01.18-18.15.49:802][263]LogActorComponent: ~FComponentReregisterContext: (/Game/Niveles/RedLevel.RedLevel:PersistentLevel.BlueBoosDummy6_524.CharacterMesh0) Component already registered.
+[2018.01.18-18.15.49:804][263]LogActorComponent: ~FComponentReregisterContext: (/Game/Niveles/RedLevel.RedLevel:PersistentLevel.BlueBoosDummy6_524.CollisionCylinder) Component already registered.
+[2018.01.18-18.15.49:807][263]LogActorComponent: ~FComponentReregisterContext: (/Game/Niveles/RedLevel.RedLevel:PersistentLevel.BlueBoosDummy5_299.CharacterMesh0) Component already registered.
+[2018.01.18-18.15.49:809][263]LogActorComponent: ~FComponentReregisterContext: (/Game/Niveles/RedLevel.RedLevel:PersistentLevel.BlueBoosDummy8_1058.CharacterMesh0) Component already registered.
+[2018.01.18-18.15.49:812][263]LogActorComponent: ~FComponentReregisterContext: (/Game/Niveles/RedLevel.RedLevel:PersistentLevel.BlueBoosDummy9_1322.CollisionCylinder) Component already registered.
+[2018.01.18-18.15.49:812][263]LogActorComponent: ~FComponentReregisterContext: (/Game/Niveles/RedLevel.RedLevel:PersistentLevel.BlueBoosDummy8_1058.CollisionCylinder) Component already registered.
+[2018.01.18-18.15.49:813][263]LogActorComponent: ~FComponentReregisterContext: (/Game/Niveles/RedLevel.RedLevel:PersistentLevel.BlueBoosDummy7_842.CharacterMesh0) Component already registered.
+[2018.01.18-18.15.49:818][263]LogClass:Warning: Property transformIni of transformIni has a struct type mismatch (tag Vector != prop Transform) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.01.18-18.15.50:032][273]LogEditorTransaction: Redo Remove Variable
+[2018.01.18-18.15.50:231][288]LogEditorTransaction: Redo Remove Variable
+[2018.01.18-18.15.50:436][304]LogEditorTransaction: Redo Remove Variable
+[2018.01.18-18.15.50:659][322]LogEditorTransaction: Redo Remove Variable
+[2018.01.18-18.15.50:849][337]LogEditorTransaction: Redo Remove Variable
+[2018.01.18-18.15.51:037][352]LogEditorTransaction: Redo Remove Variable
+[2018.01.18-18.15.51:276][372]LogEditorTransaction: Redo Remove Variable
+[2018.01.18-18.16.18:697][141]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.01.18-18.16.42:353][ 60]LogBlueprint:Warning: Reparenting blueprint Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter from Character to Enemigo_C...
+[2018.01.18-18.16.42:370][ 60]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.01.18-18.17.34:896][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemigos/Enemigo" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset" SILENT=true
+[2018.01.18-18.17.34:922][841]LogSavePackage: Save=12.12ms
+[2018.01.18-18.17.34:922][841]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Enemigo0BFF91DF4995E742DB73DBAE5459935A.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset'
+[2018.01.18-18.17.34:924][841]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset
+[2018.01.18-18.17.35:518][911]BlueprintLog: New page: Compile Enemigo
+[2018.01.18-18.17.37:773][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boss/BlueBoosDummy" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummy.uasset" SILENT=true
+[2018.01.18-18.17.38:121][  9]LogSavePackage: Save=336.92ms
+[2018.01.18-18.17.38:121][  9]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueBoosDummyF0A84FC64C3A25C4C4614CBA663AB10B.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummy.uasset'
+[2018.01.18-18.17.38:123][  9]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummy.uasset
+[2018.01.18-18.17.42:755][363]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.01.18-18.18.25:740][ 64]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.01.18-18.18.26:645][ 79]LogSavePackage: Save=89.03ms
+[2018.01.18-18.18.26:645][ 79]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonCharacter29816A8C4DB20AE4785A52893375E5B4.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.01.18-18.18.26:647][ 79]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.01.18-18.19.26:908][789]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.01.18-18.19.29:342][929]LogSavePackage: Save=94.79ms
+[2018.01.18-18.19.29:342][929]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonCharacterE77910524C69BF952B3F2CB5866DA16C.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.01.18-18.19.29:344][929]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.01.18-18.20.00:078][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boss/BlueBoosDummy" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummy.uasset" SILENT=true
+[2018.01.18-18.20.00:419][652]LogSavePackage: Save=330.35ms
+[2018.01.18-18.20.00:419][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueBoosDummyC88CA3B64DA13D034801BC8924B1F384.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummy.uasset'
+[2018.01.18-18.20.00:421][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummy.uasset
+[2018.01.18-18.20.38:917][ 56]LogBlueprint:Warning: [Enemigo] 'estaFijado' variable not found. Base class was probably changed.
+[2018.01.18-18.20.38:917][ 56]LogBlueprint:Warning: [Enemigo] 'estaFijado' variable not found. Base class was probably changed.
+[2018.01.18-18.20.38:917][ 56]LogBlueprint:Warning: [Enemigo] 'estaFijado' variable not found. Base class was probably changed.
+[2018.01.18-18.20.38:917][ 56]LogBlueprint:Warning: [Enemigo] 'estaFijado' variable not found. Base class was probably changed.
+[2018.01.18-18.21.18:618][381]LogBlueprint:Warning: Unknown type of hyperlinked object
+[2018.01.18-18.21.38:996][138]LogClass:Warning: Type mismatch in NewVar_0 of SKEL_Enemigo_C - Previous (StructProperty) Current(BoolProperty) for package:  FObjectReader
+[2018.01.18-18.21.47:610][ 46]BlueprintLog: New page: Compile Enemigo
+[2018.01.18-18.21.57:704][664]BlueprintLog: New page: Compile BlueBoosDummy
+[2018.01.18-18.21.59:288][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boss/BlueBoosDummy" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummy.uasset" SILENT=true
+[2018.01.18-18.21.59:627][767]LogSavePackage: Save=331.44ms
+[2018.01.18-18.21.59:628][767]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueBoosDummy67216A3E45D45C106999579FF414E76A.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummy.uasset'
+[2018.01.18-18.21.59:629][767]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummy.uasset
+[2018.01.18-18.22.31:380][647]LogEditorTransaction: Undo Paste clipboard contents
+[2018.01.18-18.22.33:830][898]Cmd: TRANSACTION UNDO
+[2018.01.18-18.22.33:830][898]LogEditorTransaction: Undo Delete current selection
+[2018.01.18-18.22.55:850][984]BlueprintLog: New page: Compile Enemigo
+[2018.01.18-18.22.55:879][984]LogBlueprint:Error: [Compiler Enemigo] Error Could not find a function named "calculoVectorImpulso" in 'Enemigo_C'.
+Make sure 'Enemigo_C' has been compiled for  Calculo Vector Impulso
+[2018.01.18-18.22.55:879][984]LogBlueprint:Error: [Compiler Enemigo] Error Could not find a function named "calculoVectorImpulsoLanzar" in 'Enemigo_C'.
+Make sure 'Enemigo_C' has been compiled for  Calculo Vector Impulso Lanzar
+[2018.01.18-18.22.57:506][984]BlueprintEditorCompileResults:Error: Error Could not find a function named "calculoVectorImpulso" in 'Enemigo_C'.
+Make sure 'Enemigo_C' has been compiled for  Calculo Vector Impulso
+[2018.01.18-18.22.57:506][984]BlueprintEditorCompileResults:Error: Error Could not find a function named "calculoVectorImpulsoLanzar" in 'Enemigo_C'.
+Make sure 'Enemigo_C' has been compiled for  Calculo Vector Impulso Lanzar
+[2018.01.18-18.22.57:506][984]LogBlueprint:Warning: [Compiler Enemigo] Warning [0877.89] Compile of Enemigo failed. 2 Fatal Issue(s) 0 Warning(s) [in 1,655 ms] (/Game/Enemigos/Enemigo.Enemigo)
+[2018.01.18-18.23.50:904][899]BlueprintLog: New page: Compile Enemigo
+[2018.01.18-18.23.50:933][899]LogBlueprint:Error: [Compiler Enemigo] Error Could not find a function named "calculoVectorImpulso" in 'Enemigo_C'.
+Make sure 'Enemigo_C' has been compiled for  Calculo Vector Impulso
+[2018.01.18-18.23.50:933][899]LogBlueprint:Error: [Compiler Enemigo] Error Could not find a function named "calculoVectorImpulsoLanzar" in 'Enemigo_C'.
+Make sure 'Enemigo_C' has been compiled for  Calculo Vector Impulso Lanzar
+[2018.01.18-18.23.52:471][899]BlueprintEditorCompileResults:Error: Error Could not find a function named "calculoVectorImpulso" in 'Enemigo_C'.
+Make sure 'Enemigo_C' has been compiled for  Calculo Vector Impulso
+[2018.01.18-18.23.52:471][899]BlueprintEditorCompileResults:Error: Error Could not find a function named "calculoVectorImpulsoLanzar" in 'Enemigo_C'.
+Make sure 'Enemigo_C' has been compiled for  Calculo Vector Impulso Lanzar
+[2018.01.18-18.23.52:472][899]LogBlueprint:Warning: [Compiler Enemigo] Warning [0932.86] Compile of Enemigo failed. 2 Fatal Issue(s) 0 Warning(s) [in 1,568 ms] (/Game/Enemigos/Enemigo.Enemigo)
+[2018.01.18-18.24.49:076][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemigos/Enemigo" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset" SILENT=true
+[2018.01.18-18.24.49:154][112]LogSavePackage: Save=63.48ms
+[2018.01.18-18.24.49:154][112]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/EnemigoB7AE7FD040F5A7DF4B36D7AD394C371D.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset'
+[2018.01.18-18.24.49:156][112]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset
+[2018.01.18-18.24.50:147][212]BlueprintLog: New page: Compile Enemigo
+[2018.01.18-18.25.18:725][317]BlueprintLog: New page: Compile Enemigo
+[2018.01.18-18.25.20:126][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemigos/Enemigo" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset" SILENT=true
+[2018.01.18-18.25.20:205][355]LogSavePackage: Save=70.96ms
+[2018.01.18-18.25.20:205][355]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/EnemigoF5FD66924864E6ED6FCAA2AD9A2A1D8D.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset'
+[2018.01.18-18.25.20:207][355]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset
+[2018.01.18-18.25.22:128][563]LogSavePackage: Save=45.70ms
+[2018.01.18-18.25.22:128][563]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonCharacter3F43068442434B5B6B6F219A9616D8DB.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.01.18-18.25.22:130][563]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.01.18-18.25.24:487][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boss/BlueBoosDummy" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummy.uasset" SILENT=true
+[2018.01.18-18.25.24:826][799]LogSavePackage: Save=328.27ms
+[2018.01.18-18.25.24:826][799]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueBoosDummy29EFFEAD4AB5A77F9C0667B7422CF77C.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummy.uasset'
+[2018.01.18-18.25.24:829][799]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummy.uasset
+[2018.01.18-18.26.31:108][399]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.01.18-18.26.47:123][309]BlueprintLog: New page: Compile Warrior_BP
+[2018.01.18-18.26.47:408][309]LogBlueprint:Error: [Compiler Warrior_BP] Error COMPILER ERROR: failed building connection with 'Array of Blue Boos Dummy References is not compatible with Array of Enemigo References.' at  Get (a copy)
+[2018.01.18-18.26.47:411][309]LogBlueprint:Error: [Compiler Warrior_BP] Error COMPILER ERROR: failed building connection with 'Array of Third Person Character References is not compatible with Array of Enemigo References.' at  Get (a copy)
+[2018.01.18-18.26.47:414][309]LogBlueprint:Error: [Compiler Warrior_BP] Error Can't connect pins  Out Actors  and  Target Array : Array of Enemigo References is not compatible with Array of Third Person Character References.
+[2018.01.18-18.26.47:414][309]LogBlueprint:Error: [Compiler Warrior_BP] Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2018.01.18-18.26.47:419][309]LogBlueprint:Error: [Compiler Warrior_BP] Error Can't connect pins  Out Actors  and  Target Array : Array of Enemigo References is not compatible with Array of Blue Boos Dummy References.
+[2018.01.18-18.26.47:419][309]LogBlueprint:Error: [Compiler Warrior_BP] Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2018.01.18-18.26.47:424][309]LogBlueprint:Error: [Compiler Warrior_BP] Error Can't connect pins  Target Array  and  Out Actors : Array of Third Person Character References is not compatible with Array of Enemigo References.
+[2018.01.18-18.26.47:432][309]LogBlueprint:Error: [Compiler Warrior_BP] Error Can't connect pins  Target Array  and  Out Actors : Array of Blue Boos Dummy References is not compatible with Array of Enemigo References.
+[2018.01.18-18.26.47:446][309]LogBlueprint:Error: [Compiler Warrior_BP] Error This blueprint (self) is not a BlueBoosDummy_C, therefore ' Target ' must have a connection.
+[2018.01.18-18.26.47:446][309]LogBlueprint:Error: [Compiler Warrior_BP] Error This blueprint (self) is not a BlueBoosDummy_C, therefore ' Target ' must have a connection.
+[2018.01.18-18.26.47:447][309]LogBlueprint:Error: [Compiler Warrior_BP] Error This blueprint (self) is not a BlueBoosDummy_C, therefore ' Target ' must have a connection.
+[2018.01.18-18.26.47:454][309]LogBlueprint:Error: [Compiler Warrior_BP] Error The current value of the ' Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2018.01.18-18.26.47:454][309]LogBlueprint:Error: [Compiler Warrior_BP] Error The current value of the ' Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2018.01.18-18.26.47:455][309]LogBlueprint:Error: [Compiler Warrior_BP] Error The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2018.01.18-18.26.47:460][309]LogBlueprint:Error: [Compiler Warrior_BP] Error Variable node  Get CapsuleComponent  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.01.18-18.26.47:461][309]LogBlueprint:Error: [Compiler Warrior_BP] Error Variable node  Get RayCollision  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.01.18-18.26.48:737][309]BlueprintEditorCompileResults:Error: Error COMPILER ERROR: failed building connection with 'Array of Blue Boos Dummy References is not compatible with Array of Enemigo References.' at  Get (a copy)
+[2018.01.18-18.26.48:737][309]BlueprintEditorCompileResults:Error: Error COMPILER ERROR: failed building connection with 'Array of Third Person Character References is not compatible with Array of Enemigo References.' at  Get (a copy)
+[2018.01.18-18.26.48:737][309]BlueprintEditorCompileResults:Error: Error Can't connect pins  Out Actors  and  Target Array : Array of Enemigo References is not compatible with Array of Third Person Character References.
+[2018.01.18-18.26.48:737][309]BlueprintEditorCompileResults:Error: Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2018.01.18-18.26.48:737][309]BlueprintEditorCompileResults:Error: Error Can't connect pins  Out Actors  and  Target Array : Array of Enemigo References is not compatible with Array of Blue Boos Dummy References.
+[2018.01.18-18.26.48:737][309]BlueprintEditorCompileResults:Error: Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2018.01.18-18.26.48:737][309]BlueprintEditorCompileResults:Error: Error Can't connect pins  Target Array  and  Out Actors : Array of Third Person Character References is not compatible with Array of Enemigo References.
+[2018.01.18-18.26.48:737][309]BlueprintEditorCompileResults:Error: Error Can't connect pins  Target Array  and  Out Actors : Array of Blue Boos Dummy References is not compatible with Array of Enemigo References.
+[2018.01.18-18.26.48:737][309]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a BlueBoosDummy_C, therefore ' Target ' must have a connection.
+[2018.01.18-18.26.48:737][309]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a BlueBoosDummy_C, therefore ' Target ' must have a connection.
+[2018.01.18-18.26.48:737][309]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a BlueBoosDummy_C, therefore ' Target ' must have a connection.
+[2018.01.18-18.26.48:737][309]BlueprintEditorCompileResults:Error: Error The current value of the ' Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2018.01.18-18.26.48:737][309]BlueprintEditorCompileResults:Error: Error The current value of the ' Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2018.01.18-18.26.48:737][309]BlueprintEditorCompileResults:Error: Error The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2018.01.18-18.26.48:737][309]BlueprintEditorCompileResults:Error: Error Variable node  Get CapsuleComponent  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.01.18-18.26.48:737][309]BlueprintEditorCompileResults:Error: Error Variable node  Get RayCollision  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.01.18-18.26.48:737][309]LogBlueprint:Warning: [Compiler Warrior_BP] Warning [1109.12] Compile of Warrior_BP failed. 16 Fatal Issue(s) 0 Warning(s) [in 1,613 ms] (/Game/Warrior/Warrior_BP.Warrior_BP)
+[2018.01.18-18.28.56:941][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemigos/Enemigo" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset" SILENT=true
+[2018.01.18-18.28.57:026][ 61]LogSavePackage: Save=74.35ms
+[2018.01.18-18.28.57:026][ 61]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Enemigo5EC6BF354295D863A53C59A0B86D315A.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset'
+[2018.01.18-18.28.57:027][ 61]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset
+[2018.01.18-18.28.58:037][180]BlueprintLog: New page: Compile Enemigo
+[2018.01.18-18.28.58:579][180]LogBlueprint:Error: [Compiler Warrior_BP] Error COMPILER ERROR: failed building connection with 'Array of Blue Boos Dummy References is not compatible with Array of Enemigo References.' at  Get (a copy)
+[2018.01.18-18.28.58:582][180]LogBlueprint:Error: [Compiler Warrior_BP] Error COMPILER ERROR: failed building connection with 'Array of Third Person Character References is not compatible with Array of Enemigo References.' at  Get (a copy)
+[2018.01.18-18.28.58:584][180]LogBlueprint:Error: [Compiler Warrior_BP] Error Can't connect pins  Out Actors  and  Target Array : Array of Enemigo References is not compatible with Array of Third Person Character References.
+[2018.01.18-18.28.58:585][180]LogBlueprint:Error: [Compiler Warrior_BP] Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2018.01.18-18.28.58:589][180]LogBlueprint:Error: [Compiler Warrior_BP] Error Can't connect pins  Out Actors  and  Target Array : Array of Enemigo References is not compatible with Array of Blue Boos Dummy References.
+[2018.01.18-18.28.58:589][180]LogBlueprint:Error: [Compiler Warrior_BP] Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2018.01.18-18.28.58:595][180]LogBlueprint:Error: [Compiler Warrior_BP] Error Can't connect pins  Target Array  and  Out Actors : Array of Third Person Character References is not compatible with Array of Enemigo References.
+[2018.01.18-18.28.58:603][180]LogBlueprint:Error: [Compiler Warrior_BP] Error Can't connect pins  Target Array  and  Out Actors : Array of Blue Boos Dummy References is not compatible with Array of Enemigo References.
+[2018.01.18-18.28.58:617][180]LogBlueprint:Error: [Compiler Warrior_BP] Error This blueprint (self) is not a BlueBoosDummy_C, therefore ' Target ' must have a connection.
+[2018.01.18-18.28.58:617][180]LogBlueprint:Error: [Compiler Warrior_BP] Error This blueprint (self) is not a BlueBoosDummy_C, therefore ' Target ' must have a connection.
+[2018.01.18-18.28.58:618][180]LogBlueprint:Error: [Compiler Warrior_BP] Error This blueprint (self) is not a BlueBoosDummy_C, therefore ' Target ' must have a connection.
+[2018.01.18-18.28.58:621][180]LogBlueprint:Error: [Compiler Warrior_BP] Error The type of  Target Array  is undetermined.  Connect something to  Remove Item  to imply a specific type.
+[2018.01.18-18.28.58:621][180]LogBlueprint:Error: [Compiler Warrior_BP] Error The type of  Item  is undetermined.  Connect something to  Remove Item  to imply a specific type.
+[2018.01.18-18.28.58:622][180]LogBlueprint:Error: [Compiler Warrior_BP] Error The type of  Variable  is undetermined.  Connect something to  Remove Item  to imply a specific type.
+[2018.01.18-18.28.58:624][180]LogBlueprint:Error: [Compiler Warrior_BP] Error The current value of the ' Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2018.01.18-18.28.58:626][180]LogBlueprint:Error: [Compiler Warrior_BP] Error The current value of the ' Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2018.01.18-18.28.58:626][180]LogBlueprint:Error: [Compiler Warrior_BP] Error The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2018.01.18-18.28.58:632][180]LogBlueprint:Error: [Compiler Warrior_BP] Error Variable node  Get CapsuleComponent  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.01.18-18.28.58:632][180]LogBlueprint:Error: [Compiler Warrior_BP] Error Variable node  Get RayCollision  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.01.18-18.29.39:954][808]LogEditorTransaction: Undo Move Node
+[2018.01.18-18.29.40:742][809]LogEditorTransaction: Undo Add Node
+[2018.01.18-18.29.40:903][809]LogEditorTransaction: Undo Delete current selection
+[2018.01.18-18.29.56:874][841]BlueprintLog: New page: Compile Warrior_BP
+[2018.01.18-18.29.57:148][841]LogBlueprint:Error: [Compiler Warrior_BP] Error COMPILER ERROR: failed building connection with 'Array of Third Person Character References is not compatible with Array of Enemigo References.' at  Get (a copy)
+[2018.01.18-18.29.57:153][841]LogBlueprint:Error: [Compiler Warrior_BP] Error COMPILER ERROR: failed building connection with 'Array of Blue Boos Dummy References is not compatible with Array of Enemigo References.' at  Get (a copy)
+[2018.01.18-18.29.57:160][841]LogBlueprint:Error: [Compiler Warrior_BP] Error Can't connect pins  Out Actors  and  Target Array : Array of Enemigo References is not compatible with Array of Third Person Character References.
+[2018.01.18-18.29.57:160][841]LogBlueprint:Error: [Compiler Warrior_BP] Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2018.01.18-18.29.57:165][841]LogBlueprint:Error: [Compiler Warrior_BP] Error Can't connect pins  Out Actors  and  Target Array : Array of Enemigo References is not compatible with Array of Blue Boos Dummy References.
+[2018.01.18-18.29.57:165][841]LogBlueprint:Error: [Compiler Warrior_BP] Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2018.01.18-18.29.57:171][841]LogBlueprint:Error: [Compiler Warrior_BP] Error Can't connect pins  Target Array  and  Out Actors : Array of Third Person Character References is not compatible with Array of Enemigo References.
+[2018.01.18-18.29.57:178][841]LogBlueprint:Error: [Compiler Warrior_BP] Error Can't connect pins  Target Array  and  Out Actors : Array of Blue Boos Dummy References is not compatible with Array of Enemigo References.
+[2018.01.18-18.29.57:193][841]LogBlueprint:Error: [Compiler Warrior_BP] Error This blueprint (self) is not a BlueBoosDummy_C, therefore ' Target ' must have a connection.
+[2018.01.18-18.29.57:197][841]LogBlueprint:Error: [Compiler Warrior_BP] Error The type of  Target Array  is undetermined.  Connect something to  Remove Item  to imply a specific type.
+[2018.01.18-18.29.57:197][841]LogBlueprint:Error: [Compiler Warrior_BP] Error The type of  Item  is undetermined.  Connect something to  Remove Item  to imply a specific type.
+[2018.01.18-18.29.57:197][841]LogBlueprint:Error: [Compiler Warrior_BP] Error The type of  Variable  is undetermined.  Connect something to  Remove Item  to imply a specific type.
+[2018.01.18-18.29.57:201][841]LogBlueprint:Error: [Compiler Warrior_BP] Error The current value of the ' Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2018.01.18-18.29.57:201][841]LogBlueprint:Error: [Compiler Warrior_BP] Error The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2018.01.18-18.29.57:205][841]LogBlueprint:Error: [Compiler Warrior_BP] Error The current value of the ' Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2018.01.18-18.29.57:207][841]LogBlueprint:Error: [Compiler Warrior_BP] Error Variable node  Get CapsuleComponent  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.01.18-18.29.57:208][841]LogBlueprint:Error: [Compiler Warrior_BP] Error Variable node  Get RayCollision  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.01.18-18.29.57:736][841]LogBlueprint:Error: [Compiler Warrior_BP] Error COMPILER ERROR: failed building connection with 'Array of Third Person Character References is not compatible with Array of Enemigo References.' at  Get (a copy)
+[2018.01.18-18.29.57:742][841]LogBlueprint:Error: [Compiler Warrior_BP] Error COMPILER ERROR: failed building connection with 'Array of Blue Boos Dummy References is not compatible with Array of Enemigo References.' at  Get (a copy)
+[2018.01.18-18.29.57:748][841]LogBlueprint:Error: [Compiler Warrior_BP] Error Can't connect pins  Out Actors  and  Target Array : Array of Enemigo References is not compatible with Array of Third Person Character References.
+[2018.01.18-18.29.57:748][841]LogBlueprint:Error: [Compiler Warrior_BP] Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2018.01.18-18.29.57:753][841]LogBlueprint:Error: [Compiler Warrior_BP] Error Can't connect pins  Out Actors  and  Target Array : Array of Enemigo References is not compatible with Array of Blue Boos Dummy References.
+[2018.01.18-18.29.57:753][841]LogBlueprint:Error: [Compiler Warrior_BP] Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2018.01.18-18.29.57:759][841]LogBlueprint:Error: [Compiler Warrior_BP] Error Can't connect pins  Target Array  and  Out Actors : Array of Third Person Character References is not compatible with Array of Enemigo References.
+[2018.01.18-18.29.57:765][841]LogBlueprint:Error: [Compiler Warrior_BP] Error Can't connect pins  Target Array  and  Out Actors : Array of Blue Boos Dummy References is not compatible with Array of Enemigo References.
+[2018.01.18-18.29.57:780][841]LogBlueprint:Error: [Compiler Warrior_BP] Error This blueprint (self) is not a BlueBoosDummy_C, therefore ' Target ' must have a connection.
+[2018.01.18-18.29.57:784][841]LogBlueprint:Error: [Compiler Warrior_BP] Error The type of  Target Array  is undetermined.  Connect something to  Remove Item  to imply a specific type.
+[2018.01.18-18.29.57:784][841]LogBlueprint:Error: [Compiler Warrior_BP] Error The type of  Item  is undetermined.  Connect something to  Remove Item  to imply a specific type.
+[2018.01.18-18.29.57:784][841]LogBlueprint:Error: [Compiler Warrior_BP] Error The type of  Variable  is undetermined.  Connect something to  Remove Item  to imply a specific type.
+[2018.01.18-18.29.57:788][841]LogBlueprint:Error: [Compiler Warrior_BP] Error The current value of the ' Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2018.01.18-18.29.57:788][841]LogBlueprint:Error: [Compiler Warrior_BP] Error The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2018.01.18-18.29.57:792][841]LogBlueprint:Error: [Compiler Warrior_BP] Error The current value of the ' Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2018.01.18-18.29.57:794][841]LogBlueprint:Error: [Compiler Warrior_BP] Error Variable node  Get CapsuleComponent  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.01.18-18.29.57:795][841]LogBlueprint:Error: [Compiler Warrior_BP] Error Variable node  Get RayCollision  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.01.18-18.29.59:156][841]BlueprintEditorCompileResults:Error: Error COMPILER ERROR: failed building connection with 'Array of Third Person Character References is not compatible with Array of Enemigo References.' at  Get (a copy)
+[2018.01.18-18.29.59:156][841]BlueprintEditorCompileResults:Error: Error COMPILER ERROR: failed building connection with 'Array of Blue Boos Dummy References is not compatible with Array of Enemigo References.' at  Get (a copy)
+[2018.01.18-18.29.59:157][841]BlueprintEditorCompileResults:Error: Error Can't connect pins  Out Actors  and  Target Array : Array of Enemigo References is not compatible with Array of Third Person Character References.
+[2018.01.18-18.29.59:157][841]BlueprintEditorCompileResults:Error: Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2018.01.18-18.29.59:157][841]BlueprintEditorCompileResults:Error: Error Can't connect pins  Out Actors  and  Target Array : Array of Enemigo References is not compatible with Array of Blue Boos Dummy References.
+[2018.01.18-18.29.59:157][841]BlueprintEditorCompileResults:Error: Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2018.01.18-18.29.59:157][841]BlueprintEditorCompileResults:Error: Error Can't connect pins  Target Array  and  Out Actors : Array of Third Person Character References is not compatible with Array of Enemigo References.
+[2018.01.18-18.29.59:157][841]BlueprintEditorCompileResults:Error: Error Can't connect pins  Target Array  and  Out Actors : Array of Blue Boos Dummy References is not compatible with Array of Enemigo References.
+[2018.01.18-18.29.59:157][841]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a BlueBoosDummy_C, therefore ' Target ' must have a connection.
+[2018.01.18-18.29.59:157][841]BlueprintEditorCompileResults:Error: Error The type of  Target Array  is undetermined.  Connect something to  Remove Item  to imply a specific type.
+[2018.01.18-18.29.59:157][841]BlueprintEditorCompileResults:Error: Error The type of  Item  is undetermined.  Connect something to  Remove Item  to imply a specific type.
+[2018.01.18-18.29.59:157][841]BlueprintEditorCompileResults:Error: Error The type of  Variable  is undetermined.  Connect something to  Remove Item  to imply a specific type.
+[2018.01.18-18.29.59:157][841]BlueprintEditorCompileResults:Error: Error The current value of the ' Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2018.01.18-18.29.59:157][841]BlueprintEditorCompileResults:Error: Error The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2018.01.18-18.29.59:157][841]BlueprintEditorCompileResults:Error: Error The current value of the ' Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2018.01.18-18.29.59:157][841]BlueprintEditorCompileResults:Error: Error Variable node  Get CapsuleComponent  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.01.18-18.29.59:157][841]BlueprintEditorCompileResults:Error: Error Variable node  Get RayCollision  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.01.18-18.29.59:157][841]LogBlueprint:Warning: [Compiler Warrior_BP] Warning [1299.54] Compile of Warrior_BP failed. 17 Fatal Issue(s) 0 Warning(s) [in 2,283 ms] (/Game/Warrior/Warrior_BP.Warrior_BP)
+[2018.01.18-18.30.42:578][632]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.01.18-18.31.44:379][592]BlueprintLog: New page: Compile Warrior_BP
+[2018.01.18-18.31.44:629][592]LogBlueprint:Error: [Compiler Warrior_BP] Error COMPILER ERROR: failed building connection with 'Array of Blue Boos Dummy References is not compatible with Array of Enemigo References.' at  Get (a copy)
+[2018.01.18-18.31.44:630][592]LogBlueprint:Error: [Compiler Warrior_BP] Error COMPILER ERROR: failed building connection with 'Array of Third Person Character References is not compatible with Array of Enemigo References.' at  Get (a copy)
+[2018.01.18-18.31.44:634][592]LogBlueprint:Error: [Compiler Warrior_BP] Error Can't connect pins  Out Actors  and  Target Array : Array of Enemigo References is not compatible with Array of Third Person Character References.
+[2018.01.18-18.31.44:634][592]LogBlueprint:Error: [Compiler Warrior_BP] Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2018.01.18-18.31.44:636][592]LogBlueprint:Error: [Compiler Warrior_BP] Error Can't connect pins  Out Actors  and  Target Array : Array of Enemigo References is not compatible with Array of Blue Boos Dummy References.
+[2018.01.18-18.31.44:636][592]LogBlueprint:Error: [Compiler Warrior_BP] Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2018.01.18-18.31.44:649][592]LogBlueprint:Error: [Compiler Warrior_BP] Error Can't connect pins  Target Array  and  Out Actors : Array of Blue Boos Dummy References is not compatible with Array of Enemigo References.
+[2018.01.18-18.31.44:650][592]LogBlueprint:Error: [Compiler Warrior_BP] Error Can't connect pins  Target Array  and  Out Actors : Array of Third Person Character References is not compatible with Array of Enemigo References.
+[2018.01.18-18.31.44:665][592]LogBlueprint:Error: [Compiler Warrior_BP] Error The current value of the ' Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2018.01.18-18.31.44:666][592]LogBlueprint:Error: [Compiler Warrior_BP] Error The current value of the ' Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2018.01.18-18.31.45:614][592]BlueprintEditorCompileResults:Error: Error COMPILER ERROR: failed building connection with 'Array of Blue Boos Dummy References is not compatible with Array of Enemigo References.' at  Get (a copy)
+[2018.01.18-18.31.45:614][592]BlueprintEditorCompileResults:Error: Error COMPILER ERROR: failed building connection with 'Array of Third Person Character References is not compatible with Array of Enemigo References.' at  Get (a copy)
+[2018.01.18-18.31.45:614][592]BlueprintEditorCompileResults:Error: Error Can't connect pins  Out Actors  and  Target Array : Array of Enemigo References is not compatible with Array of Third Person Character References.
+[2018.01.18-18.31.45:614][592]BlueprintEditorCompileResults:Error: Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2018.01.18-18.31.45:614][592]BlueprintEditorCompileResults:Error: Error Can't connect pins  Out Actors  and  Target Array : Array of Enemigo References is not compatible with Array of Blue Boos Dummy References.
+[2018.01.18-18.31.45:614][592]BlueprintEditorCompileResults:Error: Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2018.01.18-18.31.45:614][592]BlueprintEditorCompileResults:Error: Error Can't connect pins  Target Array  and  Out Actors : Array of Blue Boos Dummy References is not compatible with Array of Enemigo References.
+[2018.01.18-18.31.45:614][592]BlueprintEditorCompileResults:Error: Error Can't connect pins  Target Array  and  Out Actors : Array of Third Person Character References is not compatible with Array of Enemigo References.
+[2018.01.18-18.31.45:614][592]BlueprintEditorCompileResults:Error: Error The current value of the ' Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2018.01.18-18.31.45:614][592]BlueprintEditorCompileResults:Error: Error The current value of the ' Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2018.01.18-18.31.45:614][592]LogBlueprint:Warning: [Compiler Warrior_BP] Warning [1406.00] Compile of Warrior_BP failed. 10 Fatal Issue(s) 0 Warning(s) [in 1,234 ms] (/Game/Warrior/Warrior_BP.Warrior_BP)
+[2018.01.18-18.32.23:909][230]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.01.18-18.33.39:774][777]BlueprintLog: New page: Compile Warrior_BP
+[2018.01.18-18.33.47:972][293]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.18-18.33.48:044][293]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.18-18.33.48:044][293]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.01.18-18.33.48:044][293]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.01.18-18.33.48:044][293]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.18-18.33.48:045][293]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 18, 2018, 8:33:48 PM)
+[2018.01.18-18.33.48:045][293]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.01.18-18.33.48:066][293]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021424s)
+[2018.01.18-18.33.48:067][293]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.01.18-18.33.48:067][293]LogPlayLevel: PIE: World Init took: (0.000893s)
+[2018.01.18-18.33.48:068][293]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022674s)
+[2018.01.18-18.33.48:116][293]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.18-18.33.48:122][293]LogInit: FAudioDevice initialized.
+[2018.01.18-18.33.48:164][293]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.18-18.33.48:170][293]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.01.18-19.33.48
+[2018.01.18-18.33.48:171][293]LogWorld: Bringing up level for play took: 0.003078
+[2018.01.18-18.33.48:219][293]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2018.01.18-18.33.48:221][293]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.01.18-18.33.48:221][293]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.788
+[2018.01.18-18.33.48:221][293]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.18-18.33.48:221][293]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.01.18-18.33.48:221][293]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.01.18-18.33.48:223][293]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2018.01.18-18.33.49:025][386]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 1 1 0
+[2018.01.18-18.33.49:049][388]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.01.18-18.34.07:497][575]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.18-18.34.07:497][575]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.01.18-18.34.07:497][575]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.01.18-18.34.07:530][575]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.18-18.34.07:530][575]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.01.18-18.34.07:530][575]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.01.18-18.34.52:691][718]BlueprintLog: New page: Compile Warrior_BP
+[2018.01.18-18.34.56:637][923]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.18-18.34.56:680][923]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.18-18.34.56:681][923]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.01.18-18.34.56:681][923]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.01.18-18.34.56:681][923]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.18-18.34.56:681][923]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 18, 2018, 8:34:56 PM)
+[2018.01.18-18.34.56:681][923]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.01.18-18.34.56:703][923]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021510s)
+[2018.01.18-18.34.56:703][923]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.01.18-18.34.56:703][923]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2018.01.18-18.34.56:704][923]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022579s)
+[2018.01.18-18.34.56:742][923]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.18-18.34.56:748][923]LogInit: FAudioDevice initialized.
+[2018.01.18-18.34.56:779][923]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.18-18.34.56:784][923]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.01.18-19.34.56
+[2018.01.18-18.34.56:785][923]LogWorld: Bringing up level for play took: 0.002880
+[2018.01.18-18.34.56:787][923]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.01.18-18.34.56:787][923]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.222
+[2018.01.18-18.34.56:787][923]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.18-18.34.56:787][923]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.01.18-18.34.56:787][923]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.01.18-18.34.56:789][923]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2018.01.18-18.34.57:688][ 28]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 1 1 0
+[2018.01.18-18.34.57:713][ 30]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.01.18-18.35.12:444][786]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.18-18.35.12:444][786]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.01.18-18.35.12:444][786]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.01.18-18.35.12:482][786]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.18-18.35.12:482][786]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.01.18-18.35.12:482][786]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.01.18-18.35.32:885][914]BlueprintLog: New page: Compile Enemigo
+[2018.01.18-18.35.34:339][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemigos/Enemigo" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset" SILENT=true
+[2018.01.18-18.35.34:432][957]LogSavePackage: Save=75.53ms
+[2018.01.18-18.35.34:432][957]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Enemigo14270EB2414633789E1FA2B622C1B5D2.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset'
+[2018.01.18-18.35.34:435][957]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset
+[2018.01.18-18.35.36:819][106]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Warrior/Warrior_BP" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset" SILENT=true
+[2018.01.18-18.35.37:804][106]LogSavePackage: Save=972.44ms
+[2018.01.18-18.35.37:804][106]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Warrior_BPA053D43648698D03296E56A5689728BF.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset'
+[2018.01.18-18.35.37:806][106]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset
+[2018.01.18-18.35.38:849][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boss/BlueBoosDummy" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummy.uasset" SILENT=true
+[2018.01.18-18.35.39:187][154]LogSavePackage: Save=326.35ms
+[2018.01.18-18.35.39:187][154]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueBoosDummy8645CA11445E0D97D398FBAA7C96DC51.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummy.uasset'
+[2018.01.18-18.35.39:189][154]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummy.uasset
+[2018.01.18-18.35.52:940][161]LogRenderer: Reallocating scene render targets to support 1204x636 NumSamples 1 (Frame:1).
+[2018.01.18-18.37.17:081][360]BlueprintLog: New page: Compile Warrior_BP
+[2018.01.18-18.37.44:745][ 71]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.18-18.37.44:797][ 71]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.18-18.37.44:797][ 71]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.01.18-18.37.44:797][ 71]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.01.18-18.37.44:797][ 71]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.18-18.37.44:797][ 71]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 18, 2018, 8:37:44 PM)
+[2018.01.18-18.37.44:798][ 71]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.01.18-18.37.44:820][ 71]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021634s)
+[2018.01.18-18.37.44:820][ 71]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.01.18-18.37.44:821][ 71]LogPlayLevel: PIE: World Init took: (0.000959s)
+[2018.01.18-18.37.44:821][ 71]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022871s)
+[2018.01.18-18.37.44:863][ 71]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.18-18.37.44:869][ 71]LogInit: FAudioDevice initialized.
+[2018.01.18-18.37.44:899][ 71]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.18-18.37.44:905][ 71]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.01.18-19.37.44
+[2018.01.18-18.37.44:905][ 71]LogWorld: Bringing up level for play took: 0.002952
+[2018.01.18-18.37.44:907][ 71]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.01.18-18.37.44:907][ 71]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.101
+[2018.01.18-18.37.44:907][ 71]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.18-18.37.44:907][ 71]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.01.18-18.37.44:907][ 71]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.01.18-18.37.44:909][ 71]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2018.01.18-18.37.46:226][226]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 1 1 0
+[2018.01.18-18.37.46:250][228]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.01.18-18.38.02:892][206]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.18-18.38.02:892][206]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.01.18-18.38.02:892][206]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.01.18-18.38.02:926][206]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.18-18.38.02:926][206]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.01.18-18.38.02:926][206]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.01.18-18.38.41:293][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boss/BlueBoosDummyCaca" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummyCaca.uasset" SILENT=true
+[2018.01.18-18.38.41:338][719]LogSavePackage: Save=29.16ms
+[2018.01.18-18.38.41:338][719]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueBoosDummyCaca1842A100438FF62A754F8A8CDC9D611E.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummyCaca.uasset'
+[2018.01.18-18.38.41:340][719]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummyCaca.uasset
+[2018.01.18-18.38.41:342][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemigos/Enemigo" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset" SILENT=true
+[2018.01.18-18.38.41:425][719]LogSavePackage: Save=74.01ms
+[2018.01.18-18.38.41:425][719]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Enemigo981AE69D4D59BCA51CC73ABB836FCEAB.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset'
+[2018.01.18-18.38.41:427][719]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset
+[2018.01.18-18.38.41:526][719]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: BlueLevel, Actor: /Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel_C_1
+[2018.01.18-18.38.41:677][719]LogSavePackage: Save=156.40ms
+[2018.01.18-18.38.41:677][719]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueLevel93EA80DA4C1DD368C8B3CEA4493BD749.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap'
+[2018.01.18-18.38.41:679][719]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap
+[2018.01.18-18.38.41:680][719]LogFileHelpers: Saving map 'BlueLevel' took 0.251
+[2018.01.18-18.38.41:775][719]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: RedLevel, Actor: /Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel_C_0
+[2018.01.18-18.38.42:037][719]LogSavePackage: Save=267.45ms
+[2018.01.18-18.38.42:037][719]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/RedLevel1EB5BED94B20A2392030D4ABB1CA10A8.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/RedLevel.umap'
+[2018.01.18-18.38.42:039][719]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/RedLevel.umap
+[2018.01.18-18.38.42:040][719]LogFileHelpers: Saving map 'RedLevel' took 0.359
+[2018.01.18-18.38.42:109][719]LogSavePackage: Save=45.24ms
+[2018.01.18-18.38.42:109][719]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonCharacterC5FD4BAA457CF7309502E69A639FD390.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.01.18-18.38.42:112][719]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.01.18-18.38.42:573][719]LogSavePackage: Save=360.46ms
+[2018.01.18-18.38.42:573][719]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonExampleMap095704D244A47F92DB0D878CD44E8A90.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.01.18-18.38.42:575][719]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.01.18-18.38.42:623][719]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.508
+[2018.01.18-18.38.42:635][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Warrior/Warrior_BP" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset" SILENT=true
+[2018.01.18-18.38.43:635][719]LogSavePackage: Save=992.28ms
+[2018.01.18-18.38.43:635][719]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Warrior_BPC176D8D44AD491A2978736A9BB461802.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset'
+[2018.01.18-18.38.43:640][719]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset
+[2018.01.18-18.38.45:117][872]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.01.18-18.38.45:171][872]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.01.18-18.38.45:327][872]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.01.18-18.38.45:379][872]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.01.18-18.38.45:443][872]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.18-18.38.45:638][873]Cmd: QUIT_EDITOR
+[2018.01.18-18.38.45:716][873]LogExit: Preparing to exit.
+[2018.01.18-18.38.46:064][873]LogExit: Editor shut down
+[2018.01.18-18.38.46:067][873]LogExit: Transaction tracking system shut down
+[2018.01.18-18.38.46:188][873]LogObj: Freed 0b from 0 cluster array pools.
+[2018.01.18-18.38.46:188][873]LogExit: Object subsystem successfully closed.
+[2018.01.18-18.38.46:213][873]LogD3D11RHI: Shutdown
+[2018.01.18-18.38.46:213][873]LogD3D11RHI: CleanupD3DDevice
+[2018.01.18-18.38.46:337][873]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.01.18-18.38.46:343][873]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2018.01.18-18.38.46:343][873]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2018.01.18-18.38.46:343][873]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2018.01.18-18.38.46:343][873]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
+[2018.01.18-18.38.46:343][873]LogModuleManager: Shutting down and abandoning module CrashTracker (524)
+[2018.01.18-18.38.46:343][873]LogModuleManager: Shutting down and abandoning module WorldBrowser (522)
+[2018.01.18-18.38.46:343][873]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.01.18-18.38.46:343][873]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.01.18-18.38.46:344][873]LogDirectoryWatcher: A directory notification for 'D:/Program Files (x86)/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.01.18-18.38.46:344][873]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.01.18-18.38.46:344][873]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.01.18-18.38.46:344][873]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.01.18-18.38.46:344][873]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Collections/' was aborted.
+[2018.01.18-18.38.46:344][873]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Developers/David/Collections/' was aborted.
+[2018.01.18-18.38.46:345][873]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Collections/' was aborted.
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.01.18-18.38.46:345][873]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.01.18-18.38.46:649][873]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.01.18-18.38.46:649][873]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.01.18-18.38.46:649][873]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.01.18-18.38.46:649][873]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.01.18-18.38.46:649][873]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.01.18-18.38.46:649][873]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.01.18-18.38.46:649][873]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.01.18-18.38.46:649][873]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.01.18-18.38.46:649][873]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.01.18-18.38.46:649][873]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.01.18-18.38.46:649][873]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.01.18-18.38.46:649][873]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.01.18-18.38.46:649][873]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.01.18-18.38.46:649][873]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.01.18-18.38.46:649][873]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.01.18-18.38.46:649][873]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.01.18-18.38.46:649][873]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.01.18-18.38.46:650][873]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.01.18-18.38.46:650][873]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.01.18-18.38.46:650][873]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.01.18-18.38.46:650][873]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.01.18-18.38.46:650][873]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.01.18-18.38.46:650][873]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.01.18-18.38.46:650][873]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.01.18-18.38.46:694][873]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.01.18-18.38.46:694][873]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.01.18-18.38.46:694][873]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.01.18-18.38.46:694][873]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.01.18-18.38.46:694][873]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.01.18-18.38.46:694][873]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.01.18-18.38.46:694][873]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.01.18-18.38.46:694][873]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.01.18-18.38.46:694][873]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.01.18-18.38.46:694][873]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.01.18-18.38.46:705][873]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.01.18-18.38.46:706][873]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.01.18-18.38.46:706][873]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.01.18-18.38.46:706][873]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.01.18-18.38.46:706][873]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.01.18-18.38.46:706][873]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.01.18-18.38.46:706][873]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.01.18-18.38.46:706][873]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.01.18-18.38.46:706][873]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.01.18-18.38.46:706][873]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.01.18-18.38.46:706][873]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.01.18-18.38.46:706][873]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.01.18-18.38.46:706][873]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.01.18-18.38.46:706][873]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.01.18-18.38.46:706][873]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.01.18-18.38.46:706][873]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.01.18-18.38.46:706][873]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.01.18-18.38.46:706][873]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.01.18-18.38.46:706][873]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.01.18-18.38.46:706][873]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.01.18-18.38.46:811][873]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.01.18-18.38.46:812][873]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.01.18-18.38.46:812][873]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.01.18-18.38.46:812][873]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.01.18-18.38.46:812][873]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.01.18-18.38.46:812][873]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.01.18-18.38.46:812][873]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.01.18-18.38.46:812][873]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.01.18-18.38.46:812][873]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.01.18-18.38.46:812][873]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.01.18-18.38.46:937][873]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.01.18-18.38.47:038][873]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.01.18-18.38.47:038][873]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.01.18-18.38.47:038][873]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.01.18-18.38.47:038][873]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.01.18-18.38.47:038][873]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.01.18-18.38.47:038][873]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.01.18-18.38.47:040][873]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.01.18-18.38.47:040][873]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.01.18-18.38.47:040][873]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.01.18-18.38.47:040][873]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.01.18-18.38.47:041][873]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.01.18-18.38.47:041][873]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.01.18-18.38.47:041][873]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.01.18-18.38.47:041][873]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.01.18-18.38.47:041][873]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.01.18-18.38.47:041][873]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.01.18-18.38.47:041][873]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.01.18-18.38.47:041][873]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.01.18-18.38.47:041][873]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.01.18-18.38.47:041][873]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.01.18-18.38.47:041][873]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.01.18-18.38.47:041][873]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.01.18-18.38.47:041][873]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.01.18-18.38.47:041][873]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.01.18-18.38.47:041][873]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.01.18-18.38.47:041][873]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.01.18-18.38.47:042][873]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.01.18-18.38.47:042][873]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.01.18-18.38.47:042][873]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.01.18-18.38.47:045][873]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.01.18-18.38.47:045][873]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.01.18-18.38.47:045][873]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.01.18-18.38.47:045][873]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.01.18-18.38.47:045][873]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.01.18-18.38.47:045][873]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.01.18-18.38.47:186][873]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.01.18-18.38.47:187][873]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/' was aborted.
+[2018.01.18-18.38.47:187][873]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.01.18-18.38.47:187][873]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.01.18-18.38.47:191][873]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.01.18-18.38.47:192][873]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.01.18-18.38.47:192][873]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.01.18-18.38.47:192][873]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.01.18-18.38.47:192][873]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.01.18-18.38.47:192][873]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.01.18-18.38.47:192][873]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.01.18-18.38.47:192][873]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.01.18-18.38.47:192][873]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.01.18-18.38.47:288][873]LogDerivedDataCache: Shutdown
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.01.18-18.38.47:288][873]LogOnline:Display: Unloading online subsystem: NULL
+[2018.01.18-18.38.47:288][873]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.01.18-18.38.47:289][873]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.01.18-18.38.47:289][873]LogHttp:Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2018.01.18-18.38.47:289][873]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBA49EE88-439A-534E-C131-71864644C0BD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=eedd91be406e0cd25ea0748277e6e73c%7C7a211806f70b4509a5be2640357744fc%7Caa6de738-987c-4c76-bb80-6cc1d099ea00&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.01.18-18.38.47:289][873]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBA49EE88-439A-534E-C131-71864644C0BD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=eedd91be406e0cd25ea0748277e6e73c%7C7a211806f70b4509a5be2640357744fc%7Caa6de738-987c-4c76-bb80-6cc1d099ea00&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.01.18-18.38.47:314][873]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.01.18-18.38.47:315][873]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.01.18-18.38.47:315][873]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.01.18-18.38.47:315][873]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.01.18-18.38.47:315][873]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.01.18-18.38.47:315][873]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.01.18-18.38.47:315][873]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.01.18-18.38.47:315][873]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.01.18-18.38.47:315][873]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.01.18-18.38.47:316][873]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.01.18-18.38.47:316][873]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.01.18-18.38.47:317][873]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.01.18-18.38.47:317][873]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.01.18-18.38.47:317][873]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.01.18-18.38.47:317][873]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.01.18-18.38.47:317][873]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.01.18-18.38.47:317][873]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.01.18-18.38.47:317][873]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.01.18-18.38.47:317][873]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.01.18-18.38.47:318][873]LogExit: Exiting.
+[2018.01.18-18.38.47:342][873]Log file closed, 01/18/18 19:38:47

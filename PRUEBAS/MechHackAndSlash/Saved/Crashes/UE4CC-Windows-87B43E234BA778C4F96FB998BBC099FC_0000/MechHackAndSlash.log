@@ -1,0 +1,481 @@
+﻿Log file open, 01/18/18 18:07:04
+LogInit:Display: Running engine for game: MechHackAndSlash
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-695968546) SRandInit(-695968546).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.080440
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.18-17.07.04:825][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.18-17.07.04:825][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.18-17.07.04:835][  0]LogInit: Computer: DAVIDMASTERRACE
+[2018.01.18-17.07.04:835][  0]LogInit: User: David
+[2018.01.18-17.07.04:835][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.18-17.07.04:835][  0]LogInit: High frequency timer resolution =3.417967 MHz
+[2018.01.18-17.07.04:835][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.01.18-17.07.04:835][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.18-17.07.04:835][  0]LogMemory: Process Physical Memory: 272.39 MB used, 272.39 MB peak
+[2018.01.18-17.07.04:835][  0]LogMemory: Process Virtual Memory: 274.55 MB used, 274.55 MB peak
+[2018.01.18-17.07.04:835][  0]LogMemory: Physical Memory: 5412.65 MB used,  10913.79 MB free, 16326.44 MB total
+[2018.01.18-17.07.04:835][  0]LogMemory: Virtual Memory: 631.00 MB used,  10913.79 MB free, 134217728.00 MB total
+[2018.01.18-17.07.04:878][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.01.18-17.07.04:878][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.01.18-17.07.05:637][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.18-17.07.05:665][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.01.18-17.07.05:665][  0]LogD3D11RHI:       3975/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.18-17.07.05:665][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.18-17.07.05:665][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.18-17.07.05:665][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.18-17.07.05:668][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.18-17.07.05:668][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.18-17.07.05:668][  0]LogWindows: EnumDisplayDevices:
+[2018.01.18-17.07.05:668][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.01.18-17.07.05:668][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.01.18-17.07.05:669][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.01.18-17.07.05:669][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.01.18-17.07.05:669][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.01.18-17.07.05:669][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.01.18-17.07.05:669][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2018.01.18-17.07.05:669][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2018.01.18-17.07.05:669][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.18-17.07.05:679][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.18-17.07.05:695][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.01.18-17.07.05:739][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Intermediate/Shaders/WorkingDirectory/5920/).
+[2018.01.18-17.07.05:739][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/David/AppData/Local/Temp/UnrealShaderWorkingDir/B3311EB647A31B4EF62455BE7C21B788/'.
+[2018.01.18-17.07.05:739][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.18-17.07.06:605][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.18-17.07.06:636][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.18-17.07.06:667][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.18-17.07.06:699][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.18-17.07.06:730][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.18-17.07.06:762][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.18-17.07.06:793][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.18-17.07.06:825][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.18-17.07.06:852][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.18-17.07.06:883][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.18-17.07.06:914][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.18-17.07.06:947][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.18-17.07.06:978][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.18-17.07.07:010][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.18-17.07.07:042][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.18-17.07.07:104][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.18-17.07.07:104][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.18-17.07.07:129][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.18-17.07.07:202][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.18-17.07.07:222][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.18-17.07.07:255][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.18-17.07.07:285][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.18-17.07.07:316][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.18-17.07.07:347][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.18-17.07.07:347][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.18-17.07.07:627][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.18-17.07.07:709][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.18-17.07.07:709][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.18-17.07.07:710][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.18-17.07.07:710][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.18-17.07.07:710][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.18-17.07.07:710][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.18-17.07.07:726][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.18-17.07.07:739][  0]LogDerivedDataCache: Using Local data cache path C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.18-17.07.07:747][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.18-17.07.07:748][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.18-17.07.07:748][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.18-17.07.07:748][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.18-17.07.08:016][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.18-17.07.08:077][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.18-17.07.08:193][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.18-17.07.08:218][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.18-17.07.08:244][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.18-17.07.08:244][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.18-17.07.08:244][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.18-17.07.08:628][  0]LogNetVersion: MechHackAndSlash , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 86869316)
+[2018.01.18-17.07.08:678][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
+[2018.01.18-17.07.08:703][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.013530 seconds
+[2018.01.18-17.07.08:708][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.01.18-17.07.08:708][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.01.18-17.07.08:708][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.18-17.07.08:743][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.18-17.07.10:429][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.18-17.07.10:456][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.18-17.07.10:861][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.18-17.07.11:096][  0]SourceControl: Info Source control is disabled
+[2018.01.18-17.07.11:121][  0]SourceControl: Info Source control is disabled
+[2018.01.18-17.07.11:147][  0]SourceControl: Info Source control is disabled
+[2018.01.18-17.07.11:173][  0]SourceControl: Info Source control is disabled
+[2018.01.18-17.07.11:559][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.18-17.07.11:897][  0]LogEngine: Initializing Engine...
+[2018.01.18-17.07.11:897][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.18-17.07.12:056][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.18-17.07.12:056][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.18-17.07.12:128][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.18-17.07.12:150][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.18-17.07.12:167][  0]LogInit: FAudioDevice initialized.
+[2018.01.18-17.07.12:202][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.18-17.07.12:211][  0]LogInit: Texture streaming: Enabled
+[2018.01.18-17.07.12:266][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.18-17.07.12:389][  0]LogInit: Transaction tracking system initialized
+[2018.01.18-17.07.12:561][  0]BlueprintLog: New page: Editor Load
+[2018.01.18-17.07.13:078][  0]LocalizationService: Info Localization service is disabled
+[2018.01.18-17.07.13:462][  0]LogConsoleResponse:Display: 
+[2018.01.18-17.07.13:565][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.18-17.07.13:565][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.18-17.07.13:803][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/' took 0.01s
+[2018.01.18-17.07.14:146][  0]SourceControl: Info Source control is disabled
+[2018.01.18-17.07.14:146][  0]Cmd: MAP LOAD FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.18-17.07.14:146][  0]LightingResults: New page: Lighting Build
+[2018.01.18-17.07.14:169][  0]MapCheck: New page: Map Check
+[2018.01.18-17.07.14:169][  0]LightingResults: New page: Lighting Build
+[2018.01.18-17.07.16:603][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.01.18-17.07.16:764][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.18-17.07.16:805][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.18-17.07.16:866][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 60.998ms to complete.
+[2018.01.18-17.07.16:866][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.720
+[2018.01.18-17.07.16:981][  0]LogCollectionManager: Loaded 0 collections in 0.000863 seconds
+[2018.01.18-17.07.17:040][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Collections/' took 0.01s
+[2018.01.18-17.07.17:040][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Developers/David/Collections/' took 0.01s
+[2018.01.18-17.07.17:040][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Collections/' took 0.01s
+[2018.01.18-17.07.17:040][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.01.18-17.07.17:048][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2329 classes and 491 folders.
+[2018.01.18-17.07.17:085][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.01.18-17.07.17:112][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.01.18-17.07.17:137][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.01.18-17.07.17:166][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0005 seconds. Added 1 classes and 3 folders.
+[2018.01.18-17.07.17:251][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.18-17.07.17:254][  0]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.18-17.07.17:256][  0]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.18-17.07.17:259][  0]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.18-17.07.17:333][  0]LogRenderer: Reallocating scene render targets to support 1204x576 NumSamples 1 (Frame:1).
+[2018.01.18-17.07.17:454][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.18-17.07.17:501][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.01.18-17.07.17:502][  0]LogLoad: (Engine Initialization) Total time: 13.71 seconds
+[2018.01.18-17.07.17:502][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.90 seconds
+[2018.01.18-17.07.17:502][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.01.18-17.07.17:502][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.01.18-17.07.17:842][  0]LogOcInput: OculusInput pre-init called
+[2018.01.18-17.07.17:842][  0]LogHMD: Starting GearVRController plugin
+[2018.01.18-17.07.17:907][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.18-17.07.18:097][  0]LogSlate: Took 0.000473 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.18-17.07.18:524][  2]LogAssetRegistry: Asset discovery search completed in 9.8682 seconds
+[2018.01.18-17.07.18:526][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.01.18-17.07.18:526][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2018.01.18-17.07.18:877][  3]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.18-17.07.23:823][167]LogSlate: Took 0.000112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.18-17.07.23:882][167]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.01.18-17.07.23:992][167]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.01.18-17.07.24:269][167]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2018.01.18-17.07.24:806][167]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.01.18-17.07.25:039][167]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2018.01.18-17.07.25:243][167]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2018.01.18-17.07.25:719][167]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.18-17.07.27:095][168]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.18-17.08.04:955][103]LogEditorTransaction: Undo Rename Node
+[2018.01.18-17.08.05:261][103]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.01.18-17.08.05:265][103]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2018.01.18-17.08.08:094][243]LogEditorTransaction: Undo Collapses selected nodes into a single node
+[2018.01.18-17.08.08:407][243]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.01.18-17.08.08:410][243]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2018.01.18-17.08.11:279][383]BlueprintLog: New page: Compile Warrior_BP
+[2018.01.18-17.08.21:021][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Warrior/Warrior_BP" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset" SILENT=true
+[2018.01.18-17.08.22:119][518]LogSavePackage: Save=1085.56ms
+[2018.01.18-17.08.22:119][518]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Warrior_BP02DEA27F4BB8E8B578B5C3A2768477DA.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset'
+[2018.01.18-17.08.22:122][518]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset
+[2018.01.18-17.08.38:333][686]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2018.01.18-17.08.38:359][686]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.01.18-17.08.39:825][802]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.01.18-17.09.53:258][527]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2018.01.18-17.09.53:986][598]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2018.01.18-17.09.54:492][657]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2018.01.18-17.09.54:791][691]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.01.18-17.09.55:232][741]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.01.18-17.09.55:588][782]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Floor_400x400)
+[2018.01.18-17.09.56:582][898]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2018.01.18-17.10.00:843][386]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2018.01.18-17.10.01:191][426]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.01.18-17.10.02:623][595]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.01.18-17.10.09:298][361]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.01.18-17.10.09:779][417]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.01.18-17.10.09:985][440]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Floor_400x400)
+[2018.01.18-17.10.13:208][818]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2018.01.18-17.10.13:457][846]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.01.18-17.10.13:774][881]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.01.18-17.10.16:357][169]Cmd: TRANSACTION UNDO
+[2018.01.18-17.10.16:357][169]LogEditorTransaction: Undo Move Components
+[2018.01.18-17.10.22:273][842]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2018.01.18-17.12.30:389][565]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.01.18-17.12.36:187][228]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2018.01.18-17.12.41:278][791]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.01.18-17.12.41:773][840]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.01.18-17.12.42:156][884]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.01.18-17.12.42:606][936]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.01.18-17.12.46:281][332]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume2)
+[2018.01.18-17.12.48:201][540]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolumeRedLevel)
+[2018.01.18-17.13.03:079][280]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall15)
+[2018.01.18-17.13.03:886][371]Cmd: DELETE
+[2018.01.18-17.13.03:886][371]Cmd: ACTOR DELETE
+[2018.01.18-17.13.03:926][371]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.18-17.13.03:984][371]LogEditorActor: Deleted 1 Actors (0.064 secs)
+[2018.01.18-17.13.04:441][424]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall17)
+[2018.01.18-17.13.04:714][452]Cmd: DELETE
+[2018.01.18-17.13.04:714][452]Cmd: ACTOR DELETE
+[2018.01.18-17.13.04:714][452]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.18-17.13.04:729][452]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2018.01.18-17.13.05:096][496]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2018.01.18-17.13.05:184][502]Cmd: DELETE
+[2018.01.18-17.13.05:184][502]Cmd: ACTOR DELETE
+[2018.01.18-17.13.05:185][502]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.18-17.13.05:202][502]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.01.18-17.13.05:929][589]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Linear_Stair_StaticMesh2)
+[2018.01.18-17.13.06:008][594]Cmd: DELETE
+[2018.01.18-17.13.06:008][594]Cmd: ACTOR DELETE
+[2018.01.18-17.13.06:009][594]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.18-17.13.06:027][594]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2018.01.18-17.13.06:456][645]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall14)
+[2018.01.18-17.13.06:786][680]Cmd: DELETE
+[2018.01.18-17.13.06:786][680]Cmd: ACTOR DELETE
+[2018.01.18-17.13.06:786][680]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.18-17.13.06:804][680]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.01.18-17.13.07:272][736]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall16)
+[2018.01.18-17.13.07:360][742]Cmd: DELETE
+[2018.01.18-17.13.07:360][742]Cmd: ACTOR DELETE
+[2018.01.18-17.13.07:361][742]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.18-17.13.07:379][742]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2018.01.18-17.13.08:067][824]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.01.18-17.13.08:740][901]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.01.18-17.13.09:118][944]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.01.18-17.13.09:464][983]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2018.01.18-17.13.09:799][ 20]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2018.01.18-17.13.10:246][ 71]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2018.01.18-17.13.10:644][117]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2018.01.18-17.13.10:778][131]LogEditorViewport: Clicking on Actor (double click): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.01.18-17.13.14:418][531]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (PuntoDeSpawn)
+[2018.01.18-17.13.15:333][637]Cmd: DELETE
+[2018.01.18-17.13.15:333][637]Cmd: ACTOR DELETE
+[2018.01.18-17.13.15:333][637]LogEditorActor: Deleted Actor: TargetPoint
+[2018.01.18-17.13.15:348][637]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2018.01.18-17.13.19:442][909]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: BlueLevel, Actor: /Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel_C_1
+[2018.01.18-17.13.19:580][909]LogSavePackage: Save=142.35ms
+[2018.01.18-17.13.19:580][909]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueLevelDA2317664269B91C2D7877B606A89FDC.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap'
+[2018.01.18-17.13.19:582][909]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap
+[2018.01.18-17.13.19:583][909]LogFileHelpers: Saving map 'BlueLevel' took 0.240
+[2018.01.18-17.13.19:675][909]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: RedLevel, Actor: /Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel_C_0
+[2018.01.18-17.13.19:893][909]LogSavePackage: Save=222.32ms
+[2018.01.18-17.13.19:893][909]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/RedLevel184F997147840F9D22CABC9BA60614F5.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/RedLevel.umap'
+[2018.01.18-17.13.19:895][909]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/RedLevel.umap
+[2018.01.18-17.13.19:895][909]LogFileHelpers: Saving map 'RedLevel' took 0.309
+[2018.01.18-17.13.20:343][909]LogSavePackage: Save=351.50ms
+[2018.01.18-17.13.20:343][909]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonExampleMap140D435F4D411CBAD8FF8DB1AF220402.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.01.18-17.13.20:345][909]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.01.18-17.13.20:391][909]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.490
+[2018.01.18-17.14.40:472][300]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.01.18-17.14.40:614][300]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.01.18-17.14.40:626][300]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.01.18-17.14.40:663][300]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.18-17.14.44:278][667]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2018.01.18-17.14.44:278][667]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.18-17.14.44:278][667]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.18-17.15.19:055][284]Cmd: TRANSACTION UNDO
+[2018.01.18-17.15.19:055][284]LogEditorTransaction: Undo Move Node
+[2018.01.18-17.18.28:595][527]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolumeRedLevel)
+[2018.01.18-17.18.30:438][740]Cmd: EDIT COPY
+[2018.01.18-17.18.30:926][793]Cmd: EDIT PASTE
+[2018.01.18-17.19.13:059][547]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: BlueLevel, Actor: /Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel_C_0
+[2018.01.18-17.19.13:200][547]LogSavePackage: Save=146.51ms
+[2018.01.18-17.19.13:200][547]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueLevel60EE862141B7A91BADC7E6AAA26136FE.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap'
+[2018.01.18-17.19.13:204][547]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap
+[2018.01.18-17.19.13:205][547]LogFileHelpers: Saving map 'BlueLevel' took 0.251
+[2018.01.18-17.19.43:405][866]LogRenderer: Reallocating scene render targets to support 1204x636 NumSamples 1 (Frame:1).
+[2018.01.18-17.19.46:320][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemigos/Enemigo" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset" SILENT=true
+[2018.01.18-17.19.46:335][150]LogSavePackage: Save=13.16ms
+[2018.01.18-17.19.46:335][150]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/EnemigoFB337C6E49841EED90BF02BA056829F8.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset'
+[2018.01.18-17.19.46:337][150]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset
+[2018.01.18-17.20.36:110][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boss/BlueBoos_2" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoos_2.uasset" SILENT=true
+[2018.01.18-17.20.36:444][660]LogSavePackage: Save=331.99ms
+[2018.01.18-17.20.36:444][660]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueBoos_29894154042E3B2D99EBE619C4DEEC8C0.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoos_2.uasset'
+[2018.01.18-17.20.36:446][660]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoos_2.uasset
+[2018.01.18-17.20.36:453][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boss/BlueBoosDummy_2" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummy_2.uasset" SILENT=true
+[2018.01.18-17.20.36:787][660]LogSavePackage: Save=333.23ms
+[2018.01.18-17.20.36:787][660]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueBoosDummy_25452E4E2498422191FA610A63C7EB114.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummy_2.uasset'
+[2018.01.18-17.20.36:789][660]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummy_2.uasset
+[2018.01.18-17.20.36:792][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemigos/Enemigo" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset" SILENT=true
+[2018.01.18-17.20.36:813][660]LogSavePackage: Save=10.34ms
+[2018.01.18-17.20.36:813][660]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Enemigo917738364BA3C94804A44C941240E4E8.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset'
+[2018.01.18-17.20.36:815][660]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset
+[2018.01.18-17.28.00:754][377]LogBlueprint:Warning: Unknown type of hyperlinked object
+[2018.01.18-17.28.01:409][432]LogBlueprint:Warning: Unknown type of hyperlinked object
+[2018.01.18-17.28.01:774][463]LogBlueprint:Warning: Unknown type of hyperlinked object
+[2018.01.18-17.28.10:377][104]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boss/BlueBoos" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoos.uasset" SILENT=true
+[2018.01.18-17.28.10:718][104]LogSavePackage: Save=324.66ms
+[2018.01.18-17.28.10:718][104]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueBoos451EC3164D928E9224A2CE85EEEDD586.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoos.uasset'
+[2018.01.18-17.28.10:722][104]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoos.uasset
+[2018.01.18-17.28.11:169][137]BlueprintLog: New page: Compile BlueBoos
+[2018.01.18-17.28.13:536][240]BlueprintLog: New page: Compile BlueBoosDummy
+[2018.01.18-17.29.12:821][724]LogSavePackage: Save=362.77ms
+[2018.01.18-17.29.12:821][724]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonExampleMap_Auto190C96AEC4B7FD811C9B75A80CC94FFB1.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2018.01.18-17.29.12:823][724]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2018.01.18-17.29.12:844][724]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: BlueLevel, Actor: /Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel_C_1
+[2018.01.18-17.29.13:003][724]LogSavePackage: Save=164.30ms
+[2018.01.18-17.29.13:003][724]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueLevel_Auto18D95AAAF4CC0431FFCAB8FBE3F1B8186.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Niveles/BlueLevel_Auto1.umap'
+[2018.01.18-17.29.13:006][724]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Niveles/BlueLevel_Auto1.umap
+[2018.01.18-17.29.13:024][724]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: RedLevel, Actor: /Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel_C_1
+[2018.01.18-17.29.13:263][724]LogSavePackage: Save=242.94ms
+[2018.01.18-17.29.13:263][724]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/RedLevel_Auto1095C08D947FC5E9024E5CB95DF71A156.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Niveles/RedLevel_Auto1.umap'
+[2018.01.18-17.29.13:264][724]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Niveles/RedLevel_Auto1.umap
+[2018.01.18-17.29.13:265][724]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.854
+[2018.01.18-17.29.13:265][724]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.854
+[2018.01.18-17.29.13:271][724]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Boss/BlueBoosDummyCaca] ([1] browsable assets)...
+[2018.01.18-17.29.13:300][724]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Boss/BlueBoosDummyCaca.BlueBoosDummyCaca]
+[2018.01.18-17.29.13:300][724]OBJ SavePackage: Finished generating thumbnails for package [/Game/Boss/BlueBoosDummyCaca]
+[2018.01.18-17.29.13:336][724]LogSavePackage: Save=25.28ms
+[2018.01.18-17.29.13:336][724]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueBoosDummyCaca_Auto11541B8C547826767FD205889262502FD.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Boss/BlueBoosDummyCaca_Auto1.uasset'
+[2018.01.18-17.29.13:339][724]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Boss/BlueBoosDummyCaca_Auto1.uasset
+[2018.01.18-17.29.13:339][724]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Boss/BlueBoosDummy] ([1] browsable assets)...
+[2018.01.18-17.29.13:368][724]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Boss/BlueBoosDummy.BlueBoosDummy]
+[2018.01.18-17.29.13:368][724]OBJ SavePackage: Finished generating thumbnails for package [/Game/Boss/BlueBoosDummy]
+[2018.01.18-17.29.13:715][724]LogSavePackage: Save=336.43ms
+[2018.01.18-17.29.13:715][724]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueBoosDummy_Auto1D8C102F447C3E47ADF21E78E642C7456.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Boss/BlueBoosDummy_Auto1.uasset'
+[2018.01.18-17.29.13:718][724]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Boss/BlueBoosDummy_Auto1.uasset
+[2018.01.18-17.29.13:718][724]LogFileHelpers: Auto-saving content packages took 0.450
+[2018.01.18-17.34.04:796][996]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.01.18-17.34.20:414][589]BlueprintLog: New page: Compile Enemigo
+[2018.01.18-17.34.21:714][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemigos/Enemigo" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset" SILENT=true
+[2018.01.18-17.34.21:740][707]LogSavePackage: Save=11.15ms
+[2018.01.18-17.34.21:740][707]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/EnemigoB2F287634B387AC637E776A22E8AB9B5.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset'
+[2018.01.18-17.34.21:746][707]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset
+[2018.01.18-17.34.49:217][502]LogMetaData: Removing '/Game/General/BPI_EnemiesGameBasic.BPI_EnemiesGameBasic_C' ref from Metadata '/Game/General/BPI_Game.PackageMetaData'
+[2018.01.18-17.34.49:217][502]LogMetaData: Removing '/Game/General/BPI_EnemiesGameBasic.BPI_EnemiesGameBasic:atraerObjeto.K2Node_FunctionEntry_0' ref from Metadata '/Game/General/BPI_Game.PackageMetaData'
+[2018.01.18-17.34.49:217][502]LogMetaData: Removing '/Game/General/BPI_EnemiesGameBasic.BPI_EnemiesGameBasic:fijarBlancoON.K2Node_FunctionEntry_0' ref from Metadata '/Game/General/BPI_Game.PackageMetaData'
+[2018.01.18-17.34.49:217][502]LogMetaData: Removing '/Game/General/BPI_EnemiesGameBasic.BPI_EnemiesGameBasic:lanzarObjeto.K2Node_FunctionEntry_1' ref from Metadata '/Game/General/BPI_Game.PackageMetaData'
+[2018.01.18-17.34.49:217][502]LogMetaData: Removing '/Game/General/BPI_EnemiesGameBasic.SKEL_BPI_EnemiesGameBasic_C' ref from Metadata '/Game/General/BPI_Game.PackageMetaData'
+[2018.01.18-17.34.49:264][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/General/BPI_EnemiesGameBasic" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/General/BPI_EnemiesGameBasic.uasset" SILENT=true
+[2018.01.18-17.34.49:273][502]LogSavePackage: Save=7.44ms
+[2018.01.18-17.34.49:273][502]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BPI_EnemiesGameBasicD2B17DF045580242BAED3FABBEECD26A.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/General/BPI_EnemiesGameBasic.uasset'
+[2018.01.18-17.34.49:274][502]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/General/BPI_EnemiesGameBasic.uasset
+[2018.01.18-17.34.49:474][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boss/BlueBoosDummy" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummy.uasset" SILENT=true
+[2018.01.18-17.34.49:825][502]LogSavePackage: Save=339.01ms
+[2018.01.18-17.34.49:825][502]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueBoosDummy8BB3AA43460E705C7849E59A4F8E582D.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummy.uasset'
+[2018.01.18-17.34.49:831][502]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummy.uasset
+[2018.01.18-17.34.49:847][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/hijo" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Blueprints/hijo.uasset" SILENT=true
+[2018.01.18-17.34.49:891][502]LogSavePackage: Save=33.51ms
+[2018.01.18-17.34.49:892][502]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/hijoC91CB94B49C934A4FF5EE2B7DE7A42FF.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Blueprints/hijo.uasset'
+[2018.01.18-17.34.49:893][502]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Blueprints/hijo.uasset
+[2018.01.18-17.34.50:014][502]LogSavePackage: Save=95.50ms
+[2018.01.18-17.34.50:014][502]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonCharacter7C6318B6427B80F3D84F7BBE9A16F872.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.01.18-17.34.50:016][502]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.01.18-17.34.50:030][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Warrior/spell/GSUltimate" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/GSUltimate.uasset" SILENT=true
+[2018.01.18-17.34.50:077][502]LogSavePackage: Save=35.99ms
+[2018.01.18-17.34.50:077][502]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/GSUltimateB1A9E6D3435FC592DC96B193CAE33B07.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/GSUltimate.uasset'
+[2018.01.18-17.34.50:080][502]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/GSUltimate.uasset
+[2018.01.18-17.34.50:095][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Warrior/spell/swordUltimate" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/swordUltimate.uasset" SILENT=true
+[2018.01.18-17.34.50:176][502]LogSavePackage: Save=69.60ms
+[2018.01.18-17.34.50:176][502]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/swordUltimate5449460E411E5D845994FD93BF52F3C5.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/swordUltimate.uasset'
+[2018.01.18-17.34.50:178][502]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/spell/swordUltimate.uasset
+[2018.01.18-17.34.50:191][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Warrior/Warrior_BP" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset" SILENT=true
+[2018.01.18-17.34.51:325][502]LogSavePackage: Save=1121.69ms
+[2018.01.18-17.34.51:325][502]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Warrior_BP805CCDCE40BC92D3529505B2228E25DF.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset'
+[2018.01.18-17.34.51:327][502]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset
+[2018.01.18-17.34.51:335][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boss/BlueBoosDummy_2" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummy_2.uasset" SILENT=true
+[2018.01.18-17.34.51:678][502]LogSavePackage: Save=332.17ms
+[2018.01.18-17.34.51:678][502]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueBoosDummy_252C0845E4976C893715EDD8308129DC0.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummy_2.uasset'
+[2018.01.18-17.34.51:680][502]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummy_2.uasset
+[2018.01.18-17.34.51:682][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemigos/Enemigo" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset" SILENT=true
+[2018.01.18-17.34.51:700][502]LogSavePackage: Save=10.86ms
+[2018.01.18-17.34.51:700][502]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/EnemigoF6A389A4479E62E8729AAF9DB7561E4C.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset'
+[2018.01.18-17.34.51:702][502]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset
+[2018.01.18-17.34.54:757][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boss/BlueBoosDummyCaca" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummyCaca.uasset" SILENT=true
+[2018.01.18-17.34.54:796][602]LogSavePackage: Save=27.44ms
+[2018.01.18-17.34.54:796][602]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueBoosDummyCacaBC6EDFB54D1BCC60CC4C49A4D8BEEF17.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummyCaca.uasset'
+[2018.01.18-17.34.54:804][602]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoosDummyCaca.uasset
+[2018.01.18-17.34.54:906][602]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: BlueLevel, Actor: /Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel_C_2
+[2018.01.18-17.34.55:057][602]LogSavePackage: Save=158.98ms
+[2018.01.18-17.34.55:057][602]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueLevel1FAF65534CC5D3BEEBD63F8818CCD5C0.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap'
+[2018.01.18-17.34.55:061][602]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap
+[2018.01.18-17.34.55:061][602]LogFileHelpers: Saving map 'BlueLevel' took 0.253
+[2018.01.18-17.34.55:153][602]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: RedLevel, Actor: /Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel_C_0
+[2018.01.18-17.34.55:387][602]LogSavePackage: Save=237.26ms
+[2018.01.18-17.34.55:387][602]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/RedLevel1FF21DDD421884F410CB56AAACE8040C.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/RedLevel.umap'
+[2018.01.18-17.34.55:390][602]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/RedLevel.umap
+[2018.01.18-17.34.55:391][602]LogFileHelpers: Saving map 'RedLevel' took 0.328
+[2018.01.18-17.34.55:845][602]LogSavePackage: Save=357.89ms
+[2018.01.18-17.34.55:845][602]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonExampleMap349033324716DC74787A58A7A6A4BF06.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.01.18-17.34.55:850][602]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.01.18-17.34.55:896][602]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.505
+[2018.01.18-17.35.21:239][765]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.01.18-17.45.10:519][660]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.024
+[2018.01.18-17.45.10:520][660]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemigos/Enemigo] ([1] browsable assets)...
+[2018.01.18-17.45.10:520][660]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemigos/Enemigo]
+[2018.01.18-17.45.10:546][660]LogSavePackage: Save=10.75ms
+[2018.01.18-17.45.10:546][660]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Enemigo_Auto28BDD02794E9A36DCF4051AAA2A5AF051.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Enemigos/Enemigo_Auto2.uasset'
+[2018.01.18-17.45.10:546][660]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Enemigos/Enemigo_Auto2.uasset
+[2018.01.18-17.45.10:546][660]LogFileHelpers: Auto-saving content packages took 0.026
+[2018.01.18-17.53.03:666][141]LogSlate: Took 0.038696 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.01.18-17.54.52:163][530]BlueprintLog: New page: Compile Enemigo
+[2018.01.18-17.55.01:955][149]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemigos/Enemigo" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset" SILENT=true
+[2018.01.18-17.55.01:983][149]LogSavePackage: Save=12.87ms
+[2018.01.18-17.55.01:983][149]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Enemigo7FD2A0844A8A893D071E14B6D0CA3BE5.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset'
+[2018.01.18-17.55.01:987][149]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Enemigo.uasset
+[2018.01.18-17.59.43:711][427]BlueprintLog: New page: Compile BlueBoosDummy
+[2018.01.18-18.00.26:325][507]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.01.18-18.00.49:506][382]LogSavePackage: Save=349.89ms
+[2018.01.18-18.00.49:506][382]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonExampleMap_Auto3952EE9C8470C0765FBCAC69932774A38.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2018.01.18-18.00.49:507][382]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap
+[2018.01.18-18.00.49:526][382]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: RedLevel, Actor: /Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel_C_1
+[2018.01.18-18.00.49:759][382]LogSavePackage: Save=236.67ms
+[2018.01.18-18.00.49:759][382]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/RedLevel_Auto3DEE10E2647BC8B8B578FAC9C0D98AC04.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Niveles/RedLevel_Auto3.umap'
+[2018.01.18-18.00.49:760][382]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Niveles/RedLevel_Auto3.umap
+[2018.01.18-18.00.49:761][382]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.645
+[2018.01.18-18.00.49:761][382]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.645
+[2018.01.18-18.01.02:681][888]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.01.18-18.01.07:161][183]LogBlueprint:Warning: Reparenting blueprint Blueprint /Game/Boss/BlueBoosDummy.BlueBoosDummy from Character to Enemigo_C...
+[2018.01.18-18.01.07:231][183]LogBlueprint:Warning: Blueprint BlueBoosDummyCaca (child of/implements BlueBoosDummy) has a member variable with a conflicting name (atacando_0). Changing to atacando_0_0.
+[2018.01.18-18.01.07:235][183]LogBlueprint:Warning: Blueprint BlueBoosDummyCaca (child of/implements BlueBoosDummy) has a member variable with a conflicting name (Vivo_0). Changing to Vivo_0_0.
+[2018.01.18-18.01.07:238][183]LogBlueprint:Warning: Blueprint BlueBoosDummyCaca (child of/implements BlueBoosDummy) has a member variable with a conflicting name (Vida_0). Changing to Vida_0_0.
+[2018.01.18-18.01.07:243][183]LogBlueprint:Warning: Blueprint BlueBoosDummyCaca (child of/implements BlueBoosDummy) has a member variable with a conflicting name (MinDmg_0). Changing to MinDmg_0_0.
+[2018.01.18-18.01.07:247][183]LogBlueprint:Warning: Blueprint BlueBoosDummyCaca (child of/implements BlueBoosDummy) has a member variable with a conflicting name (MaxDmg_0). Changing to MaxDmg_0_0.
+[2018.01.18-18.01.07:250][183]LogBlueprint:Warning: Blueprint BlueBoosDummyCaca (child of/implements BlueBoosDummy) has a member variable with a conflicting name (damage_0). Changing to damage_0_0.
+[2018.01.18-18.01.07:254][183]LogBlueprint:Warning: Blueprint BlueBoosDummyCaca (child of/implements BlueBoosDummy) has a member variable with a conflicting name (golpeado_0). Changing to golpeado_0_0.
+[2018.01.18-18.01.07:258][183]LogBlueprint:Warning: Blueprint BlueBoosDummyCaca (child of/implements BlueBoosDummy) has a member variable with a conflicting name (armadura_0). Changing to armadura_0_0.
+[2018.01.18-18.01.07:261][183]LogBlueprint:Warning: Blueprint BlueBoosDummyCaca (child of/implements BlueBoosDummy) has a member variable with a conflicting name (estaFijado_0). Changing to estaFijado_0_0.
