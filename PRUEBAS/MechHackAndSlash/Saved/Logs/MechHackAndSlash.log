@@ -1,9 +1,9 @@
-﻿Log file open, 01/22/18 22:30:29
+﻿Log file open, 01/23/18 16:50:41
 LogInit:Display: Running engine for game: MechHackAndSlash
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1743130787) SRandInit(1743130787).
+LogInit:Display: RandInit(-254603484) SRandInit(-254603484).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.082713
+LogStats: Stats thread started at 0.080217
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -50,777 +50,790 @@ LogInit: Base directory: D:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binari
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.01.22-21.30.29:584][  0]LogInit: Selected Device Profile: [Windows]
-[2018.01.22-21.30.29:584][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.01.22-21.30.29:593][  0]LogInit: Computer: DAVIDMASTERRACE
-[2018.01.22-21.30.29:593][  0]LogInit: User: David
-[2018.01.22-21.30.29:593][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.01.22-21.30.29:593][  0]LogInit: High frequency timer resolution =3.417967 MHz
-[2018.01.22-21.30.29:593][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.01.22-21.30.29:593][  0]LogMemory: Platform Memory Stats for Windows
-[2018.01.22-21.30.29:593][  0]LogMemory: Process Physical Memory: 272.69 MB used, 272.69 MB peak
-[2018.01.22-21.30.29:593][  0]LogMemory: Process Virtual Memory: 274.50 MB used, 274.50 MB peak
-[2018.01.22-21.30.29:593][  0]LogMemory: Physical Memory: 5906.16 MB used,  10420.27 MB free, 16326.44 MB total
-[2018.01.22-21.30.29:593][  0]LogMemory: Virtual Memory: 631.00 MB used,  10420.27 MB free, 134217728.00 MB total
-[2018.01.22-21.30.29:635][  0]LogInit: Overriding language with editor language configuration option (en).
-[2018.01.22-21.30.29:635][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2018.01.22-21.30.30:364][  0]LogD3D11RHI: D3D11 adapters:
-[2018.01.22-21.30.30:381][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2018.01.22-21.30.30:381][  0]LogD3D11RHI:       3975/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.01.22-21.30.30:382][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.01.22-21.30.30:382][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.01.22-21.30.30:382][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.01.22-21.30.30:385][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.01.22-21.30.30:385][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2018.01.22-21.30.30:385][  0]LogWindows: EnumDisplayDevices:
-[2018.01.22-21.30.30:385][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2018.01.22-21.30.30:385][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.01.22-21.30.30:385][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.01.22-21.30.30:385][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.01.22-21.30.30:385][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2018.01.22-21.30.30:385][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2018.01.22-21.30.30:385][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
-[2018.01.22-21.30.30:385][  0]LogD3D11RHI:      Driver Date: 10-27-2017
-[2018.01.22-21.30.30:385][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.01.22-21.30.30:394][  0]LogD3D11RHI: Async texture creation enabled
-[2018.01.22-21.30.30:410][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.01.22-21.30.30:454][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Intermediate/Shaders/WorkingDirectory/6712/).
-[2018.01.22-21.30.30:454][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/David/AppData/Local/Temp/UnrealShaderWorkingDir/63655273416F7EF6627520BCAB4BB716/'.
-[2018.01.22-21.30.30:454][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2018.01.22-21.30.31:303][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2018.01.22-21.30.31:335][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2018.01.22-21.30.31:366][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2018.01.22-21.30.31:401][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2018.01.22-21.30.31:433][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2018.01.22-21.30.31:465][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2018.01.22-21.30.31:498][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.01.22-21.30.31:529][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2018.01.22-21.30.31:556][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2018.01.22-21.30.31:588][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2018.01.22-21.30.31:620][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2018.01.22-21.30.31:653][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2018.01.22-21.30.31:685][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2018.01.22-21.30.31:718][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2018.01.22-21.30.31:751][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2018.01.22-21.30.31:825][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2018.01.22-21.30.31:825][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.01.22-21.30.31:847][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2018.01.22-21.30.31:913][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2018.01.22-21.30.31:933][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2018.01.22-21.30.31:964][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2018.01.22-21.30.31:995][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.01.22-21.30.32:025][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2018.01.22-21.30.32:059][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2018.01.22-21.30.32:059][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2018.01.22-21.30.32:341][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2018.01.22-21.30.32:427][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.01.22-21.30.32:428][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2018.01.22-21.30.32:428][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.01.22-21.30.32:428][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.01.22-21.30.32:428][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.01.22-21.30.32:428][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.01.22-21.30.32:444][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.01.22-21.30.32:456][  0]LogDerivedDataCache: Using Local data cache path C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.01.22-21.30.32:464][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.01.22-21.30.32:465][  0]LogSlate: Using Freetype 2.6.0
-[2018.01.22-21.30.32:465][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.01.22-21.30.32:465][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.01.22-21.30.32:736][  0]LogInit: Selected Device Profile: [Windows]
-[2018.01.22-21.30.32:800][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2018.01.22-21.30.32:922][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.01.22-21.30.32:947][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.01.22-21.30.32:974][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.01.22-21.30.32:974][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2018.01.22-21.30.32:974][  0]LogMeshUtilities: No automatic mesh merging module available
-[2018.01.22-21.30.33:442][  0]LogNetVersion: MechHackAndSlash , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 86869316)
-[2018.01.22-21.30.33:494][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
-[2018.01.22-21.30.33:524][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.016145 seconds
-[2018.01.22-21.30.33:531][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2018.01.22-21.30.33:531][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
-[2018.01.22-21.30.33:531][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.01.22-21.30.33:570][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.01.22-21.30.35:341][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.01.22-21.30.35:369][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.01.22-21.30.35:732][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.01.22-21.30.36:001][  0]SourceControl: Info Source control is disabled
-[2018.01.22-21.30.36:043][  0]SourceControl: Info Source control is disabled
-[2018.01.22-21.30.36:074][  0]SourceControl: Info Source control is disabled
-[2018.01.22-21.30.36:101][  0]SourceControl: Info Source control is disabled
-[2018.01.22-21.30.36:530][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.01.22-21.30.36:909][  0]LogEngine: Initializing Engine...
-[2018.01.22-21.30.36:909][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.01.22-21.30.37:087][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.01.22-21.30.37:087][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.01.22-21.30.37:166][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.01.22-21.30.37:188][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.01.22-21.30.37:195][  0]LogInit: FAudioDevice initialized.
-[2018.01.22-21.30.37:229][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.01.22-21.30.37:241][  0]LogInit: Texture streaming: Enabled
-[2018.01.22-21.30.37:295][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.01.22-21.30.37:417][  0]LogInit: Transaction tracking system initialized
-[2018.01.22-21.30.37:589][  0]BlueprintLog: New page: Editor Load
-[2018.01.22-21.30.38:112][  0]LocalizationService: Info Localization service is disabled
-[2018.01.22-21.30.38:495][  0]LogConsoleResponse:Display: 
-[2018.01.22-21.30.38:604][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.01.22-21.30.38:604][  0]LogCook:Display: Mobile HDR setting 1
-[2018.01.22-21.30.39:189][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/' took 0.02s
-[2018.01.22-21.30.39:189][  0]SourceControl: Info Source control is disabled
-[2018.01.22-21.30.39:189][  0]Cmd: MAP LOAD FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.01.22-21.30.39:189][  0]LightingResults: New page: Lighting Build
-[2018.01.22-21.30.39:212][  0]MapCheck: New page: Map Check
-[2018.01.22-21.30.39:212][  0]LightingResults: New page: Lighting Build
-[2018.01.22-21.30.40:882][  0]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 64X64)
-[2018.01.22-21.30.40:886][  0]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 512X512)
-[2018.01.22-21.30.41:024][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
-[2018.01.22-21.30.41:567][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 64X64)
-[2018.01.22-21.30.41:574][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 512X512)
-[2018.01.22-21.30.41:632][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
-[2018.01.22-21.30.41:782][  0]LogTexture:Display: Building textures: SkyOcclusion0_10 (AutoDXT, 64X32)
-[2018.01.22-21.30.41:785][  0]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT, 512X256)
-[2018.01.22-21.30.41:849][  0]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
-[2018.01.22-21.30.43:208][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.01.22-21.30.43:695][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
-[2018.01.22-21.30.43:990][  0]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024)
-[2018.01.22-21.30.44:284][  0]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 2048X2048)
-[2018.01.22-21.30.44:822][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
-[2018.01.22-21.30.44:910][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024)
-[2018.01.22-21.30.45:013][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 2048X2048)
-[2018.01.22-21.30.45:325][  0]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 1024X512)
-[2018.01.22-21.30.45:468][  0]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 1024X512)
-[2018.01.22-21.30.45:619][  0]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT, 2048X1024)
-[2018.01.22-21.30.45:925][  0]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 1024X1024)
-[2018.01.22-21.30.46:079][  0]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 1024X1024)
-[2018.01.22-21.30.46:404][  0]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 256X256)
-[2018.01.22-21.30.46:447][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
-[2018.01.22-21.30.46:992][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 1024X1024)
-[2018.01.22-21.30.47:050][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 1024X1024)
-[2018.01.22-21.30.47:160][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1, 256X256)
-[2018.01.22-21.30.47:186][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
-[2018.01.22-21.30.47:328][  0]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT, 1024X512)
-[2018.01.22-21.30.47:418][  0]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT, 1024X512)
-[2018.01.22-21.30.47:567][  0]LogTexture:Display: Building textures: SkyOcclusion0_9 (AutoDXT, 256X128)
-[2018.01.22-21.30.47:594][  0]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 1024X512)
-[2018.01.22-21.30.47:869][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.01.22-21.30.47:905][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.01.22-21.30.47:962][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.979ms to complete.
-[2018.01.22-21.30.47:962][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 8.773
-[2018.01.22-21.30.48:158][  0]LogCollectionManager: Loaded 0 collections in 0.000824 seconds
-[2018.01.22-21.30.48:218][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Collections/' took 0.01s
-[2018.01.22-21.30.48:218][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Developers/David/Collections/' took 0.01s
-[2018.01.22-21.30.48:218][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Collections/' took 0.01s
-[2018.01.22-21.30.48:218][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.01.22-21.30.48:227][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2329 classes and 491 folders.
-[2018.01.22-21.30.48:268][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.01.22-21.30.49:196][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2018.01.22-21.30.49:224][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2018.01.22-21.30.49:261][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0006 seconds. Added 1 classes and 3 folders.
-[2018.01.22-21.30.49:359][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2018.01.22-21.30.49:362][  0]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.01.22-21.30.49:364][  0]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.01.22-21.30.49:378][  0]LogSlate: Took 0.010745 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.01.22-21.30.49:506][  0]LogRenderer: Reallocating scene render targets to support 1204x576 NumSamples 1 (Frame:1).
-[2018.01.22-21.30.49:614][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2018.01.22-21.30.49:671][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2018.01.22-21.30.49:671][  0]LogLoad: (Engine Initialization) Total time: 21.25 seconds
-[2018.01.22-21.30.49:671][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.81 seconds
-[2018.01.22-21.30.49:671][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.01.22-21.30.49:671][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.01.22-21.30.50:010][  0]LogOcInput: OculusInput pre-init called
-[2018.01.22-21.30.50:010][  0]LogHMD: Starting GearVRController plugin
-[2018.01.22-21.30.50:051][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.01.22-21.30.50:110][  0]LogSlate: Took 0.003295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.01.22-21.30.50:364][  1]LogAssetRegistry: Asset discovery search completed in 16.8916 seconds
-[2018.01.22-21.30.50:366][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.01.22-21.30.50:366][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000041 seconds (updated 0 objects)
-[2018.01.22-21.31.00:406][963]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume2)
-[2018.01.22-21.31.04:289][410]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.01.22-21.31.04:351][410]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2018.01.22-21.31.04:490][410]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2018.01.22-21.31.04:823][410]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
-[2018.01.22-21.31.05:386][410]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2018.01.22-21.31.05:569][410]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.01.22-21.31.05:666][410]LogSlate: Took 0.017483 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.01.22-21.31.05:717][410]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0005 seconds. Added 1 classes and 0 folders.
-[2018.01.22-21.31.05:754][410]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2018.01.22-21.31.18:406][841]LogScript:Warning: Accessed None trying to read property Warrior
-	Warrior_ABP_C /Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.Warrior_ABP_C_2
-	Function /Game/Warrior/Warrior_ABP.Warrior_ABP_C:ExecuteUbergraph_Warrior_ABP:0B2E
-[2018.01.22-21.31.19:538][934]LogScript:Warning: Accessed None trying to read property Warrior
-	Warrior_ABP_C /Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.Warrior_ABP_C_2
-	Function /Game/Warrior/Warrior_ABP.Warrior_ABP_C:ExecuteUbergraph_Warrior_ABP:0A73
-[2018.01.22-21.31.20:780][ 38]LogScript:Warning: Accessed None trying to read property Warrior
-	Warrior_ABP_C /Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.Warrior_ABP_C_2
-	Function /Game/Warrior/Warrior_ABP.Warrior_ABP_C:ExecuteUbergraph_Warrior_ABP:0AA0
-[2018.01.22-21.31.21:515][ 99]LogScript:Warning: Accessed None trying to read property Warrior
-	Warrior_ABP_C /Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.Warrior_ABP_C_2
-	Function /Game/Warrior/Warrior_ABP.Warrior_ABP_C:ExecuteUbergraph_Warrior_ABP:0AFA
-[2018.01.22-21.31.23:361][253]LogScript:Warning: Accessed None trying to read property Warrior
-	Warrior_ABP_C /Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.Warrior_ABP_C_2
-	Function /Game/Warrior/Warrior_ABP.Warrior_ABP_C:ExecuteUbergraph_Warrior_ABP:0B2E
-[2018.01.22-21.31.24:494][349]LogScript:Warning: Accessed None trying to read property Warrior
-	Warrior_ABP_C /Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.Warrior_ABP_C_2
-	Function /Game/Warrior/Warrior_ABP.Warrior_ABP_C:ExecuteUbergraph_Warrior_ABP:0A73
-[2018.01.22-21.31.24:611][354]LogSlate: Took 0.041545 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.01.22-21.31.25:727][448]LogScript:Warning: Accessed None trying to read property Warrior
-	Warrior_ABP_C /Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.Warrior_ABP_C_2
-	Function /Game/Warrior/Warrior_ABP.Warrior_ABP_C:ExecuteUbergraph_Warrior_ABP:0AA0
-[2018.01.22-21.31.26:464][510]LogScript:Warning: Accessed None trying to read property Warrior
-	Warrior_ABP_C /Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.Warrior_ABP_C_2
-	Function /Game/Warrior/Warrior_ABP.Warrior_ABP_C:ExecuteUbergraph_Warrior_ABP:0AFA
-[2018.01.22-21.31.48:139][343]LogScript:Warning: Accessed None trying to read property Warrior
-	Warrior_ABP_C /Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.Warrior_ABP_C_2
-	Function /Game/Warrior/Warrior_ABP.Warrior_ABP_C:ExecuteUbergraph_Warrior_ABP:0B2E
-[2018.01.22-21.31.49:278][443]LogScript:Warning: Accessed None trying to read property Warrior
-	Warrior_ABP_C /Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.Warrior_ABP_C_2
-	Function /Game/Warrior/Warrior_ABP.Warrior_ABP_C:ExecuteUbergraph_Warrior_ABP:0A73
-[2018.01.22-21.31.50:517][548]LogScript:Warning: Accessed None trying to read property Warrior
-	Warrior_ABP_C /Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.Warrior_ABP_C_2
-	Function /Game/Warrior/Warrior_ABP.Warrior_ABP_C:ExecuteUbergraph_Warrior_ABP:0AA0
-[2018.01.22-21.31.50:571][553]BlueprintLog: New page: Compile Warrior_ABP
-[2018.01.22-21.31.52:674][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Warrior/Warrior_ABP" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_ABP.uasset" SILENT=true
-[2018.01.22-21.31.53:029][697]LogSavePackage: Save=344.90ms
-[2018.01.22-21.31.53:029][697]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Warrior_ABP8691DDCB41CCA7759799F49AF26F57EC.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_ABP.uasset'
-[2018.01.22-21.31.53:034][697]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_ABP.uasset
-[2018.01.22-21.31.54:231][800]LogScript:Warning: Accessed None trying to read property Warrior
-	Warrior_ABP_C /Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.Warrior_ABP_C_3
-	Function /Game/Warrior/Warrior_ABP.Warrior_ABP_C:ExecuteUbergraph_Warrior_ABP:0EAB
-[2018.01.22-21.31.59:385][907]LogScript:Warning: Accessed None trying to read property Warrior
-	Warrior_ABP_C /Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.Warrior_ABP_C_3
-	Function /Game/Warrior/Warrior_ABP.Warrior_ABP_C:ExecuteUbergraph_Warrior_ABP:0B21
-[2018.01.22-21.32.00:604][ 12]LogScript:Warning: Accessed None trying to read property Warrior
-	Warrior_ABP_C /Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.Warrior_ABP_C_3
-	Function /Game/Warrior/Warrior_ABP.Warrior_ABP_C:ExecuteUbergraph_Warrior_ABP:0B4E
-[2018.01.22-21.32.01:342][ 77]LogScript:Warning: Accessed None trying to read property Warrior
-	Warrior_ABP_C /Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.Warrior_ABP_C_3
-	Function /Game/Warrior/Warrior_ABP.Warrior_ABP_C:ExecuteUbergraph_Warrior_ABP:0BA8
-[2018.01.22-21.32.57:021][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_175M_FWS_A82_GL_SCWA_(CLEAR).ies)
-[2018.01.22-21.32.57:221][265]LogTexture:Display: Building textures: REVX_175M_FWS_A82_GL_SCWA__CLEAR_ (RGBA16F, 256X1)
-[2018.01.22-21.32.57:236][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_175M_FWS_A82_GL_SCWA_(COATED).ies)
-[2018.01.22-21.32.57:374][265]LogTexture:Display: Building textures: REVX_175M_FWS_A82_GL_SCWA__COATED_ (RGBA16F, 256X1)
-[2018.01.22-21.32.57:388][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_175M_FWS_T73_PCL_SCWA_(CLEAR).ies)
-[2018.01.22-21.32.57:524][265]LogTexture:Display: Building textures: REVX_175M_FWS_T73_PCL_SCWA__CLEAR_ (RGBA16F, 256X1)
-[2018.01.22-21.32.57:538][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_175M_FWS_T73_PCL_SCWA_(COATED).ies)
-[2018.01.22-21.32.57:675][265]LogTexture:Display: Building textures: REVX_175M_FWS_T73_PCL_SCWA__COATED_ (RGBA16F, 256X1)
-[2018.01.22-21.32.57:688][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_175M_FWS_T73_SCWA_(CLEAR).ies)
-[2018.01.22-21.32.57:824][265]LogTexture:Display: Building textures: REVX_175M_FWS_T73_SCWA__CLEAR_ (RGBA16F, 256X1)
-[2018.01.22-21.32.57:838][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_175M_FWS_T73_SCWA_(COATED).ies)
-[2018.01.22-21.32.57:975][265]LogTexture:Display: Building textures: REVX_175M_FWS_T73_SCWA__COATED_ (RGBA16F, 256X1)
-[2018.01.22-21.32.57:988][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_175M_RW_A82_GL_SCWA_(CLEAR).ies)
-[2018.01.22-21.32.58:126][265]LogTexture:Display: Building textures: REVX_175M_RW_A82_GL_SCWA__CLEAR_ (RGBA16F, 256X1)
-[2018.01.22-21.32.58:139][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_175M_RW_A82_GL_SCWA_(COATED).ies)
-[2018.01.22-21.32.58:277][265]LogTexture:Display: Building textures: REVX_175M_RW_A82_GL_SCWA__COATED_ (RGBA16F, 256X1)
-[2018.01.22-21.32.58:291][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_175M_RW_T73_SCWA_(CLEAR).ies)
-[2018.01.22-21.32.58:429][265]LogTexture:Display: Building textures: REVX_175M_RW_T73_SCWA__CLEAR_ (RGBA16F, 256X1)
-[2018.01.22-21.32.58:443][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_175M_RW_T73_SCWA_(COATED).ies)
-[2018.01.22-21.32.58:581][265]LogTexture:Display: Building textures: REVX_175M_RW_T73_SCWA__COATED_ (RGBA16F, 256X1)
-[2018.01.22-21.32.58:599][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_250M_FWS_A82_GL_SCWA_(CLEAR).ies)
-[2018.01.22-21.32.58:736][265]LogTexture:Display: Building textures: REVX_250M_FWS_A82_GL_SCWA__CLEAR_ (RGBA16F, 256X1)
-[2018.01.22-21.32.58:749][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_250M_FWS_A82_GL_SCWA_(COATED).ies)
-[2018.01.22-21.32.58:886][265]LogTexture:Display: Building textures: REVX_250M_FWS_A82_GL_SCWA__COATED_ (RGBA16F, 256X1)
-[2018.01.22-21.32.58:902][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_250M_FWS_T73_PCL_SCWA_(CLEAR).ies)
-[2018.01.22-21.32.59:039][265]LogTexture:Display: Building textures: REVX_250M_FWS_T73_PCL_SCWA__CLEAR_ (RGBA16F, 256X1)
-[2018.01.22-21.32.59:052][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_250M_FWS_T73_SCWA_(CLEAR).ies)
-[2018.01.22-21.32.59:190][265]LogTexture:Display: Building textures: REVX_250M_FWS_T73_SCWA__CLEAR_ (RGBA16F, 256X1)
-[2018.01.22-21.32.59:203][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_250M_FWS_T73_SCWA_(COATED).ies)
-[2018.01.22-21.32.59:341][265]LogTexture:Display: Building textures: REVX_250M_FWS_T73_SCWA__COATED_ (RGBA16F, 256X1)
-[2018.01.22-21.32.59:356][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_250M_RW_A82_GL_SCWA_(CLEAR).ies)
-[2018.01.22-21.32.59:494][265]LogTexture:Display: Building textures: REVX_250M_RW_A82_GL_SCWA__CLEAR_ (RGBA16F, 256X1)
-[2018.01.22-21.32.59:508][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_250M_RW_A82_GL_SCWA_(COATED).ies)
-[2018.01.22-21.32.59:645][265]LogTexture:Display: Building textures: REVX_250M_RW_A82_GL_SCWA__COATED_ (RGBA16F, 256X1)
-[2018.01.22-21.32.59:659][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_250M_RW_T73_SCWA_(CLEAR).ies)
-[2018.01.22-21.32.59:796][265]LogTexture:Display: Building textures: REVX_250M_RW_T73_SCWA__CLEAR_ (RGBA16F, 256X1)
-[2018.01.22-21.32.59:809][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_250M_RW_T73_SCWA_(COATED).ies)
-[2018.01.22-21.32.59:947][265]LogTexture:Display: Building textures: REVX_250M_RW_T73_SCWA__COATED_ (RGBA16F, 256X1)
-[2018.01.22-21.32.59:965][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_400M_FWS_A82_GL_SCWA_(CLEAR).ies)
-[2018.01.22-21.33.00:102][265]LogTexture:Display: Building textures: REVX_400M_FWS_A82_GL_SCWA__CLEAR_ (RGBA16F, 256X1)
-[2018.01.22-21.33.00:115][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_400M_FWS_A82_GL_SCWA_(COATED).ies)
-[2018.01.22-21.33.00:253][265]LogTexture:Display: Building textures: REVX_400M_FWS_A82_GL_SCWA__COATED_ (RGBA16F, 256X1)
-[2018.01.22-21.33.00:266][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_400M_FWS_T73_PCL_SCWA_(CLEAR).ies)
-[2018.01.22-21.33.00:405][265]LogTexture:Display: Building textures: REVX_400M_FWS_T73_PCL_SCWA__CLEAR_ (RGBA16F, 256X1)
-[2018.01.22-21.33.00:421][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_400M_FWS_T73_PCL_SCWA_(COATED).ies)
-[2018.01.22-21.33.00:559][265]LogTexture:Display: Building textures: REVX_400M_FWS_T73_PCL_SCWA__COATED_ (RGBA16F, 256X1)
-[2018.01.22-21.33.00:573][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_400M_FWS_T73_SCWA_(CLEAR).ies)
-[2018.01.22-21.33.00:711][265]LogTexture:Display: Building textures: REVX_400M_FWS_T73_SCWA__CLEAR_ (RGBA16F, 256X1)
-[2018.01.22-21.33.00:724][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_400M_FWS_T73_SCWA_(COATED).ies)
-[2018.01.22-21.33.00:862][265]LogTexture:Display: Building textures: REVX_400M_FWS_T73_SCWA__COATED_ (RGBA16F, 256X1)
-[2018.01.22-21.33.00:876][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_400M_RW_A82_GL_SCWA_(CLEAR).ies)
-[2018.01.22-21.33.01:013][265]LogTexture:Display: Building textures: REVX_400M_RW_A82_GL_SCWA__CLEAR_ (RGBA16F, 256X1)
-[2018.01.22-21.33.01:027][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_400M_RW_A82_GL_SCWA_(COATED).ies)
-[2018.01.22-21.33.01:164][265]LogTexture:Display: Building textures: REVX_400M_RW_A82_GL_SCWA__COATED_ (RGBA16F, 256X1)
-[2018.01.22-21.33.01:178][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_400M_RW_T73_SCWA_(CLEAR).ies)
-[2018.01.22-21.33.01:316][265]LogTexture:Display: Building textures: REVX_400M_RW_T73_SCWA__CLEAR_ (RGBA16F, 256X1)
-[2018.01.22-21.33.01:330][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_400M_RW_T73_SCWA_(COATED).ies)
-[2018.01.22-21.33.01:468][265]LogTexture:Display: Building textures: REVX_400M_RW_T73_SCWA__COATED_ (RGBA16F, 256X1)
-[2018.01.22-21.33.01:481][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\GS_175M.ies)
-[2018.01.22-21.33.01:612][265]LogTexture:Display: Building textures: GS_175M (RGBA16F, 256X1)
-[2018.01.22-21.33.01:625][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\GS_250M.ies)
-[2018.01.22-21.33.01:754][265]LogTexture:Display: Building textures: GS_250M (RGBA16F, 256X1)
-[2018.01.22-21.33.01:768][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\GS_400M.ies)
-[2018.01.22-21.33.01:901][265]LogTexture:Display: Building textures: GS_400M (RGBA16F, 256X1)
-[2018.01.22-21.33.01:914][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_100M_FWS_A82_GL_(CLEAR).ies)
-[2018.01.22-21.33.02:051][265]LogTexture:Display: Building textures: REVX_100M_FWS_A82_GL__CLEAR_ (RGBA16F, 256X1)
-[2018.01.22-21.33.02:066][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_100M_FWS_A82_GL_(COATED).ies)
-[2018.01.22-21.33.02:204][265]LogTexture:Display: Building textures: REVX_100M_FWS_A82_GL__COATED_ (RGBA16F, 256X1)
-[2018.01.22-21.33.02:217][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_100M_FWS_T73_(COATED).ies)
-[2018.01.22-21.33.02:354][265]LogTexture:Display: Building textures: REVX_100M_FWS_T73__COATED_ (RGBA16F, 256X1)
-[2018.01.22-21.33.02:367][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_100M_FWS_T73_PCL_(CLEAR).ies)
-[2018.01.22-21.33.02:505][265]LogTexture:Display: Building textures: REVX_100M_FWS_T73_PCL__CLEAR_ (RGBA16F, 256X1)
-[2018.01.22-21.33.02:519][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_100M_FWS_T73_PCL_(COATED).ies)
-[2018.01.22-21.33.02:657][265]LogTexture:Display: Building textures: REVX_100M_FWS_T73_PCL__COATED_ (RGBA16F, 256X1)
-[2018.01.22-21.33.02:671][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_100M_RW_A82_GL_(CLEAR).ies)
-[2018.01.22-21.33.02:808][265]LogTexture:Display: Building textures: REVX_100M_RW_A82_GL__CLEAR_ (RGBA16F, 256X1)
-[2018.01.22-21.33.02:822][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_100M_RW_A82_GL_(COATED).ies)
-[2018.01.22-21.33.02:960][265]LogTexture:Display: Building textures: REVX_100M_RW_A82_GL__COATED_ (RGBA16F, 256X1)
-[2018.01.22-21.33.02:973][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_100M_RW_T73_(CLEAR).ies)
-[2018.01.22-21.33.03:110][265]LogTexture:Display: Building textures: REVX_100M_RW_T73__CLEAR_ (RGBA16F, 256X1)
-[2018.01.22-21.33.03:123][265]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\David\Desktop\IES\REVX_100M_RW_T73_(COATED).ies)
-[2018.01.22-21.33.03:258][265]LogTexture:Display: Building textures: REVX_100M_RW_T73__COATED_ (RGBA16F, 256X1)
-[2018.01.22-21.33.08:115][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/IES/GS_175M" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/GS_175M.uasset" SILENT=true
-[2018.01.22-21.33.08:123][356]LogSavePackage: Save=6.55ms
-[2018.01.22-21.33.08:123][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/GS_175M7B5E885746BAE6A2D6153B97862DA8B9.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/GS_175M.uasset'
-[2018.01.22-21.33.08:125][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/GS_175M.uasset
-[2018.01.22-21.33.08:130][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/IES/GS_250M" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/GS_250M.uasset" SILENT=true
-[2018.01.22-21.33.08:138][356]LogSavePackage: Save=6.27ms
-[2018.01.22-21.33.08:138][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/GS_250M455CCC57412B682B4CE4B29AA4F1C75B.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/GS_250M.uasset'
-[2018.01.22-21.33.08:140][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/GS_250M.uasset
-[2018.01.22-21.33.08:145][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/IES/GS_400M" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/GS_400M.uasset" SILENT=true
-[2018.01.22-21.33.08:153][356]LogSavePackage: Save=6.42ms
-[2018.01.22-21.33.08:153][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/GS_400M7A224984472D48B973AAC5AF9F80B2DD.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/GS_400M.uasset'
-[2018.01.22-21.33.08:154][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/GS_400M.uasset
-[2018.01.22-21.33.08:174][356]LogSavePackage: Save=6.44ms
-[2018.01.22-21.33.08:174][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_100M_FWS_A82_GL__CLEAR_EF1DCDFC4B5239CD9E5E539737775EC2.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_100M_FWS_A82_GL__CLEAR_.uasset'
-[2018.01.22-21.33.08:176][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_100M_FWS_A82_GL__CLEAR_.uasset
-[2018.01.22-21.33.08:190][356]LogSavePackage: Save=7.03ms
-[2018.01.22-21.33.08:190][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_100M_FWS_A82_GL__COATED_BD44976F4CD656BBDBF08C96945DC536.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_100M_FWS_A82_GL__COATED_.uasset'
-[2018.01.22-21.33.08:192][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_100M_FWS_A82_GL__COATED_.uasset
-[2018.01.22-21.33.08:205][356]LogSavePackage: Save=6.46ms
-[2018.01.22-21.33.08:205][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_100M_FWS_T73__COATED_0D71EB2B4770AD4FE635E88058148578.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_100M_FWS_T73__COATED_.uasset'
-[2018.01.22-21.33.08:207][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_100M_FWS_T73__COATED_.uasset
-[2018.01.22-21.33.08:220][356]LogSavePackage: Save=6.34ms
-[2018.01.22-21.33.08:220][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_100M_FWS_T73_PCL__CLEAR_94E41DF24F380535244F419EEEF96413.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_100M_FWS_T73_PCL__CLEAR_.uasset'
-[2018.01.22-21.33.08:222][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_100M_FWS_T73_PCL__CLEAR_.uasset
-[2018.01.22-21.33.08:235][356]LogSavePackage: Save=6.60ms
-[2018.01.22-21.33.08:235][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_100M_FWS_T73_PCL__COATED_F7D293FE44F73DB0B2CCE18E793E4772.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_100M_FWS_T73_PCL__COATED_.uasset'
-[2018.01.22-21.33.08:237][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_100M_FWS_T73_PCL__COATED_.uasset
-[2018.01.22-21.33.08:250][356]LogSavePackage: Save=6.76ms
-[2018.01.22-21.33.08:250][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_100M_RW_A82_GL__CLEAR_2DC128AF4FCF053A0086748DE2004149.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_100M_RW_A82_GL__CLEAR_.uasset'
-[2018.01.22-21.33.08:252][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_100M_RW_A82_GL__CLEAR_.uasset
-[2018.01.22-21.33.08:265][356]LogSavePackage: Save=6.57ms
-[2018.01.22-21.33.08:265][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_100M_RW_A82_GL__COATED_18A1C2BB4BFA0E74A72FD4B60A6FD7A3.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_100M_RW_A82_GL__COATED_.uasset'
-[2018.01.22-21.33.08:267][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_100M_RW_A82_GL__COATED_.uasset
-[2018.01.22-21.33.08:273][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/IES/REVX_100M_RW_T73__CLEAR_" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_100M_RW_T73__CLEAR_.uasset" SILENT=true
-[2018.01.22-21.33.08:280][356]LogSavePackage: Save=6.50ms
-[2018.01.22-21.33.08:280][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_100M_RW_T73__CLEAR_1E04E031414932FEC0AD00A796964DE2.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_100M_RW_T73__CLEAR_.uasset'
-[2018.01.22-21.33.08:282][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_100M_RW_T73__CLEAR_.uasset
-[2018.01.22-21.33.08:288][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/IES/REVX_100M_RW_T73__COATED_" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_100M_RW_T73__COATED_.uasset" SILENT=true
-[2018.01.22-21.33.08:295][356]LogSavePackage: Save=6.33ms
-[2018.01.22-21.33.08:295][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_100M_RW_T73__COATED_69EAC28A4F62E252AAEED3843419EB51.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_100M_RW_T73__COATED_.uasset'
-[2018.01.22-21.33.08:297][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_100M_RW_T73__COATED_.uasset
-[2018.01.22-21.33.08:314][356]LogSavePackage: Save=6.46ms
-[2018.01.22-21.33.08:314][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_175M_FWS_A82_GL_SCWA__CLEAR_760010C443F21728B5CEF0920CDFBCD9.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_175M_FWS_A82_GL_SCWA__CLEAR_.uasset'
-[2018.01.22-21.33.08:315][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_175M_FWS_A82_GL_SCWA__CLEAR_.uasset
-[2018.01.22-21.33.08:331][356]LogSavePackage: Save=6.57ms
-[2018.01.22-21.33.08:331][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_175M_FWS_A82_GL_SCWA__COATED_A27E03AC4DEF72E0CA22178C5FAAE437.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_175M_FWS_A82_GL_SCWA__COATED_.uasset'
-[2018.01.22-21.33.08:332][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_175M_FWS_A82_GL_SCWA__COATED_.uasset
-[2018.01.22-21.33.08:347][356]LogSavePackage: Save=6.19ms
-[2018.01.22-21.33.08:347][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_175M_FWS_T73_PCL_SCWA__CLEAR_8687A602414DC4EB3C94CA81D0EAC604.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_175M_FWS_T73_PCL_SCWA__CLEAR_.uasset'
-[2018.01.22-21.33.08:349][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_175M_FWS_T73_PCL_SCWA__CLEAR_.uasset
-[2018.01.22-21.33.08:364][356]LogSavePackage: Save=6.70ms
-[2018.01.22-21.33.08:364][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_175M_FWS_T73_PCL_SCWA__COATED_5BCB4CF64F0E1C3DA9ABB382399C5047.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_175M_FWS_T73_PCL_SCWA__COATED_.uasset'
-[2018.01.22-21.33.08:366][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_175M_FWS_T73_PCL_SCWA__COATED_.uasset
-[2018.01.22-21.33.08:379][356]LogSavePackage: Save=6.45ms
-[2018.01.22-21.33.08:379][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_175M_FWS_T73_SCWA__CLEAR_9E15775D4B5D53777B6B7DBB932F6CD6.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_175M_FWS_T73_SCWA__CLEAR_.uasset'
-[2018.01.22-21.33.08:381][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_175M_FWS_T73_SCWA__CLEAR_.uasset
-[2018.01.22-21.33.08:394][356]LogSavePackage: Save=6.24ms
-[2018.01.22-21.33.08:394][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_175M_FWS_T73_SCWA__COATED_ABE235554EFE0902B0585C9E01DD20EF.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_175M_FWS_T73_SCWA__COATED_.uasset'
-[2018.01.22-21.33.08:396][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_175M_FWS_T73_SCWA__COATED_.uasset
-[2018.01.22-21.33.08:409][356]LogSavePackage: Save=6.34ms
-[2018.01.22-21.33.08:409][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_175M_RW_A82_GL_SCWA__CLEAR_1DCF986448BC8ACD24E3D693E3899F6B.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_175M_RW_A82_GL_SCWA__CLEAR_.uasset'
-[2018.01.22-21.33.08:411][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_175M_RW_A82_GL_SCWA__CLEAR_.uasset
-[2018.01.22-21.33.08:424][356]LogSavePackage: Save=6.44ms
-[2018.01.22-21.33.08:424][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_175M_RW_A82_GL_SCWA__COATED_8AC6F8124DD6452BAF215F8E1DC6CA10.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_175M_RW_A82_GL_SCWA__COATED_.uasset'
-[2018.01.22-21.33.08:426][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_175M_RW_A82_GL_SCWA__COATED_.uasset
-[2018.01.22-21.33.08:439][356]LogSavePackage: Save=6.29ms
-[2018.01.22-21.33.08:439][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_175M_RW_T73_SCWA__CLEAR_9A7983024E457BBD680601873CA610AD.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_175M_RW_T73_SCWA__CLEAR_.uasset'
-[2018.01.22-21.33.08:441][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_175M_RW_T73_SCWA__CLEAR_.uasset
-[2018.01.22-21.33.08:454][356]LogSavePackage: Save=6.22ms
-[2018.01.22-21.33.08:454][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_175M_RW_T73_SCWA__COATED_84AC30794AD673DADEAAD7A4013F6E9A.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_175M_RW_T73_SCWA__COATED_.uasset'
-[2018.01.22-21.33.08:456][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_175M_RW_T73_SCWA__COATED_.uasset
-[2018.01.22-21.33.08:473][356]LogSavePackage: Save=6.49ms
-[2018.01.22-21.33.08:473][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_250M_FWS_A82_GL_SCWA__CLEAR_CDBF137A49A369CA10377A8830901336.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_250M_FWS_A82_GL_SCWA__CLEAR_.uasset'
-[2018.01.22-21.33.08:474][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_250M_FWS_A82_GL_SCWA__CLEAR_.uasset
-[2018.01.22-21.33.08:488][356]LogSavePackage: Save=6.37ms
-[2018.01.22-21.33.08:488][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_250M_FWS_A82_GL_SCWA__COATED_8672147942376056EF492CAD3044B659.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_250M_FWS_A82_GL_SCWA__COATED_.uasset'
-[2018.01.22-21.33.08:490][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_250M_FWS_A82_GL_SCWA__COATED_.uasset
-[2018.01.22-21.33.08:503][356]LogSavePackage: Save=6.35ms
-[2018.01.22-21.33.08:503][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_250M_FWS_T73_PCL_SCWA__CLEAR_605FD8144EC26DB8FEB92EA4571D8539.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_250M_FWS_T73_PCL_SCWA__CLEAR_.uasset'
-[2018.01.22-21.33.08:505][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_250M_FWS_T73_PCL_SCWA__CLEAR_.uasset
-[2018.01.22-21.33.08:519][356]LogSavePackage: Save=6.41ms
-[2018.01.22-21.33.08:519][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_250M_FWS_T73_SCWA__CLEAR_597807D54A284BD829CF5CB7F7EFA999.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_250M_FWS_T73_SCWA__CLEAR_.uasset'
-[2018.01.22-21.33.08:520][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_250M_FWS_T73_SCWA__CLEAR_.uasset
-[2018.01.22-21.33.08:534][356]LogSavePackage: Save=6.11ms
-[2018.01.22-21.33.08:534][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_250M_FWS_T73_SCWA__COATED_560768AD4C92815D14551BB48E3BCA18.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_250M_FWS_T73_SCWA__COATED_.uasset'
-[2018.01.22-21.33.08:535][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_250M_FWS_T73_SCWA__COATED_.uasset
-[2018.01.22-21.33.08:549][356]LogSavePackage: Save=6.76ms
-[2018.01.22-21.33.08:549][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_250M_RW_A82_GL_SCWA__CLEAR_8070755645156D56348F788F15BF781E.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_250M_RW_A82_GL_SCWA__CLEAR_.uasset'
-[2018.01.22-21.33.08:551][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_250M_RW_A82_GL_SCWA__CLEAR_.uasset
-[2018.01.22-21.33.08:564][356]LogSavePackage: Save=6.65ms
-[2018.01.22-21.33.08:564][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_250M_RW_A82_GL_SCWA__COATED_875FB7604B9303553EBE429051A1D5B6.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_250M_RW_A82_GL_SCWA__COATED_.uasset'
-[2018.01.22-21.33.08:568][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_250M_RW_A82_GL_SCWA__COATED_.uasset
-[2018.01.22-21.33.08:581][356]LogSavePackage: Save=6.51ms
-[2018.01.22-21.33.08:581][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_250M_RW_T73_SCWA__CLEAR_272DF0334467EE8D770C99B0A0C76EC6.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_250M_RW_T73_SCWA__CLEAR_.uasset'
-[2018.01.22-21.33.08:583][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_250M_RW_T73_SCWA__CLEAR_.uasset
-[2018.01.22-21.33.08:596][356]LogSavePackage: Save=6.34ms
-[2018.01.22-21.33.08:596][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_250M_RW_T73_SCWA__COATED_587F6ADF4FB348105013E5AA1DADB4E0.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_250M_RW_T73_SCWA__COATED_.uasset'
-[2018.01.22-21.33.08:597][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_250M_RW_T73_SCWA__COATED_.uasset
-[2018.01.22-21.33.08:634][356]LogSavePackage: Save=26.27ms
-[2018.01.22-21.33.08:634][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_400M_FWS_A82_GL_SCWA__CLEAR_872452CD4A3C324B3B6324BAC372BF7B.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_400M_FWS_A82_GL_SCWA__CLEAR_.uasset'
-[2018.01.22-21.33.08:636][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_400M_FWS_A82_GL_SCWA__CLEAR_.uasset
-[2018.01.22-21.33.08:649][356]LogSavePackage: Save=6.52ms
-[2018.01.22-21.33.08:649][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_400M_FWS_A82_GL_SCWA__COATED_98EBD72241B983D651EA85B6148E3815.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_400M_FWS_A82_GL_SCWA__COATED_.uasset'
-[2018.01.22-21.33.08:651][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_400M_FWS_A82_GL_SCWA__COATED_.uasset
-[2018.01.22-21.33.08:664][356]LogSavePackage: Save=6.41ms
-[2018.01.22-21.33.08:664][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_400M_FWS_T73_PCL_SCWA__CLEAR_5F73E12A40E98490DCD958B95678A409.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_400M_FWS_T73_PCL_SCWA__CLEAR_.uasset'
-[2018.01.22-21.33.08:666][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_400M_FWS_T73_PCL_SCWA__CLEAR_.uasset
-[2018.01.22-21.33.08:679][356]LogSavePackage: Save=6.31ms
-[2018.01.22-21.33.08:679][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_400M_FWS_T73_PCL_SCWA__COATED_825337964953AF07587CE6AD46326F6F.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_400M_FWS_T73_PCL_SCWA__COATED_.uasset'
-[2018.01.22-21.33.08:681][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_400M_FWS_T73_PCL_SCWA__COATED_.uasset
-[2018.01.22-21.33.08:696][356]LogSavePackage: Save=6.54ms
-[2018.01.22-21.33.08:696][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_400M_FWS_T73_SCWA__CLEAR_7BA624454959ED2AD0E838A1E89FE797.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_400M_FWS_T73_SCWA__CLEAR_.uasset'
-[2018.01.22-21.33.08:698][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_400M_FWS_T73_SCWA__CLEAR_.uasset
-[2018.01.22-21.33.08:711][356]LogSavePackage: Save=6.30ms
-[2018.01.22-21.33.08:711][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_400M_FWS_T73_SCWA__COATED_2F1BBD74478477415F21D386AC2002D0.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_400M_FWS_T73_SCWA__COATED_.uasset'
-[2018.01.22-21.33.08:713][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_400M_FWS_T73_SCWA__COATED_.uasset
-[2018.01.22-21.33.08:727][356]LogSavePackage: Save=6.59ms
-[2018.01.22-21.33.08:727][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_400M_RW_A82_GL_SCWA__CLEAR_4A3DE2D648BDFEE963AD4CBB8C047AFC.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_400M_RW_A82_GL_SCWA__CLEAR_.uasset'
-[2018.01.22-21.33.08:728][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_400M_RW_A82_GL_SCWA__CLEAR_.uasset
-[2018.01.22-21.33.08:743][356]LogSavePackage: Save=6.30ms
-[2018.01.22-21.33.08:743][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_400M_RW_A82_GL_SCWA__COATED_DFCA33B049B81096CE0EA8BBC66E6690.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_400M_RW_A82_GL_SCWA__COATED_.uasset'
-[2018.01.22-21.33.08:744][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_400M_RW_A82_GL_SCWA__COATED_.uasset
-[2018.01.22-21.33.08:758][356]LogSavePackage: Save=6.48ms
-[2018.01.22-21.33.08:758][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_400M_RW_T73_SCWA__CLEAR_07EEA31B4640216489F48689A270D938.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_400M_RW_T73_SCWA__CLEAR_.uasset'
-[2018.01.22-21.33.08:759][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_400M_RW_T73_SCWA__CLEAR_.uasset
-[2018.01.22-21.33.08:773][356]LogSavePackage: Save=6.66ms
-[2018.01.22-21.33.08:773][356]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/REVX_400M_RW_T73_SCWA__COATED_E6DF15284317B6FD3B23978F31612ACA.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_400M_RW_T73_SCWA__COATED_.uasset'
-[2018.01.22-21.33.08:775][356]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/IES/REVX_400M_RW_T73_SCWA__COATED_.uasset
-[2018.01.22-21.33.26:277][655]BlueprintLog: New page: Compile Warrior_BP
-[2018.01.22-21.33.48:191][927]BlueprintLog: New page: Compile BlueBoos
-[2018.01.22-21.33.49:254][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boss/BlueBoos" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoos.uasset" SILENT=true
-[2018.01.22-21.33.49:585][948]LogSavePackage: Save=320.87ms
-[2018.01.22-21.33.49:585][948]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueBoosB56A99F84DB1B475E123A6A39F010FD7.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoos.uasset'
-[2018.01.22-21.33.49:587][948]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoos.uasset
-[2018.01.22-21.33.55:988][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boss/BlueBoos" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoos.uasset" SILENT=true
-[2018.01.22-21.33.56:313][420]LogSavePackage: Save=320.58ms
-[2018.01.22-21.33.56:313][420]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueBoos7492B76D4813DBD0C38C88B68A20A182.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoos.uasset'
-[2018.01.22-21.33.56:315][420]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoos.uasset
-[2018.01.22-21.33.56:751][450]BlueprintLog: New page: Compile BlueBoos
-[2018.01.22-21.34.52:079][181]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
-[2018.01.22-21.34.56:768][714]Cmd: EDIT CUT
-[2018.01.22-21.34.56:773][714]LogEditorActor: Deleted Actor: NavMeshBoundsVolume
-[2018.01.22-21.34.56:790][714]LogEditorActor: Deleted 1 Actors (0.017 secs)
-[2018.01.22-21.34.59:383][ 20]Cmd: EDIT PASTE
-[2018.01.22-21.36.48:081][527]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: BlueLevel, Actor: /Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel_C_1
-[2018.01.22-21.36.48:541][527]LogSavePackage: Save=466.93ms
-[2018.01.22-21.36.48:541][527]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueLevel1D188DAB44E878B94C4DC78A9B71BC76.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap'
-[2018.01.22-21.36.48:544][527]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap
-[2018.01.22-21.36.48:546][527]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/BlueLevel_BuiltData" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel_BuiltData.uasset" SILENT=true
-[2018.01.22-21.36.48:910][527]LogSavePackage: Save=350.38ms
-[2018.01.22-21.36.48:910][527]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueLevel_BuiltDataAFC4D5F440AD9AB25ADFAF8A6A83BFCF.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel_BuiltData.uasset'
-[2018.01.22-21.36.48:911][527]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel_BuiltData.uasset
-[2018.01.22-21.36.50:781][561]LogSavePackage: Save=354.45ms
-[2018.01.22-21.36.50:781][561]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonExampleMapAECBABEA4DBB2705F2CB208C3A25D6C7.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2018.01.22-21.36.50:784][561]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
-[2018.01.22-21.36.50:834][561]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.506
-[2018.01.22-21.36.50:864][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Warrior/Warrior_BP" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset" SILENT=true
-[2018.01.22-21.36.51:851][561]LogSavePackage: Save=977.40ms
-[2018.01.22-21.36.51:851][561]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Warrior_BP193DA1114977CF45A5B48CB21EEA06FA.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset'
-[2018.01.22-21.36.51:853][561]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset
-[2018.01.22-21.36.53:674][753]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.01.22-21.36.53:845][754]Cmd: QUIT_EDITOR
-[2018.01.22-21.36.53:862][754]LogExit: Preparing to exit.
-[2018.01.22-21.36.54:918][754]LogExit: Editor shut down
-[2018.01.22-21.36.54:921][754]LogExit: Transaction tracking system shut down
-[2018.01.22-21.36.55:042][754]LogObj: Freed 0b from 0 cluster array pools.
-[2018.01.22-21.36.55:042][754]LogExit: Object subsystem successfully closed.
-[2018.01.22-21.36.55:061][754]LogD3D11RHI: Shutdown
-[2018.01.22-21.36.55:061][754]LogD3D11RHI: CleanupD3DDevice
-[2018.01.22-21.36.55:138][754]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.01.22-21.36.55:144][754]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (536)
-[2018.01.22-21.36.55:144][754]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
-[2018.01.22-21.36.55:144][754]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
-[2018.01.22-21.36.55:144][754]LogModuleManager: Shutting down and abandoning module SkeletonEditor (530)
-[2018.01.22-21.36.55:144][754]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (528)
-[2018.01.22-21.36.55:144][754]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
-[2018.01.22-21.36.55:144][754]LogModuleManager: Shutting down and abandoning module CrashTracker (524)
-[2018.01.22-21.36.55:144][754]LogModuleManager: Shutting down and abandoning module WorldBrowser (522)
-[2018.01.22-21.36.55:144][754]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
-[2018.01.22-21.36.55:144][754]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
-[2018.01.22-21.36.55:144][754]LogDirectoryWatcher: A directory notification for 'D:/Program Files (x86)/Epic Games/UE_4.16/FeaturePacks/' was aborted.
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
-[2018.01.22-21.36.55:145][754]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Collections/' was aborted.
-[2018.01.22-21.36.55:145][754]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Developers/David/Collections/' was aborted.
-[2018.01.22-21.36.55:145][754]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Collections/' was aborted.
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module BspMode (494)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module Media (471)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module SessionServices (458)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
-[2018.01.22-21.36.55:145][754]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
-[2018.01.22-21.36.55:146][754]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
-[2018.01.22-21.36.55:146][754]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
-[2018.01.22-21.36.55:146][754]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
-[2018.01.22-21.36.55:658][754]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
-[2018.01.22-21.36.55:658][754]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
-[2018.01.22-21.36.55:658][754]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
-[2018.01.22-21.36.55:658][754]LogModuleManager: Shutting down and abandoning module MergeActors (428)
-[2018.01.22-21.36.55:658][754]LogModuleManager: Shutting down and abandoning module SizeMap (426)
-[2018.01.22-21.36.55:658][754]LogModuleManager: Shutting down and abandoning module TreeMap (424)
-[2018.01.22-21.36.55:658][754]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
-[2018.01.22-21.36.55:658][754]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
-[2018.01.22-21.36.55:658][754]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
-[2018.01.22-21.36.55:658][754]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
-[2018.01.22-21.36.55:658][754]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
-[2018.01.22-21.36.55:658][754]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
-[2018.01.22-21.36.55:658][754]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
-[2018.01.22-21.36.55:658][754]LogModuleManager: Shutting down and abandoning module XmlParser (408)
-[2018.01.22-21.36.55:658][754]LogModuleManager: Shutting down and abandoning module Blutility (406)
-[2018.01.22-21.36.55:658][754]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
-[2018.01.22-21.36.55:658][754]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
-[2018.01.22-21.36.55:658][754]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
-[2018.01.22-21.36.55:658][754]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
-[2018.01.22-21.36.55:658][754]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
-[2018.01.22-21.36.55:658][754]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
-[2018.01.22-21.36.55:658][754]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
-[2018.01.22-21.36.55:658][754]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
-[2018.01.22-21.36.55:658][754]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
-[2018.01.22-21.36.55:702][754]LogModuleManager: Shutting down and abandoning module AutomationController (386)
-[2018.01.22-21.36.55:702][754]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
-[2018.01.22-21.36.55:702][754]LogModuleManager: Shutting down and abandoning module Layers (382)
-[2018.01.22-21.36.55:702][754]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
-[2018.01.22-21.36.55:702][754]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
-[2018.01.22-21.36.55:702][754]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
-[2018.01.22-21.36.55:702][754]LogModuleManager: Shutting down and abandoning module Persona (374)
-[2018.01.22-21.36.55:702][754]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
-[2018.01.22-21.36.55:702][754]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
-[2018.01.22-21.36.55:702][754]LogModuleManager: Shutting down and abandoning module Kismet (368)
-[2018.01.22-21.36.55:711][754]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
-[2018.01.22-21.36.55:711][754]LogModuleManager: Shutting down and abandoning module Toolbox (364)
-[2018.01.22-21.36.55:711][754]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
-[2018.01.22-21.36.55:711][754]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
-[2018.01.22-21.36.55:711][754]LogModuleManager: Shutting down and abandoning module OutputLog (358)
-[2018.01.22-21.36.55:711][754]LogModuleManager: Shutting down and abandoning module GammaUI (356)
-[2018.01.22-21.36.55:711][754]LogModuleManager: Shutting down and abandoning module Documentation (354)
-[2018.01.22-21.36.55:711][754]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
-[2018.01.22-21.36.55:711][754]LogModuleManager: Shutting down and abandoning module MovieScene (350)
-[2018.01.22-21.36.55:711][754]LogModuleManager: Shutting down and abandoning module Niagara (348)
-[2018.01.22-21.36.55:711][754]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
-[2018.01.22-21.36.55:711][754]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
-[2018.01.22-21.36.55:711][754]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
-[2018.01.22-21.36.55:711][754]LogModuleManager: Shutting down and abandoning module PortalServices (340)
-[2018.01.22-21.36.55:711][754]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
-[2018.01.22-21.36.55:711][754]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
-[2018.01.22-21.36.55:711][754]LogModuleManager: Shutting down and abandoning module AIModule (334)
-[2018.01.22-21.36.55:711][754]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
-[2018.01.22-21.36.55:712][754]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
-[2018.01.22-21.36.55:712][754]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module SteamVR (322)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module OculusInput (314)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module CableComponent (308)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module SourceControl (267)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
-[2018.01.22-21.36.55:742][754]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
-[2018.01.22-21.36.55:743][754]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
-[2018.01.22-21.36.55:743][754]LogModuleManager: Shutting down and abandoning module MainFrame (252)
-[2018.01.22-21.36.55:743][754]LogModuleManager: Shutting down and abandoning module HotReload (251)
-[2018.01.22-21.36.55:743][754]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
-[2018.01.22-21.36.55:743][754]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
-[2018.01.22-21.36.55:743][754]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
-[2018.01.22-21.36.55:743][754]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
-[2018.01.22-21.36.55:743][754]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
-[2018.01.22-21.36.55:743][754]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
-[2018.01.22-21.36.55:844][754]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
-[2018.01.22-21.36.55:946][754]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
-[2018.01.22-21.36.55:946][754]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
-[2018.01.22-21.36.55:946][754]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
-[2018.01.22-21.36.55:946][754]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
-[2018.01.22-21.36.55:946][754]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
-[2018.01.22-21.36.55:946][754]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
-[2018.01.22-21.36.55:949][754]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
-[2018.01.22-21.36.55:949][754]LogModuleManager: Shutting down and abandoning module Paper2D (218)
-[2018.01.22-21.36.55:949][754]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
-[2018.01.22-21.36.55:949][754]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
-[2018.01.22-21.36.55:949][754]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
-[2018.01.22-21.36.55:949][754]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
-[2018.01.22-21.36.55:949][754]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
-[2018.01.22-21.36.55:949][754]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
-[2018.01.22-21.36.55:950][754]LogModuleManager: Shutting down and abandoning module VREditor (204)
-[2018.01.22-21.36.55:950][754]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
-[2018.01.22-21.36.55:950][754]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
-[2018.01.22-21.36.55:950][754]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
-[2018.01.22-21.36.55:950][754]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
-[2018.01.22-21.36.55:950][754]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
-[2018.01.22-21.36.55:950][754]LogModuleManager: Shutting down and abandoning module UMG (192)
-[2018.01.22-21.36.55:950][754]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
-[2018.01.22-21.36.55:951][754]LogModuleManager: Shutting down and abandoning module Sequencer (190)
-[2018.01.22-21.36.55:951][754]LogModuleManager: Shutting down and abandoning module AssetTools (188)
-[2018.01.22-21.36.55:951][754]LogModuleManager: Shutting down and abandoning module MessageLog (187)
-[2018.01.22-21.36.55:951][754]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
-[2018.01.22-21.36.55:951][754]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
-[2018.01.22-21.36.55:951][754]LogModuleManager: Shutting down and abandoning module Slate (178)
-[2018.01.22-21.36.55:951][754]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
-[2018.01.22-21.36.55:957][754]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
-[2018.01.22-21.36.55:957][754]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
-[2018.01.22-21.36.55:958][754]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
-[2018.01.22-21.36.55:958][754]LogModuleManager: Shutting down and abandoning module Networking (168)
-[2018.01.22-21.36.55:958][754]LogModuleManager: Shutting down and abandoning module Core (164)
-[2018.01.22-21.36.55:958][754]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
-[2018.01.22-21.36.56:160][754]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.01.22-21.36.56:160][754]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/' was aborted.
-[2018.01.22-21.36.56:160][754]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.01.22-21.36.56:160][754]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
-[2018.01.22-21.36.56:165][754]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
-[2018.01.22-21.36.56:166][754]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
-[2018.01.22-21.36.56:166][754]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
-[2018.01.22-21.36.56:166][754]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
-[2018.01.22-21.36.56:166][754]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
-[2018.01.22-21.36.56:166][754]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
-[2018.01.22-21.36.56:166][754]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
-[2018.01.22-21.36.56:166][754]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
-[2018.01.22-21.36.56:166][754]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2018.01.22-21.36.56:205][754]LogDerivedDataCache: Shutdown
-[2018.01.22-21.36.56:205][754]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2018.01.22-21.36.56:205][754]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2018.01.22-21.36.56:205][754]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2018.01.22-21.36.56:205][754]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2018.01.22-21.36.56:205][754]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2018.01.22-21.36.56:205][754]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2018.01.22-21.36.56:205][754]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2018.01.22-21.36.56:205][754]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2018.01.22-21.36.56:205][754]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2018.01.22-21.36.56:205][754]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2018.01.22-21.36.56:205][754]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2018.01.22-21.36.56:205][754]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2018.01.22-21.36.56:205][754]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2018.01.22-21.36.56:205][754]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module OculusRift (56)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module GearVRController (54)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module GearVR (52)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.01.22-21.36.56:206][754]LogOnline:Display: Unloading online subsystem: NULL
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.01.22-21.36.56:206][754]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.01.22-21.36.56:206][754]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.01.22-21.36.56:206][754]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B86803249-44B2-AE08-D82F-5297E265B403%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=eedd91be406e0cd25ea0748277e6e73c%7C7a211806f70b4509a5be2640357744fc%7Caa6de738-987c-4c76-bb80-6cc1d099ea00&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.01.22-21.36.56:218][754]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.01.22-21.36.56:220][754]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
-[2018.01.22-21.36.56:220][754]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
-[2018.01.22-21.36.56:220][754]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
-[2018.01.22-21.36.56:220][754]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2018.01.22-21.36.56:220][754]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2018.01.22-21.36.56:220][754]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2018.01.22-21.36.56:220][754]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2018.01.22-21.36.56:220][754]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2018.01.22-21.36.56:222][754]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2018.01.22-21.36.56:222][754]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2018.01.22-21.36.56:222][754]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2018.01.22-21.36.56:222][754]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2018.01.22-21.36.56:222][754]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2018.01.22-21.36.56:222][754]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2018.01.22-21.36.56:222][754]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2018.01.22-21.36.56:222][754]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.01.22-21.36.56:222][754]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.01.22-21.36.56:222][754]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.01.22-21.36.56:224][754]LogExit: Exiting.
-[2018.01.22-21.36.56:277][754]Log file closed, 01/22/18 22:36:56
+[2018.01.23-15.50.42:323][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.23-15.50.42:323][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.23-15.50.42:337][  0]LogInit: Computer: DAVIDMASTERRACE
+[2018.01.23-15.50.42:337][  0]LogInit: User: David
+[2018.01.23-15.50.42:337][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.23-15.50.42:337][  0]LogInit: High frequency timer resolution =3.417967 MHz
+[2018.01.23-15.50.42:338][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.01.23-15.50.42:338][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.23-15.50.42:338][  0]LogMemory: Process Physical Memory: 272.34 MB used, 272.34 MB peak
+[2018.01.23-15.50.42:338][  0]LogMemory: Process Virtual Memory: 274.59 MB used, 274.59 MB peak
+[2018.01.23-15.50.42:338][  0]LogMemory: Physical Memory: 6001.28 MB used,  10325.16 MB free, 16326.44 MB total
+[2018.01.23-15.50.42:338][  0]LogMemory: Virtual Memory: 631.00 MB used,  10325.16 MB free, 134217728.00 MB total
+[2018.01.23-15.50.42:378][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.01.23-15.50.42:378][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.01.23-15.50.43:113][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.23-15.50.43:136][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.01.23-15.50.43:136][  0]LogD3D11RHI:       3975/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.23-15.50.43:137][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.23-15.50.43:137][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.23-15.50.43:137][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.23-15.50.43:139][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.23-15.50.43:139][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.23-15.50.43:139][  0]LogWindows: EnumDisplayDevices:
+[2018.01.23-15.50.43:139][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.01.23-15.50.43:139][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.01.23-15.50.43:140][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.01.23-15.50.43:140][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.01.23-15.50.43:140][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.01.23-15.50.43:140][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.01.23-15.50.43:140][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2018.01.23-15.50.43:140][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2018.01.23-15.50.43:140][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.23-15.50.43:149][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.23-15.50.43:165][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.01.23-15.50.43:209][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Intermediate/Shaders/WorkingDirectory/7220/).
+[2018.01.23-15.50.43:209][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/David/AppData/Local/Temp/UnrealShaderWorkingDir/615FFAC44FA044D076E0C0AAEA3969E4/'.
+[2018.01.23-15.50.43:209][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.23-15.50.44:029][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.23-15.50.44:081][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.23-15.50.44:111][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.23-15.50.44:141][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.23-15.50.44:204][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.23-15.50.44:234][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.23-15.50.44:264][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.23-15.50.44:294][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.23-15.50.44:320][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.23-15.50.44:349][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.23-15.50.44:378][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.23-15.50.44:407][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.23-15.50.44:436][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.23-15.50.44:466][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.23-15.50.44:496][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.23-15.50.44:553][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.23-15.50.44:553][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.23-15.50.44:574][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.23-15.50.44:636][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.23-15.50.44:655][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.23-15.50.44:684][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.23-15.50.44:714][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.23-15.50.44:752][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.23-15.50.44:781][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.23-15.50.44:781][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.23-15.50.45:045][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.23-15.50.45:128][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.23-15.50.45:128][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.23-15.50.45:128][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.23-15.50.45:128][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.23-15.50.45:128][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.23-15.50.45:128][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.23-15.50.45:144][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.23-15.50.45:156][  0]LogDerivedDataCache: Using Local data cache path C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.23-15.50.45:164][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.23-15.50.45:164][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.23-15.50.45:165][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.23-15.50.45:165][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.23-15.50.45:423][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.23-15.50.45:487][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.23-15.50.45:601][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.23-15.50.45:625][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.23-15.50.45:651][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.23-15.50.45:651][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.23-15.50.45:651][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.23-15.50.46:036][  0]LogNetVersion: MechHackAndSlash , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 86869316)
+[2018.01.23-15.50.46:084][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
+[2018.01.23-15.50.46:113][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.017777 seconds
+[2018.01.23-15.50.46:118][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.01.23-15.50.46:118][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.01.23-15.50.46:118][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.23-15.50.46:152][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.23-15.50.47:712][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.23-15.50.47:740][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.23-15.50.48:101][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.23-15.50.48:332][  0]SourceControl: Info Source control is disabled
+[2018.01.23-15.50.48:357][  0]SourceControl: Info Source control is disabled
+[2018.01.23-15.50.48:384][  0]SourceControl: Info Source control is disabled
+[2018.01.23-15.50.48:409][  0]SourceControl: Info Source control is disabled
+[2018.01.23-15.50.48:779][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.23-15.50.49:105][  0]LogEngine: Initializing Engine...
+[2018.01.23-15.50.49:106][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.23-15.50.49:261][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.23-15.50.49:261][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.23-15.50.49:332][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.23-15.50.49:353][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.23-15.50.49:360][  0]LogInit: FAudioDevice initialized.
+[2018.01.23-15.50.49:395][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.23-15.50.49:404][  0]LogInit: Texture streaming: Enabled
+[2018.01.23-15.50.49:455][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.23-15.50.49:572][  0]LogInit: Transaction tracking system initialized
+[2018.01.23-15.50.49:746][  0]BlueprintLog: New page: Editor Load
+[2018.01.23-15.50.50:276][  0]LocalizationService: Info Localization service is disabled
+[2018.01.23-15.50.50:656][  0]LogConsoleResponse:Display: 
+[2018.01.23-15.50.50:821][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.23-15.50.50:821][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.23-15.50.51:008][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/' took 0.02s
+[2018.01.23-15.50.51:400][  0]SourceControl: Info Source control is disabled
+[2018.01.23-15.50.51:400][  0]Cmd: MAP LOAD FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.23-15.50.51:400][  0]LightingResults: New page: Lighting Build
+[2018.01.23-15.50.51:422][  0]MapCheck: New page: Map Check
+[2018.01.23-15.50.51:422][  0]LightingResults: New page: Lighting Build
+[2018.01.23-15.50.56:293][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.01.23-15.50.57:365][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.23-15.50.57:435][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.23-15.50.57:488][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.113ms to complete.
+[2018.01.23-15.50.57:488][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 6.088
+[2018.01.23-15.50.57:929][  0]LogCollectionManager: Loaded 0 collections in 0.000963 seconds
+[2018.01.23-15.50.58:091][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Collections/' took 0.01s
+[2018.01.23-15.50.58:091][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Developers/David/Collections/' took 0.01s
+[2018.01.23-15.50.58:091][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Collections/' took 0.01s
+[2018.01.23-15.50.58:091][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.01.23-15.50.58:101][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2329 classes and 491 folders.
+[2018.01.23-15.50.58:175][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.01.23-15.50.59:083][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.01.23-15.50.59:160][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.01.23-15.50.59:375][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0005 seconds. Added 1 classes and 3 folders.
+[2018.01.23-15.50.59:987][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.23-15.51.00:026][  0]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.23-15.51.00:028][  0]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.23-15.51.00:080][  0]LogSlate: Took 0.022440 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.23-15.51.00:453][  0]LogRenderer: Reallocating scene render targets to support 1204x576 NumSamples 1 (Frame:1).
+[2018.01.23-15.51.00:808][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.23-15.51.00:854][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.01.23-15.51.00:854][  0]LogLoad: (Engine Initialization) Total time: 19.71 seconds
+[2018.01.23-15.51.00:854][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.99 seconds
+[2018.01.23-15.51.00:854][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.01.23-15.51.00:854][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.01.23-15.51.00:863][  0]LogOcInput: OculusInput pre-init called
+[2018.01.23-15.51.00:863][  0]LogHMD: Starting GearVRController plugin
+[2018.01.23-15.51.00:923][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.23-15.51.01:005][  0]LogSlate: Took 0.019627 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.23-15.51.01:093][  1]LogAssetRegistry: Asset discovery search completed in 15.0304 seconds
+[2018.01.23-15.51.01:096][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.01.23-15.51.01:096][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000046 seconds (updated 0 objects)
+[2018.01.23-15.54.41:333][384]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2018.01.23-15.54.44:770][777]LogEditorViewport: Clicking Background
+[2018.01.23-15.54.45:700][888]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture4)
+[2018.01.23-15.54.46:454][973]Cmd: DUPLICATE
+[2018.01.23-15.54.46:454][973]Cmd: ACTOR DUPLICATE
+[2018.01.23-15.54.49:297][285]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture4)
+[2018.01.23-15.54.51:697][569]Cmd: DUPLICATE
+[2018.01.23-15.54.51:697][569]Cmd: ACTOR DUPLICATE
+[2018.01.23-15.54.53:253][741]Cmd: TRANSACTION UNDO
+[2018.01.23-15.54.53:253][741]LogEditorTransaction: Undo Marquee Select
+[2018.01.23-15.54.53:316][741]LogSlate: Took 0.000118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.23-15.54.59:117][405]Cmd: DUPLICATE
+[2018.01.23-15.54.59:117][405]Cmd: ACTOR DUPLICATE
+[2018.01.23-15.55.01:105][620]Cmd: TRANSACTION UNDO
+[2018.01.23-15.55.01:105][620]LogEditorTransaction: Undo Marquee Select
+[2018.01.23-15.55.03:467][839]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2018.01.23-15.55.08:311][411]Cmd: TRANSACTION UNDO
+[2018.01.23-15.55.08:311][411]LogEditorTransaction: Undo Marquee Select
+[2018.01.23-15.55.10:410][635]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2018.01.23-15.55.24:702][346]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture3)
+[2018.01.23-15.55.27:070][621]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2018.01.23-15.55.37:371][853]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture2)
+[2018.01.23-15.55.44:058][643]Cmd: DUPLICATE
+[2018.01.23-15.55.44:058][643]Cmd: ACTOR DUPLICATE
+[2018.01.23-15.55.46:867][961]Cmd: DUPLICATE
+[2018.01.23-15.55.46:867][961]Cmd: ACTOR DUPLICATE
+[2018.01.23-15.56.14:526][255]Cmd: DUPLICATE
+[2018.01.23-15.56.14:526][255]Cmd: ACTOR DUPLICATE
+[2018.01.23-15.56.14:583][255]LogProperty:Warning: Illegal TEXT reference to a private object in external package (DirectionalLight /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.LightSource_0) from referencer (BP_Sky_Sphere_C /Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.SkySphereBlueprint).  Import failed...
+[2018.01.23-15.56.14:583][255]LogProperty:Warning: ObjectProperty /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:Directional light actor: unresolved reference to 'DirectionalLight'LightSource_0''
+[2018.01.23-15.56.15:807][382]Cmd: TRANSACTION UNDO
+[2018.01.23-15.56.15:807][382]LogEditorTransaction: Undo Duplicate Actors
+[2018.01.23-15.56.16:831][477]Cmd: TRANSACTION UNDO
+[2018.01.23-15.56.16:831][477]LogEditorTransaction: Undo Marquee Select
+[2018.01.23-15.56.17:987][607]LogEditorViewport: Clicking Background
+[2018.01.23-15.56.18:299][644]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture9)
+[2018.01.23-15.56.21:994][ 81]Cmd: DUPLICATE
+[2018.01.23-15.56.21:994][ 81]Cmd: ACTOR DUPLICATE
+[2018.01.23-15.57.15:339][406]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture9)
+[2018.01.23-15.57.23:574][327]LogEditorViewport: Clicking Background
+[2018.01.23-15.57.30:994][217]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture10)
+[2018.01.23-15.57.37:714][ 14]Cmd: TRANSACTION UNDO
+[2018.01.23-15.57.37:714][ 14]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.23-15.57.41:116][400]Cmd: DUPLICATE
+[2018.01.23-15.57.41:116][400]Cmd: ACTOR DUPLICATE
+[2018.01.23-15.58.05:238][928]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture11)
+[2018.01.23-15.58.06:433][ 69]LogEditorViewport: Clicking Background
+[2018.01.23-15.58.07:107][149]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture12)
+[2018.01.23-15.58.12:043][682]LogEditorViewport: Clicking Background
+[2018.01.23-15.58.13:155][815]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture11)
+[2018.01.23-15.58.15:863][132]LogEditorViewport: Clicking Background
+[2018.01.23-15.58.16:416][198]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture12)
+[2018.01.23-15.58.18:008][385]LogEditorViewport: Clicking Background
+[2018.01.23-16.02.16:482][789]LogSlate: Took 0.009319 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.23-16.02.27:826][107]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.01.23-16.02.28:632][190]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.01.23-16.02.33:351][747]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.23-16.02.33:430][747]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: BlueLevel, Actor: /Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel_C_0
+[2018.01.23-16.02.35:117][747]LogSavePackage: Save=1692.29ms
+[2018.01.23-16.02.35:117][747]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueLevelAED7651048110AA465B174AE97DC5157.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap'
+[2018.01.23-16.02.35:122][747]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap
+[2018.01.23-16.02.35:125][747]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/BlueLevel_BuiltData" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel_BuiltData.uasset" SILENT=true
+[2018.01.23-16.02.35:641][747]LogSavePackage: Save=490.18ms
+[2018.01.23-16.02.35:641][747]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueLevel_BuiltData65A9869746BEA575A5EC1290B8CA7A19.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel_BuiltData.uasset'
+[2018.01.23-16.02.35:644][747]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel_BuiltData.uasset
+[2018.01.23-16.04.36:865][677]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture20)
+[2018.01.23-16.04.40:709][124]Cmd: DUPLICATE
+[2018.01.23-16.04.40:709][124]Cmd: ACTOR DUPLICATE
+[2018.01.23-16.04.46:460][704]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush)
+[2018.01.23-16.04.47:496][825]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2018.01.23-16.04.48:659][960]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture14)
+[2018.01.23-16.04.49:148][ 16]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture14)
+[2018.01.23-16.04.50:097][129]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight6)
+[2018.01.23-16.04.51:907][342]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture22)
+[2018.01.23-16.04.55:401][752]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture20)
+[2018.01.23-16.04.57:402][987]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture20)
+[2018.01.23-16.04.59:902][281]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture19)
+[2018.01.23-16.05.03:068][651]Cmd: TRANSACTION UNDO
+[2018.01.23-16.05.03:068][651]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.23-16.05.03:429][682]Cmd: TRANSACTION UNDO
+[2018.01.23-16.05.03:429][682]LogEditorTransaction: Undo Move Actors
+[2018.01.23-16.05.03:801][717]Cmd: TRANSACTION UNDO
+[2018.01.23-16.05.03:801][717]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.23-16.05.04:719][823]Cmd: TRANSACTION UNDO
+[2018.01.23-16.05.04:719][823]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.23-16.05.05:463][908]LogEditorViewport: Clicking Background
+[2018.01.23-16.05.06:170][991]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture20)
+[2018.01.23-16.05.13:305][773]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight10)
+[2018.01.23-16.05.15:357][ 15]LogEditorViewport: Clicking Background
+[2018.01.23-16.05.15:870][ 76]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture22)
+[2018.01.23-16.05.43:073][ 73]LogEditorViewport: Clicking Background
+[2018.01.23-16.05.44:119][198]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight12)
+[2018.01.23-16.05.44:831][279]LogEditorViewport: Clicking Background
+[2018.01.23-16.05.45:296][334]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture28)
+[2018.01.23-16.05.48:101][646]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture28)
+[2018.01.23-16.05.48:501][693]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture27)
+[2018.01.23-16.05.57:556][632]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture27)
+[2018.01.23-16.06.00:541][973]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight12)
+[2018.01.23-16.06.03:357][306]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture32)
+[2018.01.23-16.06.17:630][902]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture36)
+[2018.01.23-16.06.18:242][973]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight12)
+[2018.01.23-16.06.30:285][393]LogEditorViewport: Clicking Background
+[2018.01.23-16.06.31:225][505]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight13)
+[2018.01.23-16.06.33:979][831]LogEditorViewport: Clicking Background
+[2018.01.23-16.06.35:675][ 34]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight12)
+[2018.01.23-16.06.39:742][517]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight15)
+[2018.01.23-16.06.40:783][639]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight12)
+[2018.01.23-16.06.59:655][888]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight13)
+[2018.01.23-16.07.06:618][712]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight12)
+[2018.01.23-16.07.13:189][494]LogEditorViewport: Clicking Background
+[2018.01.23-16.07.14:337][631]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight13)
+[2018.01.23-16.07.16:501][887]LogEditorViewport: Clicking Background
+[2018.01.23-16.07.19:115][200]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight13)
+[2018.01.23-16.07.20:658][382]LogEditorViewport: Clicking Background
+[2018.01.23-16.07.21:004][423]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight14)
+[2018.01.23-16.07.24:340][818]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight15)
+[2018.01.23-16.07.32:584][786]LogEditorViewport: Clicking Background
+[2018.01.23-16.07.36:000][189]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: BlueLevel, Actor: /Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel_C_1
+[2018.01.23-16.07.38:646][189]LogSavePackage: Save=2652.11ms
+[2018.01.23-16.07.38:647][189]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueLevel28C3459843FE3F25E130B4BFC64E2F39.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap'
+[2018.01.23-16.07.38:649][189]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap
+[2018.01.23-16.07.38:651][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/BlueLevel_BuiltData" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel_BuiltData.uasset" SILENT=true
+[2018.01.23-16.07.38:990][189]LogSavePackage: Save=329.37ms
+[2018.01.23-16.07.38:990][189]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueLevel_BuiltData593716734899C14D88751E953E8B9AF1.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel_BuiltData.uasset'
+[2018.01.23-16.07.38:991][189]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel_BuiltData.uasset
+[2018.01.23-16.07.41:294][281]LogSavePackage: Save=322.24ms
+[2018.01.23-16.07.41:294][281]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonExampleMap2D88BB334320BC7F4484768ED51D6FF9.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.01.23-16.07.41:296][281]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.01.23-16.07.41:348][281]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.455
+[2018.01.23-16.08.21:143][708]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight14)
+[2018.01.23-16.08.23:167][933]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight15)
+[2018.01.23-16.08.28:834][601]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture26)
+[2018.01.23-16.08.40:263][832]LogEditorViewport: Clicking Background
+[2018.01.23-16.08.40:861][903]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture38)
+[2018.01.23-16.10.42:344][486]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture38)
+[2018.01.23-16.11.00:614][429]Cmd: TRANSACTION UNDO
+[2018.01.23-16.11.00:614][429]LogEditorTransaction: Undo Marquee Select
+[2018.01.23-16.11.09:297][332]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture49)
+[2018.01.23-16.11.12:542][705]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture50)
+[2018.01.23-16.11.16:832][203]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture49)
+[2018.01.23-16.13.47:292][822]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture54)
+[2018.01.23-16.13.47:865][888]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture50)
+[2018.01.23-16.14.01:850][459]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture56)
+[2018.01.23-16.15.10:702][738]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight21)
+[2018.01.23-16.15.27:533][743]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight21)
+[2018.01.23-16.15.33:949][492]LogEditorViewport: Clicking Background
+[2018.01.23-16.15.35:005][618]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight24)
+[2018.01.23-16.15.38:582][ 42]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight23)
+[2018.01.23-16.15.43:846][663]LogEditorViewport: Clicking Background
+[2018.01.23-16.15.52:291][ 51]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture48)
+[2018.01.23-16.16.03:760][300]LogEditorViewport: Clicking Background
+[2018.01.23-16.16.04:424][379]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture62)
+[2018.01.23-16.16.08:115][810]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture62)
+[2018.01.23-16.16.08:926][906]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight26)
+[2018.01.23-16.16.30:232][ 70]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: BlueLevel, Actor: /Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel_C_2
+[2018.01.23-16.16.35:034][ 70]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.23-16.16.35:099][ 70]LogSavePackage: Save=4872.83ms
+[2018.01.23-16.16.35:100][ 70]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueLevel1A3EA10C47C72CB67F406FB69822C9BB.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap'
+[2018.01.23-16.16.35:103][ 70]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap
+[2018.01.23-16.16.35:104][ 70]LogFileHelpers: Saving map 'BlueLevel' took 4.965
+[2018.01.23-16.16.54:708][628]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.01.23-16.16.54:756][629]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MechHackAndSlash
+[2018.01.23-16.16.54:756][629]LogTemp: CWD: D:\Program Files (x86)\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.01.23-16.16.54:756][629]LogTemp: Initial Dir: D:\Program Files (x86)\Epic Games\UE_4.16
+[2018.01.23-16.16.54:756][629]LogTemp: Env CWD: D:\Program Files (x86)\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.01.23-16.16.54:756][629]LogTemp: BranchPath = DAVIDMASTERRACE/D/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = DAVIDMASTERRACE/D/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries
+[2018.01.23-16.16.54:756][629]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\David\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.01.23-16.17.04:461][765]LogEditorViewport: Clicking Background
+[2018.01.23-16.17.06:152][967]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture69)
+[2018.01.23-16.17.22:751][826]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture76)
+[2018.01.23-16.17.50:984][637]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture70)
+[2018.01.23-16.17.52:419][806]Cmd: DELETE
+[2018.01.23-16.17.52:419][806]Cmd: ACTOR DELETE
+[2018.01.23-16.17.52:451][806]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2018.01.23-16.17.52:465][806]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2018.01.23-16.17.53:218][896]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight30)
+[2018.01.23-16.18.22:321][349]Cmd: DELETE
+[2018.01.23-16.18.22:321][349]Cmd: ACTOR DELETE
+[2018.01.23-16.18.22:323][349]LogEditorActor: Deleted Actor: PointLight
+[2018.01.23-16.18.22:332][349]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.01.23-16.18.25:338][709]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight34)
+[2018.01.23-16.18.27:077][908]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight34)
+[2018.01.23-16.18.30:503][314]LogEditorViewport: Clicking Background
+[2018.01.23-16.18.35:909][684]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2018.01.23-16.18.36:630][760]LogEditorViewport: Clicking Background
+[2018.01.23-16.18.38:095][935]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture86)
+[2018.01.23-16.18.40:693][239]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture86)
+[2018.01.23-16.18.46:202][802]LogEditorViewport: Clicking Background
+[2018.01.23-16.18.48:008][ 14]Cmd: DELETE
+[2018.01.23-16.18.48:008][ 14]Cmd: ACTOR DELETE
+[2018.01.23-16.18.48:009][ 14]LogEditorActor: Deleted Actor: RecastNavMesh
+[2018.01.23-16.18.48:011][ 14]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2018.01.23-16.18.48:011][ 14]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2018.01.23-16.18.48:011][ 14]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2018.01.23-16.18.48:026][ 14]LogEditorActor: Deleted 4 Actors (0.018 secs)
+[2018.01.23-16.18.56:830][561]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: BlueLevel, Actor: /Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel_C_0
+[2018.01.23-16.19.02:774][561]LogSavePackage: Save=5949.87ms
+[2018.01.23-16.19.02:774][561]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueLevel56BE038740281239E02A62A414831079.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap'
+[2018.01.23-16.19.02:779][561]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap
+[2018.01.23-16.19.02:780][561]LogFileHelpers: Saving map 'BlueLevel' took 6.026
+[2018.01.23-16.19.03:211][561]LogSavePackage: Save=326.56ms
+[2018.01.23-16.19.03:211][561]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonExampleMap334796F34C7FD0ADF6331991950D01CD.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.01.23-16.19.03:213][561]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.01.23-16.19.03:262][561]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.458
+[2018.01.23-16.19.42:667][501]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2018.01.23-16.19.46:392][938]MapCheck: New page: Map Check
+[2018.01.23-16.19.46:402][938]Cmd: MAP REBUILD ALLVISIBLE
+[2018.01.23-16.19.46:403][938]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.01.23-16.19.46:837][938]LightingResults: New page: Lighting Build - Jan 23, 2018, 6:19:46 PM
+[2018.01.23-16.19.46:982][938]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.01.23-16.19.47:074][938]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.01.23-16.19.47:088][938]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.01.23-16.19.48:123][938]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.01.23-16.19.48:123][938]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7220
+[2018.01.23-16.19.52:434][938]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.01.23-16.19.52:434][938]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.01.23-16.19.52:434][938]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.01.23-16.19.52:434][938]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.01.23-16.19.52:434][938]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.01.23-16.19.52:605][938]LogEditorBuildUtils: Build time 0:06
+[2018.01.23-16.20.33:484][248]Job is a success!
+[2018.01.23-16.20.33:776][275]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Plugins/. Error: El sistema no puede encontrar el archivo especificado. (0x00000002)
+[2018.01.23-16.20.35:043][403]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2018.01.23-16.20.37:343][602]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.01.23-16.20.37:368][603]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MechHackAndSlash
+[2018.01.23-16.20.37:368][603]LogTemp: CWD: D:\Program Files (x86)\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.01.23-16.20.37:368][603]LogTemp: Initial Dir: D:\Program Files (x86)\Epic Games\UE_4.16
+[2018.01.23-16.20.37:368][603]LogTemp: Env CWD: D:\Program Files (x86)\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.01.23-16.20.37:368][603]LogTemp: BranchPath = DAVIDMASTERRACE/D/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = DAVIDMASTERRACE/D/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries
+[2018.01.23-16.20.37:379][604]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\David\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT, 1024X512)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT, 1024X512)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 1024X1024)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1, 1024X1024)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT, 1024X512)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 1024X1024)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1, 1024X1024)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT, 1024X512)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 1024X1024)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 1024X1024)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT, 1024X512)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 1024X1024)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 1024X1024)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT, 1024X512)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 1024X1024)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 1024X1024)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: SkyOcclusion1_9 (AutoDXT, 512X256)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 512X512)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1, 512X512)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: SkyOcclusion0_10 (AutoDXT, 2048X1024)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 2048X2048)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 2048X2048)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: SkyOcclusion0_11 (AutoDXT, 512X256)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 512X512)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1, 512X512)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: SkyOcclusion0_12 (AutoDXT, 256X128)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 256X256)
+[2018.01.23-16.20.49:763][369]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1, 256X256)
+[2018.01.23-16.20.49:985][369]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024)
+[2018.01.23-16.20.49:985][369]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024)
+[2018.01.23-16.20.50:188][369]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X1024)
+[2018.01.23-16.20.50:188][369]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X256)
+[2018.01.23-16.20.50:188][369]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 512X256)
+[2018.01.23-16.20.50:188][369]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 128X128)
+[2018.01.23-16.20.50:188][369]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 64X64)
+[2018.01.23-16.20.50:188][369]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X1024)
+[2018.01.23-16.20.50:252][369]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 1024X1024)
+[2018.01.23-16.20.50:291][369]Lightmass on DAVIDMASTERRACE: 56.8 sec total, 4.71 sec importing, 35 ms setup, 3.48 sec photons, 48.5 sec processing, 0 ms extra exporting [267/267 mappings]. Threads: 3:14 min total, 1:34 min processing.
+[2018.01.23-16.20.50:357][369]LogStaticLightingSystem: Illumination: 53.0 sec (5.03 sec encoding lightmaps, 488 ms encoding shadowmaps)
+[2018.01.23-16.20.50:357][369]LogStaticLightingSystem: Lightmap texture memory:  33.5 MB (9.5 MB streaming, 24.0 MB non-streaming), 24 textures
+[2018.01.23-16.20.50:357][369]LogStaticLightingSystem: Shadowmap texture memory: 19.2 MB (3.2 MB streaming, 16.0 MB non-streaming), 9 textures
+[2018.01.23-16.20.50:488][369]DumpUnbuiltLightIteractions
+[2018.01.23-16.20.50:488][369]Lights with unbuilt interactions: 0
+[2018.01.23-16.20.50:488][369]
+[2018.01.23-16.20.50:488][369]Primitives with unbuilt interactions: 0
+[2018.01.23-16.20.50:505][370]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.01.23-16.20.50:505][370]MapCheck: New page: ThirdPersonExampleMap - Jan 23, 2018, 6:20:50 PM
+[2018.01.23-16.20.50:506][370]MapCheck:Warning: Warning Floor_1 Floor_1 is in the same location as Floor2 
+[2018.01.23-16.20.50:506][370]MapCheck:Warning: Warning Wall7_4 Wall7_4 is in the same location as Wall8 
+[2018.01.23-16.20.50:506][370]MapCheck:Warning: Warning Wall9 Wall9 is in the same location as Wall12 
+[2018.01.23-16.20.50:506][370]MapCheck:Warning: Warning Floor2 Floor2 is in the same location as Floor_1 
+[2018.01.23-16.20.50:506][370]MapCheck:Warning: Warning Wall8 Wall8 is in the same location as Wall7_4 
+[2018.01.23-16.20.50:506][370]MapCheck:Warning: Warning Wall12 Wall12 is in the same location as Wall9 
+[2018.01.23-16.20.50:576][370]MapCheck: Info Map check complete: 0 Error(s), 6 Warning(s), took 71.152ms to complete.
+[2018.01.23-16.21.28:773][308]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2018.01.23-16.21.41:608][352]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.23-16.21.43:398][352]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.23-16.21.43:398][352]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.01.23-16.21.43:398][352]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.01.23-16.21.43:398][352]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.23-16.21.43:412][352]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 23, 2018, 6:21:43 PM)
+[2018.01.23-16.21.43:413][352]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.01.23-16.21.43:443][352]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030380s)
+[2018.01.23-16.21.43:444][352]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.01.23-16.21.43:444][352]LogPlayLevel: PIE: World Init took: (0.000727s)
+[2018.01.23-16.21.43:444][352]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.031391s)
+[2018.01.23-16.21.43:474][352]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.23-16.21.43:480][352]LogInit: FAudioDevice initialized.
+[2018.01.23-16.21.43:530][352]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.23-16.21.43:547][352]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.01.23-17.21.43
+[2018.01.23-16.21.43:576][352]LogWorld: Bringing up level for play took: 0.031983
+[2018.01.23-16.21.43:653][352]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2018.01.23-16.21.43:667][352]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.01.23-16.21.43:667][352]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.482
+[2018.01.23-16.21.43:667][352]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.23-16.21.43:667][352]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.01.23-16.21.43:667][352]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.01.23-16.21.43:755][352]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2018.01.23-16.21.45:072][502]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 1 1 0
+[2018.01.23-16.21.50:551][504]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2018.01.23-16.22.41:823][629]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.23-16.22.41:823][629]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.01.23-16.22.41:823][629]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.01.23-16.22.41:865][629]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.23-16.22.41:865][629]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.01.23-16.22.41:865][629]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.01.23-16.22.47:857][222]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: BlueLevel, Actor: /Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel_C_1
+[2018.01.23-16.22.53:824][222]LogSavePackage: Save=5972.21ms
+[2018.01.23-16.22.53:824][222]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueLevelCE6CC82648CA1370C80425A81DE22264.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap'
+[2018.01.23-16.22.53:829][222]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap
+[2018.01.23-16.22.53:831][222]LogFileHelpers: Saving map 'BlueLevel' took 6.078
+[2018.01.23-16.22.53:852][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/BlueLevel_BuiltData" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel_BuiltData.uasset" SILENT=true
+[2018.01.23-16.22.54:388][222]LogSavePackage: Save=525.90ms
+[2018.01.23-16.22.54:388][222]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueLevel_BuiltData503A2DBB4FF3EE893D2180B1594B23CC.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel_BuiltData.uasset'
+[2018.01.23-16.22.54:391][222]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel_BuiltData.uasset
+[2018.01.23-16.22.54:468][222]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: RedLevel, Actor: /Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel_C_0
+[2018.01.23-16.22.54:674][222]LogSavePackage: Save=210.10ms
+[2018.01.23-16.22.54:674][222]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/RedLevelB7D4ABB54AD277530B7BE2B42478806D.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/RedLevel.umap'
+[2018.01.23-16.22.54:676][222]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/RedLevel.umap
+[2018.01.23-16.22.54:676][222]LogFileHelpers: Saving map 'RedLevel' took 0.284
+[2018.01.23-16.22.54:678][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/RedLevel_BuiltData" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/RedLevel_BuiltData.uasset" SILENT=true
+[2018.01.23-16.22.54:859][222]LogSavePackage: Save=161.53ms
+[2018.01.23-16.22.54:859][222]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/RedLevel_BuiltData6F8B477E48B2BA1F3A4C9AA3CCD84EDB.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/RedLevel_BuiltData.uasset'
+[2018.01.23-16.22.54:861][222]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/RedLevel_BuiltData.uasset
+[2018.01.23-16.22.55:285][222]LogSavePackage: Save=356.84ms
+[2018.01.23-16.22.55:285][222]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonExampleMap0342D8D94C0343A2987A3EB4BB570A60.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.01.23-16.22.55:288][222]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.01.23-16.22.55:337][222]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.473
+[2018.01.23-16.22.55:466][222]LogSavePackage: Save=112.13ms
+[2018.01.23-16.22.55:466][222]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonExampleMap_BuiltData568BA1A14BE1B3DB1682FEBD263664EA.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.01.23-16.22.55:468][222]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.01.23-16.22.57:048][385]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.23-16.22.57:269][386]Cmd: QUIT_EDITOR
+[2018.01.23-16.22.58:045][386]LogExit: Preparing to exit.
+[2018.01.23-16.22.58:773][386]LogExit: Editor shut down
+[2018.01.23-16.22.58:777][386]LogExit: Transaction tracking system shut down
+[2018.01.23-16.22.58:880][386]LogObj: Freed 0b from 0 cluster array pools.
+[2018.01.23-16.22.58:880][386]LogExit: Object subsystem successfully closed.
+[2018.01.23-16.22.58:900][386]LogD3D11RHI: Shutdown
+[2018.01.23-16.22.58:900][386]LogD3D11RHI: CleanupD3DDevice
+[2018.01.23-16.22.59:005][386]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.01.23-16.22.59:012][386]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (530)
+[2018.01.23-16.22.59:012][386]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (528)
+[2018.01.23-16.22.59:012][386]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
+[2018.01.23-16.22.59:012][386]LogModuleManager: Shutting down and abandoning module CrashTracker (524)
+[2018.01.23-16.22.59:012][386]LogModuleManager: Shutting down and abandoning module WorldBrowser (522)
+[2018.01.23-16.22.59:012][386]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.01.23-16.22.59:012][386]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.01.23-16.22.59:024][386]LogDirectoryWatcher: A directory notification for 'D:/Program Files (x86)/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.01.23-16.22.59:025][386]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Collections/' was aborted.
+[2018.01.23-16.22.59:025][386]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Developers/David/Collections/' was aborted.
+[2018.01.23-16.22.59:025][386]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Collections/' was aborted.
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.01.23-16.22.59:025][386]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.01.23-16.22.59:026][386]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.01.23-16.22.59:026][386]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.01.23-16.22.59:026][386]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.01.23-16.22.59:026][386]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.01.23-16.22.59:026][386]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.01.23-16.22.59:026][386]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.01.23-16.22.59:316][386]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.01.23-16.22.59:316][386]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.01.23-16.22.59:316][386]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.01.23-16.22.59:316][386]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.01.23-16.22.59:316][386]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.01.23-16.22.59:316][386]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.01.23-16.22.59:316][386]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.01.23-16.22.59:316][386]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.01.23-16.22.59:316][386]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.01.23-16.22.59:316][386]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.01.23-16.22.59:316][386]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.01.23-16.22.59:316][386]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.01.23-16.22.59:316][386]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.01.23-16.22.59:316][386]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.01.23-16.22.59:316][386]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.01.23-16.22.59:316][386]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.01.23-16.22.59:316][386]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.01.23-16.22.59:317][386]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.01.23-16.22.59:317][386]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.01.23-16.22.59:317][386]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.01.23-16.22.59:317][386]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.01.23-16.22.59:317][386]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.01.23-16.22.59:317][386]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.01.23-16.22.59:317][386]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.01.23-16.22.59:361][386]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.01.23-16.22.59:361][386]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.01.23-16.22.59:361][386]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.01.23-16.22.59:361][386]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.01.23-16.22.59:361][386]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.01.23-16.22.59:361][386]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.01.23-16.22.59:361][386]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.01.23-16.22.59:361][386]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.01.23-16.22.59:361][386]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.01.23-16.22.59:362][386]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.01.23-16.22.59:373][386]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.01.23-16.22.59:373][386]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.01.23-16.22.59:373][386]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.01.23-16.22.59:373][386]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.01.23-16.22.59:373][386]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.01.23-16.22.59:373][386]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.01.23-16.22.59:373][386]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.01.23-16.22.59:373][386]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.01.23-16.22.59:373][386]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.01.23-16.22.59:373][386]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.01.23-16.22.59:373][386]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.01.23-16.22.59:373][386]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.01.23-16.22.59:373][386]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.01.23-16.22.59:374][386]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.01.23-16.22.59:374][386]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.01.23-16.22.59:374][386]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.01.23-16.22.59:374][386]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.01.23-16.22.59:374][386]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.01.23-16.22.59:374][386]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.01.23-16.22.59:374][386]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.01.23-16.22.59:475][386]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.01.23-16.22.59:478][386]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.01.23-16.22.59:478][386]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.01.23-16.22.59:478][386]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.01.23-16.22.59:479][386]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.01.23-16.22.59:479][386]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.01.23-16.22.59:479][386]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.01.23-16.22.59:479][386]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.01.23-16.22.59:479][386]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.01.23-16.22.59:479][386]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.01.23-16.22.59:580][386]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.01.23-16.22.59:680][386]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.01.23-16.22.59:680][386]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.01.23-16.22.59:680][386]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.01.23-16.22.59:680][386]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.01.23-16.22.59:680][386]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.01.23-16.22.59:680][386]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.01.23-16.22.59:681][386]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.01.23-16.22.59:681][386]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.01.23-16.22.59:681][386]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.01.23-16.22.59:681][386]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.01.23-16.22.59:681][386]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.01.23-16.22.59:681][386]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.01.23-16.22.59:681][386]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.01.23-16.22.59:681][386]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.01.23-16.22.59:681][386]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.01.23-16.22.59:681][386]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.01.23-16.22.59:681][386]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.01.23-16.22.59:681][386]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.01.23-16.22.59:681][386]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.01.23-16.22.59:681][386]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.01.23-16.22.59:681][386]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.01.23-16.22.59:681][386]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.01.23-16.22.59:681][386]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.01.23-16.22.59:681][386]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.01.23-16.22.59:681][386]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.01.23-16.22.59:681][386]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.01.23-16.22.59:681][386]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.01.23-16.22.59:681][386]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.01.23-16.22.59:681][386]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.01.23-16.22.59:683][386]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.01.23-16.22.59:683][386]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.01.23-16.22.59:683][386]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.01.23-16.22.59:683][386]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.01.23-16.22.59:683][386]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.01.23-16.22.59:683][386]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.01.23-16.22.59:769][386]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.01.23-16.22.59:769][386]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/' was aborted.
+[2018.01.23-16.22.59:769][386]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.01.23-16.22.59:769][386]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.01.23-16.22.59:772][386]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.01.23-16.22.59:772][386]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.01.23-16.22.59:772][386]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.01.23-16.22.59:772][386]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.01.23-16.22.59:772][386]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.01.23-16.22.59:772][386]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.01.23-16.22.59:772][386]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.01.23-16.22.59:772][386]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.01.23-16.22.59:772][386]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.01.23-16.22.59:785][386]LogDerivedDataCache: Shutdown
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.01.23-16.22.59:785][386]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.01.23-16.22.59:785][386]LogOnline:Display: Unloading online subsystem: NULL
+[2018.01.23-16.22.59:786][386]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.01.23-16.22.59:786][386]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.01.23-16.22.59:786][386]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.01.23-16.22.59:786][386]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5D3FA08A-4781-AE3B-1C9F-B1926FF40812%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=eedd91be406e0cd25ea0748277e6e73c%7C7a211806f70b4509a5be2640357744fc%7Caa6de738-987c-4c76-bb80-6cc1d099ea00&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.01.23-16.22.59:794][386]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.01.23-16.22.59:795][386]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.01.23-16.22.59:795][386]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.01.23-16.22.59:795][386]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.01.23-16.22.59:795][386]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.01.23-16.22.59:796][386]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.01.23-16.22.59:796][386]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.01.23-16.22.59:796][386]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.01.23-16.22.59:796][386]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.01.23-16.22.59:796][386]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.01.23-16.22.59:796][386]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.01.23-16.22.59:796][386]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.01.23-16.22.59:796][386]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.01.23-16.22.59:796][386]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.01.23-16.22.59:796][386]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.01.23-16.22.59:796][386]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.01.23-16.22.59:796][386]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.01.23-16.22.59:796][386]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.01.23-16.22.59:796][386]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.01.23-16.22.59:797][386]LogExit: Exiting.
+[2018.01.23-16.22.59:821][386]Log file closed, 01/23/18 17:22:59
