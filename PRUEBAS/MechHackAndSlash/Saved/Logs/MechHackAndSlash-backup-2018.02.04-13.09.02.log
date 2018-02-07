@@ -1,0 +1,1024 @@
+﻿Log file open, 02/04/18 11:23:20
+LogInit:Display: Running engine for game: MechHackAndSlash
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-155268294) SRandInit(-155268294).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.083480
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: D:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.04-10.23.21:337][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.04-10.23.21:337][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.04-10.23.21:352][  0]LogInit: Computer: DAVIDMASTERRACE
+[2018.02.04-10.23.21:352][  0]LogInit: User: David
+[2018.02.04-10.23.21:352][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.04-10.23.21:352][  0]LogInit: High frequency timer resolution =3.417972 MHz
+[2018.02.04-10.23.21:352][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.02.04-10.23.21:352][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.04-10.23.21:352][  0]LogMemory: Process Physical Memory: 271.99 MB used, 271.99 MB peak
+[2018.02.04-10.23.21:352][  0]LogMemory: Process Virtual Memory: 274.61 MB used, 274.61 MB peak
+[2018.02.04-10.23.21:352][  0]LogMemory: Physical Memory: 5558.76 MB used,  10767.68 MB free, 16326.44 MB total
+[2018.02.04-10.23.21:352][  0]LogMemory: Virtual Memory: 631.00 MB used,  10767.68 MB free, 134217728.00 MB total
+[2018.02.04-10.23.21:394][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.02.04-10.23.21:394][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.02.04-10.23.22:124][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.04-10.23.22:149][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.02.04-10.23.22:149][  0]LogD3D11RHI:       3975/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.02.04-10.23.22:150][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.04-10.23.22:150][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.04-10.23.22:150][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.04-10.23.22:153][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.04-10.23.22:153][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.04-10.23.22:153][  0]LogWindows: EnumDisplayDevices:
+[2018.02.04-10.23.22:153][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.02.04-10.23.22:153][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.02.04-10.23.22:153][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.02.04-10.23.22:153][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.02.04-10.23.22:153][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.02.04-10.23.22:153][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.02.04-10.23.22:153][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2018.02.04-10.23.22:153][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2018.02.04-10.23.22:153][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.02.04-10.23.22:163][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.04-10.23.22:179][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.02.04-10.23.22:223][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Intermediate/Shaders/WorkingDirectory/3872/).
+[2018.02.04-10.23.22:223][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/David/AppData/Local/Temp/UnrealShaderWorkingDir/8CA9832A42A07CF56D66E4B93BDA08E2/'.
+[2018.02.04-10.23.22:223][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.02.04-10.23.23:052][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.04-10.23.23:083][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.02.04-10.23.23:113][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.04-10.23.23:143][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.02.04-10.23.23:174][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.02.04-10.23.23:204][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.04-10.23.23:235][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.04-10.23.23:267][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.04-10.23.23:292][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.02.04-10.23.23:339][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.02.04-10.23.23:369][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.04-10.23.23:399][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.04-10.23.23:456][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.04-10.23.23:486][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.04-10.23.23:516][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.04-10.23.23:575][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.04-10.23.23:575][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.04-10.23.23:596][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.02.04-10.23.23:659][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.02.04-10.23.23:678][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.02.04-10.23.23:707][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.04-10.23.23:736][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.04-10.23.23:765][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.04-10.23.23:795][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.02.04-10.23.23:795][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.02.04-10.23.24:075][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.02.04-10.23.24:157][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.04-10.23.24:157][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.02.04-10.23.24:157][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.04-10.23.24:157][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.04-10.23.24:157][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.04-10.23.24:157][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.04-10.23.24:173][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.04-10.23.24:184][  0]LogDerivedDataCache: Using Local data cache path C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.04-10.23.24:192][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.04-10.23.24:192][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.04-10.23.24:193][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.04-10.23.24:193][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.04-10.23.24:458][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.04-10.23.24:519][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.02.04-10.23.24:629][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.04-10.23.24:653][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.04-10.23.24:679][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.04-10.23.24:679][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.02.04-10.23.24:679][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.02.04-10.23.25:123][  0]LogNetVersion: MechHackAndSlash , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 86869316)
+[2018.02.04-10.23.25:172][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
+[2018.02.04-10.23.25:204][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.018787 seconds
+[2018.02.04-10.23.25:208][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.02.04-10.23.25:208][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.02.04-10.23.25:208][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.04-10.23.25:243][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.04-10.23.26:795][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.04-10.23.26:822][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.04-10.23.27:156][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.04-10.23.27:390][  0]SourceControl: Info Source control is disabled
+[2018.02.04-10.23.27:416][  0]SourceControl: Info Source control is disabled
+[2018.02.04-10.23.27:443][  0]SourceControl: Info Source control is disabled
+[2018.02.04-10.23.27:468][  0]SourceControl: Info Source control is disabled
+[2018.02.04-10.23.27:847][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.04-10.23.28:181][  0]LogEngine: Initializing Engine...
+[2018.02.04-10.23.28:181][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.04-10.23.28:337][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.04-10.23.28:337][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.04-10.23.28:405][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.04-10.23.28:426][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.04-10.23.28:433][  0]LogInit: FAudioDevice initialized.
+[2018.02.04-10.23.28:468][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.04-10.23.28:479][  0]LogInit: Texture streaming: Enabled
+[2018.02.04-10.23.28:532][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.04-10.23.28:653][  0]LogInit: Transaction tracking system initialized
+[2018.02.04-10.23.28:820][  0]BlueprintLog: New page: Editor Load
+[2018.02.04-10.23.29:329][  0]LocalizationService: Info Localization service is disabled
+[2018.02.04-10.23.29:705][  0]LogConsoleResponse:Display: 
+[2018.02.04-10.23.29:830][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.04-10.23.29:830][  0]LogCook:Display: Mobile HDR setting 1
+[2018.02.04-10.23.30:054][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/' took 0.02s
+[2018.02.04-10.23.30:380][  0]SourceControl: Info Source control is disabled
+[2018.02.04-10.23.30:380][  0]Cmd: MAP LOAD FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.04-10.23.30:391][  0]LightingResults: New page: Lighting Build
+[2018.02.04-10.23.30:414][  0]MapCheck: New page: Map Check
+[2018.02.04-10.23.30:414][  0]LightingResults: New page: Lighting Build
+[2018.02.04-10.23.35:053][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.04-10.23.36:916][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.04-10.23.36:986][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.04-10.23.37:043][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.867ms to complete.
+[2018.02.04-10.23.37:043][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 6.662
+[2018.02.04-10.23.37:577][  0]LogCollectionManager: Loaded 0 collections in 0.001561 seconds
+[2018.02.04-10.23.37:743][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Collections/' took 0.01s
+[2018.02.04-10.23.37:743][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Developers/David/Collections/' took 0.01s
+[2018.02.04-10.23.37:743][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Collections/' took 0.01s
+[2018.02.04-10.23.37:743][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2018.02.04-10.23.37:767][  0]LogContentBrowser: Native class hierarchy populated in 0.0220 seconds. Added 2329 classes and 491 folders.
+[2018.02.04-10.23.37:896][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.02.04-10.23.38:826][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.02.04-10.23.38:936][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2018.02.04-10.23.39:089][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0012 seconds. Added 1 classes and 3 folders.
+[2018.02.04-10.23.39:729][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.02.04-10.23.39:767][  0]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.04-10.23.39:769][  0]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.04-10.23.39:817][  0]LogSlate: Took 0.016957 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.04-10.23.40:146][  0]LogRenderer: Reallocating scene render targets to support 1204x572 NumSamples 1 (Frame:1).
+[2018.02.04-10.23.40:568][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.02.04-10.23.40:619][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.02.04-10.23.40:619][  0]LogLoad: (Engine Initialization) Total time: 20.48 seconds
+[2018.02.04-10.23.40:619][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.99 seconds
+[2018.02.04-10.23.40:619][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.02.04-10.23.40:619][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.02.04-10.23.40:639][  0]LogOcInput: OculusInput pre-init called
+[2018.02.04-10.23.40:639][  0]LogHMD: Starting GearVRController plugin
+[2018.02.04-10.23.40:700][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.04-10.23.40:855][  0]LogSlate: Took 0.011035 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.04-10.23.41:002][  1]LogAssetRegistry: Asset discovery search completed in 15.8523 seconds
+[2018.02.04-10.23.41:005][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.02.04-10.23.41:005][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
+[2018.02.04-10.23.41:091][  1]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.04-10.23.41:707][  4]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.04-10.23.45:292][323]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2018.02.04-10.23.46:466][323]LogSlate: Took 0.012142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.04-10.23.48:013][324]LogSlate: Took 0.008794 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.04-10.29.16:083][886]LogRenderer: Reallocating scene render targets to support 1204x636 NumSamples 1 (Frame:1).
+[2018.02.04-10.30.58:109][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boss/BlueBoos" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoos.uasset" SILENT=true
+[2018.02.04-10.30.58:518][170]LogSavePackage: Save=369.49ms
+[2018.02.04-10.30.58:518][170]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueBoosC96AAAE4494AFED432D6AD8EF6252071.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoos.uasset'
+[2018.02.04-10.30.58:522][170]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoos.uasset
+[2018.02.04-10.30.58:885][201]BlueprintLog: New page: Compile BlueBoos
+[2018.02.04-10.31.34:782][424]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.04-10.31.34:866][424]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-10.31.34:866][424]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-10.31.34:866][424]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-10.31.34:866][424]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.04-10.31.34:906][424]PIE: New page: PIE session: ThirdPersonExampleMap (Feb 4, 2018, 12:31:34 PM)
+[2018.02.04-10.31.34:906][424]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.04-10.31.34:965][424]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058738s)
+[2018.02.04-10.31.34:966][424]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.04-10.31.34:966][424]LogPlayLevel: PIE: World Init took: (0.000790s)
+[2018.02.04-10.31.34:966][424]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.059781s)
+[2018.02.04-10.31.35:011][424]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.04-10.31.35:016][424]LogInit: FAudioDevice initialized.
+[2018.02.04-10.31.35:074][424]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.04-10.31.35:098][424]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.02.04-11.31.35
+[2018.02.04-10.31.35:131][424]LogWorld: Bringing up level for play took: 0.037075
+[2018.02.04-10.31.35:224][424]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2018.02.04-10.31.35:237][424]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.02.04-10.31.35:237][424]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.309
+[2018.02.04-10.31.35:238][424]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-10.31.35:238][424]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-10.31.35:238][424]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-10.31.35:251][424]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2018.02.04-10.31.36:534][571]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 1 1 0
+[2018.02.04-10.31.36:590][573]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.02.04-10.31.49:109][ 54]LogBlueprintUserMessages: [ThirdPersonCharacter_2] me lanzan
+[2018.02.04-10.31.53:588][581]LogBlueprintUserMessages: [ThirdPersonCharacter_2] me atraen
+[2018.02.04-10.31.57:968][106]LogBlueprintUserMessages: [ThirdPersonCharacter_2] me lanzan
+[2018.02.04-10.32.04:863][927]LogBlueprintUserMessages: [ThirdPersonCharacter_2] me atraen
+[2018.02.04-10.32.09:006][424]LogBlueprintUserMessages: [ThirdPersonCharacter_2] me lanzan
+[2018.02.04-10.32.12:463][838]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-10.32.12:464][838]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-10.32.12:464][838]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-10.32.12:539][838]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-10.32.12:539][838]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-10.32.12:539][838]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-10.34.27:568][601]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: BlueLevel, Actor: /Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel_C_1
+[2018.02.04-10.34.28:311][601]LogSavePackage: Save=760.57ms
+[2018.02.04-10.34.28:311][601]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueLevel_Auto159026C704F50C5FAB4A83A8A89E35A76.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Niveles/BlueLevel_Auto1.umap'
+[2018.02.04-10.34.28:318][601]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Niveles/BlueLevel_Auto1.umap
+[2018.02.04-10.34.28:318][601]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.835
+[2018.02.04-10.34.28:318][601]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.835
+[2018.02.04-10.34.28:321][601]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Warrior/Warrior_BP] ([1] browsable assets)...
+[2018.02.04-10.34.28:349][601]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Warrior/Warrior_BP.Warrior_BP]
+[2018.02.04-10.34.28:349][601]OBJ SavePackage: Finished generating thumbnails for package [/Game/Warrior/Warrior_BP]
+[2018.02.04-10.34.29:259][601]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.04-10.34.29:415][601]LogSavePackage: Save=1059.07ms
+[2018.02.04-10.34.29:415][601]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Warrior_BP_Auto1D9D5DA81431628F6133899AF4DB62451.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Warrior/Warrior_BP_Auto1.uasset'
+[2018.02.04-10.34.29:421][601]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Warrior/Warrior_BP_Auto1.uasset
+[2018.02.04-10.34.29:421][601]LogFileHelpers: Auto-saving content packages took 1.102
+[2018.02.04-10.36.34:649][895]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.04-10.36.34:679][895]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-10.36.34:679][895]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-10.36.34:679][895]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-10.36.34:679][895]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.02.04-10.36.34:679][895]LogPlayLevel: [PlayLevel] Compiling Warrior_BP before play...
+[2018.02.04-10.36.35:126][895]LogPlayLevel: [PlayLevel]   Compiling Warrior_ABP as a dependent...
+[2018.02.04-10.36.35:722][895]LogPlayLevel: PlayLevel: Blueprint regeneration took 1042 ms (2 blueprints)
+[2018.02.04-10.36.35:722][895]PIE: New page: PIE session: ThirdPersonExampleMap (Feb 4, 2018, 12:36:35 PM)
+[2018.02.04-10.36.35:722][895]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.04-10.36.35:744][895]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021994s)
+[2018.02.04-10.36.35:745][895]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.04-10.36.35:745][895]LogPlayLevel: PIE: World Init took: (0.000790s)
+[2018.02.04-10.36.35:745][895]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023051s)
+[2018.02.04-10.36.35:779][895]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.04-10.36.35:784][895]LogInit: FAudioDevice initialized.
+[2018.02.04-10.36.35:816][895]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.04-10.36.35:821][895]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.02.04-11.36.35
+[2018.02.04-10.36.35:822][895]LogWorld: Bringing up level for play took: 0.002518
+[2018.02.04-10.36.35:823][895]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.02.04-10.36.35:824][895]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.895
+[2018.02.04-10.36.35:824][895]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-10.36.35:824][895]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-10.36.35:824][895]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-10.36.35:825][895]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2018.02.04-10.36.36:750][990]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 1 1 0
+[2018.02.04-10.36.36:773][991]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.02.04-10.36.43:816][832]LogBlueprintUserMessages: [ThirdPersonCharacter_2] me atraen
+[2018.02.04-10.36.48:262][363]LogBlueprintUserMessages: [ThirdPersonCharacter_2] me lanzan
+[2018.02.04-10.36.51:853][792]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-10.36.51:853][792]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-10.36.51:853][792]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-10.36.51:890][792]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-10.36.51:890][792]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-10.36.51:890][792]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-10.37.14:363][446]LogEditorViewport: Clicking on Actor (LMB): BlueBoosDummyCaca_C (BlueBoosDummyCaca)
+[2018.02.04-10.39.08:935][944]LogEditorViewport: Clicking Background
+[2018.02.04-10.39.50:023][855]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.04-10.39.50:052][855]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-10.39.50:052][855]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-10.39.50:052][855]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-10.39.50:052][855]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.04-10.39.50:053][855]PIE: New page: PIE session: ThirdPersonExampleMap (Feb 4, 2018, 12:39:50 PM)
+[2018.02.04-10.39.50:053][855]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.04-10.39.50:076][855]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022444s)
+[2018.02.04-10.39.50:076][855]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.04-10.39.50:077][855]LogPlayLevel: PIE: World Init took: (0.000881s)
+[2018.02.04-10.39.50:077][855]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023621s)
+[2018.02.04-10.39.50:115][855]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.04-10.39.50:122][855]LogInit: FAudioDevice initialized.
+[2018.02.04-10.39.50:153][855]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.04-10.39.50:158][855]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.02.04-11.39.50
+[2018.02.04-10.39.50:159][855]LogWorld: Bringing up level for play took: 0.002501
+[2018.02.04-10.39.50:160][855]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.02.04-10.39.50:160][855]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.767
+[2018.02.04-10.39.50:161][855]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-10.39.50:161][855]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-10.39.50:161][855]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-10.39.50:162][855]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2018.02.04-10.39.51:521][ 14]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 1 1 0
+[2018.02.04-10.39.51:731][ 16]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2018.02.04-10.40.31:502][737]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-10.40.31:502][737]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-10.40.31:502][737]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-10.40.31:534][737]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-10.40.31:534][737]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-10.40.31:534][737]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-10.41.03:510][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Warrior/Warrior_BP" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset" SILENT=true
+[2018.02.04-10.41.04:579][797]LogSavePackage: Save=1060.59ms
+[2018.02.04-10.41.04:579][797]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Warrior_BP3AE9E4C1416E0E2143498483CB7E85C1.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset'
+[2018.02.04-10.41.04:583][797]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset
+[2018.02.04-10.43.37:342][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Warrior/Warrior_BP" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset" SILENT=true
+[2018.02.04-10.43.38:412][203]LogSavePackage: Save=1067.39ms
+[2018.02.04-10.43.38:412][203]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Warrior_BPDA332B0E4DEBC4FC30BE3ABF54493148.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset'
+[2018.02.04-10.43.38:414][203]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset
+[2018.02.04-10.43.40:565][344]BlueprintLog: New page: Compile Warrior_BP
+[2018.02.04-10.44.31:414][827]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.02.04-10.44.31:726][827]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.02.04-10.44.32:159][827]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_14:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.02.04-10.44.32:775][827]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2018.02.04-10.44.32:861][827]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.02.04-10.44.48:917][ 79]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2018.02.04-10.44.48:961][ 79]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_17:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2018.02.04-10.44.49:264][ 79]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.02.04-10.45.15:490][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Warrior/Warrior_BP" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset" SILENT=true
+[2018.02.04-10.45.16:556][160]LogSavePackage: Save=1063.62ms
+[2018.02.04-10.45.16:556][160]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Warrior_BP1E1AA9BE48088307636F198641892DDF.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset'
+[2018.02.04-10.45.16:559][160]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset
+[2018.02.04-10.45.37:368][473]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: BlueLevel, Actor: /Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel_C_0
+[2018.02.04-10.45.38:131][473]LogSavePackage: Save=779.68ms
+[2018.02.04-10.45.38:131][473]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueLevel_Auto230BF63E9461EFD0EB98264816A5C0131.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Niveles/BlueLevel_Auto2.umap'
+[2018.02.04-10.45.38:132][473]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Niveles/BlueLevel_Auto2.umap
+[2018.02.04-10.45.38:132][473]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.839
+[2018.02.04-10.45.38:132][473]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.839
+[2018.02.04-10.45.56:935][ 80]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MechHackAndSlash
+[2018.02.04-10.45.56:935][ 80]LogTemp: CWD: D:\Program Files (x86)\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.02.04-10.45.56:935][ 80]LogTemp: Initial Dir: D:\Program Files (x86)\Epic Games\UE_4.16
+[2018.02.04-10.45.56:935][ 80]LogTemp: Env CWD: D:\Program Files (x86)\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.02.04-10.45.56:935][ 80]LogTemp: BranchPath = DAVIDMASTERRACE/D/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = DAVIDMASTERRACE/D/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries
+[2018.02.04-10.45.56:935][ 80]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.02.04-10.45.57:020][ 81]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\David\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.02.04-10.46.58:935][ 52]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.02.04-10.46.58:960][ 53]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MechHackAndSlash
+[2018.02.04-10.46.58:960][ 53]LogTemp: CWD: D:\Program Files (x86)\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.02.04-10.46.58:960][ 53]LogTemp: Initial Dir: D:\Program Files (x86)\Epic Games\UE_4.16
+[2018.02.04-10.46.58:960][ 53]LogTemp: Env CWD: D:\Program Files (x86)\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.02.04-10.46.58:960][ 53]LogTemp: BranchPath = DAVIDMASTERRACE/D/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = DAVIDMASTERRACE/D/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries
+[2018.02.04-10.46.58:972][ 54]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\David\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.02.04-10.49.28:956][459]LogEditorTransaction: Undo Break Pin Links
+[2018.02.04-10.49.29:751][460]LogEditorTransaction: Undo Move Node
+[2018.02.04-10.50.50:390][313]BlueprintLog: New page: Compile Warrior_BP
+[2018.02.04-10.52.47:052][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Warrior/Warrior_BP" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset" SILENT=true
+[2018.02.04-10.52.48:131][344]LogSavePackage: Save=1071.26ms
+[2018.02.04-10.52.48:131][344]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Warrior_BP72C466BA4890BDA59F909B96ACD891E9.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset'
+[2018.02.04-10.52.48:133][344]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset
+[2018.02.04-10.52.49:220][457]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.04-10.52.49:256][457]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-10.52.49:256][457]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-10.52.49:256][457]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-10.52.49:256][457]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.04-10.52.49:256][457]PIE: New page: PIE session: ThirdPersonExampleMap (Feb 4, 2018, 12:52:49 PM)
+[2018.02.04-10.52.49:256][457]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.04-10.52.49:279][457]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022144s)
+[2018.02.04-10.52.49:279][457]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.04-10.52.49:279][457]LogPlayLevel: PIE: World Init took: (0.000885s)
+[2018.02.04-10.52.49:280][457]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023354s)
+[2018.02.04-10.52.49:320][457]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.04-10.52.49:325][457]LogInit: FAudioDevice initialized.
+[2018.02.04-10.52.49:358][457]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.04-10.52.49:364][457]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.02.04-11.52.49
+[2018.02.04-10.52.49:364][457]LogWorld: Bringing up level for play took: 0.002692
+[2018.02.04-10.52.49:366][457]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.02.04-10.52.49:366][457]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.437
+[2018.02.04-10.52.49:366][457]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-10.52.49:366][457]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-10.52.49:366][457]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-10.52.49:367][457]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2018.02.04-10.52.50:268][562]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 1 1 0
+[2018.02.04-10.52.50:290][563]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.02.04-10.53.05:486][384]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-10.53.05:486][384]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-10.53.05:486][384]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-10.53.05:521][384]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-10.53.05:521][384]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-10.53.05:521][384]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-10.59.11:540][125]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: BlueLevel, Actor: /Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel_C_1
+[2018.02.04-10.59.12:280][125]LogSavePackage: Save=757.48ms
+[2018.02.04-10.59.12:280][125]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueLevelBF76F86145174E88B4E80A9C9B2F644B.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap'
+[2018.02.04-10.59.12:285][125]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap
+[2018.02.04-10.59.12:285][125]LogFileHelpers: Saving map 'BlueLevel' took 0.881
+[2018.02.04-10.59.12:287][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Warrior/Warrior_BP" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset" SILENT=true
+[2018.02.04-10.59.13:363][125]LogSavePackage: Save=1068.59ms
+[2018.02.04-10.59.13:363][125]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Warrior_BP96959E8A4C754B3F5A3D3B98E9D8BCC0.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset'
+[2018.02.04-10.59.13:365][125]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset
+[2018.02.04-11.07.20:425][659]LogEditorViewport: Clicking on Actor (LMB): BlueBoosDummy_C (BlueBoosDummy12)
+[2018.02.04-11.07.24:320][ 97]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2018.02.04-11.07.24:361][ 97]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_20:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2018.02.04-11.07.24:610][ 98]LogRenderer: Reallocating scene render targets to support 1204x812 NumSamples 1 (Frame:1).
+[2018.02.04-11.09.43:384][314]LogEditorTransaction: Undo Move Node
+[2018.02.04-11.09.43:663][315]LogEditorTransaction: Undo Move Nodes
+[2018.02.04-11.09.43:943][316]LogEditorTransaction: Undo Resize Node
+[2018.02.04-11.09.50:131][687]BlueprintLog: New page: Compile BlueBoos
+[2018.02.04-11.09.52:226][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boss/BlueBoos" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoos.uasset" SILENT=true
+[2018.02.04-11.09.52:556][808]LogSavePackage: Save=323.07ms
+[2018.02.04-11.09.52:556][808]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueBoosF6C6D9924C7E8F470B3284BFF1A8B61A.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoos.uasset'
+[2018.02.04-11.09.52:558][808]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Boss/BlueBoos.uasset
+[2018.02.04-11.17.37:257][857]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: BlueLevel, Actor: /Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel_C_0
+[2018.02.04-11.17.38:002][857]LogSavePackage: Save=763.13ms
+[2018.02.04-11.17.38:002][857]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueLevel9E2551CC46201EB2657DEEA6A15AB23D.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap'
+[2018.02.04-11.17.38:008][857]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap
+[2018.02.04-11.17.38:008][857]LogFileHelpers: Saving map 'BlueLevel' took 0.880
+[2018.02.04-11.17.38:011][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Warrior/Warrior_BP" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset" SILENT=true
+[2018.02.04-11.17.39:094][857]LogSavePackage: Save=1076.92ms
+[2018.02.04-11.17.39:094][857]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Warrior_BP882F1BAD4C2665CE4A4B02BE198DB044.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset'
+[2018.02.04-11.17.39:096][857]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset
+[2018.02.04-11.23.37:638][561]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.04-11.23.37:667][561]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.23.37:667][561]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.23.37:667][561]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.23.37:667][561]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.02.04-11.23.37:667][561]LogPlayLevel: [PlayLevel] Compiling Warrior_BP before play...
+[2018.02.04-11.23.38:090][561]LogPlayLevel: [PlayLevel]   Compiling Warrior_ABP as a dependent...
+[2018.02.04-11.23.38:775][561]LogPlayLevel: PlayLevel: Blueprint regeneration took 1107 ms (2 blueprints)
+[2018.02.04-11.23.38:775][561]PIE: New page: PIE session: ThirdPersonExampleMap (Feb 4, 2018, 1:23:38 PM)
+[2018.02.04-11.23.38:775][561]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.04-11.23.38:798][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022045s)
+[2018.02.04-11.23.38:799][561]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.04-11.23.38:799][561]LogPlayLevel: PIE: World Init took: (0.000828s)
+[2018.02.04-11.23.38:799][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023151s)
+[2018.02.04-11.23.38:834][561]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.04-11.23.38:840][561]LogInit: FAudioDevice initialized.
+[2018.02.04-11.23.38:871][561]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.04-11.23.38:877][561]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.02.04-12.23.38
+[2018.02.04-11.23.38:877][561]LogWorld: Bringing up level for play took: 0.002744
+[2018.02.04-11.23.38:879][561]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.02.04-11.23.38:879][561]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.951
+[2018.02.04-11.23.38:879][561]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.23.38:879][561]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.23.38:879][561]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.23.38:880][561]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2018.02.04-11.23.40:178][682]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 1 1 0
+[2018.02.04-11.23.40:201][683]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.02.04-11.23.55:788][545]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.23.55:788][545]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.23.55:788][545]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.23.55:850][545]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.23.55:850][545]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.23.55:850][545]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.25.27:506][ 40]LogEditorTransaction: Undo Delete current selection
+[2018.02.04-11.35.14:465][296]LogEditorTransaction: Undo Move Node
+[2018.02.04-11.35.16:085][345]LogEditorTransaction: Undo Delete current selection
+[2018.02.04-11.39.24:366][259]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.04-11.39.24:397][259]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.39.24:397][259]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.39.24:397][259]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.39.24:397][259]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.02.04-11.39.24:397][259]LogPlayLevel: [PlayLevel] Compiling Warrior_BP before play...
+[2018.02.04-11.39.24:783][259]LogPlayLevel: [PlayLevel]   Compiling Warrior_ABP as a dependent...
+[2018.02.04-11.39.25:556][259]LogPlayLevel: PlayLevel: Blueprint regeneration took 1158 ms (2 blueprints)
+[2018.02.04-11.39.25:556][259]PIE: New page: PIE session: ThirdPersonExampleMap (Feb 4, 2018, 1:39:25 PM)
+[2018.02.04-11.39.25:556][259]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.04-11.39.25:579][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022696s)
+[2018.02.04-11.39.25:580][259]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.04-11.39.25:580][259]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2018.02.04-11.39.25:580][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023826s)
+[2018.02.04-11.39.25:615][259]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.04-11.39.25:621][259]LogInit: FAudioDevice initialized.
+[2018.02.04-11.39.25:652][259]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.04-11.39.25:658][259]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.02.04-12.39.25
+[2018.02.04-11.39.25:658][259]LogWorld: Bringing up level for play took: 0.002971
+[2018.02.04-11.39.25:660][259]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.02.04-11.39.25:660][259]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.732
+[2018.02.04-11.39.25:660][259]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.39.25:661][259]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.39.25:661][259]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.39.25:662][259]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2018.02.04-11.39.26:895][380]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 1 1 0
+[2018.02.04-11.39.26:920][381]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.02.04-11.39.50:602][210]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.39.50:602][210]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.39.50:602][210]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.39.50:668][210]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.39.50:668][210]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.39.50:668][210]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.40.11:966][501]BlueprintLog: New page: Compile Warrior_BP
+[2018.02.04-11.40.18:801][696]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.04-11.40.18:829][696]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.40.18:829][696]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.40.18:829][696]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.40.18:830][696]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.04-11.40.18:830][696]PIE: New page: PIE session: ThirdPersonExampleMap (Feb 4, 2018, 1:40:18 PM)
+[2018.02.04-11.40.18:830][696]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.04-11.40.18:852][696]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021477s)
+[2018.02.04-11.40.18:852][696]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.04-11.40.18:852][696]LogPlayLevel: PIE: World Init took: (0.000753s)
+[2018.02.04-11.40.18:853][696]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022528s)
+[2018.02.04-11.40.18:890][696]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.04-11.40.18:895][696]LogInit: FAudioDevice initialized.
+[2018.02.04-11.40.18:929][696]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.04-11.40.18:935][696]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.02.04-12.40.18
+[2018.02.04-11.40.18:935][696]LogWorld: Bringing up level for play took: 0.002861
+[2018.02.04-11.40.18:937][696]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.02.04-11.40.18:937][696]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.009
+[2018.02.04-11.40.18:937][696]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.40.18:937][696]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.40.18:937][696]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.40.18:939][696]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2018.02.04-11.40.19:743][789]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 1 1 0
+[2018.02.04-11.40.19:766][790]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.02.04-11.40.43:965][686]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.40.43:965][686]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.40.43:965][686]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.40.44:028][686]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.40.44:028][686]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.40.44:028][686]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.43.01:236][281]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.04-11.43.01:266][281]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.43.01:266][281]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.43.01:266][281]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.43.01:266][281]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.02.04-11.43.01:266][281]LogPlayLevel: [PlayLevel] Compiling Warrior_BP before play...
+[2018.02.04-11.43.01:657][281]LogPlayLevel: [PlayLevel]   Compiling Warrior_ABP as a dependent...
+[2018.02.04-11.43.02:326][281]LogPlayLevel: PlayLevel: Blueprint regeneration took 1060 ms (2 blueprints)
+[2018.02.04-11.43.02:327][281]PIE: New page: PIE session: ThirdPersonExampleMap (Feb 4, 2018, 1:43:02 PM)
+[2018.02.04-11.43.02:327][281]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.04-11.43.02:347][281]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020314s)
+[2018.02.04-11.43.02:348][281]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.04-11.43.02:348][281]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2018.02.04-11.43.02:348][281]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021407s)
+[2018.02.04-11.43.02:384][281]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.04-11.43.02:389][281]LogInit: FAudioDevice initialized.
+[2018.02.04-11.43.02:424][281]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.04-11.43.02:429][281]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.02.04-12.43.02
+[2018.02.04-11.43.02:430][281]LogWorld: Bringing up level for play took: 0.002810
+[2018.02.04-11.43.02:431][281]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.02.04-11.43.02:432][281]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.504
+[2018.02.04-11.43.02:432][281]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.43.02:432][281]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.43.02:432][281]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.43.02:433][281]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2018.02.04-11.43.03:483][392]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 1 1 0
+[2018.02.04-11.43.03:506][393]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.02.04-11.43.16:224][911]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.43.16:225][911]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.43.16:225][911]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.43.16:291][911]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.43.16:291][911]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.43.16:291][911]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.43.45:249][506]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.04-11.43.45:278][506]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.43.45:278][506]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.43.45:278][506]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.43.45:278][506]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.02.04-11.43.45:278][506]LogPlayLevel: [PlayLevel] Compiling Warrior_BP before play...
+[2018.02.04-11.43.45:663][506]LogPlayLevel: [PlayLevel]   Compiling Warrior_ABP as a dependent...
+[2018.02.04-11.43.46:321][506]LogPlayLevel: PlayLevel: Blueprint regeneration took 1042 ms (2 blueprints)
+[2018.02.04-11.43.46:321][506]PIE: New page: PIE session: ThirdPersonExampleMap (Feb 4, 2018, 1:43:46 PM)
+[2018.02.04-11.43.46:321][506]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.04-11.43.46:339][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017903s)
+[2018.02.04-11.43.46:341][506]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.04-11.43.46:341][506]LogPlayLevel: PIE: World Init took: (0.000736s)
+[2018.02.04-11.43.46:341][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018927s)
+[2018.02.04-11.43.46:376][506]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.04-11.43.46:381][506]LogInit: FAudioDevice initialized.
+[2018.02.04-11.43.46:414][506]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.04-11.43.46:420][506]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.02.04-12.43.46
+[2018.02.04-11.43.46:420][506]LogWorld: Bringing up level for play took: 0.002587
+[2018.02.04-11.43.46:422][506]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.02.04-11.43.46:422][506]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.493
+[2018.02.04-11.43.46:422][506]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.43.46:422][506]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.43.46:422][506]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.43.46:423][506]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2018.02.04-11.43.47:536][612]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 1 1 0
+[2018.02.04-11.43.47:559][613]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.02.04-11.43.54:049][387]LogBlueprintUserMessages: [Warrior_BP_C_0] P=0.000000 Y=-22.115692 R=0.000000
+[2018.02.04-11.43.54:694][464]LogBlueprintUserMessages: [Warrior_BP_C_0] P=0.000000 Y=-16.785675 R=0.000000
+[2018.02.04-11.43.55:557][564]LogBlueprintUserMessages: [Warrior_BP_C_0] P=0.000000 Y=-1.173004 R=0.000000
+[2018.02.04-11.43.57:171][757]LogBlueprintUserMessages: [Warrior_BP_C_0] P=0.000000 Y=18.498066 R=0.000000
+[2018.02.04-11.43.57:812][834]LogBlueprintUserMessages: [Warrior_BP_C_0] P=0.000000 Y=37.689995 R=0.000000
+[2018.02.04-11.43.58:673][937]LogBlueprintUserMessages: [Warrior_BP_C_0] P=0.000000 Y=57.428734 R=0.000000
+[2018.02.04-11.44.00:229][123]LogBlueprintUserMessages: [Warrior_BP_C_0] P=0.000000 Y=-85.137665 R=0.000000
+[2018.02.04-11.44.00:869][200]LogBlueprintUserMessages: [Warrior_BP_C_0] P=0.000000 Y=-67.274414 R=0.000000
+[2018.02.04-11.44.01:730][303]LogBlueprintUserMessages: [Warrior_BP_C_0] P=0.000000 Y=94.676216 R=0.000000
+[2018.02.04-11.44.03:182][477]LogBlueprintUserMessages: [Warrior_BP_C_0] P=0.000000 Y=141.750641 R=0.000000
+[2018.02.04-11.44.03:824][554]LogBlueprintUserMessages: [Warrior_BP_C_0] P=0.000000 Y=-96.873535 R=0.000000
+[2018.02.04-11.44.04:683][657]LogBlueprintUserMessages: [Warrior_BP_C_0] P=0.000000 Y=-79.370941 R=0.000000
+[2018.02.04-11.44.06:621][889]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.44.06:621][889]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.44.06:621][889]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.44.06:686][889]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.44.06:686][889]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.44.06:686][889]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.47.27:223][360]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.04-11.47.27:252][360]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.47.27:252][360]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.47.27:252][360]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.47.27:252][360]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.02.04-11.47.27:252][360]LogPlayLevel: [PlayLevel] Compiling Warrior_BP before play...
+[2018.02.04-11.47.27:641][360]LogPlayLevel: [PlayLevel]   Compiling Warrior_ABP as a dependent...
+[2018.02.04-11.47.28:562][360]LogPlayLevel: PlayLevel: Blueprint regeneration took 1310 ms (2 blueprints)
+[2018.02.04-11.47.28:562][360]PIE: New page: PIE session: ThirdPersonExampleMap (Feb 4, 2018, 1:47:28 PM)
+[2018.02.04-11.47.28:563][360]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.04-11.47.28:584][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021600s)
+[2018.02.04-11.47.28:585][360]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.04-11.47.28:585][360]LogPlayLevel: PIE: World Init took: (0.000902s)
+[2018.02.04-11.47.28:585][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022810s)
+[2018.02.04-11.47.28:620][360]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.04-11.47.28:626][360]LogInit: FAudioDevice initialized.
+[2018.02.04-11.47.28:661][360]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.04-11.47.28:667][360]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.02.04-12.47.28
+[2018.02.04-11.47.28:667][360]LogWorld: Bringing up level for play took: 0.002615
+[2018.02.04-11.47.28:669][360]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.02.04-11.47.28:669][360]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.74
+[2018.02.04-11.47.28:669][360]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.47.28:669][360]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.47.28:669][360]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.47.28:670][360]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2018.02.04-11.47.29:491][443]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 1 1 0
+[2018.02.04-11.47.29:514][444]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.02.04-11.47.49:584][844]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.47.49:585][844]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.47.49:585][844]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.47.49:648][844]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.47.49:648][844]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.47.49:648][844]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.56.57:130][309]BlueprintLog: New page: Compile Warrior_BP
+[2018.02.04-11.57.15:993][221]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.04-11.57.16:021][221]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.57.16:021][221]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.57.16:021][221]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.57.16:021][221]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.04-11.57.16:021][221]PIE: New page: PIE session: ThirdPersonExampleMap (Feb 4, 2018, 1:57:16 PM)
+[2018.02.04-11.57.16:022][221]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.04-11.57.16:044][221]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021819s)
+[2018.02.04-11.57.16:044][221]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.04-11.57.16:044][221]LogPlayLevel: PIE: World Init took: (0.000924s)
+[2018.02.04-11.57.16:045][221]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023034s)
+[2018.02.04-11.57.16:085][221]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.04-11.57.16:091][221]LogInit: FAudioDevice initialized.
+[2018.02.04-11.57.16:124][221]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.04-11.57.16:130][221]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.02.04-12.57.16
+[2018.02.04-11.57.16:130][221]LogWorld: Bringing up level for play took: 0.002589
+[2018.02.04-11.57.16:132][221]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.02.04-11.57.16:132][221]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.796
+[2018.02.04-11.57.16:132][221]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.57.16:132][221]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.57.16:132][221]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.57.16:133][221]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2018.02.04-11.57.18:295][477]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 1 1 0
+[2018.02.04-11.57.18:318][478]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.02.04-11.57.57:918][210]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.57.57:918][210]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.57.57:918][210]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.57.57:983][210]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.57.57:983][210]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.57.57:983][210]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.58.11:766][303]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.04-11.58.11:795][303]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.58.11:795][303]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.58.11:795][303]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.58.11:795][303]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.02.04-11.58.11:795][303]LogPlayLevel: [PlayLevel] Compiling Warrior_BP before play...
+[2018.02.04-11.58.12:180][303]LogPlayLevel: [PlayLevel]   Compiling Warrior_ABP as a dependent...
+[2018.02.04-11.58.12:841][303]LogPlayLevel: PlayLevel: Blueprint regeneration took 1046 ms (2 blueprints)
+[2018.02.04-11.58.12:842][303]PIE: New page: PIE session: ThirdPersonExampleMap (Feb 4, 2018, 1:58:12 PM)
+[2018.02.04-11.58.12:842][303]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.04-11.58.12:859][303]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017452s)
+[2018.02.04-11.58.12:860][303]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.04-11.58.12:860][303]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2018.02.04-11.58.12:860][303]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018556s)
+[2018.02.04-11.58.12:895][303]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.04-11.58.12:900][303]LogInit: FAudioDevice initialized.
+[2018.02.04-11.58.12:928][303]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.04-11.58.12:934][303]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.02.04-12.58.12
+[2018.02.04-11.58.12:934][303]LogWorld: Bringing up level for play took: 0.002636
+[2018.02.04-11.58.12:935][303]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.02.04-11.58.12:936][303]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 2.008
+[2018.02.04-11.58.12:936][303]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.58.12:936][303]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.58.12:936][303]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.58.12:937][303]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2018.02.04-11.58.14:097][429]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 1 1 0
+[2018.02.04-11.58.14:121][430]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.02.04-11.58.36:501][103]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.58.36:501][103]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.58.36:501][103]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.58.36:569][103]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.04-11.58.36:569][103]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.02.04-11.58.36:569][103]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.02.04-11.58.38:904][206]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: BlueLevel, Actor: /Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel_C_1
+[2018.02.04-11.58.39:647][206]LogSavePackage: Save=759.93ms
+[2018.02.04-11.58.39:647][206]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueLevel2691E13048045967D94A089A5B9B81F0.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap'
+[2018.02.04-11.58.39:652][206]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap
+[2018.02.04-11.58.39:653][206]LogFileHelpers: Saving map 'BlueLevel' took 0.880
+[2018.02.04-11.58.39:666][206]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Warrior/Warrior_BP" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset" SILENT=true
+[2018.02.04-11.58.40:752][206]LogSavePackage: Save=1079.38ms
+[2018.02.04-11.58.40:752][206]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Warrior_BP2329011742BCB2A3CC464B9A05EEBE7E.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset'
+[2018.02.04-11.58.40:755][206]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset
+[2018.02.04-12.03.16:906][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Warrior/Warrior_BP" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset" SILENT=true
+[2018.02.04-12.03.17:981][371]LogSavePackage: Save=1073.40ms
+[2018.02.04-12.03.17:981][371]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Warrior_BP21DB3CC9403A44DD550C7E94EA8001EF.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset'
+[2018.02.04-12.03.17:983][371]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Warrior/Warrior_BP.uasset
+[2018.02.04-12.03.25:254][669]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.02.04-12.03.25:306][669]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.02.04-12.03.25:374][669]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.02.04-12.03.25:592][670]Cmd: QUIT_EDITOR
+[2018.02.04-12.03.25:809][670]LogExit: Preparing to exit.
+[2018.02.04-12.03.26:788][670]LogExit: Editor shut down
+[2018.02.04-12.03.26:791][670]LogExit: Transaction tracking system shut down
+[2018.02.04-12.03.26:904][670]LogObj: Freed 0b from 0 cluster array pools.
+[2018.02.04-12.03.26:904][670]LogExit: Object subsystem successfully closed.
+[2018.02.04-12.03.26:918][670]LogD3D11RHI: Shutdown
+[2018.02.04-12.03.26:918][670]LogD3D11RHI: CleanupD3DDevice
+[2018.02.04-12.03.27:052][670]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.02.04-12.03.27:068][670]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (544)
+[2018.02.04-12.03.27:068][670]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (542)
+[2018.02.04-12.03.27:068][670]LogModuleManager: Shutting down and abandoning module AnimationEditor (540)
+[2018.02.04-12.03.27:068][670]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (538)
+[2018.02.04-12.03.27:068][670]LogModuleManager: Shutting down and abandoning module SkeletonEditor (536)
+[2018.02.04-12.03.27:068][670]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (534)
+[2018.02.04-12.03.27:068][670]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2018.02.04-12.03.27:068][670]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2018.02.04-12.03.27:068][670]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2018.02.04-12.03.27:069][670]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
+[2018.02.04-12.03.27:069][670]LogModuleManager: Shutting down and abandoning module CrashTracker (524)
+[2018.02.04-12.03.27:069][670]LogModuleManager: Shutting down and abandoning module WorldBrowser (522)
+[2018.02.04-12.03.27:069][670]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.02.04-12.03.27:069][670]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.02.04-12.03.27:080][670]LogDirectoryWatcher: A directory notification for 'D:/Program Files (x86)/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.02.04-12.03.27:081][670]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.02.04-12.03.27:081][670]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.02.04-12.03.27:081][670]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.02.04-12.03.27:081][670]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Collections/' was aborted.
+[2018.02.04-12.03.27:081][670]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Developers/David/Collections/' was aborted.
+[2018.02.04-12.03.27:081][670]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Collections/' was aborted.
+[2018.02.04-12.03.27:081][670]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.02.04-12.03.27:081][670]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.02.04-12.03.27:081][670]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.02.04-12.03.27:095][670]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.02.04-12.03.27:095][670]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.02.04-12.03.27:095][670]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.02.04-12.03.27:095][670]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.02.04-12.03.27:095][670]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.02.04-12.03.27:095][670]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.02.04-12.03.27:095][670]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.02.04-12.03.27:095][670]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.02.04-12.03.27:095][670]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.02.04-12.03.27:095][670]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.02.04-12.03.27:095][670]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.02.04-12.03.27:096][670]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.02.04-12.03.27:096][670]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.02.04-12.03.27:096][670]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.02.04-12.03.27:096][670]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.02.04-12.03.27:096][670]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.02.04-12.03.27:096][670]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.02.04-12.03.27:096][670]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.02.04-12.03.27:096][670]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.02.04-12.03.27:096][670]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.02.04-12.03.27:096][670]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.02.04-12.03.27:096][670]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.02.04-12.03.27:096][670]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.02.04-12.03.27:096][670]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.02.04-12.03.27:096][670]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.02.04-12.03.27:096][670]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.02.04-12.03.27:096][670]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.02.04-12.03.27:096][670]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.02.04-12.03.27:096][670]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.02.04-12.03.27:096][670]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.02.04-12.03.27:096][670]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.02.04-12.03.27:096][670]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.02.04-12.03.27:096][670]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.02.04-12.03.27:096][670]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.02.04-12.03.27:096][670]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.02.04-12.03.27:264][670]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.02.04-12.03.27:264][670]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.02.04-12.03.27:264][670]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.02.04-12.03.27:264][670]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.02.04-12.03.27:264][670]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.02.04-12.03.27:264][670]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.02.04-12.03.27:264][670]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.02.04-12.03.27:264][670]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.02.04-12.03.27:264][670]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.02.04-12.03.27:264][670]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.02.04-12.03.27:264][670]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.02.04-12.03.27:264][670]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.02.04-12.03.27:264][670]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.02.04-12.03.27:264][670]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.02.04-12.03.27:264][670]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.02.04-12.03.27:264][670]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.02.04-12.03.27:265][670]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.02.04-12.03.27:265][670]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.02.04-12.03.27:265][670]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.02.04-12.03.27:265][670]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.02.04-12.03.27:265][670]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.02.04-12.03.27:265][670]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.02.04-12.03.27:265][670]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.02.04-12.03.27:265][670]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.02.04-12.03.27:309][670]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.02.04-12.03.27:309][670]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.02.04-12.03.27:309][670]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.02.04-12.03.27:309][670]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.02.04-12.03.27:309][670]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.02.04-12.03.27:309][670]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.02.04-12.03.27:309][670]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.02.04-12.03.27:309][670]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.02.04-12.03.27:309][670]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.02.04-12.03.27:309][670]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.02.04-12.03.27:318][670]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.02.04-12.03.27:319][670]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.02.04-12.03.27:319][670]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.02.04-12.03.27:319][670]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.02.04-12.03.27:320][670]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.02.04-12.03.27:320][670]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.02.04-12.03.27:320][670]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.02.04-12.03.27:320][670]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.02.04-12.03.27:320][670]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.02.04-12.03.27:320][670]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.02.04-12.03.27:320][670]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.02.04-12.03.27:320][670]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.02.04-12.03.27:320][670]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.02.04-12.03.27:320][670]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.02.04-12.03.27:320][670]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.02.04-12.03.27:320][670]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.02.04-12.03.27:320][670]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.02.04-12.03.27:320][670]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.02.04-12.03.27:320][670]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.02.04-12.03.27:320][670]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.02.04-12.03.27:512][670]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.02.04-12.03.27:513][670]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.02.04-12.03.27:513][670]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.02.04-12.03.27:513][670]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.02.04-12.03.27:513][670]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.02.04-12.03.27:513][670]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.02.04-12.03.27:513][670]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.02.04-12.03.27:513][670]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.02.04-12.03.27:513][670]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.02.04-12.03.27:513][670]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.02.04-12.03.27:614][670]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.02.04-12.03.27:714][670]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.02.04-12.03.27:714][670]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.02.04-12.03.27:714][670]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.02.04-12.03.27:714][670]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.02.04-12.03.27:714][670]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.02.04-12.03.27:714][670]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.02.04-12.03.27:715][670]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.02.04-12.03.27:715][670]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.02.04-12.03.27:715][670]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.02.04-12.03.27:715][670]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.02.04-12.03.27:715][670]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.02.04-12.03.27:715][670]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.02.04-12.03.27:715][670]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.02.04-12.03.27:715][670]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.02.04-12.03.27:715][670]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.02.04-12.03.27:715][670]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.02.04-12.03.27:715][670]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.02.04-12.03.27:715][670]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.02.04-12.03.27:715][670]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.02.04-12.03.27:715][670]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.02.04-12.03.27:715][670]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.02.04-12.03.27:715][670]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.02.04-12.03.27:715][670]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.02.04-12.03.27:740][670]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.02.04-12.03.27:740][670]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.02.04-12.03.27:740][670]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.02.04-12.03.27:740][670]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.02.04-12.03.27:740][670]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.02.04-12.03.27:740][670]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.02.04-12.03.27:741][670]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.02.04-12.03.27:741][670]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.02.04-12.03.27:741][670]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.02.04-12.03.27:741][670]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.02.04-12.03.27:741][670]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.02.04-12.03.27:741][670]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.02.04-12.03.27:818][670]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.02.04-12.03.27:819][670]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/' was aborted.
+[2018.02.04-12.03.27:819][670]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.02.04-12.03.27:819][670]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.02.04-12.03.27:823][670]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.02.04-12.03.27:823][670]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.02.04-12.03.27:823][670]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.02.04-12.03.27:823][670]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.02.04-12.03.27:823][670]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.02.04-12.03.27:823][670]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.02.04-12.03.27:823][670]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.02.04-12.03.27:823][670]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.02.04-12.03.27:823][670]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.02.04-12.03.27:872][670]LogDerivedDataCache: Shutdown
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.02.04-12.03.27:872][670]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.02.04-12.03.27:873][670]LogOnline:Display: Unloading online subsystem: NULL
+[2018.02.04-12.03.27:873][670]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.02.04-12.03.27:873][670]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.02.04-12.03.27:873][670]LogHttp:Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2018.02.04-12.03.27:873][670]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF30F84CB-4C83-26E1-3C83-74B5A6BA3B89%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=eedd91be406e0cd25ea0748277e6e73c%7C7a211806f70b4509a5be2640357744fc%7Caa6de738-987c-4c76-bb80-6cc1d099ea00&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.02.04-12.03.27:873][670]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF30F84CB-4C83-26E1-3C83-74B5A6BA3B89%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=eedd91be406e0cd25ea0748277e6e73c%7C7a211806f70b4509a5be2640357744fc%7Caa6de738-987c-4c76-bb80-6cc1d099ea00&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.02.04-12.03.27:903][670]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.02.04-12.03.27:904][670]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.02.04-12.03.27:904][670]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.02.04-12.03.27:904][670]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.02.04-12.03.27:904][670]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.02.04-12.03.27:904][670]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.02.04-12.03.27:904][670]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.02.04-12.03.27:904][670]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.02.04-12.03.27:904][670]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.02.04-12.03.27:905][670]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.02.04-12.03.27:905][670]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.02.04-12.03.27:905][670]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.02.04-12.03.27:905][670]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.02.04-12.03.27:905][670]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.02.04-12.03.27:905][670]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.02.04-12.03.27:905][670]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.02.04-12.03.27:905][670]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.02.04-12.03.27:905][670]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.02.04-12.03.27:905][670]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.02.04-12.03.27:907][670]LogExit: Exiting.
+[2018.02.04-12.03.27:931][670]Log file closed, 02/04/18 13:03:27
