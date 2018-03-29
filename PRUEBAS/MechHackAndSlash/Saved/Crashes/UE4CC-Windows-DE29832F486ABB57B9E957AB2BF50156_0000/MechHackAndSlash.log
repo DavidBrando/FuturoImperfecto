@@ -1,0 +1,380 @@
+﻿Log file open, 03/29/18 16:59:48
+LogInit:Display: Running engine for game: MechHackAndSlash
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(747176573) SRandInit(747176574).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.260596
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.29-14.59.48:743][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.29-14.59.48:743][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.29-14.59.48:786][  0]LogInit: Computer: DAVIDMASTERRACE
+[2018.03.29-14.59.48:786][  0]LogInit: User: David
+[2018.03.29-14.59.48:786][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.29-14.59.48:786][  0]LogInit: High frequency timer resolution =3.417967 MHz
+[2018.03.29-14.59.48:786][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.03.29-14.59.48:786][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.29-14.59.48:786][  0]LogMemory: Process Physical Memory: 272.07 MB used, 272.07 MB peak
+[2018.03.29-14.59.48:786][  0]LogMemory: Process Virtual Memory: 262.60 MB used, 262.60 MB peak
+[2018.03.29-14.59.48:786][  0]LogMemory: Physical Memory: 5621.61 MB used,  10704.82 MB free, 16326.44 MB total
+[2018.03.29-14.59.48:786][  0]LogMemory: Virtual Memory: 619.06 MB used,  10704.82 MB free, 134217728.00 MB total
+[2018.03.29-14.59.49:004][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.03.29-14.59.49:004][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.03.29-14.59.52:637][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.29-14.59.52:662][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.03.29-14.59.52:662][  0]LogD3D11RHI:       3975/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.29-14.59.52:662][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.29-14.59.52:662][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.29-14.59.52:662][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.29-14.59.52:666][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.29-14.59.52:666][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.29-14.59.52:666][  0]LogWindows: EnumDisplayDevices:
+[2018.03.29-14.59.52:666][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.03.29-14.59.52:666][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.03.29-14.59.52:666][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.03.29-14.59.52:666][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.03.29-14.59.52:666][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.03.29-14.59.52:666][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.03.29-14.59.52:666][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2018.03.29-14.59.52:666][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2018.03.29-14.59.52:666][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.03.29-14.59.52:675][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.29-14.59.52:691][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.29-14.59.52:735][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Intermediate/Shaders/WorkingDirectory/6536/).
+[2018.03.29-14.59.52:735][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/David/AppData/Local/Temp/UnrealShaderWorkingDir/B288D5F74D7D7BF5497F129C7D222CA0/'.
+[2018.03.29-14.59.52:735][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.03.29-14.59.56:285][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.29-14.59.56:334][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.03.29-14.59.56:371][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.29-14.59.56:405][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.03.29-14.59.56:468][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.03.29-14.59.56:511][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.29-14.59.56:554][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.29-14.59.56:595][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.29-14.59.56:628][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.03.29-14.59.56:719][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.03.29-14.59.56:780][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.29-14.59.56:822][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.29-14.59.56:864][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.29-14.59.56:908][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.29-14.59.56:949][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.29-14.59.57:037][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.29-14.59.57:037][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.29-14.59.57:083][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.03.29-14.59.57:205][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.03.29-14.59.57:238][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.03.29-14.59.57:279][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.29-14.59.57:319][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.29-14.59.57:364][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.29-14.59.57:420][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.03.29-14.59.57:420][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.03.29-14.59.58:137][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.03.29-14.59.58:513][  0]LogDerivedDataCache: Loaded boot cache 0.38s 90MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.03.29-14.59.58:513][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.03.29-14.59.58:514][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.29-14.59.58:514][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.29-14.59.58:514][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.29-14.59.58:514][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.29-14.59.58:552][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.29-14.59.58:564][  0]LogDerivedDataCache: Using Local data cache path C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.29-14.59.58:572][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.29-14.59.58:572][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.29-14.59.58:598][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.29-14.59.58:598][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.29-15.00.02:606][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.29-15.00.02:671][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.03.29-15.00.02:834][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.29-15.00.02:886][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.29-15.00.02:953][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.29-15.00.02:953][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.03.29-15.00.02:953][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.03.29-15.00.03:497][  0]LogNetVersion: MechHackAndSlash , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 86869316)
+[2018.03.29-15.00.03:547][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2018.03.29-15.00.03:577][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.018321 seconds
+[2018.03.29-15.00.03:582][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.03.29-15.00.03:582][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.03.29-15.00.03:582][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.29-15.00.03:632][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.29-15.00.16:999][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.29-15.00.17:038][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.29-15.00.17:758][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.29-15.00.18:080][  0]SourceControl: Info Source control is disabled
+[2018.03.29-15.00.18:256][  0]SourceControl: Info Source control is disabled
+[2018.03.29-15.00.18:301][  0]SourceControl: Info Source control is disabled
+[2018.03.29-15.00.18:344][  0]SourceControl: Info Source control is disabled
+[2018.03.29-15.00.19:300][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.29-15.00.19:899][  0]LogEngine: Initializing Engine...
+[2018.03.29-15.00.19:900][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.29-15.00.20:089][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.29-15.00.20:089][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.29-15.00.20:179][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.29-15.00.20:203][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.29-15.00.20:209][  0]LogInit: FAudioDevice initialized.
+[2018.03.29-15.00.20:245][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.03.29-15.00.20:254][  0]LogInit: Texture streaming: Enabled
+[2018.03.29-15.00.20:339][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.29-15.00.20:542][  0]LogInit: Transaction tracking system initialized
+[2018.03.29-15.00.20:762][  0]BlueprintLog: New page: Editor Load
+[2018.03.29-15.00.21:597][  0]LocalizationService: Info Localization service is disabled
+[2018.03.29-15.00.22:230][  0]LogConsoleResponse:Display: 
+[2018.03.29-15.00.23:115][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.29-15.00.23:115][  0]LogCook:Display: Mobile HDR setting 1
+[2018.03.29-15.00.23:157][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/' took 0.05s
+[2018.03.29-15.00.24:906][  0]SourceControl: Info Source control is disabled
+[2018.03.29-15.00.24:906][  0]Cmd: MAP LOAD FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.29-15.00.24:907][  0]LightingResults: New page: Lighting Build
+[2018.03.29-15.00.24:930][  0]MapCheck: New page: Map Check
+[2018.03.29-15.00.24:930][  0]LightingResults: New page: Lighting Build
+[2018.03.29-15.00.28:806][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.29-15.00.30:479][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.29-15.00.30:531][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.29-15.00.30:592][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 61.538ms to complete.
+[2018.03.29-15.00.30:592][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 5.687
+[2018.03.29-15.00.30:778][  0]LogCollectionManager: Loaded 0 collections in 0.001009 seconds
+[2018.03.29-15.00.30:836][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Collections/' took 0.01s
+[2018.03.29-15.00.30:836][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Developers/David/Collections/' took 0.01s
+[2018.03.29-15.00.30:836][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Collections/' took 0.01s
+[2018.03.29-15.00.30:836][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.03.29-15.00.30:844][  0]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2336 classes and 493 folders.
+[2018.03.29-15.00.30:879][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.03.29-15.00.32:044][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.03.29-15.00.32:086][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.03.29-15.00.32:138][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0005 seconds. Added 1 classes and 3 folders.
+[2018.03.29-15.00.32:246][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.03.29-15.00.32:261][  0]LogSlate: Took 0.011272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.29-15.00.32:277][  0]LogSlate: Took 0.013978 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.29-15.00.32:297][  0]LogSlate: Took 0.016093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.29-15.00.32:422][  0]LogRenderer: Reallocating scene render targets to support 1204x572 NumSamples 1 (Frame:1).
+[2018.03.29-15.00.32:536][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.03.29-15.00.32:589][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.03.29-15.00.32:589][  0]LogLoad: (Engine Initialization) Total time: 50.50 seconds
+[2018.03.29-15.00.32:589][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.29 seconds
+[2018.03.29-15.00.32:589][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.03.29-15.00.32:589][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.03.29-15.00.32:929][  0]LogOcInput: OculusInput pre-init called
+[2018.03.29-15.00.32:929][  0]LogHMD: Starting GearVRController plugin
+[2018.03.29-15.00.33:002][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.29-15.00.33:124][  0]LogSlate: Took 0.021186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.29-15.00.33:400][  1]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.29-15.00.33:854][  2]LogAssetRegistry: Asset discovery search completed in 30.3289 seconds
+[2018.03.29-15.00.33:856][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.29-15.00.33:856][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
+[2018.03.29-15.00.34:202][  3]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.29-15.03.40:497][158]LogSlate: Took 0.012018 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.29-15.03.46:097][702]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2018.03.29-15.03.46:752][703]LogSlate: Took 0.020065 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.29-15.04.33:385][751]LogBlueprint:Warning: Unknown type of hyperlinked object
+[2018.03.29-15.04.34:249][830]LogBlueprint:Warning: Unknown type of hyperlinked object
+[2018.03.29-15.07.17:868][119]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.29-15.07.17:973][119]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-15.07.17:973][119]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.03.29-15.07.17:973][119]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.03.29-15.07.17:976][119]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.29-15.07.17:976][119]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 29, 2018, 7:07:17 PM)
+[2018.03.29-15.07.17:976][119]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.03.29-15.07.17:999][119]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022558s)
+[2018.03.29-15.07.18:000][119]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.29-15.07.18:000][119]LogPlayLevel: PIE: World Init took: (0.000885s)
+[2018.03.29-15.07.18:000][119]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023745s)
+[2018.03.29-15.07.18:040][119]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.29-15.07.18:045][119]LogInit: FAudioDevice initialized.
+[2018.03.29-15.07.18:087][119]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.29-15.07.18:093][119]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.03.29-17.07.18
+[2018.03.29-15.07.18:094][119]LogWorld: Bringing up level for play took: 0.002808
+[2018.03.29-15.07.18:118][119]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2018.03.29-15.07.18:119][119]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.03.29-15.07.18:119][119]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.125
+[2018.03.29-15.07.18:119][119]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-15.07.18:119][119]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.03.29-15.07.18:119][119]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.03.29-15.07.18:121][119]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2018.03.29-15.07.18:141][120]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_LevelTuto 0 0 0
+[2018.03.29-15.07.19:469][278]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 1 1 0
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 0: 0.0
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 0: 3130.063965
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 0: 5530.0
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 0: 5918.868164
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 0: 9273.240234
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 0: 9030.137695
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 0: 13742.943359
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 0: 16090.161133
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 0: 7877.372559
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 0: 10469.62207
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 1: 3130.063965
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 1: 0.0
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 1: 2400.083252
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 1: 3182.467529
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 1: 6259.241211
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 1: 5900.415039
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 1: 10656.950195
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 1: 13540.110352
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 1: 6083.428223
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 1: 9188.955078
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 2: 5530.0
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 2: 2400.083252
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 2: 0.0
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 2: 2110.0
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 2: 4086.820313
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 2: 3500.357178
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 2: 8321.93457
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 2: 11801.668945
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 2: 5610.0
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 2: 8890.0
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 3: 5918.868164
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 3: 3182.467529
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 3: 2110.0
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 3: 0.0
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 3: 3500.0
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 3: 4112.85791
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 3: 8050.0
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 3: 10359.193359
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 3: 3500.0
+[2018.03.29-15.07.19:481][278]LogBlueprintUserMessages: [RedLevel_C_0] 3: 6780.0
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 4: 9273.240234
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 4: 6259.241211
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 4: 4086.820313
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 4: 3500.0
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 4: 0.0
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 4: 2160.0
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 4: 4550.0
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 4: 7950.654297
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 4: 4949.747559
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 4: 7630.098145
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 5: 9030.137695
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 5: 5900.415039
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 5: 3500.357178
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 5: 4112.85791
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 5: 2160.0
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 5: 0.0
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 5: 5036.675293
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 5: 9800.25
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 5: 6654.742676
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 5: 9600.708008
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 6: 13742.943359
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 6: 10656.950195
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 6: 8321.93457
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 6: 8050.0
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 6: 4550.0
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 6: 5036.675293
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 6: 0.0
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 6: 6520.0
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 6: 8777.955078
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 6: 10524.775391
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 7: 16090.161133
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 7: 13540.110352
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 7: 11801.668945
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 7: 10359.193359
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 7: 7950.654297
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 7: 9800.25
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 7: 6520.0
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 7: 0.0
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 7: 8597.842773
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 7: 8054.197754
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 8: 7877.372559
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 8: 6083.428223
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 8: 5610.0
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 8: 3500.0
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 8: 4949.747559
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 8: 6654.742676
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 8: 8777.955078
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 8: 8597.842773
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 8: 0.0
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 8: 3280.0
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 9: 10469.62207
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 9: 9188.955078
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 9: 8890.0
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 9: 6780.0
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 9: 7630.098145
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 9: 9600.708008
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 9: 10524.775391
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 9: 8054.197754
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 9: 3280.0
+[2018.03.29-15.07.19:482][278]LogBlueprintUserMessages: [RedLevel_C_0] 9: 0.0
+[2018.03.29-15.07.19:503][280]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.03.29-15.07.32:255][331]Set new viewmode: Wireframe
+[2018.03.29-15.07.33:421][418]Set new viewmode: Wireframe
+[2018.03.29-15.07.34:096][469]Set new viewmode: Wireframe
+[2018.03.29-15.07.34:526][502]Set new viewmode: Unlit
+[2018.03.29-15.07.34:813][524]Set new viewmode: Lit
+[2018.03.29-15.07.43:225][123]LogUObjectBase:Warning: Object is not registered
+[2018.03.29-15.07.46:423][123]LogStats: FPlatformStackWalk::StackWalkAndDump -  3.197 s
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: === Handled ensure: ===
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: 
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: Stack: 
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:200]
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:233]
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:360]
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!FKismetDebugUtilities::GetWatchText() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\unrealed\private\kismet2\kismetdebugutilities.cpp:1037]
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!UK2Node::GetPinHoverText() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\blueprintgraph\private\k2node.cpp:1251]
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!SGraphPin::GetTooltipText() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\grapheditor\private\sgraphpin.cpp:1085]
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!TMemberFunctionCaller<SGraphPin,FText (__cdecl SGraphPin::*)(void)const __ptr64>::operator()<>() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegateinstanceinterface.h:165]
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!UE4Tuple_Private::TTupleImpl<TIntegerSequence<unsigned int> >::ApplyAfter<TMemberFunctionCaller<SGraphPin,FText (__cdecl SGraphPin::*)(void)const __ptr64> >() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\templates\tuple.h:497]
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!TBaseSPMethodDelegateInstance<1,SGraphPin,0,FText __cdecl(void)>::Execute() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:327]
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: UE4Editor-Slate.dll!TBaseDelegate<FText>::Execute() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:537]
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: UE4Editor-Slate.dll!TAttribute<FText>::Get() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\misc\attribute.h:137]
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: UE4Editor-Slate.dll!SToolTip::IsEmpty() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\widgets\stooltip.cpp:87]
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::UpdateToolTip() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3444]
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::ProcessMouseMoveEvent() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5697]
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::OnMouseMove() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5647]
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:1742]
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:2127]
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:867]
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:714]
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: USER32.dll!0x000000002AB724FD
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: USER32.dll!0x000000002AB72357
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:1009]
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3058]
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launch.cpp:166]
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:210]
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: KERNEL32.DLL!0x000000002B3B13D2
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: ntdll.dll!0x000000002B6454F4
+[2018.03.29-15.07.46:423][123]LogOutputDevice:Error: 
+[2018.03.29-15.07.46:424][123]LogStats:                SubmitErrorReport -  0.000 s
