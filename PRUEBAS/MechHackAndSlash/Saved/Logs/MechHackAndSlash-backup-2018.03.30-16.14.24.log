@@ -1,0 +1,1722 @@
+﻿Log file open, 03/29/18 17:09:22
+LogInit:Display: Running engine for game: MechHackAndSlash
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1568259326) SRandInit(-1568259326).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.082252
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.29-15.09.22:595][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.29-15.09.22:595][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.29-15.09.22:605][  0]LogInit: Computer: DAVIDMASTERRACE
+[2018.03.29-15.09.22:605][  0]LogInit: User: David
+[2018.03.29-15.09.22:605][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.29-15.09.22:605][  0]LogInit: High frequency timer resolution =3.417967 MHz
+[2018.03.29-15.09.22:605][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.03.29-15.09.22:605][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.29-15.09.22:605][  0]LogMemory: Process Physical Memory: 273.16 MB used, 273.16 MB peak
+[2018.03.29-15.09.22:605][  0]LogMemory: Process Virtual Memory: 262.59 MB used, 262.59 MB peak
+[2018.03.29-15.09.22:605][  0]LogMemory: Physical Memory: 5654.63 MB used,  10671.81 MB free, 16326.44 MB total
+[2018.03.29-15.09.22:605][  0]LogMemory: Virtual Memory: 619.06 MB used,  10671.81 MB free, 134217728.00 MB total
+[2018.03.29-15.09.22:648][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.03.29-15.09.22:648][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.03.29-15.09.23:388][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.29-15.09.23:404][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.03.29-15.09.23:404][  0]LogD3D11RHI:       3975/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.29-15.09.23:405][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.29-15.09.23:405][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.29-15.09.23:405][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.29-15.09.23:408][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.29-15.09.23:408][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.29-15.09.23:408][  0]LogWindows: EnumDisplayDevices:
+[2018.03.29-15.09.23:408][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.03.29-15.09.23:408][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.03.29-15.09.23:408][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.03.29-15.09.23:409][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.03.29-15.09.23:409][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.03.29-15.09.23:409][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.03.29-15.09.23:409][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2018.03.29-15.09.23:409][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2018.03.29-15.09.23:409][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.03.29-15.09.23:417][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.29-15.09.23:433][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.29-15.09.23:477][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Intermediate/Shaders/WorkingDirectory/3268/).
+[2018.03.29-15.09.23:477][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/David/AppData/Local/Temp/UnrealShaderWorkingDir/8CA2807F43D470772F3A26ABDB1B9026/'.
+[2018.03.29-15.09.23:477][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.03.29-15.09.24:337][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.29-15.09.24:370][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.03.29-15.09.24:402][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.29-15.09.24:433][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.03.29-15.09.24:466][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.03.29-15.09.24:498][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.29-15.09.24:529][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.29-15.09.24:561][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.29-15.09.24:587][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.03.29-15.09.24:618][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.03.29-15.09.24:648][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.29-15.09.24:680][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.29-15.09.24:712][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.29-15.09.24:743][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.29-15.09.24:774][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.29-15.09.24:837][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.29-15.09.24:837][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.29-15.09.24:861][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.03.29-15.09.24:928][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.03.29-15.09.24:948][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.03.29-15.09.24:981][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.29-15.09.25:012][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.29-15.09.25:046][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.29-15.09.25:077][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.03.29-15.09.25:077][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.03.29-15.09.25:363][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.03.29-15.09.25:453][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.03.29-15.09.25:453][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.03.29-15.09.25:453][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.29-15.09.25:453][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.29-15.09.25:453][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.29-15.09.25:453][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.29-15.09.25:469][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.29-15.09.25:481][  0]LogDerivedDataCache: Using Local data cache path C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.29-15.09.25:490][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.29-15.09.25:491][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.29-15.09.25:491][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.29-15.09.25:491][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.29-15.09.25:761][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.29-15.09.25:825][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.03.29-15.09.25:942][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.29-15.09.25:967][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.29-15.09.25:995][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.29-15.09.25:995][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.03.29-15.09.25:995][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.03.29-15.09.26:398][  0]LogNetVersion: MechHackAndSlash , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 86869316)
+[2018.03.29-15.09.26:448][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2018.03.29-15.09.26:473][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.012939 seconds
+[2018.03.29-15.09.26:478][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.03.29-15.09.26:478][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.03.29-15.09.26:478][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.29-15.09.26:513][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.29-15.09.28:163][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.29-15.09.28:191][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.29-15.09.28:521][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.29-15.09.28:794][  0]SourceControl: Info Source control is disabled
+[2018.03.29-15.09.28:821][  0]SourceControl: Info Source control is disabled
+[2018.03.29-15.09.28:847][  0]SourceControl: Info Source control is disabled
+[2018.03.29-15.09.28:875][  0]SourceControl: Info Source control is disabled
+[2018.03.29-15.09.29:274][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.29-15.09.29:627][  0]LogEngine: Initializing Engine...
+[2018.03.29-15.09.29:628][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.29-15.09.29:827][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.29-15.09.29:827][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.29-15.09.29:927][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.29-15.09.29:950][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.29-15.09.29:957][  0]LogInit: FAudioDevice initialized.
+[2018.03.29-15.09.29:994][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.03.29-15.09.30:006][  0]LogInit: Texture streaming: Enabled
+[2018.03.29-15.09.30:062][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.29-15.09.30:185][  0]LogInit: Transaction tracking system initialized
+[2018.03.29-15.09.30:358][  0]BlueprintLog: New page: Editor Load
+[2018.03.29-15.09.30:931][  0]LocalizationService: Info Localization service is disabled
+[2018.03.29-15.09.31:325][  0]LogConsoleResponse:Display: 
+[2018.03.29-15.09.31:432][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.29-15.09.31:432][  0]LogCook:Display: Mobile HDR setting 1
+[2018.03.29-15.09.31:462][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/' took 0.01s
+[2018.03.29-15.09.32:007][  0]SourceControl: Info Source control is disabled
+[2018.03.29-15.09.32:007][  0]Cmd: MAP LOAD FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.29-15.09.32:008][  0]LightingResults: New page: Lighting Build
+[2018.03.29-15.09.32:030][  0]MapCheck: New page: Map Check
+[2018.03.29-15.09.32:031][  0]LightingResults: New page: Lighting Build
+[2018.03.29-15.09.35:195][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.29-15.09.35:685][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.29-15.09.35:736][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.29-15.09.35:798][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.608ms to complete.
+[2018.03.29-15.09.35:798][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 3.792
+[2018.03.29-15.09.35:917][  0]LogCollectionManager: Loaded 0 collections in 0.000896 seconds
+[2018.03.29-15.09.35:975][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Collections/' took 0.01s
+[2018.03.29-15.09.35:975][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Developers/David/Collections/' took 0.01s
+[2018.03.29-15.09.35:975][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Collections/' took 0.01s
+[2018.03.29-15.09.35:975][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.03.29-15.09.35:984][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2336 classes and 493 folders.
+[2018.03.29-15.09.36:021][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.03.29-15.09.36:048][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.03.29-15.09.36:074][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.03.29-15.09.36:104][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0005 seconds. Added 1 classes and 3 folders.
+[2018.03.29-15.09.36:192][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.03.29-15.09.36:196][  0]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.29-15.09.36:198][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.29-15.09.36:202][  0]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.29-15.09.36:277][  0]LogRenderer: Reallocating scene render targets to support 1204x572 NumSamples 1 (Frame:1).
+[2018.03.29-15.09.36:376][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.03.29-15.09.36:422][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.03.29-15.09.36:422][  0]LogLoad: (Engine Initialization) Total time: 15.00 seconds
+[2018.03.29-15.09.36:422][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.23 seconds
+[2018.03.29-15.09.36:422][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.03.29-15.09.36:422][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.03.29-15.09.36:762][  0]LogOcInput: OculusInput pre-init called
+[2018.03.29-15.09.36:762][  0]LogHMD: Starting GearVRController plugin
+[2018.03.29-15.09.36:821][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.29-15.09.36:930][  0]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.29-15.09.37:176][  1]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.29-15.09.37:666][  2]LogAssetRegistry: Asset discovery search completed in 11.2398 seconds
+[2018.03.29-15.09.37:668][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.29-15.09.37:668][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2018.03.29-15.09.38:019][  3]LogSlate: Took 0.000463 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.29-15.10.57:516][943]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.29-15.11.03:491][427]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2018.03.29-15.11.04:134][428]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.29-15.11.33:316][137]BlueprintLog: New page: Compile BTTask_MoveModeAttack
+[2018.03.29-15.13.07:090][941]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.03.29-15.19.10:632][462]BlueprintLog: New page: Compile BTService_CalcularDireccionMovimiento
+[2018.03.29-15.19.21:486][224]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.29-15.19.21:562][224]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-15.19.21:562][224]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.03.29-15.19.21:563][224]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.03.29-15.19.21:565][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.29-15.19.21:566][224]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 29, 2018, 7:19:21 PM)
+[2018.03.29-15.19.21:566][224]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.03.29-15.19.21:590][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023544s)
+[2018.03.29-15.19.21:591][224]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.29-15.19.21:591][224]LogPlayLevel: PIE: World Init took: (0.001286s)
+[2018.03.29-15.19.21:591][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.025142s)
+[2018.03.29-15.19.21:627][224]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.29-15.19.21:633][224]LogInit: FAudioDevice initialized.
+[2018.03.29-15.19.21:677][224]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.29-15.19.21:683][224]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.03.29-17.19.21
+[2018.03.29-15.19.21:684][224]LogWorld: Bringing up level for play took: 0.002866
+[2018.03.29-15.19.21:710][224]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2018.03.29-15.19.21:711][224]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.03.29-15.19.21:711][224]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.283
+[2018.03.29-15.19.21:711][224]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-15.19.21:711][224]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.03.29-15.19.21:711][224]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.03.29-15.19.21:713][224]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2018.03.29-15.19.21:758][225]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_LevelTuto 0 0 0
+[2018.03.29-15.19.22:461][309]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 1 1 0
+[2018.03.29-15.19.22:473][309]LogBlueprintUserMessages: [RedLevel_C_0] 0: 0.0
+[2018.03.29-15.19.22:473][309]LogBlueprintUserMessages: [RedLevel_C_0] 0: 3130.063965
+[2018.03.29-15.19.22:473][309]LogBlueprintUserMessages: [RedLevel_C_0] 0: 5530.0
+[2018.03.29-15.19.22:473][309]LogBlueprintUserMessages: [RedLevel_C_0] 0: 5918.868164
+[2018.03.29-15.19.22:473][309]LogBlueprintUserMessages: [RedLevel_C_0] 0: 9273.240234
+[2018.03.29-15.19.22:473][309]LogBlueprintUserMessages: [RedLevel_C_0] 0: 9030.137695
+[2018.03.29-15.19.22:473][309]LogBlueprintUserMessages: [RedLevel_C_0] 0: 13742.943359
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 0: 16090.161133
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 0: 7877.372559
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 0: 10469.62207
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 1: 3130.063965
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 1: 0.0
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 1: 2400.083252
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 1: 3182.467529
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 1: 6259.241211
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 1: 5900.415039
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 1: 10656.950195
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 1: 13540.110352
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 1: 6083.428223
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 1: 9188.955078
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 2: 5530.0
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 2: 2400.083252
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 2: 0.0
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 2: 2110.0
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 2: 4086.820313
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 2: 3500.357178
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 2: 8321.93457
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 2: 11801.668945
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 2: 5610.0
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 2: 8890.0
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 3: 5918.868164
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 3: 3182.467529
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 3: 2110.0
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 3: 0.0
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 3: 3500.0
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 3: 4112.85791
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 3: 8050.0
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 3: 10359.193359
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 3: 3500.0
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 3: 6780.0
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 4: 9273.240234
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 4: 6259.241211
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 4: 4086.820313
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 4: 3500.0
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 4: 0.0
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 4: 2160.0
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 4: 4550.0
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 4: 7950.654297
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 4: 4949.747559
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 4: 7630.098145
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 5: 9030.137695
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 5: 5900.415039
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 5: 3500.357178
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 5: 4112.85791
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 5: 2160.0
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 5: 0.0
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 5: 5036.675293
+[2018.03.29-15.19.22:474][309]LogBlueprintUserMessages: [RedLevel_C_0] 5: 9800.25
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 5: 6654.742676
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 5: 9600.708008
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 6: 13742.943359
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 6: 10656.950195
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 6: 8321.93457
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 6: 8050.0
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 6: 4550.0
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 6: 5036.675293
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 6: 0.0
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 6: 6520.0
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 6: 8777.955078
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 6: 10524.775391
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 7: 16090.161133
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 7: 13540.110352
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 7: 11801.668945
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 7: 10359.193359
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 7: 7950.654297
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 7: 9800.25
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 7: 6520.0
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 7: 0.0
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 7: 8597.842773
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 7: 8054.197754
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 8: 7877.372559
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 8: 6083.428223
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 8: 5610.0
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 8: 3500.0
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 8: 4949.747559
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 8: 6654.742676
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 8: 8777.955078
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 8: 8597.842773
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 8: 0.0
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 8: 3280.0
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 9: 10469.62207
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 9: 9188.955078
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 9: 8890.0
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 9: 6780.0
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 9: 7630.098145
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 9: 9600.708008
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 9: 10524.775391
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 9: 8054.197754
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 9: 3280.0
+[2018.03.29-15.19.22:475][309]LogBlueprintUserMessages: [RedLevel_C_0] 9: 0.0
+[2018.03.29-15.19.22:497][311]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.03.29-15.19.26:917][839]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 54
+[2018.03.29-15.19.28:034][973]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 54
+[2018.03.29-15.19.28:126][984]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.19.28:126][984]LogBlueprintUserMessages: [BlueBoosDummy13_140] 1
+[2018.03.29-15.19.28:759][ 60]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 53
+[2018.03.29-15.19.29:226][116]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 52
+[2018.03.29-15.19.29:668][169]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 52
+[2018.03.29-15.19.30:109][222]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 53
+[2018.03.29-15.19.30:601][281]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 52
+[2018.03.29-15.19.31:326][368]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 52
+[2018.03.29-15.19.32:285][483]LogBlueprintUserMessages: [BlueBoosDummy13_140] PARO!
+[2018.03.29-15.19.32:926][560]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 54
+[2018.03.29-15.19.34:110][702]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 54
+[2018.03.29-15.19.35:244][838]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 53
+[2018.03.29-15.19.35:910][918]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 53
+[2018.03.29-15.19.36:894][ 36]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.19.36:894][ 36]LogBlueprintUserMessages: [BlueBoosDummy13_140] 4
+[2018.03.29-15.19.36:894][ 36]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.19.36:894][ 36]LogBlueprintUserMessages: [BlueBoosDummy13_140] 0
+[2018.03.29-15.19.38:904][277]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 52
+[2018.03.29-15.19.39:412][338]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 53
+[2018.03.29-15.19.39:999][408]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 53
+[2018.03.29-15.19.40:507][469]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 52
+[2018.03.29-15.19.41:074][537]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 53
+[2018.03.29-15.19.41:658][606]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 52
+[2018.03.29-15.19.42:115][661]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 52
+[2018.03.29-15.19.42:598][719]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 55
+[2018.03.29-15.19.42:606][720]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.19.42:606][720]LogBlueprintUserMessages: [BlueBoosDummy13_140] 0
+[2018.03.29-15.19.43:556][834]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 52
+[2018.03.29-15.19.44:108][900]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 53
+[2018.03.29-15.19.44:540][952]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 52
+[2018.03.29-15.19.45:041][ 12]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 54
+[2018.03.29-15.19.45:610][ 79]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 54
+[2018.03.29-15.19.46:158][144]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 53
+[2018.03.29-15.19.46:624][200]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 52
+[2018.03.29-15.19.47:208][270]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 55
+[2018.03.29-15.19.47:658][324]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 52
+[2018.03.29-15.19.48:183][387]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 54
+[2018.03.29-15.19.48:533][429]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.19.48:533][429]LogBlueprintUserMessages: [BlueBoosDummy13_140] 1
+[2018.03.29-15.19.49:658][564]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 52
+[2018.03.29-15.19.50:112][618]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 44
+[2018.03.29-15.19.50:671][685]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 0 VALORS: 42
+[2018.03.29-15.19.51:121][739]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 0 VALORS: 39
+[2018.03.29-15.19.52:455][899]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 44
+[2018.03.29-15.19.52:695][928]LogBlueprintUserMessages: [BlueBoosDummy13_140] PARO!
+[2018.03.29-15.19.52:746][934]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.19.52:746][934]LogBlueprintUserMessages: [BlueBoosDummy13_140] 2
+[2018.03.29-15.19.54:282][118]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 3 VALORS: 45
+[2018.03.29-15.19.54:698][168]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 45
+[2018.03.29-15.19.55:174][225]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 50
+[2018.03.29-15.19.55:740][293]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 41
+[2018.03.29-15.19.56:341][365]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 3 VALORS: 43
+[2018.03.29-15.19.56:924][435]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 39
+[2018.03.29-15.19.57:441][497]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 42
+[2018.03.29-15.19.58:015][566]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 0 VALORS: 43
+[2018.03.29-15.19.59:376][729]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 47
+[2018.03.29-15.20.00:559][871]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 0 VALORS: 46
+[2018.03.29-15.20.01:609][997]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 50
+[2018.03.29-15.20.02:642][121]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 3 VALORS: 50
+[2018.03.29-15.20.03:792][259]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 47
+[2018.03.29-15.20.04:809][381]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 0 VALORS: 42
+[2018.03.29-15.20.04:885][390]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.20.04:885][390]LogBlueprintUserMessages: [BlueBoosDummy13_140] 0
+[2018.03.29-15.20.05:542][469]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 3 VALORS: 49
+[2018.03.29-15.20.06:112][537]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 3 VALORS: 39
+[2018.03.29-15.20.06:605][596]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-15.20.06:605][596]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.03.29-15.20.06:605][596]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.03.29-15.20.06:640][596]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-15.20.06:640][596]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.03.29-15.20.06:640][596]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.03.29-15.21.24:898][730]BlueprintLog: New page: Compile BTService_CalcularDireccionMovimiento
+[2018.03.29-15.24.06:926][153]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.29-15.24.06:966][153]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-15.24.06:966][153]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.03.29-15.24.06:966][153]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.03.29-15.24.06:969][153]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.29-15.24.06:969][153]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 29, 2018, 7:24:06 PM)
+[2018.03.29-15.24.06:970][153]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.03.29-15.24.06:993][153]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023714s)
+[2018.03.29-15.24.06:994][153]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.29-15.24.06:994][153]LogPlayLevel: PIE: World Init took: (0.000951s)
+[2018.03.29-15.24.06:995][153]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.025053s)
+[2018.03.29-15.24.07:035][153]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.29-15.24.07:041][153]LogInit: FAudioDevice initialized.
+[2018.03.29-15.24.07:070][153]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.29-15.24.07:076][153]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.03.29-17.24.07
+[2018.03.29-15.24.07:076][153]LogWorld: Bringing up level for play took: 0.002689
+[2018.03.29-15.24.07:078][153]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.03.29-15.24.07:078][153]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.084
+[2018.03.29-15.24.07:078][153]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-15.24.07:078][153]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.03.29-15.24.07:078][153]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.03.29-15.24.07:080][153]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2018.03.29-15.24.07:115][154]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_LevelTuto 0 0 0
+[2018.03.29-15.24.07:841][241]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 1 1 0
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 0: 0.0
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 0: 3130.063965
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 0: 5530.0
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 0: 5918.868164
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 0: 9273.240234
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 0: 9030.137695
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 0: 13742.943359
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 0: 16090.161133
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 0: 7877.372559
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 0: 10469.62207
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 1: 3130.063965
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 1: 0.0
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 1: 2400.083252
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 1: 3182.467529
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 1: 6259.241211
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 1: 5900.415039
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 1: 10656.950195
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 1: 13540.110352
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 1: 6083.428223
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 1: 9188.955078
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 2: 5530.0
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 2: 2400.083252
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 2: 0.0
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 2: 2110.0
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 2: 4086.820313
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 2: 3500.357178
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 2: 8321.93457
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 2: 11801.668945
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 2: 5610.0
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 2: 8890.0
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 3: 5918.868164
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 3: 3182.467529
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 3: 2110.0
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 3: 0.0
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 3: 3500.0
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 3: 4112.85791
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 3: 8050.0
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 3: 10359.193359
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 3: 3500.0
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 3: 6780.0
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 4: 9273.240234
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 4: 6259.241211
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 4: 4086.820313
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 4: 3500.0
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 4: 0.0
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 4: 2160.0
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 4: 4550.0
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 4: 7950.654297
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 4: 4949.747559
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 4: 7630.098145
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 5: 9030.137695
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 5: 5900.415039
+[2018.03.29-15.24.07:858][241]LogBlueprintUserMessages: [RedLevel_C_0] 5: 3500.357178
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 5: 4112.85791
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 5: 2160.0
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 5: 0.0
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 5: 5036.675293
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 5: 9800.25
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 5: 6654.742676
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 5: 9600.708008
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 6: 13742.943359
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 6: 10656.950195
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 6: 8321.93457
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 6: 8050.0
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 6: 4550.0
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 6: 5036.675293
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 6: 0.0
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 6: 6520.0
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 6: 8777.955078
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 6: 10524.775391
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 7: 16090.161133
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 7: 13540.110352
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 7: 11801.668945
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 7: 10359.193359
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 7: 7950.654297
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 7: 9800.25
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 7: 6520.0
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 7: 0.0
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 7: 8597.842773
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 7: 8054.197754
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 8: 7877.372559
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 8: 6083.428223
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 8: 5610.0
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 8: 3500.0
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 8: 4949.747559
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 8: 6654.742676
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 8: 8777.955078
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 8: 8597.842773
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 8: 0.0
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 8: 3280.0
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 9: 10469.62207
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 9: 9188.955078
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 9: 8890.0
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 9: 6780.0
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 9: 7630.098145
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 9: 9600.708008
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 9: 10524.775391
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 9: 8054.197754
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 9: 3280.0
+[2018.03.29-15.24.07:859][241]LogBlueprintUserMessages: [RedLevel_C_0] 9: 0.0
+[2018.03.29-15.24.07:882][243]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.03.29-15.24.18:101][457]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 3 VALORS: 48
+[2018.03.29-15.24.18:392][492]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.24.18:392][492]LogBlueprintUserMessages: [BlueBoosDummy13_140] 2
+[2018.03.29-15.24.20:817][783]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 48
+[2018.03.29-15.24.21:051][811]LogBlueprintUserMessages: [BlueBoosDummy13_140] PARO!
+[2018.03.29-15.24.21:792][900]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 0 VALORS: 46
+[2018.03.29-15.24.22:867][ 29]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 0 VALORS: 48
+[2018.03.29-15.24.23:959][160]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 45
+[2018.03.29-15.24.25:048][288]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 46
+[2018.03.29-15.24.25:908][391]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 49
+[2018.03.29-15.24.26:841][503]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 3 VALORS: 43
+[2018.03.29-15.24.27:625][597]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 0 VALORS: 48
+[2018.03.29-15.24.28:409][691]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.24.28:409][691]LogBlueprintUserMessages: [BlueBoosDummy13_140] 4
+[2018.03.29-15.24.28:409][691]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.24.28:409][691]LogBlueprintUserMessages: [BlueBoosDummy13_140] 0
+[2018.03.29-15.24.29:821][859]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 46
+[2018.03.29-15.24.30:371][925]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 44
+[2018.03.29-15.24.30:946][994]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 0 VALORS: 44
+[2018.03.29-15.24.32:104][133]LogBlueprintUserMessages: [BlueBoosDummy13_140] PARO!
+[2018.03.29-15.24.32:622][195]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 0 VALORS: 43
+[2018.03.29-15.24.33:113][254]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.24.33:113][254]LogBlueprintUserMessages: [BlueBoosDummy13_140] 0
+[2018.03.29-15.24.34:606][433]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-15.24.34:606][433]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.03.29-15.24.34:606][433]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.03.29-15.24.34:640][433]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-15.24.34:640][433]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.03.29-15.24.34:640][433]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.03.29-15.27.41:951][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemigos/IA/Patrol/AIEnemyBT" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/IA/Patrol/AIEnemyBT.uasset" SILENT=true
+[2018.03.29-15.27.41:991][580]LogSavePackage: Save=31.65ms
+[2018.03.29-15.27.41:991][580]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/AIEnemyBT20919027484288C57431E6BE4FB8F003.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/IA/Patrol/AIEnemyBT.uasset'
+[2018.03.29-15.27.41:994][580]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/IA/Patrol/AIEnemyBT.uasset
+[2018.03.29-15.28.04:815][863]BlueprintLog: New page: Compile BTService_CalcularDireccionMovimiento
+[2018.03.29-15.28.05:546][899]LogSavePackage: Save=168.29ms
+[2018.03.29-15.28.05:546][899]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BTService_CalcularDireccionMovimientoA01DAB5F4440B1849F3420BA11B991AA.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/IA/Patrol/BTServices/BTService_CalcularDireccionMovimiento.uasset'
+[2018.03.29-15.28.05:548][899]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/IA/Patrol/BTServices/BTService_CalcularDireccionMovimiento.uasset
+[2018.03.29-15.28.26:450][452]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.29-15.28.26:489][452]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-15.28.26:489][452]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.03.29-15.28.26:489][452]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.03.29-15.28.26:492][452]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.29-15.28.26:492][452]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 29, 2018, 7:28:26 PM)
+[2018.03.29-15.28.26:492][452]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.03.29-15.28.26:513][452]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020930s)
+[2018.03.29-15.28.26:514][452]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.29-15.28.26:514][452]LogPlayLevel: PIE: World Init took: (0.000946s)
+[2018.03.29-15.28.26:514][452]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022212s)
+[2018.03.29-15.28.26:549][452]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.29-15.28.26:555][452]LogInit: FAudioDevice initialized.
+[2018.03.29-15.28.26:588][452]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.29-15.28.26:594][452]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.03.29-17.28.26
+[2018.03.29-15.28.26:594][452]LogWorld: Bringing up level for play took: 0.002774
+[2018.03.29-15.28.26:596][452]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.03.29-15.28.26:596][452]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.602
+[2018.03.29-15.28.26:596][452]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-15.28.26:596][452]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.03.29-15.28.26:596][452]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.03.29-15.28.26:598][452]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2018.03.29-15.28.26:636][453]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_LevelTuto 0 0 0
+[2018.03.29-15.28.27:594][568]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 1 1 0
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 0: 0.0
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 0: 3130.063965
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 0: 5530.0
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 0: 5918.868164
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 0: 9273.240234
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 0: 9030.137695
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 0: 13742.943359
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 0: 16090.161133
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 0: 7877.372559
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 0: 10469.62207
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 1: 3130.063965
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 1: 0.0
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 1: 2400.083252
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 1: 3182.467529
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 1: 6259.241211
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 1: 5900.415039
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 1: 10656.950195
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 1: 13540.110352
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 1: 6083.428223
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 1: 9188.955078
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 2: 5530.0
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 2: 2400.083252
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 2: 0.0
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 2: 2110.0
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 2: 4086.820313
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 2: 3500.357178
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 2: 8321.93457
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 2: 11801.668945
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 2: 5610.0
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 2: 8890.0
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 3: 5918.868164
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 3: 3182.467529
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 3: 2110.0
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 3: 0.0
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 3: 3500.0
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 3: 4112.85791
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 3: 8050.0
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 3: 10359.193359
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 3: 3500.0
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 3: 6780.0
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 4: 9273.240234
+[2018.03.29-15.28.27:607][568]LogBlueprintUserMessages: [RedLevel_C_0] 4: 6259.241211
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 4: 4086.820313
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 4: 3500.0
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 4: 0.0
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 4: 2160.0
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 4: 4550.0
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 4: 7950.654297
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 4: 4949.747559
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 4: 7630.098145
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 5: 9030.137695
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 5: 5900.415039
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 5: 3500.357178
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 5: 4112.85791
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 5: 2160.0
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 5: 0.0
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 5: 5036.675293
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 5: 9800.25
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 5: 6654.742676
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 5: 9600.708008
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 6: 13742.943359
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 6: 10656.950195
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 6: 8321.93457
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 6: 8050.0
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 6: 4550.0
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 6: 5036.675293
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 6: 0.0
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 6: 6520.0
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 6: 8777.955078
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 6: 10524.775391
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 7: 16090.161133
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 7: 13540.110352
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 7: 11801.668945
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 7: 10359.193359
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 7: 7950.654297
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 7: 9800.25
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 7: 6520.0
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 7: 0.0
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 7: 8597.842773
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 7: 8054.197754
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 8: 7877.372559
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 8: 6083.428223
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 8: 5610.0
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 8: 3500.0
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 8: 4949.747559
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 8: 6654.742676
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 8: 8777.955078
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 8: 8597.842773
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 8: 0.0
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 8: 3280.0
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 9: 10469.62207
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 9: 9188.955078
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 9: 8890.0
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 9: 6780.0
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 9: 7630.098145
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 9: 9600.708008
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 9: 10524.775391
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 9: 8054.197754
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 9: 3280.0
+[2018.03.29-15.28.27:608][568]LogBlueprintUserMessages: [RedLevel_C_0] 9: 0.0
+[2018.03.29-15.28.27:629][570]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.03.29-15.28.34:427][380]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 55
+[2018.03.29-15.28.35:068][457]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.28.35:068][457]LogBlueprintUserMessages: [BlueBoosDummy13_140] 3
+[2018.03.29-15.28.35:068][457]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.28.35:068][457]LogBlueprintUserMessages: [BlueBoosDummy13_140] 3
+[2018.03.29-15.28.35:068][457]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.28.35:068][457]LogBlueprintUserMessages: [BlueBoosDummy13_140] 3
+[2018.03.29-15.28.35:068][457]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.28.35:068][457]LogBlueprintUserMessages: [BlueBoosDummy13_140] 3
+[2018.03.29-15.28.35:068][457]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.28.35:068][457]LogBlueprintUserMessages: [BlueBoosDummy13_140] 1
+[2018.03.29-15.28.37:061][696]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 55
+[2018.03.29-15.28.37:228][716]LogBlueprintUserMessages: [BlueBoosDummy13_140] PARO!
+[2018.03.29-15.28.37:905][797]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 55
+[2018.03.29-15.28.38:773][901]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 54
+[2018.03.29-15.28.39:407][977]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 53
+[2018.03.29-15.28.40:148][ 66]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 53
+[2018.03.29-15.28.40:923][159]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 52
+[2018.03.29-15.28.41:748][258]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 54
+[2018.03.29-15.28.42:515][350]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 53
+[2018.03.29-15.28.43:348][450]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 54
+[2018.03.29-15.28.44:423][579]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 52
+[2018.03.29-15.28.45:156][667]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 55
+[2018.03.29-15.28.46:074][776]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 53
+[2018.03.29-15.28.47:441][940]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 55
+[2018.03.29-15.28.48:258][ 38]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 54
+[2018.03.29-15.28.49:233][155]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 53
+[2018.03.29-15.28.49:916][237]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 53
+[2018.03.29-15.28.50:925][358]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 55
+[2018.03.29-15.28.51:942][480]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 53
+[2018.03.29-15.28.52:699][571]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 53
+[2018.03.29-15.28.53:383][653]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 53
+[2018.03.29-15.28.56:697][ 48]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.28.56:697][ 48]LogBlueprintUserMessages: [BlueBoosDummy13_140] 2
+[2018.03.29-15.28.57:916][193]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 52
+[2018.03.29-15.28.58:666][283]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 52
+[2018.03.29-15.28.59:357][366]LogBlueprintUserMessages: [BlueBoosDummy13_140] PARO!
+[2018.03.29-15.28.59:499][383]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 54
+[2018.03.29-15.29.00:383][489]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 54
+[2018.03.29-15.29.01:432][615]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 53
+[2018.03.29-15.29.01:558][630]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-15.29.01:558][630]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.03.29-15.29.01:558][630]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.03.29-15.29.01:593][630]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-15.29.01:593][630]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.03.29-15.29.01:593][630]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.03.29-15.40.13:268][984]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.29-15.40.13:309][984]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-15.40.13:309][984]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.03.29-15.40.13:309][984]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.03.29-15.40.13:312][984]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.29-15.40.13:312][984]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 29, 2018, 7:40:13 PM)
+[2018.03.29-15.40.13:313][984]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.03.29-15.40.13:336][984]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023057s)
+[2018.03.29-15.40.13:337][984]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.29-15.40.13:337][984]LogPlayLevel: PIE: World Init took: (0.000986s)
+[2018.03.29-15.40.13:337][984]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.024350s)
+[2018.03.29-15.40.13:377][984]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.29-15.40.13:383][984]LogInit: FAudioDevice initialized.
+[2018.03.29-15.40.13:418][984]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.29-15.40.13:424][984]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.03.29-17.40.13
+[2018.03.29-15.40.13:424][984]LogWorld: Bringing up level for play took: 0.002661
+[2018.03.29-15.40.13:426][984]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.03.29-15.40.13:426][984]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.569
+[2018.03.29-15.40.13:426][984]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-15.40.13:426][984]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.03.29-15.40.13:426][984]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.03.29-15.40.13:428][984]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2018.03.29-15.40.13:462][985]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_LevelTuto 0 0 0
+[2018.03.29-15.40.15:120][184]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 1 1 0
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 0: 0.0
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 0: 3130.063965
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 0: 5530.0
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 0: 5918.868164
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 0: 9273.240234
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 0: 9030.137695
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 0: 13742.943359
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 0: 16090.161133
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 0: 7877.372559
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 0: 10469.62207
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 1: 3130.063965
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 1: 0.0
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 1: 2400.083252
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 1: 3182.467529
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 1: 6259.241211
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 1: 5900.415039
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 1: 10656.950195
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 1: 13540.110352
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 1: 6083.428223
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 1: 9188.955078
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 2: 5530.0
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 2: 2400.083252
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 2: 0.0
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 2: 2110.0
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 2: 4086.820313
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 2: 3500.357178
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 2: 8321.93457
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 2: 11801.668945
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 2: 5610.0
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 2: 8890.0
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 3: 5918.868164
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 3: 3182.467529
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 3: 2110.0
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 3: 0.0
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 3: 3500.0
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 3: 4112.85791
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 3: 8050.0
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 3: 10359.193359
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 3: 3500.0
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 3: 6780.0
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 4: 9273.240234
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 4: 6259.241211
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 4: 4086.820313
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 4: 3500.0
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 4: 0.0
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 4: 2160.0
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 4: 4550.0
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 4: 7950.654297
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 4: 4949.747559
+[2018.03.29-15.40.15:133][184]LogBlueprintUserMessages: [RedLevel_C_0] 4: 7630.098145
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 5: 9030.137695
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 5: 5900.415039
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 5: 3500.357178
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 5: 4112.85791
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 5: 2160.0
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 5: 0.0
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 5: 5036.675293
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 5: 9800.25
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 5: 6654.742676
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 5: 9600.708008
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 6: 13742.943359
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 6: 10656.950195
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 6: 8321.93457
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 6: 8050.0
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 6: 4550.0
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 6: 5036.675293
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 6: 0.0
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 6: 6520.0
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 6: 8777.955078
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 6: 10524.775391
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 7: 16090.161133
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 7: 13540.110352
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 7: 11801.668945
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 7: 10359.193359
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 7: 7950.654297
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 7: 9800.25
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 7: 6520.0
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 7: 0.0
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 7: 8597.842773
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 7: 8054.197754
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 8: 7877.372559
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 8: 6083.428223
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 8: 5610.0
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 8: 3500.0
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 8: 4949.747559
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 8: 6654.742676
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 8: 8777.955078
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 8: 8597.842773
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 8: 0.0
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 8: 3280.0
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 9: 10469.62207
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 9: 9188.955078
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 9: 8890.0
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 9: 6780.0
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 9: 7630.098145
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 9: 9600.708008
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 9: 10524.775391
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 9: 8054.197754
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 9: 3280.0
+[2018.03.29-15.40.15:134][184]LogBlueprintUserMessages: [RedLevel_C_0] 9: 0.0
+[2018.03.29-15.40.15:155][186]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.03.29-15.40.27:062][603]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.40.28:878][821]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.40.28:878][821]LogBlueprintUserMessages: [BlueBoosDummy13_140] 1
+[2018.03.29-15.40.30:363][999]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 3 VALORS: 45
+[2018.03.29-15.40.30:905][ 64]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 47
+[2018.03.29-15.40.31:348][115]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 3 VALORS: 54
+[2018.03.29-15.40.31:871][178]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 3 VALORS: 45
+[2018.03.29-15.40.32:413][243]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 3 VALORS: 54
+[2018.03.29-15.40.33:046][319]LogBlueprintUserMessages: [BlueBoosDummy13_140] PARO!
+[2018.03.29-15.40.35:290][588]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 49
+[2018.03.29-15.40.36:297][709]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 3 VALORS: 35
+[2018.03.29-15.40.37:340][833]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 37
+[2018.03.29-15.40.38:357][955]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 36
+[2018.03.29-15.40.39:392][ 79]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 3 VALORS: 46
+[2018.03.29-15.40.40:268][184]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 3 VALORS: 36
+[2018.03.29-15.40.41:068][280]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 3 VALORS: 41
+[2018.03.29-15.40.41:727][359]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 3 VALORS: 42
+[2018.03.29-15.40.42:535][456]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 40
+[2018.03.29-15.40.43:268][544]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 52
+[2018.03.29-15.40.43:985][630]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 49
+[2018.03.29-15.40.44:777][725]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 52
+[2018.03.29-15.40.45:435][804]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 53
+[2018.03.29-15.40.46:443][925]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 34
+[2018.03.29-15.40.47:202][ 16]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 53
+[2018.03.29-15.40.47:886][ 98]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 50
+[2018.03.29-15.40.48:568][180]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 3 VALORS: 55
+[2018.03.29-15.40.49:236][260]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 3 VALORS: 42
+[2018.03.29-15.40.49:986][350]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 3 VALORS: 52
+[2018.03.29-15.40.50:644][429]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 3 VALORS: 43
+[2018.03.29-15.40.51:045][477]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.40.51:045][477]LogBlueprintUserMessages: [BlueBoosDummy13_140] 0
+[2018.03.29-15.40.53:182][729]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 3 VALORS: 45
+[2018.03.29-15.40.53:608][780]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-15.40.53:608][780]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.03.29-15.40.53:608][780]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.03.29-15.40.53:642][780]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-15.40.53:642][780]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.03.29-15.40.53:642][780]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.03.29-15.52.30:210][964]BlueprintLog: New page: Compile BTService_CalcularDireccionMovimiento
+[2018.03.29-15.52.31:259][ 35]LogSavePackage: Save=176.61ms
+[2018.03.29-15.52.31:259][ 35]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BTService_CalcularDireccionMovimiento5851CD8E48DA0042C00A0FB65226CF29.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/IA/Patrol/BTServices/BTService_CalcularDireccionMovimiento.uasset'
+[2018.03.29-15.52.31:261][ 35]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/IA/Patrol/BTServices/BTService_CalcularDireccionMovimiento.uasset
+[2018.03.29-15.52.42:097][349]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.29-15.52.42:135][349]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-15.52.42:135][349]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.03.29-15.52.42:135][349]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.03.29-15.52.42:138][349]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.29-15.52.42:138][349]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 29, 2018, 7:52:42 PM)
+[2018.03.29-15.52.42:139][349]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.03.29-15.52.42:162][349]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023097s)
+[2018.03.29-15.52.42:163][349]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.29-15.52.42:163][349]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2018.03.29-15.52.42:163][349]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.024325s)
+[2018.03.29-15.52.42:200][349]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.29-15.52.42:206][349]LogInit: FAudioDevice initialized.
+[2018.03.29-15.52.42:237][349]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.29-15.52.42:243][349]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.03.29-17.52.42
+[2018.03.29-15.52.42:244][349]LogWorld: Bringing up level for play took: 0.003018
+[2018.03.29-15.52.42:245][349]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.03.29-15.52.42:245][349]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.251
+[2018.03.29-15.52.42:246][349]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-15.52.42:246][349]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.03.29-15.52.42:246][349]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.03.29-15.52.42:247][349]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2018.03.29-15.52.42:288][350]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_LevelTuto 0 0 0
+[2018.03.29-15.52.43:045][441]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 1 1 0
+[2018.03.29-15.52.43:058][441]LogBlueprintUserMessages: [RedLevel_C_0] 0: 0.0
+[2018.03.29-15.52.43:058][441]LogBlueprintUserMessages: [RedLevel_C_0] 0: 3130.063965
+[2018.03.29-15.52.43:058][441]LogBlueprintUserMessages: [RedLevel_C_0] 0: 5530.0
+[2018.03.29-15.52.43:058][441]LogBlueprintUserMessages: [RedLevel_C_0] 0: 5918.868164
+[2018.03.29-15.52.43:058][441]LogBlueprintUserMessages: [RedLevel_C_0] 0: 9273.240234
+[2018.03.29-15.52.43:058][441]LogBlueprintUserMessages: [RedLevel_C_0] 0: 9030.137695
+[2018.03.29-15.52.43:058][441]LogBlueprintUserMessages: [RedLevel_C_0] 0: 13742.943359
+[2018.03.29-15.52.43:058][441]LogBlueprintUserMessages: [RedLevel_C_0] 0: 16090.161133
+[2018.03.29-15.52.43:058][441]LogBlueprintUserMessages: [RedLevel_C_0] 0: 7877.372559
+[2018.03.29-15.52.43:058][441]LogBlueprintUserMessages: [RedLevel_C_0] 0: 10469.62207
+[2018.03.29-15.52.43:058][441]LogBlueprintUserMessages: [RedLevel_C_0] 1: 3130.063965
+[2018.03.29-15.52.43:058][441]LogBlueprintUserMessages: [RedLevel_C_0] 1: 0.0
+[2018.03.29-15.52.43:058][441]LogBlueprintUserMessages: [RedLevel_C_0] 1: 2400.083252
+[2018.03.29-15.52.43:058][441]LogBlueprintUserMessages: [RedLevel_C_0] 1: 3182.467529
+[2018.03.29-15.52.43:058][441]LogBlueprintUserMessages: [RedLevel_C_0] 1: 6259.241211
+[2018.03.29-15.52.43:058][441]LogBlueprintUserMessages: [RedLevel_C_0] 1: 5900.415039
+[2018.03.29-15.52.43:058][441]LogBlueprintUserMessages: [RedLevel_C_0] 1: 10656.950195
+[2018.03.29-15.52.43:058][441]LogBlueprintUserMessages: [RedLevel_C_0] 1: 13540.110352
+[2018.03.29-15.52.43:058][441]LogBlueprintUserMessages: [RedLevel_C_0] 1: 6083.428223
+[2018.03.29-15.52.43:058][441]LogBlueprintUserMessages: [RedLevel_C_0] 1: 9188.955078
+[2018.03.29-15.52.43:058][441]LogBlueprintUserMessages: [RedLevel_C_0] 2: 5530.0
+[2018.03.29-15.52.43:058][441]LogBlueprintUserMessages: [RedLevel_C_0] 2: 2400.083252
+[2018.03.29-15.52.43:058][441]LogBlueprintUserMessages: [RedLevel_C_0] 2: 0.0
+[2018.03.29-15.52.43:058][441]LogBlueprintUserMessages: [RedLevel_C_0] 2: 2110.0
+[2018.03.29-15.52.43:058][441]LogBlueprintUserMessages: [RedLevel_C_0] 2: 4086.820313
+[2018.03.29-15.52.43:058][441]LogBlueprintUserMessages: [RedLevel_C_0] 2: 3500.357178
+[2018.03.29-15.52.43:058][441]LogBlueprintUserMessages: [RedLevel_C_0] 2: 8321.93457
+[2018.03.29-15.52.43:058][441]LogBlueprintUserMessages: [RedLevel_C_0] 2: 11801.668945
+[2018.03.29-15.52.43:058][441]LogBlueprintUserMessages: [RedLevel_C_0] 2: 5610.0
+[2018.03.29-15.52.43:058][441]LogBlueprintUserMessages: [RedLevel_C_0] 2: 8890.0
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 3: 5918.868164
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 3: 3182.467529
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 3: 2110.0
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 3: 0.0
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 3: 3500.0
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 3: 4112.85791
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 3: 8050.0
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 3: 10359.193359
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 3: 3500.0
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 3: 6780.0
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 4: 9273.240234
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 4: 6259.241211
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 4: 4086.820313
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 4: 3500.0
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 4: 0.0
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 4: 2160.0
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 4: 4550.0
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 4: 7950.654297
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 4: 4949.747559
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 4: 7630.098145
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 5: 9030.137695
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 5: 5900.415039
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 5: 3500.357178
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 5: 4112.85791
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 5: 2160.0
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 5: 0.0
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 5: 5036.675293
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 5: 9800.25
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 5: 6654.742676
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 5: 9600.708008
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 6: 13742.943359
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 6: 10656.950195
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 6: 8321.93457
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 6: 8050.0
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 6: 4550.0
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 6: 5036.675293
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 6: 0.0
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 6: 6520.0
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 6: 8777.955078
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 6: 10524.775391
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 7: 16090.161133
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 7: 13540.110352
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 7: 11801.668945
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 7: 10359.193359
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 7: 7950.654297
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 7: 9800.25
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 7: 6520.0
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 7: 0.0
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 7: 8597.842773
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 7: 8054.197754
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 8: 7877.372559
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 8: 6083.428223
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 8: 5610.0
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 8: 3500.0
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 8: 4949.747559
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 8: 6654.742676
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 8: 8777.955078
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 8: 8597.842773
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 8: 0.0
+[2018.03.29-15.52.43:059][441]LogBlueprintUserMessages: [RedLevel_C_0] 8: 3280.0
+[2018.03.29-15.52.43:060][441]LogBlueprintUserMessages: [RedLevel_C_0] 9: 10469.62207
+[2018.03.29-15.52.43:060][441]LogBlueprintUserMessages: [RedLevel_C_0] 9: 9188.955078
+[2018.03.29-15.52.43:060][441]LogBlueprintUserMessages: [RedLevel_C_0] 9: 8890.0
+[2018.03.29-15.52.43:060][441]LogBlueprintUserMessages: [RedLevel_C_0] 9: 6780.0
+[2018.03.29-15.52.43:060][441]LogBlueprintUserMessages: [RedLevel_C_0] 9: 7630.098145
+[2018.03.29-15.52.43:060][441]LogBlueprintUserMessages: [RedLevel_C_0] 9: 9600.708008
+[2018.03.29-15.52.43:060][441]LogBlueprintUserMessages: [RedLevel_C_0] 9: 10524.775391
+[2018.03.29-15.52.43:060][441]LogBlueprintUserMessages: [RedLevel_C_0] 9: 8054.197754
+[2018.03.29-15.52.43:060][441]LogBlueprintUserMessages: [RedLevel_C_0] 9: 3280.0
+[2018.03.29-15.52.43:060][441]LogBlueprintUserMessages: [RedLevel_C_0] 9: 0.0
+[2018.03.29-15.52.43:080][443]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.03.29-15.52.48:885][133]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 55
+[2018.03.29-15.52.49:804][243]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 55
+[2018.03.29-15.52.50:638][343]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 54
+[2018.03.29-15.52.51:030][390]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.52.51:030][390]LogBlueprintUserMessages: [BlueBoosDummy13_140] 3
+[2018.03.29-15.52.51:030][390]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.52.51:030][390]LogBlueprintUserMessages: [BlueBoosDummy13_140] 3
+[2018.03.29-15.52.51:030][390]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.52.51:030][390]LogBlueprintUserMessages: [BlueBoosDummy13_140] 4
+[2018.03.29-15.52.51:030][390]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.52.51:030][390]LogBlueprintUserMessages: [BlueBoosDummy13_140] 1
+[2018.03.29-15.52.52:998][626]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 53
+[2018.03.29-15.52.53:483][684]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 52
+[2018.03.29-15.52.54:025][749]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 52
+[2018.03.29-15.52.54:517][808]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 52
+[2018.03.29-15.52.55:066][874]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 54
+[2018.03.29-15.52.55:533][930]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 48
+[2018.03.29-15.52.56:016][988]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 47
+[2018.03.29-15.52.56:484][ 44]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 3 VALORS: 47
+[2018.03.29-15.52.57:033][110]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 0 VALORS: 41
+[2018.03.29-15.52.57:559][173]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 0 VALORS: 40
+[2018.03.29-15.52.57:867][210]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.52.57:867][210]LogBlueprintUserMessages: [BlueBoosDummy13_140] 2
+[2018.03.29-15.52.58:359][269]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 3 VALORS: 40
+[2018.03.29-15.52.58:875][331]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 0 VALORS: 43
+[2018.03.29-15.52.59:434][398]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 3 VALORS: 44
+[2018.03.29-15.52.59:952][460]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 43
+[2018.03.29-15.53.00:553][532]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 43
+[2018.03.29-15.53.00:977][583]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 49
+[2018.03.29-15.53.02:244][735]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 0 VALORS: 46
+[2018.03.29-15.53.02:694][789]LogBlueprintUserMessages: [BlueBoosDummy13_140] PARO!
+[2018.03.29-15.53.03:340][866]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 0 VALORS: 46
+[2018.03.29-15.53.04:300][981]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 0 VALORS: 43
+[2018.03.29-15.53.05:233][ 93]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 48
+[2018.03.29-15.53.06:383][231]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 44
+[2018.03.29-15.53.07:317][343]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 0 VALORS: 47
+[2018.03.29-15.53.08:257][455]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 44
+[2018.03.29-15.53.09:126][559]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 0 VALORS: 49
+[2018.03.29-15.53.10:133][680]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 3 VALORS: 48
+[2018.03.29-15.53.11:159][803]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 49
+[2018.03.29-15.53.12:293][939]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 3 VALORS: 50
+[2018.03.29-15.53.13:293][ 59]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 40
+[2018.03.29-15.53.14:068][152]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 45
+[2018.03.29-15.53.15:360][307]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 48
+[2018.03.29-15.53.16:084][393]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-15.53.16:085][393]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.03.29-15.53.16:085][393]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.03.29-15.53.16:123][393]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-15.53.16:123][393]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.03.29-15.53.16:123][393]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.03.29-15.58.22:562][201]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.29-15.58.22:603][201]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-15.58.22:603][201]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.03.29-15.58.22:603][201]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.03.29-15.58.22:606][201]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.29-15.58.22:606][201]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 29, 2018, 7:58:22 PM)
+[2018.03.29-15.58.22:607][201]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.03.29-15.58.22:627][201]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020278s)
+[2018.03.29-15.58.22:628][201]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.29-15.58.22:628][201]LogPlayLevel: PIE: World Init took: (0.000927s)
+[2018.03.29-15.58.22:628][201]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021517s)
+[2018.03.29-15.58.22:665][201]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.29-15.58.22:671][201]LogInit: FAudioDevice initialized.
+[2018.03.29-15.58.22:704][201]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.29-15.58.22:710][201]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.03.29-17.58.22
+[2018.03.29-15.58.22:710][201]LogWorld: Bringing up level for play took: 0.002709
+[2018.03.29-15.58.22:712][201]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.03.29-15.58.22:712][201]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.718
+[2018.03.29-15.58.22:712][201]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-15.58.22:712][201]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.03.29-15.58.22:712][201]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.03.29-15.58.22:714][201]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2018.03.29-15.58.22:753][202]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_LevelTuto 0 0 0
+[2018.03.29-15.58.24:621][426]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 1 1 0
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 0: 0.0
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 0: 3130.063965
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 0: 5530.0
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 0: 5918.868164
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 0: 9273.240234
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 0: 9030.137695
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 0: 13742.943359
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 0: 16090.161133
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 0: 7877.372559
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 0: 10469.62207
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 1: 3130.063965
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 1: 0.0
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 1: 2400.083252
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 1: 3182.467529
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 1: 6259.241211
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 1: 5900.415039
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 1: 10656.950195
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 1: 13540.110352
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 1: 6083.428223
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 1: 9188.955078
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 2: 5530.0
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 2: 2400.083252
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 2: 0.0
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 2: 2110.0
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 2: 4086.820313
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 2: 3500.357178
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 2: 8321.93457
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 2: 11801.668945
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 2: 5610.0
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 2: 8890.0
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 3: 5918.868164
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 3: 3182.467529
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 3: 2110.0
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 3: 0.0
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 3: 3500.0
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 3: 4112.85791
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 3: 8050.0
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 3: 10359.193359
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 3: 3500.0
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 3: 6780.0
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 4: 9273.240234
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 4: 6259.241211
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 4: 4086.820313
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 4: 3500.0
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 4: 0.0
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 4: 2160.0
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 4: 4550.0
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 4: 7950.654297
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 4: 4949.747559
+[2018.03.29-15.58.24:634][426]LogBlueprintUserMessages: [RedLevel_C_0] 4: 7630.098145
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 5: 9030.137695
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 5: 5900.415039
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 5: 3500.357178
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 5: 4112.85791
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 5: 2160.0
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 5: 0.0
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 5: 5036.675293
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 5: 9800.25
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 5: 6654.742676
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 5: 9600.708008
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 6: 13742.943359
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 6: 10656.950195
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 6: 8321.93457
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 6: 8050.0
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 6: 4550.0
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 6: 5036.675293
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 6: 0.0
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 6: 6520.0
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 6: 8777.955078
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 6: 10524.775391
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 7: 16090.161133
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 7: 13540.110352
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 7: 11801.668945
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 7: 10359.193359
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 7: 7950.654297
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 7: 9800.25
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 7: 6520.0
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 7: 0.0
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 7: 8597.842773
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 7: 8054.197754
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 8: 7877.372559
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 8: 6083.428223
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 8: 5610.0
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 8: 3500.0
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 8: 4949.747559
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 8: 6654.742676
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 8: 8777.955078
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 8: 8597.842773
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 8: 0.0
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 8: 3280.0
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 9: 10469.62207
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 9: 9188.955078
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 9: 8890.0
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 9: 6780.0
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 9: 7630.098145
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 9: 9600.708008
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 9: 10524.775391
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 9: 8054.197754
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 9: 3280.0
+[2018.03.29-15.58.24:635][426]LogBlueprintUserMessages: [RedLevel_C_0] 9: 0.0
+[2018.03.29-15.58.24:655][428]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.03.29-15.58.37:012][905]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 55
+[2018.03.29-15.58.37:848][  4]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 55
+[2018.03.29-15.58.38:883][128]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 52
+[2018.03.29-15.58.39:067][150]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.58.39:067][150]LogBlueprintUserMessages: [BlueBoosDummy13_140] 0
+[2018.03.29-15.58.42:760][591]LogBlueprintUserMessages: [BlueBoosDummy13_140] PARO!
+[2018.03.29-15.58.44:276][773]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.58.44:276][773]LogBlueprintUserMessages: [BlueBoosDummy13_140] 1
+[2018.03.29-15.58.44:643][817]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 52
+[2018.03.29-15.58.45:060][867]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 53
+[2018.03.29-15.58.45:544][925]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 53
+[2018.03.29-15.58.46:095][991]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 53
+[2018.03.29-15.58.46:629][ 55]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 52
+[2018.03.29-15.58.47:303][136]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 53
+[2018.03.29-15.58.47:770][192]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 52
+[2018.03.29-15.58.48:219][245]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 54
+[2018.03.29-15.58.48:444][272]LogBlueprintUserMessages: [BlueBoosDummy13_140] PARO!
+[2018.03.29-15.58.48:937][331]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 52
+[2018.03.29-15.58.49:545][404]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.58.49:545][404]LogBlueprintUserMessages: [BlueBoosDummy13_140] 3
+[2018.03.29-15.58.49:545][404]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.58.49:545][404]LogBlueprintUserMessages: [BlueBoosDummy13_140] 0
+[2018.03.29-15.58.51:237][607]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 52
+[2018.03.29-15.58.51:829][678]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 55
+[2018.03.29-15.58.52:412][748]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 55
+[2018.03.29-15.58.53:012][820]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 55
+[2018.03.29-15.58.53:420][869]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 55
+[2018.03.29-15.58.53:846][920]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 54
+[2018.03.29-15.58.54:306][975]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 55
+[2018.03.29-15.58.54:872][ 43]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 55
+[2018.03.29-15.58.55:505][119]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.58.55:505][119]LogBlueprintUserMessages: [BlueBoosDummy13_140] 0
+[2018.03.29-15.58.56:939][291]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 52
+[2018.03.29-15.58.57:389][345]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 1 VALORS: 52
+[2018.03.29-15.58.57:872][403]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 49
+[2018.03.29-15.58.58:306][455]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 3 VALORS: 43
+[2018.03.29-15.58.58:890][525]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 49
+[2018.03.29-15.58.59:489][597]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 0 VALORS: 41
+[2018.03.29-15.58.59:897][646]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 44
+[2018.03.29-15.59.00:389][705]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 42
+[2018.03.29-15.59.00:990][777]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 48
+[2018.03.29-15.59.01:806][875]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 41
+[2018.03.29-15.59.01:897][886]LogBlueprintUserMessages: [BlueBoosDummy13_140] Hello
+[2018.03.29-15.59.01:898][886]LogBlueprintUserMessages: [BlueBoosDummy13_140] 0
+[2018.03.29-15.59.03:741][107]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 47
+[2018.03.29-15.59.04:317][176]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 49
+[2018.03.29-15.59.04:774][231]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 48
+[2018.03.29-15.59.05:375][303]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 45
+[2018.03.29-15.59.05:791][353]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 48
+[2018.03.29-15.59.06:205][402]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 3 VALORS: 50
+[2018.03.29-15.59.06:629][451]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 43
+[2018.03.29-15.59.07:173][514]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 48
+[2018.03.29-15.59.07:708][578]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 0 VALORS: 47
+[2018.03.29-15.59.08:726][700]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 3 VALORS: 48
+[2018.03.29-15.59.09:669][813]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 42
+[2018.03.29-15.59.10:486][911]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 0 VALORS: 41
+[2018.03.29-15.59.11:286][  7]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 0 VALORS: 47
+[2018.03.29-15.59.12:295][127]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 50
+[2018.03.29-15.59.13:489][270]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 0 VALORS: 44
+[2018.03.29-15.59.14:555][397]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 45
+[2018.03.29-15.59.15:597][522]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 48
+[2018.03.29-15.59.16:622][645]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 0 VALORS: 45
+[2018.03.29-15.59.17:705][775]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 42
+[2018.03.29-15.59.18:479][868]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 47
+[2018.03.29-15.59.19:648][  7]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 3 VALORS: 47
+[2018.03.29-15.59.20:799][145]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 0 VALORS: 46
+[2018.03.29-15.59.21:767][261]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 0 VALORS: 50
+[2018.03.29-15.59.24:900][635]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 54
+[2018.03.29-15.59.28:060][ 14]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 4 VALORS: 47
+[2018.03.29-15.59.28:938][118]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 0 VALORS: 47
+[2018.03.29-15.59.29:988][244]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 47
+[2018.03.29-15.59.30:963][361]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 48
+[2018.03.29-15.59.32:021][488]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 48
+[2018.03.29-15.59.33:022][608]LogBlueprintUserMessages: [BTService_CalcularDireccionMovimiento_C_1] INDEX: 2 VALORS: 42
+[2018.03.29-15.59.33:148][623]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-15.59.33:148][623]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.03.29-15.59.33:148][623]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.03.29-15.59.33:183][623]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-15.59.33:183][623]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.03.29-15.59.33:183][623]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.03.29-15.59.33:988][714]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.29-15.59.34:026][714]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-15.59.34:026][714]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.03.29-15.59.34:026][714]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.03.29-15.59.34:028][714]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.29-15.59.34:029][714]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 29, 2018, 7:59:34 PM)
+[2018.03.29-15.59.34:029][714]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.03.29-15.59.34:048][714]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018721s)
+[2018.03.29-15.59.34:048][714]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.29-15.59.34:049][714]LogPlayLevel: PIE: World Init took: (0.000841s)
+[2018.03.29-15.59.34:049][714]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019852s)
+[2018.03.29-15.59.34:083][714]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.29-15.59.34:089][714]LogInit: FAudioDevice initialized.
+[2018.03.29-15.59.34:123][714]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.29-15.59.34:129][714]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.03.29-17.59.34
+[2018.03.29-15.59.34:129][714]LogWorld: Bringing up level for play took: 0.002672
+[2018.03.29-15.59.34:131][714]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.03.29-15.59.34:131][714]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.137
+[2018.03.29-15.59.34:131][714]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-15.59.34:131][714]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.03.29-15.59.34:131][714]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.03.29-15.59.34:132][714]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2018.03.29-15.59.34:170][715]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_LevelTuto 0 0 0
+[2018.03.29-15.59.34:970][811]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 1 1 0
+[2018.03.29-15.59.34:982][811]LogBlueprintUserMessages: [RedLevel_C_0] 0: 0.0
+[2018.03.29-15.59.34:982][811]LogBlueprintUserMessages: [RedLevel_C_0] 0: 3130.063965
+[2018.03.29-15.59.34:982][811]LogBlueprintUserMessages: [RedLevel_C_0] 0: 5530.0
+[2018.03.29-15.59.34:982][811]LogBlueprintUserMessages: [RedLevel_C_0] 0: 5918.868164
+[2018.03.29-15.59.34:982][811]LogBlueprintUserMessages: [RedLevel_C_0] 0: 9273.240234
+[2018.03.29-15.59.34:982][811]LogBlueprintUserMessages: [RedLevel_C_0] 0: 9030.137695
+[2018.03.29-15.59.34:982][811]LogBlueprintUserMessages: [RedLevel_C_0] 0: 13742.943359
+[2018.03.29-15.59.34:982][811]LogBlueprintUserMessages: [RedLevel_C_0] 0: 16090.161133
+[2018.03.29-15.59.34:982][811]LogBlueprintUserMessages: [RedLevel_C_0] 0: 7877.372559
+[2018.03.29-15.59.34:982][811]LogBlueprintUserMessages: [RedLevel_C_0] 0: 10469.62207
+[2018.03.29-15.59.34:982][811]LogBlueprintUserMessages: [RedLevel_C_0] 1: 3130.063965
+[2018.03.29-15.59.34:982][811]LogBlueprintUserMessages: [RedLevel_C_0] 1: 0.0
+[2018.03.29-15.59.34:982][811]LogBlueprintUserMessages: [RedLevel_C_0] 1: 2400.083252
+[2018.03.29-15.59.34:982][811]LogBlueprintUserMessages: [RedLevel_C_0] 1: 3182.467529
+[2018.03.29-15.59.34:982][811]LogBlueprintUserMessages: [RedLevel_C_0] 1: 6259.241211
+[2018.03.29-15.59.34:982][811]LogBlueprintUserMessages: [RedLevel_C_0] 1: 5900.415039
+[2018.03.29-15.59.34:982][811]LogBlueprintUserMessages: [RedLevel_C_0] 1: 10656.950195
+[2018.03.29-15.59.34:982][811]LogBlueprintUserMessages: [RedLevel_C_0] 1: 13540.110352
+[2018.03.29-15.59.34:982][811]LogBlueprintUserMessages: [RedLevel_C_0] 1: 6083.428223
+[2018.03.29-15.59.34:982][811]LogBlueprintUserMessages: [RedLevel_C_0] 1: 9188.955078
+[2018.03.29-15.59.34:982][811]LogBlueprintUserMessages: [RedLevel_C_0] 2: 5530.0
+[2018.03.29-15.59.34:982][811]LogBlueprintUserMessages: [RedLevel_C_0] 2: 2400.083252
+[2018.03.29-15.59.34:982][811]LogBlueprintUserMessages: [RedLevel_C_0] 2: 0.0
+[2018.03.29-15.59.34:982][811]LogBlueprintUserMessages: [RedLevel_C_0] 2: 2110.0
+[2018.03.29-15.59.34:982][811]LogBlueprintUserMessages: [RedLevel_C_0] 2: 4086.820313
+[2018.03.29-15.59.34:982][811]LogBlueprintUserMessages: [RedLevel_C_0] 2: 3500.357178
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 2: 8321.93457
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 2: 11801.668945
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 2: 5610.0
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 2: 8890.0
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 3: 5918.868164
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 3: 3182.467529
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 3: 2110.0
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 3: 0.0
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 3: 3500.0
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 3: 4112.85791
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 3: 8050.0
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 3: 10359.193359
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 3: 3500.0
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 3: 6780.0
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 4: 9273.240234
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 4: 6259.241211
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 4: 4086.820313
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 4: 3500.0
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 4: 0.0
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 4: 2160.0
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 4: 4550.0
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 4: 7950.654297
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 4: 4949.747559
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 4: 7630.098145
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 5: 9030.137695
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 5: 5900.415039
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 5: 3500.357178
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 5: 4112.85791
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 5: 2160.0
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 5: 0.0
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 5: 5036.675293
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 5: 9800.25
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 5: 6654.742676
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 5: 9600.708008
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 6: 13742.943359
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 6: 10656.950195
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 6: 8321.93457
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 6: 8050.0
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 6: 4550.0
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 6: 5036.675293
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 6: 0.0
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 6: 6520.0
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 6: 8777.955078
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 6: 10524.775391
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 7: 16090.161133
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 7: 13540.110352
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 7: 11801.668945
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 7: 10359.193359
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 7: 7950.654297
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 7: 9800.25
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 7: 6520.0
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 7: 0.0
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 7: 8597.842773
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 7: 8054.197754
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 8: 7877.372559
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 8: 6083.428223
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 8: 5610.0
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 8: 3500.0
+[2018.03.29-15.59.34:983][811]LogBlueprintUserMessages: [RedLevel_C_0] 8: 4949.747559
+[2018.03.29-15.59.34:984][811]LogBlueprintUserMessages: [RedLevel_C_0] 8: 6654.742676
+[2018.03.29-15.59.34:984][811]LogBlueprintUserMessages: [RedLevel_C_0] 8: 8777.955078
+[2018.03.29-15.59.34:984][811]LogBlueprintUserMessages: [RedLevel_C_0] 8: 8597.842773
+[2018.03.29-15.59.34:984][811]LogBlueprintUserMessages: [RedLevel_C_0] 8: 0.0
+[2018.03.29-15.59.34:984][811]LogBlueprintUserMessages: [RedLevel_C_0] 8: 3280.0
+[2018.03.29-15.59.34:984][811]LogBlueprintUserMessages: [RedLevel_C_0] 9: 10469.62207
+[2018.03.29-15.59.34:984][811]LogBlueprintUserMessages: [RedLevel_C_0] 9: 9188.955078
+[2018.03.29-15.59.34:984][811]LogBlueprintUserMessages: [RedLevel_C_0] 9: 8890.0
+[2018.03.29-15.59.34:984][811]LogBlueprintUserMessages: [RedLevel_C_0] 9: 6780.0
+[2018.03.29-15.59.34:984][811]LogBlueprintUserMessages: [RedLevel_C_0] 9: 7630.098145
+[2018.03.29-15.59.34:984][811]LogBlueprintUserMessages: [RedLevel_C_0] 9: 9600.708008
+[2018.03.29-15.59.34:984][811]LogBlueprintUserMessages: [RedLevel_C_0] 9: 10524.775391
+[2018.03.29-15.59.34:984][811]LogBlueprintUserMessages: [RedLevel_C_0] 9: 8054.197754
+[2018.03.29-15.59.34:984][811]LogBlueprintUserMessages: [RedLevel_C_0] 9: 3280.0
+[2018.03.29-15.59.34:984][811]LogBlueprintUserMessages: [RedLevel_C_0] 9: 0.0
+[2018.03.29-15.59.35:004][813]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.03.29-15.59.48:001][313]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-15.59.48:001][313]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.03.29-15.59.48:001][313]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.03.29-15.59.48:040][313]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-15.59.48:040][313]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.03.29-15.59.48:040][313]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.03.29-16.03.04:455][591]LogSavePackage: Save=177.32ms
+[2018.03.29-16.03.04:455][591]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BTService_CalcularDireccionMovimientoA206A218416DDC187A6BC1BD924198ED.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/IA/Patrol/BTServices/BTService_CalcularDireccionMovimiento.uasset'
+[2018.03.29-16.03.04:458][591]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/IA/Patrol/BTServices/BTService_CalcularDireccionMovimiento.uasset
+[2018.03.29-16.03.04:654][591]LogSavePackage: Save=183.73ms
+[2018.03.29-16.03.04:654][591]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BTTask_MoveModeAttack98C84F7840293D419433FCBBBC279BAA.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/IA/Patrol/BTServices/BTTask_MoveModeAttack.uasset'
+[2018.03.29-16.03.04:656][591]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/IA/Patrol/BTServices/BTTask_MoveModeAttack.uasset
+[2018.03.29-16.03.04:793][591]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: BlueLevel, Actor: /Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel_C_0
+[2018.03.29-16.03.05:568][591]LogSavePackage: Save=792.22ms
+[2018.03.29-16.03.05:568][591]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueLevel2F15155443158EF223B80382F8AD8EB4.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap'
+[2018.03.29-16.03.05:574][591]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap
+[2018.03.29-16.03.05:574][591]LogFileHelpers: Saving map 'BlueLevel' took 0.911
+[2018.03.29-16.03.05:814][591]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.03.29-16.03.06:001][592]Cmd: QUIT_EDITOR
+[2018.03.29-16.03.06:470][592]LogExit: Preparing to exit.
+[2018.03.29-16.03.07:476][592]LogExit: Editor shut down
+[2018.03.29-16.03.07:479][592]LogExit: Transaction tracking system shut down
+[2018.03.29-16.03.07:586][592]LogObj: Freed 0b from 0 cluster array pools.
+[2018.03.29-16.03.07:587][592]LogExit: Object subsystem successfully closed.
+[2018.03.29-16.03.07:610][592]LogD3D11RHI: Shutdown
+[2018.03.29-16.03.07:610][592]LogD3D11RHI: CleanupD3DDevice
+[2018.03.29-16.03.07:704][592]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.03.29-16.03.07:711][592]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2018.03.29-16.03.07:711][592]LogModuleManager: Shutting down and abandoning module BlueprintGraph (532)
+[2018.03.29-16.03.07:711][592]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (530)
+[2018.03.29-16.03.07:711][592]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (528)
+[2018.03.29-16.03.07:711][592]LogModuleManager: Shutting down and abandoning module CrashTracker (526)
+[2018.03.29-16.03.07:711][592]LogModuleManager: Shutting down and abandoning module WorldBrowser (524)
+[2018.03.29-16.03.07:711][592]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
+[2018.03.29-16.03.07:711][592]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
+[2018.03.29-16.03.07:711][592]LogDirectoryWatcher: A directory notification for 'D:/Program Files (x86)/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
+[2018.03.29-16.03.07:712][592]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Collections/' was aborted.
+[2018.03.29-16.03.07:712][592]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Developers/David/Collections/' was aborted.
+[2018.03.29-16.03.07:712][592]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Collections/' was aborted.
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module StatsViewer (512)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module FoliageEdit (510)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module LandscapeEditor (508)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module MeshPaintMode (506)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (504)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module ActorPickerMode (502)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module GeometryMode (500)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module TextureAlignMode (498)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module BspMode (496)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module HardwareSurvey (494)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (492)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module AutomationWorker (490)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (488)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (486)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module PlacementMode (485)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (482)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (480)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (478)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (476)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (474)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module Media (473)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (470)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module CharacterAI (468)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module AudioCapture (466)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module SequenceRecorder (465)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module SmartSnapping (462)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module SessionServices (460)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module ViewportSnapping (458)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module ViewportInteraction (456)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module ClothPainter (454)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module LogVisualizer (452)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module IntroTutorials (450)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (449)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (446)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (444)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (442)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (440)
+[2018.03.29-16.03.07:712][592]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (439)
+[2018.03.29-16.03.08:209][592]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (436)
+[2018.03.29-16.03.08:209][592]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (434)
+[2018.03.29-16.03.08:209][592]LogModuleManager: Shutting down and abandoning module InputBindingEditor (432)
+[2018.03.29-16.03.08:209][592]LogModuleManager: Shutting down and abandoning module MergeActors (430)
+[2018.03.29-16.03.08:209][592]LogModuleManager: Shutting down and abandoning module SizeMap (428)
+[2018.03.29-16.03.08:209][592]LogModuleManager: Shutting down and abandoning module TreeMap (426)
+[2018.03.29-16.03.08:209][592]LogModuleManager: Shutting down and abandoning module ReferenceViewer (424)
+[2018.03.29-16.03.08:209][592]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (422)
+[2018.03.29-16.03.08:209][592]LogModuleManager: Shutting down and abandoning module LocalizationService (421)
+[2018.03.29-16.03.08:209][592]LogModuleManager: Shutting down and abandoning module HardwareTargeting (418)
+[2018.03.29-16.03.08:209][592]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (416)
+[2018.03.29-16.03.08:209][592]LogModuleManager: Shutting down and abandoning module UndoHistory (414)
+[2018.03.29-16.03.08:209][592]LogModuleManager: Shutting down and abandoning module UserFeedback (412)
+[2018.03.29-16.03.08:209][592]LogModuleManager: Shutting down and abandoning module XmlParser (410)
+[2018.03.29-16.03.08:209][592]LogModuleManager: Shutting down and abandoning module Blutility (408)
+[2018.03.29-16.03.08:209][592]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (406)
+[2018.03.29-16.03.08:209][592]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (405)
+[2018.03.29-16.03.08:210][592]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (402)
+[2018.03.29-16.03.08:210][592]LogModuleManager: Shutting down and abandoning module SettingsEditor (400)
+[2018.03.29-16.03.08:210][592]LogModuleManager: Shutting down and abandoning module ProjectLauncher (398)
+[2018.03.29-16.03.08:210][592]LogModuleManager: Shutting down and abandoning module SessionFrontend (396)
+[2018.03.29-16.03.08:210][592]LogModuleManager: Shutting down and abandoning module ProfilerClient (394)
+[2018.03.29-16.03.08:210][592]LogModuleManager: Shutting down and abandoning module DeviceManager (392)
+[2018.03.29-16.03.08:210][592]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (391)
+[2018.03.29-16.03.08:254][592]LogModuleManager: Shutting down and abandoning module AutomationController (388)
+[2018.03.29-16.03.08:254][592]LogModuleManager: Shutting down and abandoning module AutomationWindow (386)
+[2018.03.29-16.03.08:254][592]LogModuleManager: Shutting down and abandoning module Layers (384)
+[2018.03.29-16.03.08:254][592]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (382)
+[2018.03.29-16.03.08:254][592]LogModuleManager: Shutting down and abandoning module DetailCustomizations (380)
+[2018.03.29-16.03.08:254][592]LogModuleManager: Shutting down and abandoning module PackagesDialog (378)
+[2018.03.29-16.03.08:254][592]LogModuleManager: Shutting down and abandoning module Persona (376)
+[2018.03.29-16.03.08:254][592]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (375)
+[2018.03.29-16.03.08:254][592]LogModuleManager: Shutting down and abandoning module AnimGraph (373)
+[2018.03.29-16.03.08:254][592]LogModuleManager: Shutting down and abandoning module Kismet (370)
+[2018.03.29-16.03.08:265][592]LogModuleManager: Shutting down and abandoning module ClassViewer (368)
+[2018.03.29-16.03.08:265][592]LogModuleManager: Shutting down and abandoning module Toolbox (366)
+[2018.03.29-16.03.08:265][592]LogModuleManager: Shutting down and abandoning module ModuleUI (364)
+[2018.03.29-16.03.08:265][592]LogModuleManager: Shutting down and abandoning module MovieSceneTools (362)
+[2018.03.29-16.03.08:265][592]LogModuleManager: Shutting down and abandoning module OutputLog (360)
+[2018.03.29-16.03.08:265][592]LogModuleManager: Shutting down and abandoning module GammaUI (358)
+[2018.03.29-16.03.08:265][592]LogModuleManager: Shutting down and abandoning module Documentation (356)
+[2018.03.29-16.03.08:265][592]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (354)
+[2018.03.29-16.03.08:265][592]LogModuleManager: Shutting down and abandoning module MovieScene (352)
+[2018.03.29-16.03.08:265][592]LogModuleManager: Shutting down and abandoning module Niagara (350)
+[2018.03.29-16.03.08:265][592]LogModuleManager: Shutting down and abandoning module NiagaraEditor (349)
+[2018.03.29-16.03.08:265][592]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (346)
+[2018.03.29-16.03.08:265][592]LogModuleManager: Shutting down and abandoning module AnalyticsET (344)
+[2018.03.29-16.03.08:265][592]LogModuleManager: Shutting down and abandoning module PortalServices (342)
+[2018.03.29-16.03.08:265][592]LogModuleManager: Shutting down and abandoning module PortalRpc (340)
+[2018.03.29-16.03.08:265][592]LogModuleManager: Shutting down and abandoning module MessagingRpc (338)
+[2018.03.29-16.03.08:265][592]LogModuleManager: Shutting down and abandoning module AIModule (336)
+[2018.03.29-16.03.08:265][592]LogModuleManager: Shutting down and abandoning module GameplayDebugger (335)
+[2018.03.29-16.03.08:265][592]LogModuleManager: Shutting down and abandoning module AITestSuite (333)
+[2018.03.29-16.03.08:265][592]LogModuleManager: Shutting down and abandoning module ProfilerService (330)
+[2018.03.29-16.03.08:490][592]LogModuleManager: Shutting down and abandoning module TaskGraph (328)
+[2018.03.29-16.03.08:490][592]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
+[2018.03.29-16.03.08:490][592]LogModuleManager: Shutting down and abandoning module SteamVR (324)
+[2018.03.29-16.03.08:490][592]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
+[2018.03.29-16.03.08:490][592]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
+[2018.03.29-16.03.08:490][592]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
+[2018.03.29-16.03.08:490][592]LogModuleManager: Shutting down and abandoning module OculusInput (316)
+[2018.03.29-16.03.08:490][592]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
+[2018.03.29-16.03.08:490][592]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
+[2018.03.29-16.03.08:490][592]LogModuleManager: Shutting down and abandoning module CableComponent (310)
+[2018.03.29-16.03.08:490][592]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2018.03.29-16.03.08:490][592]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2018.03.29-16.03.08:490][592]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
+[2018.03.29-16.03.08:490][592]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
+[2018.03.29-16.03.08:490][592]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
+[2018.03.29-16.03.08:490][592]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
+[2018.03.29-16.03.08:490][592]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
+[2018.03.29-16.03.08:490][592]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
+[2018.03.29-16.03.08:490][592]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
+[2018.03.29-16.03.08:490][592]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
+[2018.03.29-16.03.08:491][592]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
+[2018.03.29-16.03.08:491][592]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
+[2018.03.29-16.03.08:491][592]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
+[2018.03.29-16.03.08:491][592]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
+[2018.03.29-16.03.08:491][592]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
+[2018.03.29-16.03.08:491][592]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
+[2018.03.29-16.03.08:491][592]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
+[2018.03.29-16.03.08:491][592]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
+[2018.03.29-16.03.08:491][592]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
+[2018.03.29-16.03.08:491][592]LogModuleManager: Shutting down and abandoning module SourceControl (269)
+[2018.03.29-16.03.08:491][592]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
+[2018.03.29-16.03.08:491][592]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
+[2018.03.29-16.03.08:491][592]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
+[2018.03.29-16.03.08:491][592]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
+[2018.03.29-16.03.08:491][592]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
+[2018.03.29-16.03.08:491][592]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
+[2018.03.29-16.03.08:493][592]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
+[2018.03.29-16.03.08:493][592]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2018.03.29-16.03.08:494][592]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2018.03.29-16.03.08:494][592]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (248)
+[2018.03.29-16.03.08:494][592]LogModuleManager: Shutting down and abandoning module PhysXVehicles (246)
+[2018.03.29-16.03.08:494][592]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (244)
+[2018.03.29-16.03.08:494][592]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (242)
+[2018.03.29-16.03.08:494][592]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (240)
+[2018.03.29-16.03.08:494][592]LogModuleManager: Shutting down and abandoning module UdpMessaging (238)
+[2018.03.29-16.03.08:595][592]LogModuleManager: Shutting down and abandoning module TcpMessaging (236)
+[2018.03.29-16.03.08:695][592]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (234)
+[2018.03.29-16.03.08:695][592]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (232)
+[2018.03.29-16.03.08:695][592]LogModuleManager: Shutting down and abandoning module FacialAnimation (230)
+[2018.03.29-16.03.08:695][592]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (228)
+[2018.03.29-16.03.08:695][592]LogModuleManager: Shutting down and abandoning module GraphEditor (227)
+[2018.03.29-16.03.08:695][592]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2018.03.29-16.03.08:697][592]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (222)
+[2018.03.29-16.03.08:697][592]LogModuleManager: Shutting down and abandoning module Paper2D (220)
+[2018.03.29-16.03.08:697][592]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (218)
+[2018.03.29-16.03.08:698][592]LogModuleManager: Shutting down and abandoning module WmfMedia (216)
+[2018.03.29-16.03.08:698][592]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (214)
+[2018.03.29-16.03.08:698][592]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (212)
+[2018.03.29-16.03.08:698][592]LogModuleManager: Shutting down and abandoning module MediaAssets (210)
+[2018.03.29-16.03.08:698][592]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (208)
+[2018.03.29-16.03.08:698][592]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (206)
+[2018.03.29-16.03.08:698][592]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.03.29-16.03.08:698][592]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.03.29-16.03.08:698][592]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.03.29-16.03.08:698][592]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.03.29-16.03.08:698][592]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.03.29-16.03.08:698][592]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.03.29-16.03.08:698][592]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.03.29-16.03.08:698][592]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.03.29-16.03.08:699][592]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.03.29-16.03.08:699][592]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.03.29-16.03.08:699][592]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.03.29-16.03.08:699][592]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.03.29-16.03.08:699][592]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.03.29-16.03.08:699][592]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.03.29-16.03.08:699][592]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.03.29-16.03.08:704][592]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.03.29-16.03.08:704][592]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.03.29-16.03.08:704][592]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.03.29-16.03.08:704][592]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.03.29-16.03.08:704][592]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.03.29-16.03.08:704][592]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.03.29-16.03.08:823][592]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.03.29-16.03.08:823][592]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/' was aborted.
+[2018.03.29-16.03.08:823][592]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.03.29-16.03.08:823][592]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.03.29-16.03.08:826][592]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.03.29-16.03.08:827][592]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.03.29-16.03.08:827][592]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.03.29-16.03.08:827][592]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.03.29-16.03.08:827][592]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.03.29-16.03.08:827][592]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.03.29-16.03.08:827][592]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.03.29-16.03.08:827][592]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.03.29-16.03.08:827][592]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.03.29-16.03.08:887][592]LogDerivedDataCache: Shutdown
+[2018.03.29-16.03.08:887][592]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.03.29-16.03.08:887][592]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.03.29-16.03.08:887][592]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.03.29-16.03.08:887][592]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.03.29-16.03.08:887][592]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.03.29-16.03.08:887][592]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.03.29-16.03.08:887][592]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.03.29-16.03.08:887][592]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.03.29-16.03.08:887][592]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.03.29-16.03.08:887][592]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.03.29-16.03.08:887][592]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.03.29-16.03.08:887][592]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.03.29-16.03.08:887][592]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.03.29-16.03.08:887][592]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.03.29-16.03.08:887][592]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.03.29-16.03.08:887][592]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.03.29-16.03.08:887][592]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.03.29-16.03.08:887][592]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.03.29-16.03.08:888][592]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.03.29-16.03.08:888][592]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.03.29-16.03.08:888][592]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.03.29-16.03.08:888][592]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.03.29-16.03.08:888][592]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.03.29-16.03.08:888][592]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.03.29-16.03.08:888][592]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.03.29-16.03.08:888][592]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.03.29-16.03.08:888][592]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.03.29-16.03.08:888][592]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.03.29-16.03.08:888][592]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.03.29-16.03.08:888][592]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.03.29-16.03.08:888][592]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.03.29-16.03.08:888][592]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.03.29-16.03.08:888][592]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.03.29-16.03.08:888][592]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.03.29-16.03.08:888][592]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.03.29-16.03.08:888][592]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.03.29-16.03.08:888][592]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.03.29-16.03.08:888][592]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.03.29-16.03.08:888][592]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.03.29-16.03.08:888][592]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.03.29-16.03.08:888][592]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.03.29-16.03.08:888][592]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.03.29-16.03.08:888][592]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.03.29-16.03.08:888][592]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.03.29-16.03.08:889][592]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.03.29-16.03.08:889][592]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.03.29-16.03.08:889][592]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.03.29-16.03.08:889][592]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.03.29-16.03.08:889][592]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.03.29-16.03.08:889][592]LogOnline:Display: Unloading online subsystem: NULL
+[2018.03.29-16.03.08:889][592]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.03.29-16.03.08:889][592]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.03.29-16.03.08:889][592]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.03.29-16.03.08:889][592]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9CC5A1DE-4E49-C3A8-558A-BF8E94D11141%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=eedd91be406e0cd25ea0748277e6e73c%7C7a211806f70b4509a5be2640357744fc%7Caa6de738-987c-4c76-bb80-6cc1d099ea00&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.03.29-16.03.08:900][592]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.03.29-16.03.08:904][592]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.03.29-16.03.08:904][592]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.03.29-16.03.08:904][592]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.03.29-16.03.08:904][592]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.03.29-16.03.08:904][592]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.03.29-16.03.08:905][592]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.03.29-16.03.08:905][592]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.03.29-16.03.08:905][592]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.03.29-16.03.08:909][592]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.03.29-16.03.08:909][592]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.03.29-16.03.08:909][592]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.03.29-16.03.08:909][592]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.03.29-16.03.08:909][592]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.03.29-16.03.08:909][592]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.03.29-16.03.08:909][592]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.03.29-16.03.08:909][592]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.03.29-16.03.08:909][592]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.03.29-16.03.08:909][592]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.03.29-16.03.08:913][592]LogExit: Exiting.
+[2018.03.29-16.03.09:011][592]Log file closed, 03/29/18 18:03:09
