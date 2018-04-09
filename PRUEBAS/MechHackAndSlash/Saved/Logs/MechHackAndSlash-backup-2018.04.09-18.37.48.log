@@ -1,0 +1,1169 @@
+﻿Log file open, 04/05/18 18:04:17
+LogInit:Display: Running engine for game: MechHackAndSlash
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1056843509) SRandInit(1056843509).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.083569
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.05-16.04.17:643][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.05-16.04.17:643][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.05-16.04.17:658][  0]LogInit: Computer: DAVIDMASTERRACE
+[2018.04.05-16.04.17:658][  0]LogInit: User: David
+[2018.04.05-16.04.17:658][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.05-16.04.17:658][  0]LogInit: High frequency timer resolution =3.417966 MHz
+[2018.04.05-16.04.17:658][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.04.05-16.04.17:658][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.05-16.04.17:658][  0]LogMemory: Process Physical Memory: 273.57 MB used, 273.57 MB peak
+[2018.04.05-16.04.17:658][  0]LogMemory: Process Virtual Memory: 262.45 MB used, 262.45 MB peak
+[2018.04.05-16.04.17:658][  0]LogMemory: Physical Memory: 5789.38 MB used,  10537.05 MB free, 16326.44 MB total
+[2018.04.05-16.04.17:658][  0]LogMemory: Virtual Memory: 619.06 MB used,  10537.05 MB free, 134217728.00 MB total
+[2018.04.05-16.04.17:702][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.04.05-16.04.17:702][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.04.05-16.04.18:469][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.05-16.04.18:494][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.04.05-16.04.18:494][  0]LogD3D11RHI:       3975/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.05-16.04.18:495][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.05-16.04.18:495][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.05-16.04.18:495][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.05-16.04.18:497][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.05-16.04.18:497][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.05-16.04.18:497][  0]LogWindows: EnumDisplayDevices:
+[2018.04.05-16.04.18:497][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.04.05-16.04.18:498][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.04.05-16.04.18:498][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.04.05-16.04.18:498][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.04.05-16.04.18:498][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.04.05-16.04.18:498][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.04.05-16.04.18:498][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2018.04.05-16.04.18:498][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2018.04.05-16.04.18:498][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.04.05-16.04.18:507][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.05-16.04.18:561][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.04.05-16.04.18:605][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Intermediate/Shaders/WorkingDirectory/7932/).
+[2018.04.05-16.04.18:605][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/David/AppData/Local/Temp/UnrealShaderWorkingDir/DE6ED68B41D5D5DD2285669CF565772F/'.
+[2018.04.05-16.04.18:605][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.04.05-16.04.19:490][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.05-16.04.19:523][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.04.05-16.04.19:556][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.05-16.04.19:590][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.04.05-16.04.19:622][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.04.05-16.04.19:655][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.05-16.04.19:688][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.05-16.04.19:727][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.05-16.04.19:756][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.04.05-16.04.19:788][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.04.05-16.04.19:819][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.05-16.04.19:852][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.05-16.04.19:883][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.05-16.04.19:914][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.05-16.04.19:946][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.05-16.04.20:011][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.05-16.04.20:011][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.05-16.04.20:033][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.04.05-16.04.20:100][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.04.05-16.04.20:120][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.04.05-16.04.20:152][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.05-16.04.20:183][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.05-16.04.20:215][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.05-16.04.20:247][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.04.05-16.04.20:247][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.04.05-16.04.20:538][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.04.05-16.04.20:618][  0]LogDerivedDataCache: Loaded boot cache 0.08s 79MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.04.05-16.04.20:618][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.04.05-16.04.20:618][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.05-16.04.20:618][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.05-16.04.20:619][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.05-16.04.20:619][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.05-16.04.20:635][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.05-16.04.20:647][  0]LogDerivedDataCache: Using Local data cache path C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.05-16.04.20:704][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.05-16.04.20:704][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.05-16.04.20:705][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.05-16.04.20:705][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.05-16.04.20:980][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.05-16.04.21:043][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.04.05-16.04.21:206][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.05-16.04.21:233][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.05-16.04.21:263][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.05-16.04.21:263][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.04.05-16.04.21:263][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.04.05-16.04.21:730][  0]LogNetVersion: MechHackAndSlash , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 86869316)
+[2018.04.05-16.04.21:784][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
+[2018.04.05-16.04.21:812][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.015799 seconds
+[2018.04.05-16.04.21:817][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.04.05-16.04.21:817][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.04.05-16.04.21:817][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.05-16.04.21:853][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.05-16.04.23:637][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.05-16.04.23:665][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.05-16.04.24:027][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.05-16.04.24:317][  0]SourceControl: Info Source control is disabled
+[2018.04.05-16.04.24:354][  0]SourceControl: Info Source control is disabled
+[2018.04.05-16.04.24:381][  0]SourceControl: Info Source control is disabled
+[2018.04.05-16.04.24:409][  0]SourceControl: Info Source control is disabled
+[2018.04.05-16.04.24:813][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.05-16.04.25:186][  0]LogEngine: Initializing Engine...
+[2018.04.05-16.04.25:186][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.05-16.04.25:443][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.05-16.04.25:443][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.05-16.04.25:523][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.05-16.04.25:545][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.05-16.04.25:552][  0]LogInit: FAudioDevice initialized.
+[2018.04.05-16.04.25:589][  0]LogDerivedDataCache: Saved boot cache 0.04s 91MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.04.05-16.04.25:597][  0]LogInit: Texture streaming: Enabled
+[2018.04.05-16.04.25:655][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.05-16.04.25:655][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={B1E2695D-4A1B-9E21-55F7-99A075030EB0}
+[2018.04.05-16.04.25:655][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={DD8325A1-4BB7-EC48-8D31-FB95BD7D2984}
+[2018.04.05-16.04.25:790][  0]LogInit: Transaction tracking system initialized
+[2018.04.05-16.04.25:972][  0]BlueprintLog: New page: Editor Load
+[2018.04.05-16.04.26:516][  0]LocalizationService: Info Localization service is disabled
+[2018.04.05-16.04.26:916][  0]LogConsoleResponse:Display: 
+[2018.04.05-16.04.27:053][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.05-16.04.27:053][  0]LogCook:Display: Mobile HDR setting 1
+[2018.04.05-16.04.27:675][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/' took 0.02s
+[2018.04.05-16.04.27:675][  0]SourceControl: Info Source control is disabled
+[2018.04.05-16.04.27:675][  0]Cmd: MAP LOAD FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.05-16.04.27:675][  0]LightingResults: New page: Lighting Build
+[2018.04.05-16.04.27:699][  0]MapCheck: New page: Map Check
+[2018.04.05-16.04.27:699][  0]LightingResults: New page: Lighting Build
+[2018.04.05-16.04.31:480][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.04.05-16.04.33:655][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.05-16.04.33:707][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.05-16.04.33:774][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 66.696ms to complete.
+[2018.04.05-16.04.33:774][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 6.099
+[2018.04.05-16.04.33:880][  0]LogCollectionManager: Loaded 0 collections in 0.000923 seconds
+[2018.04.05-16.04.33:941][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Collections/' took 0.01s
+[2018.04.05-16.04.33:941][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Developers/David/Collections/' took 0.01s
+[2018.04.05-16.04.33:941][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Collections/' took 0.01s
+[2018.04.05-16.04.33:941][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.04.05-16.04.33:949][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2336 classes and 493 folders.
+[2018.04.05-16.04.33:987][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.04.05-16.04.34:016][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.04.05-16.04.34:042][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.04.05-16.04.34:079][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0007 seconds. Added 1 classes and 3 folders.
+[2018.04.05-16.04.34:170][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.04.05-16.04.34:173][  0]LogSlate: Took 0.000419 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.05-16.04.34:176][  0]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.05-16.04.34:179][  0]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.05-16.04.34:257][  0]LogRenderer: Reallocating scene render targets to support 1204x572 NumSamples 1 (Frame:1).
+[2018.04.05-16.04.34:366][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.04.05-16.04.34:413][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.04.05-16.04.34:413][  0]LogLoad: (Engine Initialization) Total time: 17.97 seconds
+[2018.04.05-16.04.34:414][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.26 seconds
+[2018.04.05-16.04.34:414][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.04.05-16.04.34:414][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.04.05-16.04.34:422][  0]LogOcInput: OculusInput pre-init called
+[2018.04.05-16.04.34:422][  0]LogHMD: Starting GearVRController plugin
+[2018.04.05-16.04.34:454][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.05-16.04.34:508][  0]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.05-16.04.34:528][  1]LogAssetRegistry: Asset discovery search completed in 12.7664 seconds
+[2018.04.05-16.04.34:530][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.04.05-16.04.34:531][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000108 seconds (updated 0 objects)
+[2018.04.05-16.04.34:570][  1]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.05-16.11.36:491][815]LogClass:Warning: Enum '/Game/GrassBlueprint/Enumerator/WindAssets.WindAssets' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.04.05-16.11.46:354][831]Cmd: EDIT CUT
+[2018.04.05-16.11.46:393][831]LogEditorActor: Deleted Actor: AdvancedWindBP_C
+[2018.04.05-16.11.46:420][831]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2018.04.05-16.11.48:778][111]Cmd: EDIT PASTE
+[2018.04.05-16.11.48:794][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:794][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:794][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:794][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:794][111]Warning: Unable to find function Timeline_5__UpdateFunc in object AdvancedWindBP for delegate (found class: Blueprint)Unable to find function Timeline_5__FinishedFunc in object AdvancedWindBP for delegate (found class: Blueprint)
+[2018.04.05-16.11.48:794][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:794][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:794][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:794][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:794][111]Warning: Unable to find function Timeline_4__UpdateFunc in object AdvancedWindBP for delegate (found class: Blueprint)Unable to find function Timeline_4__FinishedFunc in object AdvancedWindBP for delegate (found class: Blueprint)
+[2018.04.05-16.11.48:794][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:794][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:794][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:794][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:794][111]Warning: Unable to find function Timeline_3__UpdateFunc in object AdvancedWindBP for delegate (found class: Blueprint)Unable to find function Timeline_3__FinishedFunc in object AdvancedWindBP for delegate (found class: Blueprint)
+[2018.04.05-16.11.48:794][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:794][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:794][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:794][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:794][111]Warning: Unable to find function Slow Transition in__UpdateFunc in object AdvancedWindBP for delegate (found class: Blueprint)Unable to find function Slow Transition in__FinishedFunc in object AdvancedWindBP for delegate (found class: Blueprint)
+[2018.04.05-16.11.48:794][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:794][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:794][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:794][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:794][111]Warning: Unable to find function Transition in__UpdateFunc in object AdvancedWindBP for delegate (found class: Blueprint)Unable to find function Transition in__FinishedFunc in object AdvancedWindBP for delegate (found class: Blueprint)
+[2018.04.05-16.11.48:795][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:795][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:795][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:795][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:795][111]Warning: Unable to find function Timeline_2__UpdateFunc in object AdvancedWindBP for delegate (found class: Blueprint)Unable to find function Timeline_2__FinishedFunc in object AdvancedWindBP for delegate (found class: Blueprint)
+[2018.04.05-16.11.48:795][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:795][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:795][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:795][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:795][111]Warning: Unable to find function Timeline_1__UpdateFunc in object AdvancedWindBP for delegate (found class: Blueprint)Unable to find function Timeline_1__FinishedFunc in object AdvancedWindBP for delegate (found class: Blueprint)
+[2018.04.05-16.11.48:795][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:795][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:795][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:795][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:795][111]Warning: Unable to find function Timeline_0__UpdateFunc in object AdvancedWindBP for delegate (found class: Blueprint)Unable to find function Timeline_0__FinishedFunc in object AdvancedWindBP for delegate (found class: Blueprint)
+[2018.04.05-16.11.48:795][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:795][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:795][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:795][111]LogUObjectHash:Warning: Ambiguous search, could be Blueprint /Game/GrassBlueprint/Blueprint/AdvancedWindBP.AdvancedWindBP or AdvancedWindBP_C /Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.AdvancedWindBP
+[2018.04.05-16.11.48:795][111]Warning: Unable to find function Transition In and Out__UpdateFunc in object AdvancedWindBP for delegate (found class: Blueprint)Unable to find function Transition In and Out__FinishedFunc in object AdvancedWindBP for delegate (found class: Blueprint)
+[2018.04.05-16.11.48:795][111]Warning: Invalid subscript in default properties: (Secondary)=-1.161449
+[2018.04.05-16.16.31:375][675]LogMaterial: Missing cached shader map for material GrassShader1, compiling. 
+[2018.04.05-16.16.31:460][675]LogMaterial: Missing cached shader map for material GrassShader1, compiling. 
+[2018.04.05-16.16.31:545][675]LogMaterial: Missing cached shader map for material GrassShader1, compiling. 
+[2018.04.05-16.16.32:469][676]LogRenderer: Reallocating scene render targets to support 1388x852 NumSamples 1 (Frame:1).
+[2018.04.05-16.17.24:044][369]LogMaterial: Missing cached shader map for material GrassShader2, compiling. 
+[2018.04.05-16.17.24:114][369]LogMaterial: Missing cached shader map for material GrassShader2, compiling. 
+[2018.04.05-16.20.58:478][574]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.21.17:493][994]LogMaterial: Missing cached shader map for material GrassShader4, compiling. 
+[2018.04.05-16.22.02:826][638]LogMaterial: Missing cached shader map for material GrassShader5, compiling. 
+[2018.04.05-16.23.51:452][542]LogActorFactory: Actor Factory created SuperGrass3
+[2018.04.05-16.23.55:345][595]LogSavePackage: Save=13.64ms
+[2018.04.05-16.23.55:345][595]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/SuperGrass3_FoliageType3E90B679450E95A1472D7EBB2B6B9885.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/GrassBlueprint/Meshes/SuperGrass3_FoliageType.uasset'
+[2018.04.05-16.23.55:346][595]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/GrassBlueprint/Meshes/SuperGrass3_FoliageType.uasset
+[2018.04.05-16.24.53:646][825]LogEditorViewport: Clicking on Actor (LMB): AdvancedWindBP_C (AdvancedWindBP)
+[2018.04.05-16.26.54:876][157]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: BlueLevel, Actor: /Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel_C_1
+[2018.04.05-16.26.55:627][157]LogSavePackage: Save=769.70ms
+[2018.04.05-16.26.55:627][157]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueLevel0BC60DB7493B972BD02229AC11554BFE.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap'
+[2018.04.05-16.26.55:634][157]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap
+[2018.04.05-16.26.55:634][157]LogFileHelpers: Saving map 'BlueLevel' took 0.899
+[2018.04.05-16.26.56:059][157]LogSavePackage: Save=319.97ms
+[2018.04.05-16.26.56:059][157]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/LevelTuto5B84977B4D338CD119B9439DBCFAC091.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/LevelTuto.umap'
+[2018.04.05-16.26.56:063][157]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/LevelTuto.umap
+[2018.04.05-16.26.56:064][157]LogFileHelpers: Saving map 'LevelTuto' took 0.427
+[2018.04.05-16.26.56:700][157]LogSavePackage: Save=535.89ms
+[2018.04.05-16.26.56:700][157]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonExampleMap2142984349B3FFC19D919B990C434437.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.04.05-16.26.56:703][157]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.04.05-16.26.56:764][157]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.699
+[2018.04.05-16.28.17:722][665]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.05-16.28.17:834][665]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.05-16.28.17:835][665]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.04.05-16.28.17:835][665]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.04.05-16.28.17:835][665]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.05-16.28.17:835][665]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 5, 2018, 8:28:17 PM)
+[2018.04.05-16.28.17:835][665]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.04.05-16.28.17:859][665]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023521s)
+[2018.04.05-16.28.17:860][665]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.04.05-16.28.17:860][665]LogPlayLevel: PIE: World Init took: (0.001008s)
+[2018.04.05-16.28.17:860][665]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.024850s)
+[2018.04.05-16.28.17:894][665]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.05-16.28.17:899][665]LogInit: FAudioDevice initialized.
+[2018.04.05-16.28.17:946][665]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.05-16.28.17:953][665]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.04.05-18.28.17
+[2018.04.05-16.28.17:953][665]LogWorld: Bringing up level for play took: 0.002706
+[2018.04.05-16.28.17:976][665]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2018.04.05-16.28.17:977][665]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.04.05-16.28.17:977][665]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.029
+[2018.04.05-16.28.17:978][665]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.05-16.28.17:978][665]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.04.05-16.28.17:978][665]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.04.05-16.28.17:979][665]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2018.04.05-16.28.17:999][666]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_LevelTuto 0 0 0
+[2018.04.05-16.28.18:909][774]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_LevelTuto 1 1 0
+[2018.04.05-16.28.37:260][971]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.05-16.28.37:260][971]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.04.05-16.28.37:260][971]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.04.05-16.28.37:291][971]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.05-16.28.37:291][971]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.04.05-16.28.37:291][971]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.04.05-16.28.57:794][558]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.04.05-16.30.03:973][991]LogSavePackage: Save=3.68ms
+[2018.04.05-16.30.03:973][991]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/posJugadorDC03AA604DD37D171F331C811EEA444D.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/GrassBlueprint/MatParaCollections/posJugador.uasset'
+[2018.04.05-16.30.03:974][991]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/GrassBlueprint/MatParaCollections/posJugador.uasset
+[2018.04.05-16.30.12:560][ 11]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.05-16.30.14:846][229]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2018.04.05-16.30.15:448][229]LogSlate: Took 0.018227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.05-16.34.37:268][767]LogSavePackage: Save=384.72ms
+[2018.04.05-16.34.37:268][767]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/LevelTuto2DA30AEC468F26000CF474A1C5FE0500.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/LevelTuto.umap'
+[2018.04.05-16.34.37:270][767]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/LevelTuto.umap
+[2018.04.05-16.34.37:272][767]LogFileHelpers: Saving map 'LevelTuto' took 0.489
+[2018.04.05-16.38.39:937][789]LogSlate: Took 0.009736 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.05-16.41.44:491][962]BlueprintLog: New page: Compile LevelTuto
+[2018.04.05-16.41.45:099][  4]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: LevelTuto, Actor: /Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.LevelTuto_C_1
+[2018.04.05-16.41.45:493][  4]LogSavePackage: Save=397.75ms
+[2018.04.05-16.41.45:493][  4]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/LevelTuto9160A82C49CA3C50DAB95DBDBB416509.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/LevelTuto.umap'
+[2018.04.05-16.41.45:495][  4]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/LevelTuto.umap
+[2018.04.05-16.41.45:496][  4]LogFileHelpers: Saving map 'LevelTuto' took 0.500
+[2018.04.05-16.42.02:349][972]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.42.02:435][972]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.42.02:553][972]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.42.02:579][972]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.42.02:628][972]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_8, compiling. 
+[2018.04.05-16.42.02:631][972]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2018.04.05-16.42.02:635][972]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.04.05-16.42.02:639][972]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.04.05-16.42.02:643][972]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_9, compiling. 
+[2018.04.05-16.42.02:647][972]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_7, compiling. 
+[2018.04.05-16.42.02:650][972]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.04.05-16.42.02:654][972]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_5, compiling. 
+[2018.04.05-16.42.02:658][972]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_9, compiling. 
+[2018.04.05-16.42.12:854][849]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-16.42.12:854][849]MaterialEditorStats: Info Vertex shader: 115 instructions
+[2018.04.05-16.42.12:854][849]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-16.42.12:854][849]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-16.42.30:150][ 77]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.42.30:173][ 77]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_0, compiling. 
+[2018.04.05-16.42.36:271][711]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.42.36:301][711]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_0, compiling. 
+[2018.04.05-16.42.43:102][449]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-16.42.43:102][449]MaterialEditorStats: Info Vertex shader: 115 instructions
+[2018.04.05-16.42.43:102][449]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-16.42.43:102][449]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-16.42.53:780][615]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.43.01:280][421]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-16.43.01:280][421]MaterialEditorStats: Info Vertex shader: 115 instructions
+[2018.04.05-16.43.01:280][421]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-16.43.01:280][421]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-16.43.02:683][573]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.43.02:708][573]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.43.02:755][573]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_0, compiling. 
+[2018.04.05-16.43.04:781][791]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.43.11:832][547]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-16.43.11:832][547]MaterialEditorStats: Info Vertex shader: 115 instructions
+[2018.04.05-16.43.11:832][547]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-16.43.11:832][547]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-16.43.34:202][980]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.43.34:228][980]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.43.41:735][792]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-16.43.41:735][792]MaterialEditorStats: Info Vertex shader: 115 instructions
+[2018.04.05-16.43.41:735][792]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-16.43.41:735][792]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-16.43.42:983][924]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.43.49:530][532]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-16.43.49:530][532]MaterialEditorStats: Info Vertex shader: 115 instructions
+[2018.04.05-16.43.49:530][532]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-16.43.49:530][532]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-16.44.15:511][ 51]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.44.15:536][ 51]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.44.21:718][730]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-16.44.21:718][730]MaterialEditorStats: Info Vertex shader: 115 instructions
+[2018.04.05-16.44.21:718][730]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-16.44.21:718][730]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-16.44.44:150][  7]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.44.50:393][680]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-16.44.50:393][680]MaterialEditorStats: Info Vertex shader: 115 instructions
+[2018.04.05-16.44.50:393][680]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-16.44.50:393][680]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-16.44.57:452][447]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.45.03:388][ 88]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-16.45.03:388][ 88]MaterialEditorStats: Info Vertex shader: 115 instructions
+[2018.04.05-16.45.03:388][ 88]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-16.45.03:388][ 88]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-16.45.20:667][979]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.45.23:444][273]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.45.27:518][702]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.45.27:544][702]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.45.33:559][348]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.45.35:831][584]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.45.41:606][222]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-16.45.41:606][222]MaterialEditorStats: Info Vertex shader: 115 instructions
+[2018.04.05-16.45.41:606][222]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-16.45.41:606][222]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-16.45.44:393][530]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.45.45:505][641]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.45.51:923][323]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-16.45.51:923][323]MaterialEditorStats: Info Vertex shader: 115 instructions
+[2018.04.05-16.45.51:923][323]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-16.45.51:923][323]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-16.45.59:064][ 67]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.46.03:700][375]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-16.46.03:700][375]MaterialEditorStats: Info Vertex shader: 115 instructions
+[2018.04.05-16.46.03:700][375]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-16.46.03:700][375]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-16.46.41:414][891]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.46.41:441][891]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.46.46:986][463]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.46.51:835][758]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-16.46.51:835][758]MaterialEditorStats: Info Vertex shader: 115 instructions
+[2018.04.05-16.46.51:835][758]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-16.46.51:835][758]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-16.47.22:257][115]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.47.23:796][268]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.47.28:289][735]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.47.32:885][190]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.47.36:384][546]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.47.40:419][953]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.47.46:487][556]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-16.47.46:487][556]MaterialEditorStats: Info Vertex shader: 115 instructions
+[2018.04.05-16.47.46:487][556]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-16.47.46:487][556]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-16.47.53:167][225]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.47.54:779][389]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.47.58:303][483]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-16.47.58:303][483]MaterialEditorStats: Info Vertex shader: 115 instructions
+[2018.04.05-16.47.58:303][483]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-16.47.58:304][483]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-16.49.38:211][599]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.49.38:282][599]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.49.38:335][599]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_0, compiling. 
+[2018.04.05-16.49.38:391][600]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2018.04.05-16.49.38:392][600]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-16.49.38:392][600]LogMaterial:Warning: 	Missing Preview connection for function input 'Material'
+[2018.04.05-16.49.40:159][792]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.49.45:767][360]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.49.45:792][360]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.49.45:844][360]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_0, compiling. 
+[2018.04.05-16.49.52:197][ 22]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-16.49.52:197][ 22]MaterialEditorStats: Info Vertex shader: 115 instructions
+[2018.04.05-16.49.52:197][ 22]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-16.49.52:197][ 22]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-16.49.52:967][ 96]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.49.53:846][180]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.49.53:876][180]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_0, compiling. 
+[2018.04.05-16.50.00:634][848]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-16.50.00:634][848]MaterialEditorStats: Info Vertex shader: 115 instructions
+[2018.04.05-16.50.00:634][848]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-16.50.00:634][848]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-16.50.02:536][ 31]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.50.08:469][627]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-16.50.08:469][627]MaterialEditorStats: Info Vertex shader: 115 instructions
+[2018.04.05-16.50.08:469][627]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-16.50.08:469][627]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-16.50.20:522][209]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.50.20:547][209]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.50.26:499][802]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-16.50.26:499][802]MaterialEditorStats: Info Vertex shader: 115 instructions
+[2018.04.05-16.50.26:499][802]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-16.50.26:499][802]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-16.50.26:857][836]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.50.28:501][993]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.50.33:160][459]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.50.38:956][ 41]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-16.50.38:956][ 41]MaterialEditorStats: Info Vertex shader: 115 instructions
+[2018.04.05-16.50.38:956][ 41]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-16.50.38:956][ 41]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-16.50.50:644][223]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.50.56:565][823]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-16.50.56:565][823]MaterialEditorStats: Info Vertex shader: 115 instructions
+[2018.04.05-16.50.56:565][823]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-16.50.56:565][823]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-16.50.58:463][ 19]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.51.04:326][621]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-16.51.04:326][621]MaterialEditorStats: Info Vertex shader: 115 instructions
+[2018.04.05-16.51.04:326][621]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-16.51.04:326][621]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-16.51.11:631][ 12]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.51.18:320][691]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-16.51.18:320][691]MaterialEditorStats: Info Vertex shader: 115 instructions
+[2018.04.05-16.51.18:320][691]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-16.51.18:320][691]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-16.51.18:444][703]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.51.23:099][173]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.51.23:125][173]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.51.26:916][552]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.51.32:601][136]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.51.32:626][136]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.51.38:538][749]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-16.51.38:538][749]MaterialEditorStats: Info Vertex shader: 115 instructions
+[2018.04.05-16.51.38:538][749]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-16.51.38:538][749]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-16.51.39:920][885]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.51.42:151][110]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.51.45:914][504]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAppendVector_1, compiling. 
+[2018.04.05-16.51.48:248][755]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-16.51.48:248][755]MaterialEditorStats: Info Vertex shader: 115 instructions
+[2018.04.05-16.51.48:248][755]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-16.51.48:248][755]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-16.52.17:475][347]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.52.17:503][347]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAppendVector_1, compiling. 
+[2018.04.05-16.52.23:951][ 20]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-16.52.23:951][ 20]MaterialEditorStats: Info Vertex shader: 115 instructions
+[2018.04.05-16.52.23:951][ 20]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-16.52.23:951][ 20]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-16.53.08:065][335]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.53.08:090][335]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.53.13:829][861]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-16.53.13:829][861]MaterialEditorStats: Info Vertex shader: 115 instructions
+[2018.04.05-16.53.13:829][861]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-16.53.13:829][861]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-16.53.19:399][371]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.53.21:696][577]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.53.22:558][656]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.53.24:893][886]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.53.30:631][486]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-16.53.30:631][486]MaterialEditorStats: Info Vertex shader: 115 instructions
+[2018.04.05-16.53.30:631][486]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-16.53.30:631][486]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-16.53.36:716][ 68]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.53.42:266][594]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-16.53.42:266][594]MaterialEditorStats: Info Vertex shader: 115 instructions
+[2018.04.05-16.53.42:266][594]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-16.53.42:266][594]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-16.53.44:134][773]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.53.44:137][773]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-16.53.44:137][773]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid parameter None
+[2018.04.05-16.53.44:138][773]MaterialEditorStats:Error: Error [SM5] (Node CollectionParameter) CollectionParameter has invalid parameter None
+[2018.04.05-16.54.13:807][595]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.54.13:810][595]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-16.54.13:810][595]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid parameter None
+[2018.04.05-16.54.17:884][970]LogMaterialEditor: Saving and Compiling material GrassShader3
+[2018.04.05-16.54.21:075][970]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.54.21:078][970]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-16.54.21:078][970]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid parameter None
+[2018.04.05-16.54.21:111][970]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.54.21:114][970]LogMaterial:Warning: Failed to compile Material /Game/GrassBlueprint/Materials/GrassShader3.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-16.54.21:114][970]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid parameter None
+[2018.04.05-16.54.21:118][970]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.54.21:121][970]LogMaterial:Warning: Failed to compile Material /Game/GrassBlueprint/Materials/GrassShader3.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-16.54.21:121][970]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid parameter None
+[2018.04.05-16.54.21:188][970]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GrassShader3, compiling. 
+[2018.04.05-16.54.21:200][970]TextureStreamingBuild:Display: Compiling optional shaders took 0.047 seconds.
+[2018.04.05-16.54.21:339][970]LogSavePackage: Save=40.12ms
+[2018.04.05-16.54.21:339][970]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/GrassShader31E0990A84A74A9E9C6BC3583EC94AEAD.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/GrassBlueprint/Materials/GrassShader3.uasset'
+[2018.04.05-16.54.21:343][970]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/GrassBlueprint/Materials/GrassShader3.uasset
+[2018.04.05-16.54.34:639][193]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.54.34:642][193]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-16.54.34:642][193]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid parameter None
+[2018.04.05-16.54.36:440][355]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.54.36:443][355]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-16.54.36:443][355]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid parameter None
+[2018.04.05-16.54.38:125][506]LogMaterialEditor: Saving and Compiling material GrassShader3
+[2018.04.05-16.54.39:454][506]LogSavePackage: Save=27.44ms
+[2018.04.05-16.54.39:454][506]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/GrassShader33CB626644A9F43607AC54EBB8B0B942C.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/GrassBlueprint/Materials/GrassShader3.uasset'
+[2018.04.05-16.54.39:455][506]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/GrassBlueprint/Materials/GrassShader3.uasset
+[2018.04.05-16.55.02:457][653]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.55.02:460][653]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-16.55.02:460][653]LogMaterial:Warning: 	(Node CollectionParameter) Material references too many MaterialParameterCollections!  A material may only reference 2 different collections.
+[2018.04.05-16.55.02:473][653]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_0, compiling. 
+[2018.04.05-16.55.02:502][653]MaterialEditorStats:Error: Error [SM5] (Node CollectionParameter) Material references too many MaterialParameterCollections!  A material may only reference 2 different collections.
+[2018.04.05-16.55.05:591][941]LogMaterialEditor: Saving and Compiling material GrassShader3
+[2018.04.05-16.55.07:608][941]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.55.07:611][941]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-16.55.07:611][941]LogMaterial:Warning: 	(Node CollectionParameter) Material references too many MaterialParameterCollections!  A material may only reference 2 different collections.
+[2018.04.05-16.55.07:639][941]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.55.07:642][941]LogMaterial:Warning: Failed to compile Material /Game/GrassBlueprint/Materials/GrassShader3.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-16.55.07:642][941]LogMaterial:Warning: 	(Node CollectionParameter) Material references too many MaterialParameterCollections!  A material may only reference 2 different collections.
+[2018.04.05-16.55.07:645][941]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.55.07:648][941]LogMaterial:Warning: Failed to compile Material /Game/GrassBlueprint/Materials/GrassShader3.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-16.55.07:648][941]LogMaterial:Warning: 	(Node CollectionParameter) Material references too many MaterialParameterCollections!  A material may only reference 2 different collections.
+[2018.04.05-16.55.07:674][941]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GrassShader3, compiling. 
+[2018.04.05-16.55.07:677][941]TextureStreamingBuild:Display: Compiling optional shaders took 0.008 seconds.
+[2018.04.05-16.55.07:792][941]LogSavePackage: Save=29.66ms
+[2018.04.05-16.55.07:792][941]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/GrassShader32D64313F407DE66CAB35E8AE957E377D.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/GrassBlueprint/Materials/GrassShader3.uasset'
+[2018.04.05-16.55.07:794][941]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/GrassBlueprint/Materials/GrassShader3.uasset
+[2018.04.05-16.55.26:427][748]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_0, compiling. 
+[2018.04.05-16.56.13:505][613]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.56.13:508][613]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-16.56.13:508][613]LogMaterial:Warning: 	(Node CollectionParameter) Material references too many MaterialParameterCollections!  A material may only reference 2 different collections.
+[2018.04.05-16.56.17:077][952]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.56.17:080][952]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-16.56.17:080][952]LogMaterial:Warning: 	(Node CollectionParameter) Material references too many MaterialParameterCollections!  A material may only reference 2 different collections.
+[2018.04.05-16.56.57:302][768]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.56.57:305][768]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-16.56.57:305][768]LogMaterial:Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2018.04.05-16.56.57:306][768]MaterialEditorStats:Error: Error [SM5] (Node ComponentMask) Missing ComponentMask input
+[2018.04.05-16.57.06:337][661]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.57.06:340][661]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-16.57.06:340][661]LogMaterial:Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2018.04.05-16.57.06:341][661]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_1, compiling. 
+[2018.04.05-16.57.11:106][111]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.57.11:109][111]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-16.57.11:109][111]LogMaterial:Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2018.04.05-16.57.11:116][111]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_1, compiling. 
+[2018.04.05-16.57.12:512][247]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.57.12:515][247]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-16.57.12:515][247]LogMaterial:Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2018.04.05-16.57.12:522][247]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_1, compiling. 
+[2018.04.05-16.57.14:153][402]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.57.14:156][402]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-16.57.14:156][402]LogMaterial:Warning: 	(Node CollectionParameter) Material references too many MaterialParameterCollections!  A material may only reference 2 different collections.
+[2018.04.05-16.57.14:159][402]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_1, compiling. 
+[2018.04.05-16.57.14:184][402]MaterialEditorStats:Error: Error [SM5] (Node CollectionParameter) Material references too many MaterialParameterCollections!  A material may only reference 2 different collections.
+[2018.04.05-16.57.36:856][629]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.57.36:859][629]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-16.57.36:859][629]LogMaterial:Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2018.04.05-16.57.36:859][629]MaterialEditorStats:Error: Error [SM5] (Node ComponentMask) Missing ComponentMask input
+[2018.04.05-16.57.51:896][356]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.05-16.57.52:030][356]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.05-16.57.52:060][356]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.05-16.57.52:113][356]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2018.04.05-16.57.52:116][356]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2018.04.05-16.57.52:121][356]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.04.05-16.57.52:124][356]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.04.05-16.57.52:130][356]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2018.04.05-16.57.52:134][356]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_7, compiling. 
+[2018.04.05-16.57.52:138][356]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3, compiling. 
+[2018.04.05-16.57.59:300][ 30]MaterialEditorStats: Info Base pass shader: 277 instructions
+[2018.04.05-16.57.59:300][ 30]MaterialEditorStats: Info Vertex shader: 128 instructions
+[2018.04.05-16.57.59:300][ 30]MaterialEditorStats: Info Texture samplers: 8/16
+[2018.04.05-16.57.59:300][ 30]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-16.58.51:931][211]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2018.04.05-16.58.51:968][212]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2018.04.05-16.59.29:375][865]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.59.29:378][865]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-16.59.29:378][865]LogMaterial:Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2018.04.05-16.59.29:379][865]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_2, compiling. 
+[2018.04.05-16.59.33:588][268]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.59.33:591][268]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-16.59.33:591][268]LogMaterial:Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2018.04.05-16.59.33:595][268]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_2, compiling. 
+[2018.04.05-16.59.41:062][  9]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-16.59.41:065][  9]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-16.59.41:065][  9]LogMaterial:Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2018.04.05-17.00.30:782][259]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.00.30:785][259]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-17.00.30:785][259]LogMaterial:Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2018.04.05-17.00.32:626][422]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.00.32:629][422]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-17.00.32:629][422]LogMaterial:Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2018.04.05-17.00.40:123][117]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.00.40:126][117]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-17.00.40:126][117]LogMaterial:Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2018.04.05-17.00.40:127][117]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_3, compiling. 
+[2018.04.05-17.00.45:766][645]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.00.45:768][645]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-17.00.45:768][645]LogMaterial:Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2018.04.05-17.00.45:777][645]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_3, compiling. 
+[2018.04.05-17.00.48:005][861]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.00.48:008][861]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-17.00.48:008][861]LogMaterial:Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2018.04.05-17.00.48:017][861]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_3, compiling. 
+[2018.04.05-17.00.49:054][951]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.00.49:057][951]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-17.00.49:057][951]LogMaterial:Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2018.04.05-17.00.49:061][951]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_3, compiling. 
+[2018.04.05-17.00.51:899][210]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.00.51:902][210]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-17.00.51:902][210]LogMaterial:Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2018.04.05-17.00.51:904][210]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_3, compiling. 
+[2018.04.05-17.00.56:632][648]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.00.56:635][648]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-17.00.56:635][648]LogMaterial:Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2018.04.05-17.00.56:644][648]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_3, compiling. 
+[2018.04.05-17.00.59:046][879]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.00.59:049][879]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-17.00.59:049][879]LogMaterial:Warning: 	(Node CollectionParameter) Material references too many MaterialParameterCollections!  A material may only reference 2 different collections.
+[2018.04.05-17.00.59:056][879]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_3, compiling. 
+[2018.04.05-17.00.59:080][879]MaterialEditorStats:Error: Error [SM5] (Node CollectionParameter) Material references too many MaterialParameterCollections!  A material may only reference 2 different collections.
+[2018.04.05-17.01.57:719][345]LogMaterialEditor: Applying material GrassShader3
+[2018.04.05-17.02.37:030][619]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Rendering/Materials/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu_asset
+[2018.04.05-17.04.39:815][289]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.04.39:818][289]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-17.04.39:818][289]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid parameter posJugador
+[2018.04.05-17.04.39:825][289]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_3, compiling. 
+[2018.04.05-17.04.39:849][289]MaterialEditorStats:Error: Error [SM5] (Node CollectionParameter) CollectionParameter has invalid parameter posJugador
+[2018.04.05-17.04.43:764][681]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.04.43:767][681]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-17.04.43:767][681]LogMaterial:Warning: 	(Node CollectionParameter) Material references too many MaterialParameterCollections!  A material may only reference 2 different collections.
+[2018.04.05-17.04.43:773][681]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_3, compiling. 
+[2018.04.05-17.04.43:800][681]MaterialEditorStats:Error: Error [SM5] (Node CollectionParameter) Material references too many MaterialParameterCollections!  A material may only reference 2 different collections.
+[2018.04.05-17.04.46:457][945]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.04.46:460][945]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-17.04.46:460][945]LogMaterial:Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2018.04.05-17.04.46:460][945]MaterialEditorStats:Error: Error [SM5] (Node ComponentMask) Missing ComponentMask input
+[2018.04.05-17.05.02:720][416]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionScalarParameter_60, compiling. 
+[2018.04.05-17.05.23:297][336]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.05.23:300][336]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-17.05.23:300][336]LogMaterial:Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2018.04.05-17.05.28:441][847]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.05.28:444][847]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-17.05.28:444][847]LogMaterial:Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2018.04.05-17.05.32:420][242]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionScalarParameter_2, compiling. 
+[2018.04.05-17.05.33:392][338]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.05.33:395][338]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-17.05.33:395][338]LogMaterial:Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2018.04.05-17.07.18:260][484]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.07.18:263][484]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-17.07.18:263][484]LogMaterial:Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2018.04.05-17.07.18:264][484]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_4, compiling. 
+[2018.04.05-17.07.22:505][904]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.07.22:508][904]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-17.07.22:508][904]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid parameter None
+[2018.04.05-17.07.22:511][904]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_4, compiling. 
+[2018.04.05-17.07.22:534][904]MaterialEditorStats:Error: Error [SM5] (Node CollectionParameter) CollectionParameter has invalid parameter None
+[2018.04.05-17.07.24:996][148]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.07.25:026][148]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_4, compiling. 
+[2018.04.05-17.07.30:784][699]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.07.30:787][699]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-17.07.30:787][699]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid parameter Near Thickness Level
+[2018.04.05-17.07.30:794][699]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_4, compiling. 
+[2018.04.05-17.07.30:819][699]MaterialEditorStats:Error: Error [SM5] (Node CollectionParameter) CollectionParameter has invalid parameter Near Thickness Level
+[2018.04.05-17.07.33:657][980]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.07.33:659][980]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-17.07.33:659][980]LogMaterial:Warning: 	(Node CollectionParameter) Material references too many MaterialParameterCollections!  A material may only reference 2 different collections.
+[2018.04.05-17.07.33:665][980]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_4, compiling. 
+[2018.04.05-17.07.33:692][980]MaterialEditorStats:Error: Error [SM5] (Node CollectionParameter) Material references too many MaterialParameterCollections!  A material may only reference 2 different collections.
+[2018.04.05-17.07.42:903][933]LogEditorTransaction: Undo Edit Parameter Name
+[2018.04.05-17.07.42:907][933]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.07.42:910][933]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-17.07.42:910][933]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid parameter Near Thickness Level
+[2018.04.05-17.07.42:917][933]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.07.42:920][933]LogMaterial:Warning: Failed to compile Material /Engine/Transient.GrassShader3 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.05-17.07.42:920][933]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid parameter Near Thickness Level
+[2018.04.05-17.07.42:928][933]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_4, compiling. 
+[2018.04.05-17.07.42:962][933]MaterialEditorStats:Error: Error [SM5] (Node CollectionParameter) CollectionParameter has invalid parameter Near Thickness Level
+[2018.04.05-17.07.43:371][957]LogEditorTransaction: Undo Edit Collection
+[2018.04.05-17.07.43:386][957]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.07.43:413][957]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.07.43:438][957]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_4, compiling. 
+[2018.04.05-17.07.49:369][531]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-17.07.49:369][531]MaterialEditorStats: Info Vertex shader: 127 instructions
+[2018.04.05-17.07.49:369][531]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-17.07.49:369][531]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-17.07.52:449][888]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.07.52:474][888]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.05-17.07.57:361][455]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-17.07.57:361][455]MaterialEditorStats: Info Vertex shader: 127 instructions
+[2018.04.05-17.07.57:361][455]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-17.07.57:361][455]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-17.08.01:276][914]LogSavePackage: Save=4.51ms
+[2018.04.05-17.08.01:276][914]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/AWSpecial_MPC3B2537AE546809DAC7A7061A5E9F7BD05.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/GrassBlueprint/MatParaCollections/AWSpecial_MPC3.uasset'
+[2018.04.05-17.08.01:280][914]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/GrassBlueprint/MatParaCollections/AWSpecial_MPC3.uasset
+[2018.04.05-17.08.17:967][542]BlueprintLog: New page: Compile LevelTuto
+[2018.04.05-17.08.18:560][575]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: LevelTuto, Actor: /Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.LevelTuto_C_1
+[2018.04.05-17.08.18:947][575]LogSavePackage: Save=391.08ms
+[2018.04.05-17.08.18:947][575]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/LevelTuto6B2F524A4C134E5B3A8372A9A29350A1.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/LevelTuto.umap'
+[2018.04.05-17.08.18:948][575]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/LevelTuto.umap
+[2018.04.05-17.08.18:949][575]LogFileHelpers: Saving map 'LevelTuto' took 0.499
+[2018.04.05-17.08.22:034][870]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.08.22:060][870]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_4, compiling. 
+[2018.04.05-17.08.23:646][ 25]LogMaterialEditor: Saving and Compiling material GrassShader3
+[2018.04.05-17.08.24:195][ 25]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.08.24:270][ 25]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.08.24:331][ 25]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.08.24:409][ 25]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GrassShader3, compiling. 
+[2018.04.05-17.08.26:982][ 25]TextureStreamingBuild:Display: Compiling optional shaders took 2.578 seconds.
+[2018.04.05-17.08.33:143][ 25]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.05-17.08.33:258][ 25]LogSavePackage: Save=53.59ms
+[2018.04.05-17.08.33:258][ 25]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/GrassShader3874F788D461665278A3143958581C762.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/GrassBlueprint/Materials/GrassShader3.uasset'
+[2018.04.05-17.08.33:260][ 25]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/GrassBlueprint/Materials/GrassShader3.uasset
+[2018.04.05-17.08.33:290][ 25]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-17.08.33:290][ 25]MaterialEditorStats: Info Vertex shader: 195 instructions
+[2018.04.05-17.08.33:290][ 25]MaterialEditorStats: Info Texture samplers: 7/16
+[2018.04.05-17.08.33:290][ 25]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-17.09.04:633][  9]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.05-17.09.04:669][  9]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.05-17.09.04:669][  9]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.04.05-17.09.04:669][  9]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.04.05-17.09.04:669][  9]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/LevelTuto.LevelTuto:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.LevelTuto' with GeneratedClass '/Game/Niveles/LevelTuto.LevelTuto_C' with ClassGeneratedBy '/Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.LevelTuto'
+[2018.04.05-17.09.04:669][  9]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.05-17.09.04:669][  9]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 5, 2018, 9:09:04 PM)
+[2018.04.05-17.09.04:669][  9]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.04.05-17.09.04:692][  9]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022796s)
+[2018.04.05-17.09.04:693][  9]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.04.05-17.09.04:693][  9]LogPlayLevel: PIE: World Init took: (0.001044s)
+[2018.04.05-17.09.04:694][  9]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.024137s)
+[2018.04.05-17.09.04:729][  9]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.05-17.09.04:735][  9]LogInit: FAudioDevice initialized.
+[2018.04.05-17.09.04:764][  9]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.05-17.09.04:769][  9]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.04.05-19.09.04
+[2018.04.05-17.09.04:770][  9]LogWorld: Bringing up level for play took: 0.002685
+[2018.04.05-17.09.04:771][  9]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.04.05-17.09.04:771][  9]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.764
+[2018.04.05-17.09.04:772][  9]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.05-17.09.04:772][  9]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.04.05-17.09.04:772][  9]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.04.05-17.09.04:772][  9]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/LevelTuto.LevelTuto:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.LevelTuto' with GeneratedClass '/Game/Niveles/LevelTuto.LevelTuto_C' with ClassGeneratedBy '/Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.LevelTuto'
+[2018.04.05-17.09.04:773][  9]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2018.04.05-17.09.04:810][ 10]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_LevelTuto 0 0 0
+[2018.04.05-17.09.05:809][130]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_LevelTuto 1 1 0
+[2018.04.05-17.09.49:018][307]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.05-17.09.49:019][307]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.04.05-17.09.49:019][307]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.04.05-17.09.49:019][307]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/LevelTuto.LevelTuto:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.LevelTuto' with GeneratedClass '/Game/Niveles/LevelTuto.LevelTuto_C' with ClassGeneratedBy '/Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.LevelTuto'
+[2018.04.05-17.09.49:056][307]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.05-17.09.49:056][307]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.04.05-17.09.49:056][307]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.04.05-17.09.49:056][307]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/LevelTuto.LevelTuto:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.LevelTuto' with GeneratedClass '/Game/Niveles/LevelTuto.LevelTuto_C' with ClassGeneratedBy '/Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.LevelTuto'
+[2018.04.05-17.10.04:985][125]Cmd: TRANSACTION UNDO
+[2018.04.05-17.10.04:985][125]LogEditorTransaction: Undo Create Actors
+[2018.04.05-17.10.05:004][125]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.10.10:620][690]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-17.10.10:620][690]MaterialEditorStats: Info Vertex shader: 127 instructions
+[2018.04.05-17.10.10:620][690]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-17.10.10:620][690]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-17.10.22:553][110]Cmd: TRANSACTION UNDO
+[2018.04.05-17.10.22:553][110]LogEditorTransaction: Undo Edit Z
+[2018.04.05-17.10.22:556][110]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.10.27:012][603]MaterialEditorStats: Info Base pass shader: 244 instructions
+[2018.04.05-17.10.27:012][603]MaterialEditorStats: Info Vertex shader: 127 instructions
+[2018.04.05-17.10.27:012][603]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.04.05-17.10.27:012][603]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.05-17.10.44:012][556]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.05-17.10.44:043][556]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.05-17.10.44:043][556]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.04.05-17.10.44:043][556]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.04.05-17.10.44:043][556]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/LevelTuto.LevelTuto:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.LevelTuto' with GeneratedClass '/Game/Niveles/LevelTuto.LevelTuto_C' with ClassGeneratedBy '/Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.LevelTuto'
+[2018.04.05-17.10.44:043][556]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.05-17.10.44:043][556]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 5, 2018, 9:10:44 PM)
+[2018.04.05-17.10.44:043][556]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.04.05-17.10.44:066][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022666s)
+[2018.04.05-17.10.44:067][556]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.04.05-17.10.44:067][556]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2018.04.05-17.10.44:067][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023982s)
+[2018.04.05-17.10.44:103][556]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.05-17.10.44:108][556]LogInit: FAudioDevice initialized.
+[2018.04.05-17.10.44:136][556]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.05-17.10.44:142][556]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.04.05-19.10.44
+[2018.04.05-17.10.44:142][556]LogWorld: Bringing up level for play took: 0.002741
+[2018.04.05-17.10.44:144][556]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_BlueLevel 0 0 0
+[2018.04.05-17.10.44:144][556]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.137
+[2018.04.05-17.10.44:144][556]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.05-17.10.44:144][556]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.04.05-17.10.44:144][556]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.04.05-17.10.44:144][556]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/LevelTuto.LevelTuto:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.LevelTuto' with GeneratedClass '/Game/Niveles/LevelTuto.LevelTuto_C' with ClassGeneratedBy '/Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.LevelTuto'
+[2018.04.05-17.10.44:146][556]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_RedLevel 0 0 0
+[2018.04.05-17.10.44:183][557]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_LevelTuto 0 0 0
+[2018.04.05-17.10.45:366][699]LogLevel: ActivateLevel /Game/Niveles/UEDPIE_0_LevelTuto 1 1 0
+[2018.04.05-17.10.56:737][ 55]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.05-17.10.56:737][ 55]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.04.05-17.10.56:737][ 55]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.04.05-17.10.56:737][ 55]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/LevelTuto.LevelTuto:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.LevelTuto' with GeneratedClass '/Game/Niveles/LevelTuto.LevelTuto_C' with ClassGeneratedBy '/Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.LevelTuto'
+[2018.04.05-17.10.56:780][ 55]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.05-17.10.56:780][ 55]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel' with GeneratedClass '/Game/Niveles/BlueLevel.BlueLevel_C' with ClassGeneratedBy '/Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel'
+[2018.04.05-17.10.56:780][ 55]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/RedLevel.RedLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel' with GeneratedClass '/Game/Niveles/RedLevel.RedLevel_C' with ClassGeneratedBy '/Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel'
+[2018.04.05-17.10.56:780][ 55]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/LevelTuto.LevelTuto:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.LevelTuto' with GeneratedClass '/Game/Niveles/LevelTuto.LevelTuto_C' with ClassGeneratedBy '/Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.LevelTuto'
+[2018.04.05-17.11.01:139][431]LogSavePackage: Save=13.05ms
+[2018.04.05-17.11.01:139][431]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/SuperGrass3_FoliageTypeF5869C614A2A33F2560D109CD6B8DB11.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/GrassBlueprint/Meshes/SuperGrass3_FoliageType.uasset'
+[2018.04.05-17.11.01:141][431]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/GrassBlueprint/Meshes/SuperGrass3_FoliageType.uasset
+[2018.04.05-17.11.01:238][431]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: LevelTuto, Actor: /Game/Niveles/LevelTuto.LevelTuto:PersistentLevel.LevelTuto_C_0
+[2018.04.05-17.11.01:631][431]LogSavePackage: Save=397.04ms
+[2018.04.05-17.11.01:631][431]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/LevelTuto5A9A99B14C3E6BAAA65F7FA5734C66A8.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/LevelTuto.umap'
+[2018.04.05-17.11.01:633][431]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/LevelTuto.umap
+[2018.04.05-17.11.01:634][431]LogFileHelpers: Saving map 'LevelTuto' took 0.491
+[2018.04.05-17.11.06:400][560]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.11.06:467][560]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.11.06:527][560]LogMaterial: Missing cached shader map for material GrassShader3, compiling. 
+[2018.04.05-17.11.06:608][560]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GrassShader3, compiling. 
+[2018.04.05-17.11.09:187][560]TextureStreamingBuild:Display: Compiling optional shaders took 2.585 seconds.
+[2018.04.05-17.11.15:034][560]LogSavePackage: Save=30.44ms
+[2018.04.05-17.11.15:034][560]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/GrassShader31C0CE4574ABFD2CE1B9396A1C549ED9B.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/GrassBlueprint/Materials/GrassShader3.uasset'
+[2018.04.05-17.11.15:036][560]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/GrassBlueprint/Materials/GrassShader3.uasset
+[2018.04.05-17.11.15:369][560]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.04.05-17.11.15:595][561]Cmd: QUIT_EDITOR
+[2018.04.05-17.11.16:523][561]LogExit: Preparing to exit.
+[2018.04.05-17.11.17:799][561]LogExit: Editor shut down
+[2018.04.05-17.11.17:802][561]LogExit: Transaction tracking system shut down
+[2018.04.05-17.11.17:942][561]LogObj: Freed 0b from 0 cluster array pools.
+[2018.04.05-17.11.17:942][561]LogExit: Object subsystem successfully closed.
+[2018.04.05-17.11.17:956][561]LogD3D11RHI: Shutdown
+[2018.04.05-17.11.17:956][561]LogD3D11RHI: CleanupD3DDevice
+[2018.04.05-17.11.18:114][561]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.05-17.11.18:138][561]LogModuleManager: Shutting down and abandoning module MaterialEditor (538)
+[2018.04.05-17.11.18:138][561]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2018.04.05-17.11.18:138][561]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2018.04.05-17.11.18:148][561]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2018.04.05-17.11.18:148][561]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (530)
+[2018.04.05-17.11.18:148][561]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (528)
+[2018.04.05-17.11.18:148][561]LogModuleManager: Shutting down and abandoning module CrashTracker (526)
+[2018.04.05-17.11.18:148][561]LogModuleManager: Shutting down and abandoning module WorldBrowser (524)
+[2018.04.05-17.11.18:148][561]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
+[2018.04.05-17.11.18:148][561]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
+[2018.04.05-17.11.18:148][561]LogDirectoryWatcher: A directory notification for 'D:/Program Files (x86)/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.04.05-17.11.18:149][561]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
+[2018.04.05-17.11.18:149][561]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
+[2018.04.05-17.11.18:149][561]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
+[2018.04.05-17.11.18:149][561]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Collections/' was aborted.
+[2018.04.05-17.11.18:149][561]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Developers/David/Collections/' was aborted.
+[2018.04.05-17.11.18:149][561]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Collections/' was aborted.
+[2018.04.05-17.11.18:149][561]LogModuleManager: Shutting down and abandoning module StatsViewer (512)
+[2018.04.05-17.11.18:149][561]LogModuleManager: Shutting down and abandoning module FoliageEdit (510)
+[2018.04.05-17.11.18:149][561]LogModuleManager: Shutting down and abandoning module LandscapeEditor (508)
+[2018.04.05-17.11.18:149][561]LogModuleManager: Shutting down and abandoning module MeshPaintMode (506)
+[2018.04.05-17.11.18:149][561]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (504)
+[2018.04.05-17.11.18:149][561]LogModuleManager: Shutting down and abandoning module ActorPickerMode (502)
+[2018.04.05-17.11.18:149][561]LogModuleManager: Shutting down and abandoning module GeometryMode (500)
+[2018.04.05-17.11.18:149][561]LogModuleManager: Shutting down and abandoning module TextureAlignMode (498)
+[2018.04.05-17.11.18:149][561]LogModuleManager: Shutting down and abandoning module BspMode (496)
+[2018.04.05-17.11.18:149][561]LogModuleManager: Shutting down and abandoning module HardwareSurvey (494)
+[2018.04.05-17.11.18:149][561]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (492)
+[2018.04.05-17.11.18:149][561]LogModuleManager: Shutting down and abandoning module AutomationWorker (490)
+[2018.04.05-17.11.18:149][561]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (488)
+[2018.04.05-17.11.18:149][561]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (486)
+[2018.04.05-17.11.18:150][561]LogModuleManager: Shutting down and abandoning module PlacementMode (485)
+[2018.04.05-17.11.18:150][561]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (482)
+[2018.04.05-17.11.18:150][561]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (480)
+[2018.04.05-17.11.18:150][561]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (478)
+[2018.04.05-17.11.18:150][561]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (476)
+[2018.04.05-17.11.18:150][561]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (474)
+[2018.04.05-17.11.18:150][561]LogModuleManager: Shutting down and abandoning module Media (473)
+[2018.04.05-17.11.18:150][561]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (470)
+[2018.04.05-17.11.18:150][561]LogModuleManager: Shutting down and abandoning module CharacterAI (468)
+[2018.04.05-17.11.18:150][561]LogModuleManager: Shutting down and abandoning module AudioCapture (466)
+[2018.04.05-17.11.18:150][561]LogModuleManager: Shutting down and abandoning module SequenceRecorder (465)
+[2018.04.05-17.11.18:150][561]LogModuleManager: Shutting down and abandoning module SmartSnapping (462)
+[2018.04.05-17.11.18:150][561]LogModuleManager: Shutting down and abandoning module SessionServices (460)
+[2018.04.05-17.11.18:150][561]LogModuleManager: Shutting down and abandoning module ViewportSnapping (458)
+[2018.04.05-17.11.18:150][561]LogModuleManager: Shutting down and abandoning module ViewportInteraction (456)
+[2018.04.05-17.11.18:150][561]LogModuleManager: Shutting down and abandoning module ClothPainter (454)
+[2018.04.05-17.11.18:150][561]LogModuleManager: Shutting down and abandoning module LogVisualizer (452)
+[2018.04.05-17.11.18:150][561]LogModuleManager: Shutting down and abandoning module IntroTutorials (450)
+[2018.04.05-17.11.18:150][561]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (449)
+[2018.04.05-17.11.18:150][561]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (446)
+[2018.04.05-17.11.18:150][561]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (444)
+[2018.04.05-17.11.18:150][561]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (442)
+[2018.04.05-17.11.18:150][561]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (440)
+[2018.04.05-17.11.18:150][561]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (439)
+[2018.04.05-17.11.18:577][561]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (436)
+[2018.04.05-17.11.18:577][561]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (434)
+[2018.04.05-17.11.18:577][561]LogModuleManager: Shutting down and abandoning module InputBindingEditor (432)
+[2018.04.05-17.11.18:577][561]LogModuleManager: Shutting down and abandoning module MergeActors (430)
+[2018.04.05-17.11.18:577][561]LogModuleManager: Shutting down and abandoning module SizeMap (428)
+[2018.04.05-17.11.18:577][561]LogModuleManager: Shutting down and abandoning module TreeMap (426)
+[2018.04.05-17.11.18:577][561]LogModuleManager: Shutting down and abandoning module ReferenceViewer (424)
+[2018.04.05-17.11.18:577][561]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (422)
+[2018.04.05-17.11.18:577][561]LogModuleManager: Shutting down and abandoning module LocalizationService (421)
+[2018.04.05-17.11.18:577][561]LogModuleManager: Shutting down and abandoning module HardwareTargeting (418)
+[2018.04.05-17.11.18:577][561]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (416)
+[2018.04.05-17.11.18:577][561]LogModuleManager: Shutting down and abandoning module UndoHistory (414)
+[2018.04.05-17.11.18:578][561]LogModuleManager: Shutting down and abandoning module UserFeedback (412)
+[2018.04.05-17.11.18:578][561]LogModuleManager: Shutting down and abandoning module XmlParser (410)
+[2018.04.05-17.11.18:578][561]LogModuleManager: Shutting down and abandoning module Blutility (408)
+[2018.04.05-17.11.18:578][561]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (406)
+[2018.04.05-17.11.18:578][561]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (405)
+[2018.04.05-17.11.18:578][561]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (402)
+[2018.04.05-17.11.18:578][561]LogModuleManager: Shutting down and abandoning module SettingsEditor (400)
+[2018.04.05-17.11.18:578][561]LogModuleManager: Shutting down and abandoning module ProjectLauncher (398)
+[2018.04.05-17.11.18:578][561]LogModuleManager: Shutting down and abandoning module SessionFrontend (396)
+[2018.04.05-17.11.18:578][561]LogModuleManager: Shutting down and abandoning module ProfilerClient (394)
+[2018.04.05-17.11.18:578][561]LogModuleManager: Shutting down and abandoning module DeviceManager (392)
+[2018.04.05-17.11.18:578][561]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (391)
+[2018.04.05-17.11.18:623][561]LogModuleManager: Shutting down and abandoning module AutomationController (388)
+[2018.04.05-17.11.18:623][561]LogModuleManager: Shutting down and abandoning module AutomationWindow (386)
+[2018.04.05-17.11.18:623][561]LogModuleManager: Shutting down and abandoning module Layers (384)
+[2018.04.05-17.11.18:623][561]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (382)
+[2018.04.05-17.11.18:623][561]LogModuleManager: Shutting down and abandoning module DetailCustomizations (380)
+[2018.04.05-17.11.18:623][561]LogModuleManager: Shutting down and abandoning module PackagesDialog (378)
+[2018.04.05-17.11.18:623][561]LogModuleManager: Shutting down and abandoning module Persona (376)
+[2018.04.05-17.11.18:623][561]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (375)
+[2018.04.05-17.11.18:623][561]LogModuleManager: Shutting down and abandoning module AnimGraph (373)
+[2018.04.05-17.11.18:624][561]LogModuleManager: Shutting down and abandoning module Kismet (370)
+[2018.04.05-17.11.18:665][561]LogModuleManager: Shutting down and abandoning module ClassViewer (368)
+[2018.04.05-17.11.18:665][561]LogModuleManager: Shutting down and abandoning module Toolbox (366)
+[2018.04.05-17.11.18:665][561]LogModuleManager: Shutting down and abandoning module ModuleUI (364)
+[2018.04.05-17.11.18:665][561]LogModuleManager: Shutting down and abandoning module MovieSceneTools (362)
+[2018.04.05-17.11.18:665][561]LogModuleManager: Shutting down and abandoning module OutputLog (360)
+[2018.04.05-17.11.18:665][561]LogModuleManager: Shutting down and abandoning module GammaUI (358)
+[2018.04.05-17.11.18:665][561]LogModuleManager: Shutting down and abandoning module Documentation (356)
+[2018.04.05-17.11.18:665][561]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (354)
+[2018.04.05-17.11.18:665][561]LogModuleManager: Shutting down and abandoning module MovieScene (352)
+[2018.04.05-17.11.18:665][561]LogModuleManager: Shutting down and abandoning module Niagara (350)
+[2018.04.05-17.11.18:665][561]LogModuleManager: Shutting down and abandoning module NiagaraEditor (349)
+[2018.04.05-17.11.18:665][561]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (346)
+[2018.04.05-17.11.18:665][561]LogModuleManager: Shutting down and abandoning module AnalyticsET (344)
+[2018.04.05-17.11.18:666][561]LogModuleManager: Shutting down and abandoning module PortalServices (342)
+[2018.04.05-17.11.18:666][561]LogModuleManager: Shutting down and abandoning module PortalRpc (340)
+[2018.04.05-17.11.18:666][561]LogModuleManager: Shutting down and abandoning module MessagingRpc (338)
+[2018.04.05-17.11.18:666][561]LogModuleManager: Shutting down and abandoning module AIModule (336)
+[2018.04.05-17.11.18:666][561]LogModuleManager: Shutting down and abandoning module GameplayDebugger (335)
+[2018.04.05-17.11.18:666][561]LogModuleManager: Shutting down and abandoning module AITestSuite (333)
+[2018.04.05-17.11.18:666][561]LogModuleManager: Shutting down and abandoning module ProfilerService (330)
+[2018.04.05-17.11.18:759][561]LogModuleManager: Shutting down and abandoning module TaskGraph (328)
+[2018.04.05-17.11.18:759][561]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
+[2018.04.05-17.11.18:759][561]LogModuleManager: Shutting down and abandoning module SteamVR (324)
+[2018.04.05-17.11.18:759][561]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
+[2018.04.05-17.11.18:759][561]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
+[2018.04.05-17.11.18:759][561]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
+[2018.04.05-17.11.18:759][561]LogModuleManager: Shutting down and abandoning module OculusInput (316)
+[2018.04.05-17.11.18:759][561]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
+[2018.04.05-17.11.18:759][561]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
+[2018.04.05-17.11.18:759][561]LogModuleManager: Shutting down and abandoning module CableComponent (310)
+[2018.04.05-17.11.18:759][561]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2018.04.05-17.11.18:759][561]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2018.04.05-17.11.18:759][561]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
+[2018.04.05-17.11.18:759][561]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
+[2018.04.05-17.11.18:759][561]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
+[2018.04.05-17.11.18:759][561]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
+[2018.04.05-17.11.18:759][561]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
+[2018.04.05-17.11.18:759][561]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
+[2018.04.05-17.11.18:759][561]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
+[2018.04.05-17.11.18:760][561]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
+[2018.04.05-17.11.18:760][561]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
+[2018.04.05-17.11.18:760][561]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
+[2018.04.05-17.11.18:760][561]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
+[2018.04.05-17.11.18:760][561]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
+[2018.04.05-17.11.18:760][561]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
+[2018.04.05-17.11.18:760][561]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
+[2018.04.05-17.11.18:760][561]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
+[2018.04.05-17.11.18:760][561]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
+[2018.04.05-17.11.18:760][561]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
+[2018.04.05-17.11.18:760][561]LogModuleManager: Shutting down and abandoning module SourceControl (269)
+[2018.04.05-17.11.18:760][561]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
+[2018.04.05-17.11.18:760][561]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
+[2018.04.05-17.11.18:760][561]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
+[2018.04.05-17.11.18:760][561]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
+[2018.04.05-17.11.18:761][561]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
+[2018.04.05-17.11.18:761][561]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
+[2018.04.05-17.11.18:762][561]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
+[2018.04.05-17.11.18:762][561]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2018.04.05-17.11.18:762][561]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2018.04.05-17.11.18:763][561]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (248)
+[2018.04.05-17.11.18:763][561]LogModuleManager: Shutting down and abandoning module PhysXVehicles (246)
+[2018.04.05-17.11.18:763][561]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (244)
+[2018.04.05-17.11.18:763][561]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (242)
+[2018.04.05-17.11.18:764][561]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (240)
+[2018.04.05-17.11.18:764][561]LogModuleManager: Shutting down and abandoning module UdpMessaging (238)
+[2018.04.05-17.11.18:865][561]LogModuleManager: Shutting down and abandoning module TcpMessaging (236)
+[2018.04.05-17.11.18:966][561]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (234)
+[2018.04.05-17.11.18:966][561]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (232)
+[2018.04.05-17.11.18:966][561]LogModuleManager: Shutting down and abandoning module FacialAnimation (230)
+[2018.04.05-17.11.18:966][561]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (228)
+[2018.04.05-17.11.18:966][561]LogModuleManager: Shutting down and abandoning module GraphEditor (227)
+[2018.04.05-17.11.18:966][561]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2018.04.05-17.11.18:967][561]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (222)
+[2018.04.05-17.11.18:967][561]LogModuleManager: Shutting down and abandoning module Paper2D (220)
+[2018.04.05-17.11.18:967][561]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (218)
+[2018.04.05-17.11.18:967][561]LogModuleManager: Shutting down and abandoning module WmfMedia (216)
+[2018.04.05-17.11.18:967][561]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (214)
+[2018.04.05-17.11.18:967][561]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (212)
+[2018.04.05-17.11.18:967][561]LogModuleManager: Shutting down and abandoning module MediaAssets (210)
+[2018.04.05-17.11.18:967][561]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (208)
+[2018.04.05-17.11.18:967][561]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (206)
+[2018.04.05-17.11.18:968][561]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.04.05-17.11.18:968][561]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.04.05-17.11.18:968][561]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.04.05-17.11.18:968][561]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.04.05-17.11.18:968][561]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.04.05-17.11.18:968][561]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.04.05-17.11.18:968][561]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.04.05-17.11.18:968][561]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.04.05-17.11.18:968][561]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.04.05-17.11.18:968][561]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.04.05-17.11.18:968][561]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.04.05-17.11.18:968][561]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.04.05-17.11.18:968][561]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.04.05-17.11.18:968][561]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.04.05-17.11.18:968][561]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.04.05-17.11.18:971][561]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.04.05-17.11.18:971][561]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.04.05-17.11.18:971][561]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.04.05-17.11.18:971][561]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.04.05-17.11.18:971][561]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.04.05-17.11.18:971][561]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.04.05-17.11.19:086][561]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.05-17.11.19:086][561]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/' was aborted.
+[2018.04.05-17.11.19:086][561]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.05-17.11.19:086][561]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.04.05-17.11.19:089][561]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.04.05-17.11.19:090][561]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.04.05-17.11.19:090][561]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.04.05-17.11.19:090][561]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.04.05-17.11.19:090][561]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.04.05-17.11.19:090][561]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.04.05-17.11.19:090][561]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.04.05-17.11.19:090][561]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.04.05-17.11.19:090][561]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.04.05-17.11.19:115][561]LogDerivedDataCache: Shutdown
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.04.05-17.11.19:115][561]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.04.05-17.11.19:116][561]LogOnline:Display: Unloading online subsystem: NULL
+[2018.04.05-17.11.19:116][561]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.05-17.11.19:116][561]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.05-17.11.19:116][561]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.04.05-17.11.19:116][561]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4DEDA373-4B8D-3CD2-9236-AFA7911ABB6F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=eedd91be406e0cd25ea0748277e6e73c%7C7a211806f70b4509a5be2640357744fc%7Caa6de738-987c-4c76-bb80-6cc1d099ea00&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.05-17.11.19:123][561]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.05-17.11.19:124][561]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.04.05-17.11.19:124][561]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.04.05-17.11.19:124][561]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.04.05-17.11.19:124][561]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.04.05-17.11.19:124][561]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.04.05-17.11.19:124][561]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.04.05-17.11.19:124][561]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.04.05-17.11.19:124][561]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.04.05-17.11.19:125][561]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.04.05-17.11.19:125][561]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.04.05-17.11.19:125][561]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.04.05-17.11.19:125][561]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.04.05-17.11.19:125][561]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.04.05-17.11.19:125][561]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.04.05-17.11.19:125][561]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.04.05-17.11.19:125][561]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.05-17.11.19:125][561]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.05-17.11.19:125][561]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.05-17.11.19:126][561]LogExit: Exiting.
+[2018.04.05-17.11.19:154][561]Log file closed, 04/05/18 19:11:19
