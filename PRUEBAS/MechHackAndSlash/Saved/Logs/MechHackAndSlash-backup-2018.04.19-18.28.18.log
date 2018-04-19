@@ -1,0 +1,1068 @@
+﻿Log file open, 04/18/18 18:25:54
+LogInit:Display: Running engine for game: MechHackAndSlash
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1346589108) SRandInit(-1346589108).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.082422
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: D:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.18-16.25.54:898][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.18-16.25.54:898][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.18-16.25.54:912][  0]LogInit: Computer: DAVIDMASTERRACE
+[2018.04.18-16.25.54:912][  0]LogInit: User: David
+[2018.04.18-16.25.54:912][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.18-16.25.54:912][  0]LogInit: High frequency timer resolution =3.417969 MHz
+[2018.04.18-16.25.54:913][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.04.18-16.25.54:913][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.18-16.25.54:913][  0]LogMemory: Process Physical Memory: 272.50 MB used, 272.50 MB peak
+[2018.04.18-16.25.54:913][  0]LogMemory: Process Virtual Memory: 262.57 MB used, 262.57 MB peak
+[2018.04.18-16.25.54:913][  0]LogMemory: Physical Memory: 4697.75 MB used,  11628.69 MB free, 16326.44 MB total
+[2018.04.18-16.25.54:913][  0]LogMemory: Virtual Memory: 619.07 MB used,  11628.69 MB free, 134217728.00 MB total
+[2018.04.18-16.25.54:956][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.04.18-16.25.54:956][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.04.18-16.25.55:699][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.18-16.25.55:720][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.04.18-16.25.55:720][  0]LogD3D11RHI:       3975/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.18-16.25.55:721][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.18-16.25.55:721][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.18-16.25.55:721][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.18-16.25.55:724][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.18-16.25.55:724][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.18-16.25.55:724][  0]LogWindows: EnumDisplayDevices:
+[2018.04.18-16.25.55:724][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.04.18-16.25.55:724][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.04.18-16.25.55:724][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.04.18-16.25.55:724][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.04.18-16.25.55:724][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.04.18-16.25.55:724][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.04.18-16.25.55:724][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2018.04.18-16.25.55:724][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2018.04.18-16.25.55:724][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.04.18-16.25.55:733][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.18-16.25.55:749][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.04.18-16.25.55:793][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Intermediate/Shaders/WorkingDirectory/5444/).
+[2018.04.18-16.25.55:793][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/David/AppData/Local/Temp/UnrealShaderWorkingDir/EC998554428D781F78E2FFA7DA9E3DF9/'.
+[2018.04.18-16.25.55:793][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.04.18-16.25.56:627][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.18-16.25.56:658][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.04.18-16.25.56:690][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.18-16.25.56:721][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.04.18-16.25.56:753][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.04.18-16.25.56:784][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.18-16.25.56:824][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.18-16.25.56:858][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.18-16.25.56:892][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.04.18-16.25.56:924][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.04.18-16.25.56:955][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.18-16.25.56:986][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.18-16.25.57:017][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.18-16.25.57:048][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.18-16.25.57:078][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.18-16.25.57:140][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.18-16.25.57:140][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.18-16.25.57:163][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.04.18-16.25.57:228][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.04.18-16.25.57:248][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.04.18-16.25.57:278][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.18-16.25.57:316][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.18-16.25.57:357][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.18-16.25.57:389][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.04.18-16.25.57:389][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.04.18-16.25.57:791][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.04.18-16.25.57:877][  0]LogDerivedDataCache: Loaded boot cache 0.09s 91MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.04.18-16.25.57:877][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.04.18-16.25.57:877][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.18-16.25.57:877][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.18-16.25.57:877][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.18-16.25.57:877][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.18-16.25.57:893][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.18-16.25.57:905][  0]LogDerivedDataCache: Using Local data cache path C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.18-16.25.57:914][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.18-16.25.57:914][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.18-16.25.57:914][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.18-16.25.57:914][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.18-16.25.58:176][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.18-16.25.58:242][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.04.18-16.25.58:353][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.18-16.25.58:378][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.18-16.25.58:404][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.18-16.25.58:404][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.04.18-16.25.58:404][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.04.18-16.25.58:805][  0]LogNetVersion: MechHackAndSlash , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 86869316)
+[2018.04.18-16.25.58:855][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2018.04.18-16.25.58:886][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.019335 seconds
+[2018.04.18-16.25.58:891][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.04.18-16.25.58:891][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.04.18-16.25.58:891][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.18-16.25.58:927][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.18-16.26.00:581][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.18-16.26.00:609][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.18-16.26.00:936][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.18-16.26.01:174][  0]SourceControl: Info Source control is disabled
+[2018.04.18-16.26.01:198][  0]SourceControl: Info Source control is disabled
+[2018.04.18-16.26.01:225][  0]SourceControl: Info Source control is disabled
+[2018.04.18-16.26.01:251][  0]SourceControl: Info Source control is disabled
+[2018.04.18-16.26.01:648][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.18-16.26.01:990][  0]LogEngine: Initializing Engine...
+[2018.04.18-16.26.01:990][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.18-16.26.02:152][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.18-16.26.02:152][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.18-16.26.02:226][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.18-16.26.02:263][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.18-16.26.02:270][  0]LogInit: FAudioDevice initialized.
+[2018.04.18-16.26.02:306][  0]LogDerivedDataCache: Saved boot cache 0.04s 91MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.04.18-16.26.02:316][  0]LogInit: Texture streaming: Enabled
+[2018.04.18-16.26.02:369][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.18-16.26.02:491][  0]LogInit: Transaction tracking system initialized
+[2018.04.18-16.26.02:661][  0]BlueprintLog: New page: Editor Load
+[2018.04.18-16.26.03:182][  0]LocalizationService: Info Localization service is disabled
+[2018.04.18-16.26.03:568][  0]LogConsoleResponse:Display: 
+[2018.04.18-16.26.03:699][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.18-16.26.03:699][  0]LogCook:Display: Mobile HDR setting 1
+[2018.04.18-16.26.03:920][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/' took 0.02s
+[2018.04.18-16.26.04:332][  0]SourceControl: Info Source control is disabled
+[2018.04.18-16.26.04:332][  0]Cmd: MAP LOAD FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.18-16.26.04:338][  0]LightingResults: New page: Lighting Build
+[2018.04.18-16.26.04:362][  0]MapCheck: New page: Map Check
+[2018.04.18-16.26.04:362][  0]LightingResults: New page: Lighting Build
+[2018.04.18-16.26.09:951][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.04.18-16.26.14:047][  0]LogClass:Warning: Enum '/Game/GrassBlueprint/Enumerator/WindAssets.WindAssets' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.04.18-16.26.16:418][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.18-16.26.16:509][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.18-16.26.16:580][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 70.762ms to complete.
+[2018.04.18-16.26.16:580][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 12.248
+[2018.04.18-16.26.17:066][  0]LogCollectionManager: Loaded 0 collections in 0.002261 seconds
+[2018.04.18-16.26.17:195][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Collections/' took 0.01s
+[2018.04.18-16.26.17:196][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Developers/David/Collections/' took 0.01s
+[2018.04.18-16.26.17:196][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Collections/' took 0.01s
+[2018.04.18-16.26.17:196][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2018.04.18-16.26.17:220][  0]LogContentBrowser: Native class hierarchy populated in 0.0227 seconds. Added 2336 classes and 493 folders.
+[2018.04.18-16.26.17:363][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.04.18-16.26.18:477][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.04.18-16.26.18:570][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.04.18-16.26.18:700][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0006 seconds. Added 1 classes and 3 folders.
+[2018.04.18-16.26.19:328][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.04.18-16.26.19:364][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.04.18-16.26.19:413][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.04.18-16.26.19:413][  0]LogLoad: (Engine Initialization) Total time: 25.74 seconds
+[2018.04.18-16.26.19:413][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 2.05 seconds
+[2018.04.18-16.26.19:413][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.04.18-16.26.19:413][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.04.18-16.26.19:748][  0]LogOcInput: OculusInput pre-init called
+[2018.04.18-16.26.19:748][  0]LogHMD: Starting GearVRController plugin
+[2018.04.18-16.26.19:883][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.18-16.26.19:896][  0]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.18-16.26.19:899][  0]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.18-16.26.19:937][  0]LogSlate: Took 0.013528 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.18-16.26.20:429][  0]LogSlate: Took 0.016672 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.18-16.26.20:611][  1]LogRenderer: Reallocating scene render targets to support 1196x560 NumSamples 1 (Frame:1).
+[2018.04.18-16.26.20:957][  1]LogSlate: Took 0.000111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.18-16.26.21:494][  2]LogAssetRegistry: Asset discovery search completed in 22.6623 seconds
+[2018.04.18-16.26.21:496][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.04.18-16.26.21:496][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2018.04.18-16.26.52:188][976]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2018.04.18-16.26.53:007][976]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.18-16.26.53:346][976]LogSlate: Took 0.013184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.18-16.26.53:674][977]LogSlate: Took 0.013818 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.18-16.27.21:407][322]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.18-16.33.41:562][962]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemigos/Boss/BlueBoosDummy" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/BlueBoosDummy.uasset" SILENT=true
+[2018.04.18-16.33.42:058][962]LogSavePackage: Save=465.77ms
+[2018.04.18-16.33.42:058][962]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueBoosDummyE2F0CB6D436F0895814082ABC16170DD.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/BlueBoosDummy.uasset'
+[2018.04.18-16.33.42:061][962]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/BlueBoosDummy.uasset
+[2018.04.18-16.33.42:111][962]LogSavePackage: Save=27.86ms
+[2018.04.18-16.33.42:111][962]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueBoosDummyCaca179703044977C85661B7FD9204A4B114.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/BlueBoosDummyCaca.uasset'
+[2018.04.18-16.33.42:113][962]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/BlueBoosDummyCaca.uasset
+[2018.04.18-16.33.42:129][962]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemigos/EnemigoManiqui" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/EnemigoManiqui.uasset" SILENT=true
+[2018.04.18-16.33.42:174][962]LogSavePackage: Save=37.42ms
+[2018.04.18-16.33.42:174][962]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/EnemigoManiqui1EF15A1F47B15E517FB18FA80CB6C848.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/EnemigoManiqui.uasset'
+[2018.04.18-16.33.42:177][962]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/EnemigoManiqui.uasset
+[2018.04.18-16.33.42:338][962]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: BlueLevel, Actor: /Game/Niveles/BlueLevel.BlueLevel:PersistentLevel.BlueLevel_C_1
+[2018.04.18-16.33.43:132][962]LogSavePackage: Save=813.08ms
+[2018.04.18-16.33.43:132][962]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueLevelF87141464A5453C3D10343AE4613CA68.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap'
+[2018.04.18-16.33.43:137][962]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/BlueLevel.umap
+[2018.04.18-16.33.43:138][962]LogFileHelpers: Saving map 'BlueLevel' took 0.958
+[2018.04.18-16.33.43:259][962]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: RedLevel, Actor: /Game/Niveles/RedLevel.RedLevel:PersistentLevel.RedLevel_C_0
+[2018.04.18-16.33.43:606][962]LogSavePackage: Save=367.41ms
+[2018.04.18-16.33.43:606][962]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/RedLevel4C03B4D349628F7B7B4BB98A3C893149.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/RedLevel.umap'
+[2018.04.18-16.33.43:608][962]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Niveles/RedLevel.umap
+[2018.04.18-16.33.43:609][962]LogFileHelpers: Saving map 'RedLevel' took 0.468
+[2018.04.18-16.44.35:525][ 13]LogEditorViewport: Clicking Background
+[2018.04.18-16.46.24:902][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemigos/Boss/BlueBoosDummy" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/BlueBoosDummy.uasset" SILENT=true
+[2018.04.18-16.46.25:351][420]LogSavePackage: Save=439.95ms
+[2018.04.18-16.46.25:351][420]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueBoosDummy71DA8429462F41806BE17BBBDAAEED0B.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/BlueBoosDummy.uasset'
+[2018.04.18-16.46.25:353][420]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/BlueBoosDummy.uasset
+[2018.04.18-16.50.00:349][173]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.04.18-16.50.00:709][173]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.Actor_0.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2018.04.18-16.50.00:857][173]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_18:PersistentLevel.Actor_0.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2018.04.18-16.50.01:441][173]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2018.04.18-16.50.01:495][173]LogStaticMesh: Allocated 510x132x64 distance field atlas = 8.2Mb, with 65 objects containing 3.5Mb backing data
+[2018.04.18-16.50.01:495][173]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.04.18-16.50.04:639][395]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.Actor_1.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2018.04.18-16.50.04:682][395]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_21:PersistentLevel.Actor_1.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2018.04.18-16.50.04:872][396]LogRenderer: Reallocating scene render targets to support 1196x816 NumSamples 1 (Frame:1).
+[2018.04.18-16.50.12:400][ 48]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.18-16.50.23:132][939]LogSavePackage: Save=7.44ms
+[2018.04.18-16.50.23:132][939]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Warrok_W_Kurniawan_Skeleton72A6F939432AC3217438DCA6DA13B8E6.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/character/Warrok_W_Kurniawan_Skeleton.uasset'
+[2018.04.18-16.50.23:134][939]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/character/Warrok_W_Kurniawan_Skeleton.uasset
+[2018.04.18-16.50.40:663][737]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2018.04.18-16.50.58:614][663]LogEditorViewport: Clicking Background
+[2018.04.18-16.51.00:853][882]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2018.04.18-16.51.13:698][268]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Enemigos/Boss/Animations/boxing.boxing
+[2018.04.18-16.52.46:510][396]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.Actor_2.DebugSkelMeshComponent_9) Already registered. Aborting.
+[2018.04.18-16.52.46:730][396]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_33:PersistentLevel.Actor_2.DebugSkelMeshComponent_9) - call TermArticulated first.
+[2018.04.18-16.52.47:024][396]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.04.18-16.52.50:188][668]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.Actor_3.DebugSkelMeshComponent_11) Already registered. Aborting.
+[2018.04.18-16.52.50:229][668]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_35:PersistentLevel.Actor_3.DebugSkelMeshComponent_11) - call TermArticulated first.
+[2018.04.18-16.52.54:095][960]LogRenderer: Reallocating scene render targets to support 1196x820 NumSamples 1 (Frame:4225).
+[2018.04.18-17.06.48:825][153]LogSavePackage: Save=6.93ms
+[2018.04.18-17.06.48:825][153]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Warrok_W_Kurniawan_SkeletonFBDAE699432A898713E5B0A5FB3EE542.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/character/Warrok_W_Kurniawan_Skeleton.uasset'
+[2018.04.18-17.06.48:829][153]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/character/Warrok_W_Kurniawan_Skeleton.uasset
+[2018.04.18-17.06.52:192][356]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.18-17.07.13:577][642]LogMetaData: Removing '/Game/Enemigos/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.04.18-17.07.13:577][642]LogMetaData: Removing '/Game/Enemigos/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_4.Transition.AnimGraphNode_TransitionResult_26' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.04.18-17.07.13:577][642]LogMetaData: Removing '/Game/Enemigos/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_6.Transition.AnimGraphNode_TransitionResult_37' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.04.18-17.07.13:577][642]LogMetaData: Removing '/Game/Enemigos/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_2.Transition.AnimGraphNode_TransitionResult_15' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.04.18-17.07.13:577][642]LogMetaData: Removing '/Game/Enemigos/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_8.Transition.AnimGraphNode_TransitionResult_48' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.04.18-17.07.13:577][642]LogMetaData: Removing '/Game/Enemigos/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.04.18-17.07.13:578][642]LogMetaData: Removing '/Game/Enemigos/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.04.18-17.07.13:578][642]LogMetaData: Removing '/Game/Enemigos/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:IsInAir?' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.04.18-17.07.13:578][642]LogMetaData: Removing '/Game/Enemigos/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:Speed' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.04.18-17.07.13:578][642]LogMetaData: Removing '/Game/Enemigos/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:Speed' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.04.18-17.07.13:578][642]LogMetaData: Removing '/Game/Enemigos/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:IsInAir?' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.04.18-17.07.13:578][642]LogMetaData: Removing '/Game/Enemigos/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.04.18-17.07.13:578][642]LogMetaData: Removing '/Game/Enemigos/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.04.18-17.07.13:578][642]LogMetaData: Removing '/Game/Enemigos/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.04.18-17.07.13:634][642]LogSavePackage: Save=13.40ms
+[2018.04.18-17.07.13:634][642]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPerson_Jump0FA6D3C74CC4D7DFE12946BF95DABBBB.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/ThirdPerson_Jump.uasset'
+[2018.04.18-17.07.13:636][642]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/ThirdPerson_Jump.uasset
+[2018.04.18-17.07.13:667][642]LogSavePackage: Save=13.98ms
+[2018.04.18-17.07.13:667][642]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonJump_Loop7ACA0FEA40F613CDAE7B569EF80C1333.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/ThirdPersonJump_Loop.uasset'
+[2018.04.18-17.07.13:668][642]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/ThirdPersonJump_Loop.uasset
+[2018.04.18-17.07.13:701][642]LogSavePackage: Save=17.05ms
+[2018.04.18-17.07.13:701][642]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonJump_StartE26C3E1F4BAF6DEAA4E1319B6AAA29B4.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/ThirdPersonJump_Start.uasset'
+[2018.04.18-17.07.13:703][642]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/ThirdPersonJump_Start.uasset
+[2018.04.18-17.07.13:735][642]LogSavePackage: Save=13.85ms
+[2018.04.18-17.07.13:735][642]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonIdle375BB3304459CB012DA9D4AF736DE5E6.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/ThirdPersonIdle.uasset'
+[2018.04.18-17.07.13:736][642]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/ThirdPersonIdle.uasset
+[2018.04.18-17.07.13:769][642]LogSavePackage: Save=16.78ms
+[2018.04.18-17.07.13:769][642]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonRun6C9440EA43143BC14909DCBDE6A1A6B2.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/ThirdPersonRun.uasset'
+[2018.04.18-17.07.13:771][642]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/ThirdPersonRun.uasset
+[2018.04.18-17.07.13:800][642]LogSavePackage: Save=13.54ms
+[2018.04.18-17.07.13:800][642]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonWalkEC0DD0FD4D5D7DA35A859CB693992095.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/ThirdPersonWalk.uasset'
+[2018.04.18-17.07.13:802][642]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/ThirdPersonWalk.uasset
+[2018.04.18-17.07.13:830][642]LogSavePackage: Save=11.72ms
+[2018.04.18-17.07.13:831][642]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPerson_IdleRun_2DB0C13F51405CFD7ABE18ED81CBB5CD2C.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/ThirdPerson_IdleRun_2D.uasset'
+[2018.04.18-17.07.13:832][642]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/ThirdPerson_IdleRun_2D.uasset
+[2018.04.18-17.07.13:927][642]LogSavePackage: Save=78.78ms
+[2018.04.18-17.07.13:927][642]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPerson_AnimBP08629E4741C0457C62F386A907D1345E.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/ThirdPerson_AnimBP.uasset'
+[2018.04.18-17.07.13:928][642]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/ThirdPerson_AnimBP.uasset
+[2018.04.18-17.07.13:958][642]LogSavePackage: Save=13.43ms
+[2018.04.18-17.07.13:958][642]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonJump_End6D3BA7ED402E643484DB3BB06ED533FD.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/ThirdPersonJump_End.uasset'
+[2018.04.18-17.07.13:959][642]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/ThirdPersonJump_End.uasset
+[2018.04.18-17.07.14:739][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/General/Dummy" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/General/Dummy.uasset" SILENT=true
+[2018.04.18-17.07.14:758][642]LogSavePackage: Save=11.99ms
+[2018.04.18-17.07.14:758][642]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Dummy20BDF64B4027DBED07F9A6812C2032A8.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/General/Dummy.uasset'
+[2018.04.18-17.07.14:760][642]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/General/Dummy.uasset
+[2018.04.18-17.07.14:835][642]LogSavePackage: Save=33.12ms
+[2018.04.18-17.07.14:835][642]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/ThirdPersonCharacterSeguridadA87FA64142F8BFC037C9D5BEEBABEC7C.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacterSeguridad.uasset'
+[2018.04.18-17.07.14:837][642]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacterSeguridad.uasset
+[2018.04.18-17.07.14:865][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemigos/EnemigoManiqui" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/EnemigoManiqui.uasset" SILENT=true
+[2018.04.18-17.07.14:907][642]LogSavePackage: Save=35.45ms
+[2018.04.18-17.07.14:907][642]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/EnemigoManiquiB4B5609A4B028021219874B55C831F27.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/EnemigoManiqui.uasset'
+[2018.04.18-17.07.14:909][642]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/EnemigoManiqui.uasset
+[2018.04.18-17.08.18:490][671]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2018.04.18-17.08.32:501][171]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2018.04.18-17.08.51:115][296]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_40:PersistentLevel.Actor_4.DebugSkelMeshComponent_16) Already registered. Aborting.
+[2018.04.18-17.08.51:162][296]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_40:PersistentLevel.Actor_4.DebugSkelMeshComponent_16) - call TermArticulated first.
+[2018.04.18-17.08.51:470][296]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.04.18-17.08.55:299][504]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.Actor_5.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2018.04.18-17.08.55:509][504]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_43:PersistentLevel.Actor_5.DebugSkelMeshComponent_18) - call TermArticulated first.
+[2018.04.18-17.08.55:900][504]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.04.18-17.08.56:795][573]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_45:PersistentLevel.Actor_6.DebugSkelMeshComponent_20) Already registered. Aborting.
+[2018.04.18-17.08.56:836][573]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_45:PersistentLevel.Actor_6.DebugSkelMeshComponent_20) - call TermArticulated first.
+[2018.04.18-17.09.15:690][297]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2018.04.18-17.09.47:332][857]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_48:PersistentLevel.Actor_7.DebugSkelMeshComponent_23) Already registered. Aborting.
+[2018.04.18-17.09.47:374][857]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_48:PersistentLevel.Actor_7.DebugSkelMeshComponent_23) - call TermArticulated first.
+[2018.04.18-17.09.48:855][938]LogSavePackage: Save=27.37ms
+[2018.04.18-17.09.48:855][938]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Warrok_W_Kurniawan75BD6CE44ED30E7AB4C20AABE895A5ED.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/character/Warrok_W_Kurniawan.uasset'
+[2018.04.18-17.09.48:857][938]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/character/Warrok_W_Kurniawan.uasset
+[2018.04.18-17.09.52:534][114]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemigos/Boss/BlueBoosDummy" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/BlueBoosDummy.uasset" SILENT=true
+[2018.04.18-17.09.52:996][114]LogSavePackage: Save=451.92ms
+[2018.04.18-17.09.52:996][114]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BlueBoosDummyDC985A844F7AAC885C998CB2A0B7078B.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/BlueBoosDummy.uasset'
+[2018.04.18-17.09.52:998][114]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/BlueBoosDummy.uasset
+[2018.04.18-17.09.57:116][557]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2018.04.18-17.10.04:180][319]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_51:PersistentLevel.Actor_8.DebugSkelMeshComponent_26) Already registered. Aborting.
+[2018.04.18-17.10.04:227][319]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_51:PersistentLevel.Actor_8.DebugSkelMeshComponent_26) - call TermArticulated first.
+[2018.04.18-17.10.04:529][319]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.04.18-17.10.06:412][445]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_53:PersistentLevel.Actor_9.DebugSkelMeshComponent_28) Already registered. Aborting.
+[2018.04.18-17.10.06:453][445]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_53:PersistentLevel.Actor_9.DebugSkelMeshComponent_28) - call TermArticulated first.
+[2018.04.18-17.10.32:586][874]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2018.04.18-17.11.09:080][922]LogSavePackage: Save=20.92ms
+[2018.04.18-17.11.09:080][922]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Warrok_W_KurniawanB04805A14F54C6EE59D8EBAFE8F6532A.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/character/Warrok_W_Kurniawan.uasset'
+[2018.04.18-17.11.09:082][922]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/character/Warrok_W_Kurniawan.uasset
+[2018.04.18-17.11.09:711][992]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_56:PersistentLevel.Actor_10.DebugSkelMeshComponent_31) Already registered. Aborting.
+[2018.04.18-17.11.09:755][992]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_56:PersistentLevel.Actor_10.DebugSkelMeshComponent_31) - call TermArticulated first.
+[2018.04.18-17.11.18:195][608]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_57:PersistentLevel.Actor_11.DebugSkelMeshComponent_32) Already registered. Aborting.
+[2018.04.18-17.11.18:236][608]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_57:PersistentLevel.Actor_11.DebugSkelMeshComponent_32) - call TermArticulated first.
+[2018.04.18-17.12.13:982][259]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2018.04.18-17.13.34:018][714]LogSavePackage: Save=6.05ms
+[2018.04.18-17.13.34:019][714]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Warrok_W_Kurniawan_SkeletonD728CC6A454216E2856DBA94F06ED546.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/character/Warrok_W_Kurniawan_Skeleton.uasset'
+[2018.04.18-17.13.34:020][714]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/character/Warrok_W_Kurniawan_Skeleton.uasset
+[2018.04.18-17.15.08:813][853]LogSavePackage: Save=5.88ms
+[2018.04.18-17.15.08:813][853]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Warrok_W_Kurniawan_SkeletonEECAC3E54D8499BA6AF0A9BF2FE2E77B.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/character/Warrok_W_Kurniawan_Skeleton.uasset'
+[2018.04.18-17.15.08:815][853]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/character/Warrok_W_Kurniawan_Skeleton.uasset
+[2018.04.18-17.15.25:925][572]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_60:PersistentLevel.Actor_12.DebugSkelMeshComponent_35) Already registered. Aborting.
+[2018.04.18-17.15.25:968][572]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_60:PersistentLevel.Actor_12.DebugSkelMeshComponent_35) - call TermArticulated first.
+[2018.04.18-17.15.26:297][572]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.04.18-17.15.28:610][724]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_62:PersistentLevel.Actor_13.DebugSkelMeshComponent_37) Already registered. Aborting.
+[2018.04.18-17.15.28:653][724]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_62:PersistentLevel.Actor_13.DebugSkelMeshComponent_37) - call TermArticulated first.
+[2018.04.18-17.16.59:062][909]LogSavePackage: Save=5.86ms
+[2018.04.18-17.16.59:062][909]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Warrok_W_Kurniawan_Skeleton3384818A4A821ABB7748FC80567A8397.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/character/Warrok_W_Kurniawan_Skeleton.uasset'
+[2018.04.18-17.16.59:063][909]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/character/Warrok_W_Kurniawan_Skeleton.uasset
+[2018.04.18-17.17.01:262][ 76]LogSavePackage: Save=19.62ms
+[2018.04.18-17.17.01:262][ 76]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Warrok_W_Kurniawan463081854315FCD48176FEBB85D15C83.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/character/Warrok_W_Kurniawan.uasset'
+[2018.04.18-17.17.01:265][ 76]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/character/Warrok_W_Kurniawan.uasset
+[2018.04.18-17.17.07:659][508]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_63:PersistentLevel.Actor_14.DebugSkelMeshComponent_38) Already registered. Aborting.
+[2018.04.18-17.17.07:701][508]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_63:PersistentLevel.Actor_14.DebugSkelMeshComponent_38) - call TermArticulated first.
+[2018.04.18-17.17.17:162][480]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2018.04.18-17.17.37:790][804]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2018.04.18-17.17.40:017][ 46]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2018.04.18-17.17.44:247][535]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2018.04.18-17.18.02:610][575]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2018.04.18-17.19.54:625][996]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_70:PersistentLevel.Actor_15.DebugSkelMeshComponent_45) Already registered. Aborting.
+[2018.04.18-17.19.54:665][996]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_70:PersistentLevel.Actor_15.DebugSkelMeshComponent_45) - call TermArticulated first.
+[2018.04.18-17.20.32:331][999]LogSavePackage: Save=6.00ms
+[2018.04.18-17.20.32:331][999]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Warrok_W_Kurniawan_Skeleton8D2D40904DA0B618D0CEF78E5E3E9134.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/character/Warrok_W_Kurniawan_Skeleton.uasset'
+[2018.04.18-17.20.32:334][999]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/character/Warrok_W_Kurniawan_Skeleton.uasset
+[2018.04.18-17.20.40:420][807]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2018.04.18-17.21.24:806][642]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_73:PersistentLevel.Actor_16.DebugSkelMeshComponent_48) Already registered. Aborting.
+[2018.04.18-17.21.24:849][642]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_73:PersistentLevel.Actor_16.DebugSkelMeshComponent_48) - call TermArticulated first.
+[2018.04.18-17.21.25:164][642]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.04.18-17.21.32:489][252]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_75:PersistentLevel.Actor_17.DebugSkelMeshComponent_50) Already registered. Aborting.
+[2018.04.18-17.21.32:535][252]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_75:PersistentLevel.Actor_17.DebugSkelMeshComponent_50) - call TermArticulated first.
+[2018.04.18-17.21.32:842][252]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.04.18-17.21.34:271][350]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_77:PersistentLevel.Actor_18.DebugSkelMeshComponent_52) Already registered. Aborting.
+[2018.04.18-17.21.34:312][350]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_77:PersistentLevel.Actor_18.DebugSkelMeshComponent_52) - call TermArticulated first.
+[2018.04.18-17.21.52:443][723]LogSavePackage: Save=5.63ms
+[2018.04.18-17.21.52:443][723]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/NewPoseAssetE25EFFC349C77A3D71C717A4096DEA52.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/Montage/NewPoseAsset.uasset'
+[2018.04.18-17.21.52:445][723]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/Montage/NewPoseAsset.uasset
+[2018.04.18-17.21.55:761][ 63]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume2)
+[2018.04.18-17.21.58:371][336]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2018.04.18-17.22.28:775][433]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2018.04.18-17.23.54:422][784]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_82:PersistentLevel.Actor_19.DebugSkelMeshComponent_57) Already registered. Aborting.
+[2018.04.18-17.23.54:475][784]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_82:PersistentLevel.Actor_19.DebugSkelMeshComponent_57) - call TermArticulated first.
+[2018.04.18-17.23.54:801][784]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.04.18-17.23.57:389][958]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_84:PersistentLevel.Actor_20.DebugSkelMeshComponent_59) Already registered. Aborting.
+[2018.04.18-17.23.57:431][958]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_84:PersistentLevel.Actor_20.DebugSkelMeshComponent_59) - call TermArticulated first.
+[2018.04.18-17.24.03:487][453]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_84:PersistentLevel.Actor_20.DebugSkelMeshComponent_59) Already registered. Aborting.
+[2018.04.18-17.25.31:937][782]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_84:PersistentLevel.Actor_20.DebugSkelMeshComponent_59) Already registered. Aborting.
+[2018.04.18-17.25.33:580][903]LogSavePackage: Save=7.58ms
+[2018.04.18-17.25.33:580][903]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Warrok_W_Kurniawan_Skeleton353DA08D4D6FB7528ADB38B275E827B8.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/character/Warrok_W_Kurniawan_Skeleton.uasset'
+[2018.04.18-17.25.33:585][903]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/character/Warrok_W_Kurniawan_Skeleton.uasset
+[2018.04.18-17.25.39:335][474]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2018.04.18-17.25.43:845][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/quad_punch.quad_punch
+[2018.04.18-17.25.43:848][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/quad_punch.quad_punch
+[2018.04.18-17.25.43:852][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/punching_bag.punching_bag
+[2018.04.18-17.25.43:854][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/punching_bag.punching_bag
+[2018.04.18-17.25.43:859][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/hook_punch_mixamo_com.hook_punch_mixamo_com
+[2018.04.18-17.25.43:861][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/hook_punch_mixamo_com.hook_punch_mixamo_com
+[2018.04.18-17.25.43:866][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/roar_mixamo_com.roar_mixamo_com
+[2018.04.18-17.25.43:870][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/roar_mixamo_com.roar_mixamo_com
+[2018.04.18-17.25.43:876][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/two_hand_spell_casting.two_hand_spell_casting
+[2018.04.18-17.25.43:878][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/two_hand_spell_casting.two_hand_spell_casting
+[2018.04.18-17.25.43:883][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/fireball.fireball
+[2018.04.18-17.25.43:886][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/fireball.fireball
+[2018.04.18-17.25.43:890][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/hit_to_body_mixamo_com.hit_to_body_mixamo_com
+[2018.04.18-17.25.43:892][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/hit_to_body_mixamo_com.hit_to_body_mixamo_com
+[2018.04.18-17.25.43:897][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/hit_to_body_mixamo_com.hit_to_body_mixamo_com
+[2018.04.18-17.25.43:900][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/hit_to_body_mixamo_com.hit_to_body_mixamo_com
+[2018.04.18-17.25.43:904][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/cross_punch_mixamo_com.cross_punch_mixamo_com
+[2018.04.18-17.25.43:906][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/cross_punch_mixamo_com.cross_punch_mixamo_com
+[2018.04.18-17.25.43:910][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/kicking.kicking
+[2018.04.18-17.25.43:913][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/kicking.kicking
+[2018.04.18-17.25.43:918][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/mutant_swiping.mutant_swiping
+[2018.04.18-17.25.43:920][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/mutant_swiping.mutant_swiping
+[2018.04.18-17.25.43:924][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/falling_back_death_mixamo_com.falling_back_death_mixamo_com
+[2018.04.18-17.25.43:926][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/falling_back_death_mixamo_com.falling_back_death_mixamo_com
+[2018.04.18-17.25.43:933][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/falling_back_death_mixamo_com.falling_back_death_mixamo_com
+[2018.04.18-17.25.43:938][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/falling_back_death_mixamo_com.falling_back_death_mixamo_com
+[2018.04.18-17.25.43:943][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/hurricane_kick.hurricane_kick
+[2018.04.18-17.25.43:945][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/hurricane_kick.hurricane_kick
+[2018.04.18-17.25.43:949][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/uppercut_jab.uppercut_jab
+[2018.04.18-17.25.43:952][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/uppercut_jab.uppercut_jab
+[2018.04.18-17.25.57:421][321]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_87:PersistentLevel.Actor_21.DebugSkelMeshComponent_62) Already registered. Aborting.
+[2018.04.18-17.25.57:463][321]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_87:PersistentLevel.Actor_21.DebugSkelMeshComponent_62) - call TermArticulated first.
+[2018.04.18-17.25.57:762][321]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.04.18-17.26.35:838][921]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_89:PersistentLevel.Actor_22.DebugSkelMeshComponent_64) Already registered. Aborting.
+[2018.04.18-17.26.35:878][921]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_89:PersistentLevel.Actor_22.DebugSkelMeshComponent_64) - call TermArticulated first.
+[2018.04.18-17.26.58:876][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BB_ataque3" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_ataque3.uasset" SILENT=true
+[2018.04.18-17.26.58:893][652]LogSavePackage: Save=15.70ms
+[2018.04.18-17.26.58:893][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_ataque33EABE36749EEAA2D045810B0D09605AB.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_ataque3.uasset'
+[2018.04.18-17.26.58:895][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_ataque3.uasset
+[2018.04.18-17.26.58:908][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BB_Ataque4" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Ataque4.uasset" SILENT=true
+[2018.04.18-17.26.58:927][652]LogSavePackage: Save=16.78ms
+[2018.04.18-17.26.58:927][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_Ataque4D48F6D8D4432DA7BB14112AC86BFA7EA.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Ataque4.uasset'
+[2018.04.18-17.26.58:929][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Ataque4.uasset
+[2018.04.18-17.26.58:942][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BB_Ataque6" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Ataque6.uasset" SILENT=true
+[2018.04.18-17.26.58:957][652]LogSavePackage: Save=14.04ms
+[2018.04.18-17.26.58:957][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_Ataque6C9F62C6744A0B95FFEB353907794FA52.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Ataque6.uasset'
+[2018.04.18-17.26.58:959][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Ataque6.uasset
+[2018.04.18-17.26.58:973][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BB_Debuf" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Debuf.uasset" SILENT=true
+[2018.04.18-17.26.58:987][652]LogSavePackage: Save=12.67ms
+[2018.04.18-17.26.58:987][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_Debuf5EB0BA4B4BAE0D66DC8F57AB5F3F5103.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Debuf.uasset'
+[2018.04.18-17.26.58:989][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Debuf.uasset
+[2018.04.18-17.26.59:002][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BB_debuf2" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_debuf2.uasset" SILENT=true
+[2018.04.18-17.26.59:016][652]LogSavePackage: Save=12.86ms
+[2018.04.18-17.26.59:016][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_debuf24820ABCA46E6C77F026D55A1CEB419D6.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_debuf2.uasset'
+[2018.04.18-17.26.59:018][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_debuf2.uasset
+[2018.04.18-17.26.59:031][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BB_Distancia1" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Distancia1.uasset" SILENT=true
+[2018.04.18-17.26.59:046][652]LogSavePackage: Save=12.16ms
+[2018.04.18-17.26.59:047][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_Distancia120AB963A4B2D9C03B02F72968A114857.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Distancia1.uasset'
+[2018.04.18-17.26.59:048][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Distancia1.uasset
+[2018.04.18-17.26.59:064][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BB_Hit" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Hit.uasset" SILENT=true
+[2018.04.18-17.26.59:077][652]LogSavePackage: Save=11.95ms
+[2018.04.18-17.26.59:077][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_HitC295E4034651135BB2C0DDB173B36E65.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Hit.uasset'
+[2018.04.18-17.26.59:079][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Hit.uasset
+[2018.04.18-17.26.59:091][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BB_HitCACA" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_HitCACA.uasset" SILENT=true
+[2018.04.18-17.26.59:105][652]LogSavePackage: Save=11.98ms
+[2018.04.18-17.26.59:105][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_HitCACA9116A73841793ED6918E8C83E22CB69C.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_HitCACA.uasset'
+[2018.04.18-17.26.59:107][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_HitCACA.uasset
+[2018.04.18-17.26.59:119][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BB_Melee1" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Melee1.uasset" SILENT=true
+[2018.04.18-17.26.59:134][652]LogSavePackage: Save=12.96ms
+[2018.04.18-17.26.59:134][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_Melee12136D0E541658298D7CBA18C425A0762.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Melee1.uasset'
+[2018.04.18-17.26.59:136][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Melee1.uasset
+[2018.04.18-17.26.59:149][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BB_Melee2" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Melee2.uasset" SILENT=true
+[2018.04.18-17.26.59:165][652]LogSavePackage: Save=15.17ms
+[2018.04.18-17.26.59:165][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_Melee28527E9434F6B07B8611FA2A010F4207A.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Melee2.uasset'
+[2018.04.18-17.26.59:167][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Melee2.uasset
+[2018.04.18-17.26.59:183][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BB_MeleeFuerte1" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_MeleeFuerte1.uasset" SILENT=true
+[2018.04.18-17.26.59:198][652]LogSavePackage: Save=12.89ms
+[2018.04.18-17.26.59:198][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_MeleeFuerte1452BC6B2451E8932425DA29AEF2B428D.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_MeleeFuerte1.uasset'
+[2018.04.18-17.26.59:199][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_MeleeFuerte1.uasset
+[2018.04.18-17.26.59:212][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BB_muerte" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_muerte.uasset" SILENT=true
+[2018.04.18-17.26.59:226][652]LogSavePackage: Save=12.00ms
+[2018.04.18-17.26.59:226][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_muerte035A67984F0DC7C1527A8CB40CBD38D8.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_muerte.uasset'
+[2018.04.18-17.26.59:227][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_muerte.uasset
+[2018.04.18-17.26.59:241][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bb_muerteA" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/bb_muerteA.uasset" SILENT=true
+[2018.04.18-17.26.59:254][652]LogSavePackage: Save=12.15ms
+[2018.04.18-17.26.59:254][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/bb_muerteAED725B2448C4B0213AE5CE9D9DAAFBCF.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/bb_muerteA.uasset'
+[2018.04.18-17.26.59:256][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/bb_muerteA.uasset
+[2018.04.18-17.26.59:269][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/cross_punch_mixamo_com" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/cross_punch_mixamo_com.uasset" SILENT=true
+[2018.04.18-17.26.59:283][652]LogSavePackage: Save=12.42ms
+[2018.04.18-17.26.59:283][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/cross_punch_mixamo_com0597D88842119480A4DECB8FC7B35BD3.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/cross_punch_mixamo_com.uasset'
+[2018.04.18-17.26.59:285][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/cross_punch_mixamo_com.uasset
+[2018.04.18-17.26.59:296][652]LogSavePackage: Save=6.16ms
+[2018.04.18-17.26.59:296][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Warrok_W_Kurniawan_SkeletonBDA165F0498932BB595BFBA73C46E88A.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/character/Warrok_W_Kurniawan_Skeleton.uasset'
+[2018.04.18-17.26.59:298][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/character/Warrok_W_Kurniawan_Skeleton.uasset
+[2018.04.18-17.26.59:312][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/falling_back_death_mixamo_com" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/falling_back_death_mixamo_com.uasset" SILENT=true
+[2018.04.18-17.26.59:326][652]LogSavePackage: Save=12.88ms
+[2018.04.18-17.26.59:326][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/falling_back_death_mixamo_comFF5E4B5248EB23F86AA95CB9A5F0476F.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/falling_back_death_mixamo_com.uasset'
+[2018.04.18-17.26.59:328][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/falling_back_death_mixamo_com.uasset
+[2018.04.18-17.26.59:341][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FinalAttack" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/FinalAttack.uasset" SILENT=true
+[2018.04.18-17.26.59:356][652]LogSavePackage: Save=14.12ms
+[2018.04.18-17.26.59:356][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/FinalAttack819B1F014F39ABB42224DDB75F1C34BC.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/FinalAttack.uasset'
+[2018.04.18-17.26.59:358][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/FinalAttack.uasset
+[2018.04.18-17.26.59:371][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/fireball" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/fireball.uasset" SILENT=true
+[2018.04.18-17.26.59:387][652]LogSavePackage: Save=14.46ms
+[2018.04.18-17.26.59:387][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/fireball35E5847A476A9F42AD3DA79461F8722C.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/fireball.uasset'
+[2018.04.18-17.26.59:388][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/fireball.uasset
+[2018.04.18-17.26.59:402][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/gancho_BB" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/gancho_BB.uasset" SILENT=true
+[2018.04.18-17.26.59:420][652]LogSavePackage: Save=16.59ms
+[2018.04.18-17.26.59:420][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/gancho_BB844775604B45D19D0C60E596C57F67CA.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/gancho_BB.uasset'
+[2018.04.18-17.26.59:421][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/gancho_BB.uasset
+[2018.04.18-17.26.59:434][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/hit_to_body_mixamo_com" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/hit_to_body_mixamo_com.uasset" SILENT=true
+[2018.04.18-17.26.59:449][652]LogSavePackage: Save=12.80ms
+[2018.04.18-17.26.59:449][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/hit_to_body_mixamo_com88B310B14BF44C060DA16BAFBD941150.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/hit_to_body_mixamo_com.uasset'
+[2018.04.18-17.26.59:450][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/hit_to_body_mixamo_com.uasset
+[2018.04.18-17.26.59:463][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/hook_punch_mixamo_com" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/hook_punch_mixamo_com.uasset" SILENT=true
+[2018.04.18-17.26.59:480][652]LogSavePackage: Save=15.57ms
+[2018.04.18-17.26.59:480][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/hook_punch_mixamo_com90FD2C2F4F636E37D0CF669DF90F05E6.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/hook_punch_mixamo_com.uasset'
+[2018.04.18-17.26.59:482][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/hook_punch_mixamo_com.uasset
+[2018.04.18-17.26.59:495][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/hurricane_kick" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/hurricane_kick.uasset" SILENT=true
+[2018.04.18-17.26.59:508][652]LogSavePackage: Save=11.98ms
+[2018.04.18-17.26.59:508][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/hurricane_kickEEA119EE48BADFD9E469DE92A1A64B32.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/hurricane_kick.uasset'
+[2018.04.18-17.26.59:510][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/hurricane_kick.uasset
+[2018.04.18-17.26.59:523][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/kicking" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/kicking.uasset" SILENT=true
+[2018.04.18-17.26.59:537][652]LogSavePackage: Save=12.03ms
+[2018.04.18-17.26.59:537][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/kickingD4194AB0422CE934939E998B1D459849.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/kicking.uasset'
+[2018.04.18-17.26.59:538][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/kicking.uasset
+[2018.04.18-17.26.59:554][652]LogSavePackage: Save=5.72ms
+[2018.04.18-17.26.59:554][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/UE4_Mannequin_Skeleton55B5489849605BEC4A62FC8182D4CD53.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2018.04.18-17.26.59:556][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset
+[2018.04.18-17.26.59:568][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mutant_swiping" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/mutant_swiping.uasset" SILENT=true
+[2018.04.18-17.26.59:582][652]LogSavePackage: Save=12.17ms
+[2018.04.18-17.26.59:582][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/mutant_swiping60F81F224EB1FD30FE69B3A93324F06C.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/mutant_swiping.uasset'
+[2018.04.18-17.26.59:584][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/mutant_swiping.uasset
+[2018.04.18-17.26.59:597][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/punching_bag" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/punching_bag.uasset" SILENT=true
+[2018.04.18-17.26.59:610][652]LogSavePackage: Save=12.27ms
+[2018.04.18-17.26.59:611][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/punching_bag8BA646784EEE6EA9F5A2A4BDFF85EEE4.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/punching_bag.uasset'
+[2018.04.18-17.26.59:612][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/punching_bag.uasset
+[2018.04.18-17.26.59:625][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/quad_punch" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/quad_punch.uasset" SILENT=true
+[2018.04.18-17.26.59:645][652]LogSavePackage: Save=18.15ms
+[2018.04.18-17.26.59:645][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/quad_punch3488C2644BAC6332B14881B997796456.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/quad_punch.uasset'
+[2018.04.18-17.26.59:646][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/quad_punch.uasset
+[2018.04.18-17.26.59:660][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/roar_mixamo_com" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/roar_mixamo_com.uasset" SILENT=true
+[2018.04.18-17.26.59:675][652]LogSavePackage: Save=12.58ms
+[2018.04.18-17.26.59:675][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/roar_mixamo_com750AA80643418F64BE0A1DA1C747DD55.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/roar_mixamo_com.uasset'
+[2018.04.18-17.26.59:676][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/roar_mixamo_com.uasset
+[2018.04.18-17.26.59:690][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/two_hand_spell_casting" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/two_hand_spell_casting.uasset" SILENT=true
+[2018.04.18-17.26.59:708][652]LogSavePackage: Save=14.92ms
+[2018.04.18-17.26.59:708][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/two_hand_spell_castingDB74620E425C28D8BB9F04854ECACA2D.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/two_hand_spell_casting.uasset'
+[2018.04.18-17.26.59:710][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/two_hand_spell_casting.uasset
+[2018.04.18-17.26.59:726][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/uppercut_jab" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/uppercut_jab.uasset" SILENT=true
+[2018.04.18-17.26.59:743][652]LogSavePackage: Save=15.97ms
+[2018.04.18-17.26.59:744][652]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/uppercut_jabAB9EC864456CCC58B5E1658D7F2D515E.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/uppercut_jab.uasset'
+[2018.04.18-17.26.59:745][652]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/uppercut_jab.uasset
+[2018.04.18-17.27.12:364][438]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_50' or package '/Engine/Transient'.
+[2018.04.18-17.27.31:110][393]LogSavePackage: Save=12.45ms
+[2018.04.18-17.27.31:110][393]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/cross_punch_mixamo_com220CFF784BE9F62E40F419B308B15259.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/cross_punch_mixamo_com.uasset'
+[2018.04.18-17.27.31:111][393]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/cross_punch_mixamo_com.uasset
+[2018.04.18-17.27.31:142][393]LogSavePackage: Save=13.22ms
+[2018.04.18-17.27.31:142][393]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/falling_back_death_mixamo_comC8694A7A47AA632950039486BD2359C8.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/falling_back_death_mixamo_com.uasset'
+[2018.04.18-17.27.31:144][393]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/falling_back_death_mixamo_com.uasset
+[2018.04.18-17.27.31:157][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemigos/Animations/fireball" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/fireball.uasset" SILENT=true
+[2018.04.18-17.27.31:173][393]LogSavePackage: Save=13.78ms
+[2018.04.18-17.27.31:173][393]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/fireball3B5996F44DBF803B4B279FB57A67BEE0.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/fireball.uasset'
+[2018.04.18-17.27.31:174][393]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/fireball.uasset
+[2018.04.18-17.27.31:205][393]LogSavePackage: Save=12.59ms
+[2018.04.18-17.27.31:205][393]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/hit_to_body_mixamo_comE0542CA740985157517590A0C9B3E0AB.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/hit_to_body_mixamo_com.uasset'
+[2018.04.18-17.27.31:207][393]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/hit_to_body_mixamo_com.uasset
+[2018.04.18-17.27.31:238][393]LogSavePackage: Save=16.01ms
+[2018.04.18-17.27.31:238][393]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/hook_punch_mixamo_comB709AF71474DDFFBB4E2D99D8717793A.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/hook_punch_mixamo_com.uasset'
+[2018.04.18-17.27.31:240][393]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/hook_punch_mixamo_com.uasset
+[2018.04.18-17.27.31:268][393]LogSavePackage: Save=12.18ms
+[2018.04.18-17.27.31:268][393]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/hurricane_kick264CB6D14ABC045682B64A9C76DD8A6D.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/hurricane_kick.uasset'
+[2018.04.18-17.27.31:270][393]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/hurricane_kick.uasset
+[2018.04.18-17.27.31:284][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemigos/Animations/kicking" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/kicking.uasset" SILENT=true
+[2018.04.18-17.27.31:298][393]LogSavePackage: Save=12.28ms
+[2018.04.18-17.27.31:298][393]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/kicking7C98F87741762AD5D5103FA69300F28E.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/kicking.uasset'
+[2018.04.18-17.27.31:300][393]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/kicking.uasset
+[2018.04.18-17.27.31:328][393]LogSavePackage: Save=12.68ms
+[2018.04.18-17.27.31:328][393]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/mutant_swiping483F94934DD8894C1440358C4E17F930.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/mutant_swiping.uasset'
+[2018.04.18-17.27.31:330][393]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/mutant_swiping.uasset
+[2018.04.18-17.27.31:358][393]LogSavePackage: Save=12.43ms
+[2018.04.18-17.27.31:358][393]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/punching_bag2C03AC6941B0E53B4D535EB60828BE96.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/punching_bag.uasset'
+[2018.04.18-17.27.31:360][393]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/punching_bag.uasset
+[2018.04.18-17.27.31:390][393]LogSavePackage: Save=15.21ms
+[2018.04.18-17.27.31:390][393]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/quad_punchB852D5514F445B97679CC083F6C7D1DE.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/quad_punch.uasset'
+[2018.04.18-17.27.31:392][393]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/quad_punch.uasset
+[2018.04.18-17.27.31:421][393]LogSavePackage: Save=12.94ms
+[2018.04.18-17.27.31:421][393]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/roar_mixamo_com73F6CF7A48018A10333CADB208DDD84A.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/roar_mixamo_com.uasset'
+[2018.04.18-17.27.31:423][393]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/roar_mixamo_com.uasset
+[2018.04.18-17.27.31:452][393]LogSavePackage: Save=13.99ms
+[2018.04.18-17.27.31:452][393]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/two_hand_spell_casting098DFD264D603109FC62858C92C0629E.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/two_hand_spell_casting.uasset'
+[2018.04.18-17.27.31:454][393]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/two_hand_spell_casting.uasset
+[2018.04.18-17.27.31:485][393]LogSavePackage: Save=15.63ms
+[2018.04.18-17.27.31:485][393]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/uppercut_jabF79AF7D24F06E8A85704009286907DE4.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/uppercut_jab.uasset'
+[2018.04.18-17.27.31:487][393]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/uppercut_jab.uasset
+[2018.04.18-17.27.32:579][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BB_Melee1" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Melee1.uasset" SILENT=true
+[2018.04.18-17.27.32:592][393]LogSavePackage: Save=6.17ms
+[2018.04.18-17.27.32:592][393]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_Melee1EAE036E24B070CF03E60C3A7604F020E.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Melee1.uasset'
+[2018.04.18-17.27.32:593][393]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Melee1.uasset
+[2018.04.18-17.27.32:595][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BB_muerte" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_muerte.uasset" SILENT=true
+[2018.04.18-17.27.32:606][393]LogSavePackage: Save=5.18ms
+[2018.04.18-17.27.32:606][393]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_muerteF01D1FFC4E0F101C604160A1036D38D4.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_muerte.uasset'
+[2018.04.18-17.27.32:607][393]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_muerte.uasset
+[2018.04.18-17.27.32:609][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bb_muerteA" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/bb_muerteA.uasset" SILENT=true
+[2018.04.18-17.27.32:620][393]LogSavePackage: Save=5.21ms
+[2018.04.18-17.27.32:620][393]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/bb_muerteAED438789410F9962E0A16AACEC646A69.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/bb_muerteA.uasset'
+[2018.04.18-17.27.32:621][393]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/bb_muerteA.uasset
+[2018.04.18-17.27.32:624][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BB_Distancia1" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Distancia1.uasset" SILENT=true
+[2018.04.18-17.27.32:635][393]LogSavePackage: Save=5.08ms
+[2018.04.18-17.27.32:635][393]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_Distancia17382619A4FF30572A766778F96F52793.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Distancia1.uasset'
+[2018.04.18-17.27.32:636][393]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Distancia1.uasset
+[2018.04.18-17.27.32:638][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BB_Hit" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Hit.uasset" SILENT=true
+[2018.04.18-17.27.32:650][393]LogSavePackage: Save=5.03ms
+[2018.04.18-17.27.32:650][393]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_Hit0399846449DAEFD0EE76C7AF6E6CD551.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Hit.uasset'
+[2018.04.18-17.27.32:651][393]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Hit.uasset
+[2018.04.18-17.27.32:653][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BB_HitCACA" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_HitCACA.uasset" SILENT=true
+[2018.04.18-17.27.32:664][393]LogSavePackage: Save=4.62ms
+[2018.04.18-17.27.32:664][393]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_HitCACA2555D04542C3D48F8A16708B0570F106.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_HitCACA.uasset'
+[2018.04.18-17.27.32:665][393]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_HitCACA.uasset
+[2018.04.18-17.27.32:668][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BB_Ataque6" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Ataque6.uasset" SILENT=true
+[2018.04.18-17.27.32:680][393]LogSavePackage: Save=6.08ms
+[2018.04.18-17.27.32:680][393]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_Ataque6C0FADC2B44E26C0F9BC52C8A22950A65.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Ataque6.uasset'
+[2018.04.18-17.27.32:681][393]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Ataque6.uasset
+[2018.04.18-17.27.32:684][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FinalAttack" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/FinalAttack.uasset" SILENT=true
+[2018.04.18-17.27.32:698][393]LogSavePackage: Save=7.83ms
+[2018.04.18-17.27.32:698][393]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/FinalAttack8591F8C04F4937443FDDD0B22950F998.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/FinalAttack.uasset'
+[2018.04.18-17.27.32:699][393]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/FinalAttack.uasset
+[2018.04.18-17.27.32:702][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BB_Melee2" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Melee2.uasset" SILENT=true
+[2018.04.18-17.27.32:716][393]LogSavePackage: Save=8.39ms
+[2018.04.18-17.27.32:716][393]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_Melee2A4F851374E16846CBF61A89A72E4B186.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Melee2.uasset'
+[2018.04.18-17.27.32:717][393]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Melee2.uasset
+[2018.04.18-17.27.32:720][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BB_MeleeFuerte1" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_MeleeFuerte1.uasset" SILENT=true
+[2018.04.18-17.27.32:733][393]LogSavePackage: Save=6.52ms
+[2018.04.18-17.27.32:733][393]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_MeleeFuerte1E3A07CBE41F1E3E3B2387D8DEAE11BED.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_MeleeFuerte1.uasset'
+[2018.04.18-17.27.32:734][393]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_MeleeFuerte1.uasset
+[2018.04.18-17.27.32:736][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BB_Ataque4" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Ataque4.uasset" SILENT=true
+[2018.04.18-17.27.32:752][393]LogSavePackage: Save=8.65ms
+[2018.04.18-17.27.32:752][393]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_Ataque4D7860D9F4AB291CB7445A7A048F41D9D.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Ataque4.uasset'
+[2018.04.18-17.27.32:752][393]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Ataque4.uasset
+[2018.04.18-17.27.32:755][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BB_ataque3" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_ataque3.uasset" SILENT=true
+[2018.04.18-17.27.32:769][393]LogSavePackage: Save=7.07ms
+[2018.04.18-17.27.32:769][393]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_ataque362D3BBF74049CABAD0E093BB4C0DBB7B.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_ataque3.uasset'
+[2018.04.18-17.27.32:770][393]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_ataque3.uasset
+[2018.04.18-17.27.32:773][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BB_Debuf" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Debuf.uasset" SILENT=true
+[2018.04.18-17.27.32:784][393]LogSavePackage: Save=4.49ms
+[2018.04.18-17.27.32:784][393]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_DebufC4F22E3548E48388995679B5770F25F3.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Debuf.uasset'
+[2018.04.18-17.27.32:785][393]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_Debuf.uasset
+[2018.04.18-17.27.32:788][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BB_debuf2" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_debuf2.uasset" SILENT=true
+[2018.04.18-17.27.32:800][393]LogSavePackage: Save=5.11ms
+[2018.04.18-17.27.32:800][393]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_debuf26E617DBB4C66BAC2382079B7CE8585DD.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_debuf2.uasset'
+[2018.04.18-17.27.32:801][393]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/BB_debuf2.uasset
+[2018.04.18-17.27.32:804][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/gancho_BB" FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/gancho_BB.uasset" SILENT=true
+[2018.04.18-17.27.32:820][393]LogSavePackage: Save=9.92ms
+[2018.04.18-17.27.32:820][393]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/gancho_BB7F5F7C9C4D3EA1C2F46943B5D498FB55.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/gancho_BB.uasset'
+[2018.04.18-17.27.32:821][393]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/gancho_BB.uasset
+[2018.04.18-17.28.05:057][ 49]LogSavePackage: Save=14.73ms
+[2018.04.18-17.28.05:057][ 49]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_ataque338950F4E46CFA72D72B096A79C3E2E5D.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/BB_ataque3.uasset'
+[2018.04.18-17.28.05:059][ 49]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/BB_ataque3.uasset
+[2018.04.18-17.28.05:090][ 49]LogSavePackage: Save=15.49ms
+[2018.04.18-17.28.05:090][ 49]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_Ataque40151E1A04F1499055FAF4F836AF5C1D6.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/BB_Ataque4.uasset'
+[2018.04.18-17.28.05:092][ 49]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/BB_Ataque4.uasset
+[2018.04.18-17.28.05:121][ 49]LogSavePackage: Save=12.97ms
+[2018.04.18-17.28.05:121][ 49]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_Ataque64DC526484110D4A092E07F810056831D.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/BB_Ataque6.uasset'
+[2018.04.18-17.28.05:122][ 49]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/BB_Ataque6.uasset
+[2018.04.18-17.28.05:149][ 49]LogSavePackage: Save=11.85ms
+[2018.04.18-17.28.05:149][ 49]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_Debuf6BAFD71D4FF35F53D83ECBA9A552B38B.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/BB_Debuf.uasset'
+[2018.04.18-17.28.05:151][ 49]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/BB_Debuf.uasset
+[2018.04.18-17.28.05:177][ 49]LogSavePackage: Save=11.70ms
+[2018.04.18-17.28.05:177][ 49]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_debuf249FDD6384EFE4FFB3F1607990FA4EB7B.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/BB_debuf2.uasset'
+[2018.04.18-17.28.05:179][ 49]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/BB_debuf2.uasset
+[2018.04.18-17.28.05:206][ 49]LogSavePackage: Save=12.38ms
+[2018.04.18-17.28.05:206][ 49]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_Distancia103A5F9944450E1CCC085A3AD0ABC8DF3.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/BB_Distancia1.uasset'
+[2018.04.18-17.28.05:208][ 49]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/BB_Distancia1.uasset
+[2018.04.18-17.28.05:235][ 49]LogSavePackage: Save=12.33ms
+[2018.04.18-17.28.05:235][ 49]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_Hit2DDF0C184C540B15AF8642B5FDA894C0.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/BB_Hit.uasset'
+[2018.04.18-17.28.05:237][ 49]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/BB_Hit.uasset
+[2018.04.18-17.28.05:263][ 49]LogSavePackage: Save=11.83ms
+[2018.04.18-17.28.05:263][ 49]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_HitCACAA825E10E4FCC3B006C9E65BEDD6F386F.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/BB_HitCACA.uasset'
+[2018.04.18-17.28.05:265][ 49]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/BB_HitCACA.uasset
+[2018.04.18-17.28.05:293][ 49]LogSavePackage: Save=13.45ms
+[2018.04.18-17.28.05:293][ 49]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_Melee1D9AB51C0445960D9135A3EBF26F1F4EA.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/BB_Melee1.uasset'
+[2018.04.18-17.28.05:295][ 49]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/BB_Melee1.uasset
+[2018.04.18-17.28.05:325][ 49]LogSavePackage: Save=15.09ms
+[2018.04.18-17.28.05:325][ 49]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_Melee2A9F358B949B2C583936CAAB264B46A33.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/BB_Melee2.uasset'
+[2018.04.18-17.28.05:327][ 49]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/BB_Melee2.uasset
+[2018.04.18-17.28.05:358][ 49]LogSavePackage: Save=13.16ms
+[2018.04.18-17.28.05:358][ 49]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_MeleeFuerte130B24B1D46F7FDE9FAA85A856E452F8C.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/BB_MeleeFuerte1.uasset'
+[2018.04.18-17.28.05:359][ 49]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/BB_MeleeFuerte1.uasset
+[2018.04.18-17.28.05:387][ 49]LogSavePackage: Save=12.05ms
+[2018.04.18-17.28.05:387][ 49]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/BB_muerteB5A30E0345A99619167BEE9F05E962A5.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/BB_muerte.uasset'
+[2018.04.18-17.28.05:389][ 49]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/BB_muerte.uasset
+[2018.04.18-17.28.05:415][ 49]LogSavePackage: Save=11.57ms
+[2018.04.18-17.28.05:415][ 49]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/bb_muerteA2C59FE0B41D091ECC6C36785F2F0E5FB.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/bb_muerteA.uasset'
+[2018.04.18-17.28.05:417][ 49]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/bb_muerteA.uasset
+[2018.04.18-17.28.05:446][ 49]LogSavePackage: Save=14.19ms
+[2018.04.18-17.28.05:446][ 49]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/FinalAttackE340164243A25A0CA8841EB76F14E25F.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/FinalAttack.uasset'
+[2018.04.18-17.28.05:448][ 49]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/FinalAttack.uasset
+[2018.04.18-17.28.05:479][ 49]LogSavePackage: Save=16.58ms
+[2018.04.18-17.28.05:479][ 49]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/gancho_BB7716EC904353D69AF0A94CB8556E47F9.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/gancho_BB.uasset'
+[2018.04.18-17.28.05:481][ 49]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/gancho_BB.uasset
+[2018.04.18-17.28.10:269][431]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_90:PersistentLevel.Actor_23.DebugSkelMeshComponent_65) Already registered. Aborting.
+[2018.04.18-17.28.10:317][431]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_90:PersistentLevel.Actor_23.DebugSkelMeshComponent_65) - call TermArticulated first.
+[2018.04.18-17.28.10:618][431]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.04.18-17.28.26:976][855]LogSavePackage: Save=14.53ms
+[2018.04.18-17.28.26:976][855]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Maniqui_ataque316939A5C47DA9B709639DBA38BCA73D3.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/Maniqui_ataque3.uasset'
+[2018.04.18-17.28.26:978][855]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/Maniqui_ataque3.uasset
+[2018.04.18-17.28.35:957][765]LogSavePackage: Save=15.60ms
+[2018.04.18-17.28.35:957][765]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Maniqui_Ataque4057A24FD4A6B860E2B09C89BAB6799BE.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/Maniqui_Ataque4.uasset'
+[2018.04.18-17.28.35:959][765]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/Maniqui_Ataque4.uasset
+[2018.04.18-17.28.42:258][409]LogSavePackage: Save=13.11ms
+[2018.04.18-17.28.42:258][409]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Maniqui_Ataque6161CC79D421CEFAB27A0699EE6B718CF.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/Maniqui_Ataque6.uasset'
+[2018.04.18-17.28.42:260][409]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/Maniqui_Ataque6.uasset
+[2018.04.18-17.28.47:507][931]LogSavePackage: Save=14.27ms
+[2018.04.18-17.28.47:507][931]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Maniqui_Debuf278809864A9569B1EA5D93A1EA94098A.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/Maniqui_Debuf.uasset'
+[2018.04.18-17.28.47:508][931]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/Maniqui_Debuf.uasset
+[2018.04.18-17.28.52:637][453]LogSavePackage: Save=12.10ms
+[2018.04.18-17.28.52:637][453]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Maniqui_debuf251D59C214D0A33B7DB89C2B8EEB1B4EE.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/Maniqui_debuf2.uasset'
+[2018.04.18-17.28.52:639][453]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/Maniqui_debuf2.uasset
+[2018.04.18-17.28.57:187][902]LogSavePackage: Save=12.37ms
+[2018.04.18-17.28.57:187][902]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Maniqui_Distancia1B014E15F445CBD9F238DA89EF489C76D.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/Maniqui_Distancia1.uasset'
+[2018.04.18-17.28.57:189][902]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/Maniqui_Distancia1.uasset
+[2018.04.18-17.29.01:270][302]LogSavePackage: Save=12.14ms
+[2018.04.18-17.29.01:270][302]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Maniqui_HitD2BB6D264BB63ABEF57E6BBED5A9EE2E.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/Maniqui_Hit.uasset'
+[2018.04.18-17.29.01:272][302]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/Maniqui_Hit.uasset
+[2018.04.18-17.29.14:771][564]LogSavePackage: Save=13.22ms
+[2018.04.18-17.29.14:771][564]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Maniqui_Melee19F1BF0B846D475DEEC80459D1441E520.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/Maniqui_Melee1.uasset'
+[2018.04.18-17.29.14:773][564]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/Maniqui_Melee1.uasset
+[2018.04.18-17.29.22:023][318]LogSavePackage: Save=15.42ms
+[2018.04.18-17.29.22:023][318]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Maniqui_Melee2B0CEE5D646D984F75C3ED68C99BA201B.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/Maniqui_Melee2.uasset'
+[2018.04.18-17.29.22:025][318]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/Maniqui_Melee2.uasset
+[2018.04.18-17.29.27:755][898]LogSavePackage: Save=13.38ms
+[2018.04.18-17.29.27:755][898]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Maniqui_MeleeFuerte1EA2F09D94B267D5122001B8D12D778A0.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/Maniqui_MeleeFuerte1.uasset'
+[2018.04.18-17.29.27:757][898]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/Maniqui_MeleeFuerte1.uasset
+[2018.04.18-17.29.37:088][760]LogSavePackage: Save=11.97ms
+[2018.04.18-17.29.37:088][760]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Maniquiç_muerteAD408E50474033C1465219AB15A6C3B7.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/Maniquiç_muerte.uasset'
+[2018.04.18-17.29.37:090][760]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/Maniquiç_muerte.uasset
+[2018.04.18-17.29.44:092][502]LogSavePackage: Save=17.85ms
+[2018.04.18-17.29.44:092][502]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/gancho_Maniqui434052C74DE8AD311C0C40820B3D7E24.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/gancho_Maniqui.uasset'
+[2018.04.18-17.29.44:094][502]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/gancho_Maniqui.uasset
+[2018.04.18-17.30.21:735][299]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_92:PersistentLevel.Actor_24.DebugSkelMeshComponent_67) Already registered. Aborting.
+[2018.04.18-17.30.21:778][299]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_92:PersistentLevel.Actor_24.DebugSkelMeshComponent_67) - call TermArticulated first.
+[2018.04.18-17.30.22:086][299]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.04.18-17.32.13:301][251]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_95:PersistentLevel.Actor_25.DebugSkelMeshComponent_70) Already registered. Aborting.
+[2018.04.18-17.32.13:347][251]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_95:PersistentLevel.Actor_25.DebugSkelMeshComponent_70) - call TermArticulated first.
+[2018.04.18-17.32.13:652][251]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.04.18-17.32.28:614][278]LogSavePackage: Save=16.81ms
+[2018.04.18-17.32.28:614][278]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/gancho_Maniqui65C856C346FB12F27A43E1A5CF1167F9.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/gancho_Maniqui.uasset'
+[2018.04.18-17.32.28:616][278]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/montageManiqui/gancho_Maniqui.uasset
+[2018.04.18-17.32.41:934][630]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_97:PersistentLevel.Actor_26.DebugSkelMeshComponent_72) Already registered. Aborting.
+[2018.04.18-17.32.41:976][630]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_97:PersistentLevel.Actor_26.DebugSkelMeshComponent_72) - call TermArticulated first.
+[2018.04.18-17.32.42:271][630]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.04.18-17.32.57:815][669]LogSavePackage: Save=16.61ms
+[2018.04.18-17.32.57:816][669]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/gancho_BB7C69C3734FB7EED600256382D02F4CCE.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/Montage/gancho_BB.uasset'
+[2018.04.18-17.32.57:818][669]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Boss/Montage/gancho_BB.uasset
+[2018.04.18-17.33.11:437][879]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_100:PersistentLevel.Actor_27.DebugSkelMeshComponent_74) Already registered. Aborting.
+[2018.04.18-17.33.11:651][879]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_100:PersistentLevel.Actor_27.DebugSkelMeshComponent_74) - call TermArticulated first.
+[2018.04.18-17.33.11:894][879]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.04.18-17.33.58:607][607]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.028
+[2018.04.18-17.33.58:608][607]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemigos/Animations/hurricane_kick] ([1] browsable assets)...
+[2018.04.18-17.33.58:624][607]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Enemigos/Animations/hurricane_kick.hurricane_kick]
+[2018.04.18-17.33.58:624][607]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemigos/Animations/hurricane_kick]
+[2018.04.18-17.33.58:643][607]LogSavePackage: Save=11.58ms
+[2018.04.18-17.33.58:643][607]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/hurricane_kick_Auto165A5798A41A71563D04D57870ACDC3BC.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Enemigos/Animations/hurricane_kick_Auto1.uasset'
+[2018.04.18-17.33.58:643][607]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Autosaves/Game/Enemigos/Animations/hurricane_kick_Auto1.uasset
+[2018.04.18-17.33.58:643][607]LogFileHelpers: Auto-saving content packages took 0.036
+[2018.04.18-17.34.49:134][781]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_102:PersistentLevel.Actor_28.DebugSkelMeshComponent_76) Already registered. Aborting.
+[2018.04.18-17.34.49:176][781]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_102:PersistentLevel.Actor_28.DebugSkelMeshComponent_76) - call TermArticulated first.
+[2018.04.18-17.35.38:601][179]LogSavePackage: Save=5.24ms
+[2018.04.18-17.35.38:602][179]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/hurricane_kick8689EBBC40B04AE18621EFBAA443F4CF.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/hurricane_kick.uasset'
+[2018.04.18-17.35.38:603][179]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/Animations/hurricane_kick.uasset
+[2018.04.18-17.35.40:546][377]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.04.18-17.35.40:742][378]Cmd: QUIT_EDITOR
+[2018.04.18-17.35.40:764][378]LogExit: Preparing to exit.
+[2018.04.18-17.35.41:826][378]LogExit: Editor shut down
+[2018.04.18-17.35.41:829][378]LogExit: Transaction tracking system shut down
+[2018.04.18-17.35.42:099][378]LogObj: Freed 0b from 0 cluster array pools.
+[2018.04.18-17.35.42:099][378]LogExit: Object subsystem successfully closed.
+[2018.04.18-17.35.42:119][378]LogD3D11RHI: Shutdown
+[2018.04.18-17.35.42:119][378]LogD3D11RHI: CleanupD3DDevice
+[2018.04.18-17.35.42:344][378]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.18-17.35.42:358][378]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (542)
+[2018.04.18-17.35.42:358][378]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (540)
+[2018.04.18-17.35.42:358][378]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (538)
+[2018.04.18-17.35.42:358][378]LogModuleManager: Shutting down and abandoning module SkeletonEditor (536)
+[2018.04.18-17.35.42:358][378]LogModuleManager: Shutting down and abandoning module AnimationEditor (534)
+[2018.04.18-17.35.42:358][378]LogModuleManager: Shutting down and abandoning module BlueprintGraph (532)
+[2018.04.18-17.35.42:358][378]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (530)
+[2018.04.18-17.35.42:358][378]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (528)
+[2018.04.18-17.35.42:358][378]LogModuleManager: Shutting down and abandoning module CrashTracker (526)
+[2018.04.18-17.35.42:358][378]LogModuleManager: Shutting down and abandoning module WorldBrowser (524)
+[2018.04.18-17.35.42:358][378]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
+[2018.04.18-17.35.42:358][378]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
+[2018.04.18-17.35.42:366][378]LogDirectoryWatcher: A directory notification for 'D:/Program Files (x86)/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.04.18-17.35.42:367][378]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
+[2018.04.18-17.35.42:367][378]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
+[2018.04.18-17.35.42:367][378]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
+[2018.04.18-17.35.42:367][378]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Collections/' was aborted.
+[2018.04.18-17.35.42:367][378]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Developers/David/Collections/' was aborted.
+[2018.04.18-17.35.42:367][378]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Collections/' was aborted.
+[2018.04.18-17.35.42:367][378]LogModuleManager: Shutting down and abandoning module StatsViewer (512)
+[2018.04.18-17.35.42:367][378]LogModuleManager: Shutting down and abandoning module FoliageEdit (510)
+[2018.04.18-17.35.42:367][378]LogModuleManager: Shutting down and abandoning module LandscapeEditor (508)
+[2018.04.18-17.35.42:367][378]LogModuleManager: Shutting down and abandoning module MeshPaintMode (506)
+[2018.04.18-17.35.42:367][378]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (504)
+[2018.04.18-17.35.42:367][378]LogModuleManager: Shutting down and abandoning module ActorPickerMode (502)
+[2018.04.18-17.35.42:367][378]LogModuleManager: Shutting down and abandoning module GeometryMode (500)
+[2018.04.18-17.35.42:367][378]LogModuleManager: Shutting down and abandoning module TextureAlignMode (498)
+[2018.04.18-17.35.42:367][378]LogModuleManager: Shutting down and abandoning module BspMode (496)
+[2018.04.18-17.35.42:367][378]LogModuleManager: Shutting down and abandoning module HardwareSurvey (494)
+[2018.04.18-17.35.42:367][378]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (492)
+[2018.04.18-17.35.42:367][378]LogModuleManager: Shutting down and abandoning module AutomationWorker (490)
+[2018.04.18-17.35.42:367][378]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (488)
+[2018.04.18-17.35.42:368][378]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (486)
+[2018.04.18-17.35.42:368][378]LogModuleManager: Shutting down and abandoning module PlacementMode (485)
+[2018.04.18-17.35.42:368][378]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (482)
+[2018.04.18-17.35.42:368][378]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (480)
+[2018.04.18-17.35.42:368][378]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (478)
+[2018.04.18-17.35.42:368][378]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (476)
+[2018.04.18-17.35.42:368][378]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (474)
+[2018.04.18-17.35.42:368][378]LogModuleManager: Shutting down and abandoning module Media (473)
+[2018.04.18-17.35.42:368][378]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (470)
+[2018.04.18-17.35.42:368][378]LogModuleManager: Shutting down and abandoning module CharacterAI (468)
+[2018.04.18-17.35.42:368][378]LogModuleManager: Shutting down and abandoning module AudioCapture (466)
+[2018.04.18-17.35.42:368][378]LogModuleManager: Shutting down and abandoning module SequenceRecorder (465)
+[2018.04.18-17.35.42:368][378]LogModuleManager: Shutting down and abandoning module SmartSnapping (462)
+[2018.04.18-17.35.42:368][378]LogModuleManager: Shutting down and abandoning module SessionServices (460)
+[2018.04.18-17.35.42:368][378]LogModuleManager: Shutting down and abandoning module ViewportSnapping (458)
+[2018.04.18-17.35.42:368][378]LogModuleManager: Shutting down and abandoning module ViewportInteraction (456)
+[2018.04.18-17.35.42:368][378]LogModuleManager: Shutting down and abandoning module ClothPainter (454)
+[2018.04.18-17.35.42:368][378]LogModuleManager: Shutting down and abandoning module LogVisualizer (452)
+[2018.04.18-17.35.42:368][378]LogModuleManager: Shutting down and abandoning module IntroTutorials (450)
+[2018.04.18-17.35.42:368][378]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (449)
+[2018.04.18-17.35.42:368][378]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (446)
+[2018.04.18-17.35.42:368][378]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (444)
+[2018.04.18-17.35.42:368][378]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (442)
+[2018.04.18-17.35.42:368][378]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (440)
+[2018.04.18-17.35.42:368][378]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (439)
+[2018.04.18-17.35.42:393][378]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (436)
+[2018.04.18-17.35.42:393][378]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (434)
+[2018.04.18-17.35.42:393][378]LogModuleManager: Shutting down and abandoning module InputBindingEditor (432)
+[2018.04.18-17.35.42:393][378]LogModuleManager: Shutting down and abandoning module MergeActors (430)
+[2018.04.18-17.35.42:393][378]LogModuleManager: Shutting down and abandoning module SizeMap (428)
+[2018.04.18-17.35.42:393][378]LogModuleManager: Shutting down and abandoning module TreeMap (426)
+[2018.04.18-17.35.42:393][378]LogModuleManager: Shutting down and abandoning module ReferenceViewer (424)
+[2018.04.18-17.35.42:393][378]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (422)
+[2018.04.18-17.35.42:393][378]LogModuleManager: Shutting down and abandoning module LocalizationService (421)
+[2018.04.18-17.35.42:393][378]LogModuleManager: Shutting down and abandoning module HardwareTargeting (418)
+[2018.04.18-17.35.42:393][378]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (416)
+[2018.04.18-17.35.42:393][378]LogModuleManager: Shutting down and abandoning module UndoHistory (414)
+[2018.04.18-17.35.42:393][378]LogModuleManager: Shutting down and abandoning module UserFeedback (412)
+[2018.04.18-17.35.42:393][378]LogModuleManager: Shutting down and abandoning module XmlParser (410)
+[2018.04.18-17.35.42:393][378]LogModuleManager: Shutting down and abandoning module Blutility (408)
+[2018.04.18-17.35.42:393][378]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (406)
+[2018.04.18-17.35.42:393][378]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (405)
+[2018.04.18-17.35.42:393][378]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (402)
+[2018.04.18-17.35.42:393][378]LogModuleManager: Shutting down and abandoning module SettingsEditor (400)
+[2018.04.18-17.35.42:393][378]LogModuleManager: Shutting down and abandoning module ProjectLauncher (398)
+[2018.04.18-17.35.42:393][378]LogModuleManager: Shutting down and abandoning module SessionFrontend (396)
+[2018.04.18-17.35.42:393][378]LogModuleManager: Shutting down and abandoning module ProfilerClient (394)
+[2018.04.18-17.35.42:393][378]LogModuleManager: Shutting down and abandoning module DeviceManager (392)
+[2018.04.18-17.35.42:393][378]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (391)
+[2018.04.18-17.35.42:438][378]LogModuleManager: Shutting down and abandoning module AutomationController (388)
+[2018.04.18-17.35.42:438][378]LogModuleManager: Shutting down and abandoning module AutomationWindow (386)
+[2018.04.18-17.35.42:438][378]LogModuleManager: Shutting down and abandoning module Layers (384)
+[2018.04.18-17.35.42:438][378]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (382)
+[2018.04.18-17.35.42:438][378]LogModuleManager: Shutting down and abandoning module DetailCustomizations (380)
+[2018.04.18-17.35.42:438][378]LogModuleManager: Shutting down and abandoning module PackagesDialog (378)
+[2018.04.18-17.35.42:438][378]LogModuleManager: Shutting down and abandoning module Persona (376)
+[2018.04.18-17.35.42:438][378]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (375)
+[2018.04.18-17.35.42:438][378]LogModuleManager: Shutting down and abandoning module AnimGraph (373)
+[2018.04.18-17.35.42:438][378]LogModuleManager: Shutting down and abandoning module Kismet (370)
+[2018.04.18-17.35.42:451][378]LogModuleManager: Shutting down and abandoning module ClassViewer (368)
+[2018.04.18-17.35.42:451][378]LogModuleManager: Shutting down and abandoning module Toolbox (366)
+[2018.04.18-17.35.42:451][378]LogModuleManager: Shutting down and abandoning module ModuleUI (364)
+[2018.04.18-17.35.42:451][378]LogModuleManager: Shutting down and abandoning module MovieSceneTools (362)
+[2018.04.18-17.35.42:451][378]LogModuleManager: Shutting down and abandoning module OutputLog (360)
+[2018.04.18-17.35.42:451][378]LogModuleManager: Shutting down and abandoning module GammaUI (358)
+[2018.04.18-17.35.42:451][378]LogModuleManager: Shutting down and abandoning module Documentation (356)
+[2018.04.18-17.35.42:451][378]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (354)
+[2018.04.18-17.35.42:451][378]LogModuleManager: Shutting down and abandoning module MovieScene (352)
+[2018.04.18-17.35.42:451][378]LogModuleManager: Shutting down and abandoning module Niagara (350)
+[2018.04.18-17.35.42:451][378]LogModuleManager: Shutting down and abandoning module NiagaraEditor (349)
+[2018.04.18-17.35.42:451][378]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (346)
+[2018.04.18-17.35.42:451][378]LogModuleManager: Shutting down and abandoning module AnalyticsET (344)
+[2018.04.18-17.35.42:451][378]LogModuleManager: Shutting down and abandoning module PortalServices (342)
+[2018.04.18-17.35.42:451][378]LogModuleManager: Shutting down and abandoning module PortalRpc (340)
+[2018.04.18-17.35.42:451][378]LogModuleManager: Shutting down and abandoning module MessagingRpc (338)
+[2018.04.18-17.35.42:451][378]LogModuleManager: Shutting down and abandoning module AIModule (336)
+[2018.04.18-17.35.42:451][378]LogModuleManager: Shutting down and abandoning module GameplayDebugger (335)
+[2018.04.18-17.35.42:451][378]LogModuleManager: Shutting down and abandoning module AITestSuite (333)
+[2018.04.18-17.35.42:451][378]LogModuleManager: Shutting down and abandoning module ProfilerService (330)
+[2018.04.18-17.35.42:522][378]LogModuleManager: Shutting down and abandoning module TaskGraph (328)
+[2018.04.18-17.35.42:522][378]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
+[2018.04.18-17.35.42:522][378]LogModuleManager: Shutting down and abandoning module SteamVR (324)
+[2018.04.18-17.35.42:522][378]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
+[2018.04.18-17.35.42:522][378]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
+[2018.04.18-17.35.42:522][378]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
+[2018.04.18-17.35.42:522][378]LogModuleManager: Shutting down and abandoning module OculusInput (316)
+[2018.04.18-17.35.42:522][378]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
+[2018.04.18-17.35.42:522][378]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
+[2018.04.18-17.35.42:522][378]LogModuleManager: Shutting down and abandoning module CableComponent (310)
+[2018.04.18-17.35.42:522][378]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2018.04.18-17.35.42:522][378]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2018.04.18-17.35.42:522][378]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
+[2018.04.18-17.35.42:522][378]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
+[2018.04.18-17.35.42:522][378]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
+[2018.04.18-17.35.42:522][378]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
+[2018.04.18-17.35.42:522][378]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
+[2018.04.18-17.35.42:522][378]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
+[2018.04.18-17.35.42:522][378]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
+[2018.04.18-17.35.42:522][378]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
+[2018.04.18-17.35.42:522][378]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
+[2018.04.18-17.35.42:522][378]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
+[2018.04.18-17.35.42:522][378]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
+[2018.04.18-17.35.42:522][378]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
+[2018.04.18-17.35.42:522][378]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
+[2018.04.18-17.35.42:522][378]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
+[2018.04.18-17.35.42:522][378]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
+[2018.04.18-17.35.42:522][378]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
+[2018.04.18-17.35.42:522][378]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
+[2018.04.18-17.35.42:522][378]LogModuleManager: Shutting down and abandoning module SourceControl (269)
+[2018.04.18-17.35.42:523][378]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
+[2018.04.18-17.35.42:523][378]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
+[2018.04.18-17.35.42:523][378]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
+[2018.04.18-17.35.42:523][378]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
+[2018.04.18-17.35.42:523][378]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
+[2018.04.18-17.35.42:523][378]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
+[2018.04.18-17.35.42:523][378]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
+[2018.04.18-17.35.42:523][378]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2018.04.18-17.35.42:523][378]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2018.04.18-17.35.42:524][378]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (248)
+[2018.04.18-17.35.42:524][378]LogModuleManager: Shutting down and abandoning module PhysXVehicles (246)
+[2018.04.18-17.35.42:524][378]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (244)
+[2018.04.18-17.35.42:524][378]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (242)
+[2018.04.18-17.35.42:524][378]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (240)
+[2018.04.18-17.35.42:524][378]LogModuleManager: Shutting down and abandoning module UdpMessaging (238)
+[2018.04.18-17.35.42:625][378]LogModuleManager: Shutting down and abandoning module TcpMessaging (236)
+[2018.04.18-17.35.42:725][378]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (234)
+[2018.04.18-17.35.42:725][378]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (232)
+[2018.04.18-17.35.42:725][378]LogModuleManager: Shutting down and abandoning module FacialAnimation (230)
+[2018.04.18-17.35.42:725][378]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (228)
+[2018.04.18-17.35.42:725][378]LogModuleManager: Shutting down and abandoning module GraphEditor (227)
+[2018.04.18-17.35.42:725][378]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2018.04.18-17.35.42:726][378]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (222)
+[2018.04.18-17.35.42:726][378]LogModuleManager: Shutting down and abandoning module Paper2D (220)
+[2018.04.18-17.35.42:726][378]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (218)
+[2018.04.18-17.35.42:726][378]LogModuleManager: Shutting down and abandoning module WmfMedia (216)
+[2018.04.18-17.35.42:726][378]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (214)
+[2018.04.18-17.35.42:726][378]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (212)
+[2018.04.18-17.35.42:726][378]LogModuleManager: Shutting down and abandoning module MediaAssets (210)
+[2018.04.18-17.35.42:726][378]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (208)
+[2018.04.18-17.35.42:726][378]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (206)
+[2018.04.18-17.35.42:726][378]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.04.18-17.35.42:726][378]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.04.18-17.35.42:726][378]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.04.18-17.35.42:726][378]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.04.18-17.35.42:726][378]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.04.18-17.35.42:726][378]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.04.18-17.35.42:726][378]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.04.18-17.35.42:726][378]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.04.18-17.35.42:726][378]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.04.18-17.35.42:726][378]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.04.18-17.35.42:727][378]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.04.18-17.35.42:727][378]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.04.18-17.35.42:727][378]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.04.18-17.35.42:727][378]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.04.18-17.35.42:727][378]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.04.18-17.35.42:728][378]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.04.18-17.35.42:728][378]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.04.18-17.35.42:728][378]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.04.18-17.35.42:729][378]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.04.18-17.35.42:729][378]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.04.18-17.35.42:729][378]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.04.18-17.35.42:918][378]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.18-17.35.42:918][378]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/' was aborted.
+[2018.04.18-17.35.42:918][378]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.18-17.35.42:918][378]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.04.18-17.35.42:922][378]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.04.18-17.35.42:922][378]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.04.18-17.35.42:922][378]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.04.18-17.35.42:922][378]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.04.18-17.35.42:922][378]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.04.18-17.35.42:922][378]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.04.18-17.35.42:922][378]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.04.18-17.35.42:922][378]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.04.18-17.35.42:922][378]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.04.18-17.35.43:021][378]LogDerivedDataCache: Shutdown
+[2018.04.18-17.35.43:021][378]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.04.18-17.35.43:021][378]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.04.18-17.35.43:021][378]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.04.18-17.35.43:021][378]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.04.18-17.35.43:021][378]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.04.18-17.35.43:021][378]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.04.18-17.35.43:021][378]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.04.18-17.35.43:021][378]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.04.18-17.35.43:021][378]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.04.18-17.35.43:021][378]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.04.18-17.35.43:021][378]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.04.18-17.35.43:021][378]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.04.18-17.35.43:021][378]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.04.18-17.35.43:021][378]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.04.18-17.35.43:021][378]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.04.18-17.35.43:021][378]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.04.18-17.35.43:021][378]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.04.18-17.35.43:021][378]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.04.18-17.35.43:021][378]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.04.18-17.35.43:022][378]LogOnline:Display: Unloading online subsystem: NULL
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.18-17.35.43:022][378]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.18-17.35.43:022][378]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.04.18-17.35.43:022][378]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6630A48F-4261-3FAC-273A-55B5E087DC7B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=eedd91be406e0cd25ea0748277e6e73c%7C7a211806f70b4509a5be2640357744fc%7Caa6de738-987c-4c76-bb80-6cc1d099ea00&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.18-17.35.43:029][378]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.18-17.35.43:030][378]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.04.18-17.35.43:030][378]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.04.18-17.35.43:030][378]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.04.18-17.35.43:030][378]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.04.18-17.35.43:030][378]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.04.18-17.35.43:030][378]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.04.18-17.35.43:030][378]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.04.18-17.35.43:030][378]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.04.18-17.35.43:032][378]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.04.18-17.35.43:032][378]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.04.18-17.35.43:032][378]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.04.18-17.35.43:032][378]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.04.18-17.35.43:032][378]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.04.18-17.35.43:032][378]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.04.18-17.35.43:032][378]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.04.18-17.35.43:032][378]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.18-17.35.43:032][378]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.18-17.35.43:032][378]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.18-17.35.43:034][378]LogExit: Exiting.
+[2018.04.18-17.35.43:067][378]Log file closed, 04/18/18 19:35:43

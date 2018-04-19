@@ -1,0 +1,340 @@
+﻿Log file open, 04/19/18 19:08:58
+LogInit:Display: Running engine for game: MechHackAndSlash
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-2139480390) SRandInit(-2139480390).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.083139
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: D:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.19-17.08.58:341][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.19-17.08.58:341][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.19-17.08.58:350][  0]LogInit: Computer: DAVIDMASTERRACE
+[2018.04.19-17.08.58:350][  0]LogInit: User: David
+[2018.04.19-17.08.58:350][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.19-17.08.58:350][  0]LogInit: High frequency timer resolution =3.417969 MHz
+[2018.04.19-17.08.58:350][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.04.19-17.08.58:350][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.19-17.08.58:350][  0]LogMemory: Process Physical Memory: 273.17 MB used, 273.17 MB peak
+[2018.04.19-17.08.58:350][  0]LogMemory: Process Virtual Memory: 262.65 MB used, 262.65 MB peak
+[2018.04.19-17.08.58:350][  0]LogMemory: Physical Memory: 5629.36 MB used,  10697.07 MB free, 16326.44 MB total
+[2018.04.19-17.08.58:350][  0]LogMemory: Virtual Memory: 619.07 MB used,  10697.07 MB free, 134217728.00 MB total
+[2018.04.19-17.08.58:390][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.04.19-17.08.58:390][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.04.19-17.08.59:116][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.19-17.08.59:142][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.04.19-17.08.59:142][  0]LogD3D11RHI:       3975/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.19-17.08.59:143][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.19-17.08.59:143][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.19-17.08.59:143][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.19-17.08.59:147][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.19-17.08.59:147][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.19-17.08.59:147][  0]LogWindows: EnumDisplayDevices:
+[2018.04.19-17.08.59:147][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.04.19-17.08.59:147][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.04.19-17.08.59:147][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.04.19-17.08.59:147][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.04.19-17.08.59:147][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.04.19-17.08.59:147][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.04.19-17.08.59:147][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2018.04.19-17.08.59:147][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2018.04.19-17.08.59:147][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.04.19-17.08.59:157][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.19-17.08.59:173][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.04.19-17.08.59:217][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Intermediate/Shaders/WorkingDirectory/4616/).
+[2018.04.19-17.08.59:217][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/David/AppData/Local/Temp/UnrealShaderWorkingDir/AB81E409496CB76EFD5247A9AB6C619A/'.
+[2018.04.19-17.08.59:217][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.04.19-17.09.00:043][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.19-17.09.00:074][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.04.19-17.09.00:104][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.19-17.09.00:135][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.04.19-17.09.00:167][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.04.19-17.09.00:198][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.19-17.09.00:229][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.19-17.09.00:261][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.19-17.09.00:287][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.04.19-17.09.00:317][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.04.19-17.09.00:347][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.19-17.09.00:377][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.19-17.09.00:408][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.19-17.09.00:438][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.19-17.09.00:469][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.19-17.09.00:530][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.19-17.09.00:530][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.19-17.09.00:553][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.04.19-17.09.00:617][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.04.19-17.09.00:636][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.04.19-17.09.00:666][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.19-17.09.00:697][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.19-17.09.00:726][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.19-17.09.00:758][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.04.19-17.09.00:758][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.04.19-17.09.01:033][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.04.19-17.09.01:116][  0]LogDerivedDataCache: Loaded boot cache 0.08s 91MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.04.19-17.09.01:116][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.04.19-17.09.01:116][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.19-17.09.01:116][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.19-17.09.01:117][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.19-17.09.01:117][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.19-17.09.01:132][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.19-17.09.01:144][  0]LogDerivedDataCache: Using Local data cache path C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.19-17.09.01:152][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.19-17.09.01:153][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.19-17.09.01:153][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.19-17.09.01:153][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.19-17.09.01:404][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.19-17.09.01:467][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.04.19-17.09.01:577][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.19-17.09.01:601][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.19-17.09.01:628][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.19-17.09.01:628][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.04.19-17.09.01:628][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.04.19-17.09.02:005][  0]LogNetVersion: MechHackAndSlash , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 86869316)
+[2018.04.19-17.09.02:055][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
+[2018.04.19-17.09.02:080][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.013096 seconds
+[2018.04.19-17.09.02:085][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.04.19-17.09.02:085][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.04.19-17.09.02:085][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.19-17.09.02:120][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.19-17.09.03:709][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.19-17.09.03:736][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.19-17.09.04:229][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.19-17.09.04:462][  0]SourceControl: Info Source control is disabled
+[2018.04.19-17.09.04:486][  0]SourceControl: Info Source control is disabled
+[2018.04.19-17.09.04:512][  0]SourceControl: Info Source control is disabled
+[2018.04.19-17.09.04:538][  0]SourceControl: Info Source control is disabled
+[2018.04.19-17.09.04:919][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.19-17.09.05:259][  0]LogEngine: Initializing Engine...
+[2018.04.19-17.09.05:260][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.19-17.09.05:417][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.19-17.09.05:417][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.19-17.09.05:489][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.19-17.09.05:525][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.19-17.09.05:532][  0]LogInit: FAudioDevice initialized.
+[2018.04.19-17.09.05:567][  0]LogDerivedDataCache: Saved boot cache 0.03s 91MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.04.19-17.09.05:576][  0]LogInit: Texture streaming: Enabled
+[2018.04.19-17.09.05:628][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.19-17.09.05:748][  0]LogInit: Transaction tracking system initialized
+[2018.04.19-17.09.05:918][  0]BlueprintLog: New page: Editor Load
+[2018.04.19-17.09.06:432][  0]LocalizationService: Info Localization service is disabled
+[2018.04.19-17.09.06:806][  0]LogConsoleResponse:Display: 
+[2018.04.19-17.09.06:910][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.19-17.09.06:910][  0]LogCook:Display: Mobile HDR setting 1
+[2018.04.19-17.09.07:190][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/' took 0.02s
+[2018.04.19-17.09.07:469][  0]SourceControl: Info Source control is disabled
+[2018.04.19-17.09.07:469][  0]Cmd: MAP LOAD FILE="C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.19-17.09.07:470][  0]LightingResults: New page: Lighting Build
+[2018.04.19-17.09.07:493][  0]MapCheck: New page: Map Check
+[2018.04.19-17.09.07:493][  0]LightingResults: New page: Lighting Build
+[2018.04.19-17.09.09:775][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.04.19-17.09.11:384][  0]LogClass:Warning: Enum '/Game/GrassBlueprint/Enumerator/WindAssets.WindAssets' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.04.19-17.09.12:637][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.19-17.09.12:710][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.19-17.09.12:779][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.228ms to complete.
+[2018.04.19-17.09.12:779][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 5.310
+[2018.04.19-17.09.12:889][  0]LogCollectionManager: Loaded 0 collections in 0.000977 seconds
+[2018.04.19-17.09.12:948][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Collections/' took 0.01s
+[2018.04.19-17.09.12:948][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Developers/David/Collections/' took 0.01s
+[2018.04.19-17.09.12:948][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Collections/' took 0.01s
+[2018.04.19-17.09.12:948][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.04.19-17.09.12:955][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2336 classes and 493 folders.
+[2018.04.19-17.09.12:991][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.04.19-17.09.13:018][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.04.19-17.09.13:042][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.04.19-17.09.13:073][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0005 seconds. Added 1 classes and 3 folders.
+[2018.04.19-17.09.13:157][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.04.19-17.09.13:161][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.04.19-17.09.13:209][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.04.19-17.09.13:209][  0]LogLoad: (Engine Initialization) Total time: 16.01 seconds
+[2018.04.19-17.09.13:209][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.68 seconds
+[2018.04.19-17.09.13:209][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.04.19-17.09.13:209][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.04.19-17.09.13:218][  0]LogOcInput: OculusInput pre-init called
+[2018.04.19-17.09.13:218][  0]LogHMD: Starting GearVRController plugin
+[2018.04.19-17.09.13:259][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.19-17.09.13:261][  0]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.19-17.09.13:263][  0]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.19-17.09.13:266][  0]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.19-17.09.13:365][  0]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.19-17.09.13:403][  1]LogRenderer: Reallocating scene render targets to support 1196x560 NumSamples 1 (Frame:1).
+[2018.04.19-17.09.13:403][  1]LogAssetRegistry: Asset discovery search completed in 11.3707 seconds
+[2018.04.19-17.09.13:405][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.04.19-17.09.13:405][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000028 seconds (updated 0 objects)
+[2018.04.19-17.09.13:557][  1]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.19-17.09.14:295][  7]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.19-17.09.17:726][389]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.04.19-17.09.17:848][389]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.19-17.09.17:896][389]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.04.19-17.09.18:152][389]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2018.04.19-17.09.18:178][390]LogRenderer: Reallocating scene render targets to support 1196x816 NumSamples 1 (Frame:1).
+[2018.04.19-17.09.18:178][390]LogStaticMesh: Allocated 510x140x64 distance field atlas = 8.7Mb, with 64 objects containing 3.2Mb backing data
+[2018.04.19-17.14.52:785][317]Cmd: TRANSACTION UNDO
+[2018.04.19-17.14.52:785][317]LogEditorTransaction: Undo Rotate Bone
+[2018.04.19-17.14.52:866][317]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.19-17.14.57:204][582]Cmd: TRANSACTION UNDO
+[2018.04.19-17.14.57:204][582]LogEditorTransaction: Undo Rotate Bone
+[2018.04.19-17.14.57:290][582]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.19-17.15.40:581][856]Cmd: TRANSACTION UNDO
+[2018.04.19-17.15.40:581][856]LogEditorTransaction: Undo Rotate Bone
+[2018.04.19-17.15.40:667][856]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.19-17.16.01:912][372]Cmd: TRANSACTION UNDO
+[2018.04.19-17.16.01:912][372]LogEditorTransaction: Undo Rotate Bone
+[2018.04.19-17.16.01:997][372]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.19-17.16.06:752][689]Cmd: TRANSACTION UNDO
+[2018.04.19-17.16.06:752][689]LogEditorTransaction: Undo Rotate Bone
+[2018.04.19-17.16.06:837][689]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.19-17.17.32:754][482]Cmd: TRANSACTION UNDO
+[2018.04.19-17.17.32:754][482]LogEditorTransaction: Undo Rotate Bone
+[2018.04.19-17.17.32:841][482]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.19-17.17.38:454][856]Cmd: TRANSACTION UNDO
+[2018.04.19-17.17.38:454][856]LogEditorTransaction: Undo Rotate Bone
+[2018.04.19-17.17.38:540][856]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.19-17.18.04:967][826]Cmd: TRANSACTION UNDO
+[2018.04.19-17.18.04:967][826]LogEditorTransaction: Undo Rotate Bone
+[2018.04.19-17.18.05:052][826]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.19-17.18.37:425][424]Cmd: TRANSACTION UNDO
+[2018.04.19-17.18.37:425][424]LogEditorTransaction: Undo Rotate Bone
+[2018.04.19-17.18.37:512][424]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.19-17.18.45:059][911]Cmd: TRANSACTION UNDO
+[2018.04.19-17.18.45:059][911]LogEditorTransaction: Undo Rotate Bone
+[2018.04.19-17.18.45:145][911]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.19-17.18.55:409][604]Cmd: TRANSACTION UNDO
+[2018.04.19-17.18.55:409][604]LogEditorTransaction: Undo Rotate Bone
+[2018.04.19-17.18.55:495][604]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.19-17.19.35:569][568]Cmd: TRANSACTION UNDO
+[2018.04.19-17.19.35:569][568]LogEditorTransaction: Undo Rotate Bone
+[2018.04.19-17.19.35:654][568]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.19-17.19.45:314][231]Cmd: TRANSACTION UNDO
+[2018.04.19-17.19.45:314][231]LogEditorTransaction: Undo Rotate Bone
+[2018.04.19-17.19.45:401][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.19-17.19.58:140][140]Cmd: TRANSACTION UNDO
+[2018.04.19-17.19.58:140][140]LogEditorTransaction: Undo Rotate Bone
+[2018.04.19-17.19.58:226][140]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.19-17.25.09:309][938]Cmd: TRANSACTION UNDO
+[2018.04.19-17.25.09:309][938]LogEditorTransaction: Undo Rotate Bone
+[2018.04.19-17.25.09:396][938]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.19-17.25.24:642][145]Cmd: TRANSACTION UNDO
+[2018.04.19-17.25.24:642][145]LogEditorTransaction: Undo Rotate Bone
+[2018.04.19-17.25.24:730][145]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.19-17.25.32:354][729]Cmd: TRANSACTION UNDO
+[2018.04.19-17.25.32:354][729]LogEditorTransaction: Undo Rotate Bone
+[2018.04.19-17.25.32:442][729]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.19-17.25.38:588][222]Cmd: TRANSACTION UNDO
+[2018.04.19-17.25.38:588][222]LogEditorTransaction: Undo Rotate Bone
+[2018.04.19-17.25.38:674][222]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.19-17.27.23:333][496]Cmd: TRANSACTION UNDO
+[2018.04.19-17.27.23:333][496]LogEditorTransaction: Undo Rotate Bone
+[2018.04.19-17.27.23:421][496]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.19-17.27.31:674][133]Cmd: TRANSACTION UNDO
+[2018.04.19-17.27.31:674][133]LogEditorTransaction: Undo Rotate Bone
+[2018.04.19-17.27.31:759][133]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.19-17.30.20:576][287]Cmd: TRANSACTION UNDO
+[2018.04.19-17.30.20:576][287]LogEditorTransaction: Undo Rotate Bone
+[2018.04.19-17.30.20:663][287]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.19-17.30.24:909][571]Cmd: TRANSACTION UNDO
+[2018.04.19-17.30.24:909][571]LogEditorTransaction: Undo Rotate Bone
+[2018.04.19-17.30.24:994][571]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.19-17.30.27:166][710]Cmd: TRANSACTION UNDO
+[2018.04.19-17.30.27:166][710]LogEditorTransaction: Undo Change Bone Mapping
+[2018.04.19-17.30.27:252][710]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.19-17.30.27:675][729]Cmd: TRANSACTION UNDO
+[2018.04.19-17.30.27:675][729]LogEditorTransaction: Undo Change Bone Mapping
+[2018.04.19-17.30.27:760][729]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.19-17.30.29:217][826]Cmd: TRANSACTION UNDO
+[2018.04.19-17.30.29:217][826]LogEditorTransaction: Undo Rotate Bone
+[2018.04.19-17.30.29:303][826]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.19-17.30.38:533][534]Cmd: TRANSACTION UNDO
+[2018.04.19-17.30.38:533][534]LogEditorTransaction: Undo Rotate Bone
+[2018.04.19-17.30.38:619][534]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.19-17.30.40:914][684]Cmd: TRANSACTION UNDO
+[2018.04.19-17.30.40:914][684]LogEditorTransaction: Undo Rotate Bone
+[2018.04.19-17.30.41:002][684]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.19-17.32.01:935][799]Cmd: TRANSACTION UNDO
+[2018.04.19-17.32.01:935][799]LogEditorTransaction: Undo Rotate Bone
+[2018.04.19-17.32.02:022][799]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.19-17.32.54:227][134]LogSavePackage: Save=36.73ms
+[2018.04.19-17.32.54:227][134]LogSavePackage: Moving 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/robotSkeleton_SkeletonFDECE1294E31A2EF36E28A8AF9452529.tmp' to 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/robot/mesh/robotSkeleton_Skeleton.uasset'
+[2018.04.19-17.32.54:231][134]LogSavePackage:Display: Finished SavePackage C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Enemigos/robot/mesh/robotSkeleton_Skeleton.uasset
+[2018.04.19-17.33.25:015][164]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.19-17.33.25:027][164]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2018.04.19-17.33.29:066][626]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonRun.ThirdPersonRun
+[2018.04.19-17.33.29:089][626]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonRun.ThirdPersonRun
+[2018.04.19-17.33.29:110][626]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonWalk.ThirdPersonWalk
+[2018.04.19-17.33.29:153][626]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonWalk.ThirdPersonWalk
+[2018.04.19-17.33.29:201][626]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonIdle.ThirdPersonIdle
+[2018.04.19-17.33.29:271][626]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonIdle.ThirdPersonIdle
+[2018.04.19-17.34.13:491][996]LogStats: FPlatformStackWalk::StackWalkAndDump - 40.617 s
+[2018.04.19-17.34.13:491][996]LogOutputDevice:Error: === Handled ensure: ===
+[2018.04.19-17.34.13:491][996]LogOutputDevice:Error: 
+[2018.04.19-17.34.13:491][996]LogOutputDevice:Error: Ensure condition failed: Y != 0 [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Core\Private\GenericPlatform\GenericPlatformMath.cpp] [Line: 81]
+[2018.04.19-17.34.13:491][996]LogOutputDevice:Error: FMath::FMod(X=25454400705134592.000000, Y=0.000000) : Y is zero, this is invalid and would result in NaN!
+[2018.04.19-17.34.13:491][996]LogOutputDevice:Error: Stack: 
+[2018.04.19-17.34.13:491][996]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:200]
+[2018.04.19-17.34.13:491][996]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:233]
+[2018.04.19-17.34.13:491][996]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:360]
+[2018.04.19-17.34.13:491][996]LogOutputDevice:Error: UE4Editor-Core.dll!FGenericPlatformMath::FmodReportError() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\genericplatform\genericplatformmath.cpp:81]
+[2018.04.19-17.34.13:491][996]LogOutputDevice:Error: UE4Editor-Renderer.dll!FViewInfo::CalcTranslucencyLightingVolumeBounds() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\renderer\private\translucentlighting.cpp:177]
+[2018.04.19-17.34.13:491][996]LogOutputDevice:Error: UE4Editor-Renderer.dll!FViewInfo::SetupUniformBufferParameters() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\renderer\private\scenerendering.cpp:763]
+[2018.04.19-17.34.13:491][996]LogOutputDevice:Error: UE4Editor-Renderer.dll!FProjectedShadowInfo::ModifyViewForShadow() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\renderer\private\shadowdepthrendering.cpp:1994]
+[2018.04.19-17.34.13:491][996]LogOutputDevice:Error: UE4Editor-Renderer.dll!FProjectedShadowInfo::SetupShadowDepthView() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\renderer\private\shadowdepthrendering.cpp:2083]
+[2018.04.19-17.34.13:491][996]LogOutputDevice:Error: UE4Editor-Renderer.dll!FSceneRenderer::AllocateCSMDepthTargets() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\renderer\private\shadowsetup.cpp:3137]
+[2018.04.19-17.34.13:491][996]LogOutputDevice:Error: UE4Editor-Renderer.dll!FSceneRenderer::AllocateShadowDepthTargets() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\renderer\private\shadowsetup.cpp:2749]
+[2018.04.19-17.34.13:491][996]LogOutputDevice:Error: UE4Editor-Renderer.dll!FSceneRenderer::InitDynamicShadows() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\renderer\private\shadowsetup.cpp:3497]
+[2018.04.19-17.34.13:491][996]LogOutputDevice:Error: UE4Editor-Renderer.dll!FDeferredShadingSceneRenderer::InitViewsPossiblyAfterPrepass() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\renderer\private\scenevisibility.cpp:2944]
+[2018.04.19-17.34.13:491][996]LogOutputDevice:Error: UE4Editor-Renderer.dll!FDeferredShadingSceneRenderer::InitViews() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\renderer\private\scenevisibility.cpp:2904]
+[2018.04.19-17.34.13:491][996]LogOutputDevice:Error: UE4Editor-Renderer.dll!FDeferredShadingSceneRenderer::Render() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\renderer\private\deferredshadingrenderer.cpp:577]
+[2018.04.19-17.34.13:491][996]LogOutputDevice:Error: UE4Editor-Renderer.dll!RenderViewFamily_RenderThread() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\renderer\private\scenerendering.cpp:1821]
+[2018.04.19-17.34.13:491][996]LogOutputDevice:Error: UE4Editor-Renderer.dll!TGraphTask<`FRendererModule::BeginRenderingViewFamily'::`26'::EURCMacro_FDrawSceneCommand>::ExecuteTask() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\async\taskgraphinterfaces.h:883]
+[2018.04.19-17.34.13:491][996]LogOutputDevice:Error: UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksNamedThread() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\async\taskgraph.cpp:954]
+[2018.04.19-17.34.13:491][996]LogOutputDevice:Error: UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksUntilQuit() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\async\taskgraph.cpp:701]
+[2018.04.19-17.34.13:491][996]LogOutputDevice:Error: UE4Editor-RenderCore.dll!RenderingThreadMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\rendercore\private\renderingthread.cpp:327]
+[2018.04.19-17.34.13:491][996]LogOutputDevice:Error: UE4Editor-RenderCore.dll!FRenderingThread::Run() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\rendercore\private\renderingthread.cpp:461]
+[2018.04.19-17.34.13:491][996]LogOutputDevice:Error: UE4Editor-Core.dll!FRunnableThreadWin::Run() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsrunnablethread.cpp:76]
+[2018.04.19-17.34.13:491][996]LogOutputDevice:Error: UE4Editor-Core.dll!FRunnableThreadWin::GuardedRun() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsrunnablethread.cpp:33]
+[2018.04.19-17.34.13:493][996]LogOutputDevice:Error: KERNEL32.DLL!0x0000000091A113D2
+[2018.04.19-17.34.13:493][996]LogOutputDevice:Error: ntdll.dll!0x00000000940554F4
+[2018.04.19-17.34.13:493][996]LogOutputDevice:Error: 
+[2018.04.19-17.34.13:493][996]LogStats:                SubmitErrorReport -  0.000 s
