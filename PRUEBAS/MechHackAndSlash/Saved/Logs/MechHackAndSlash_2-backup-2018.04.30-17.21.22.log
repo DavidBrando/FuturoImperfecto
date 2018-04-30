@@ -1,0 +1,779 @@
+﻿Log file open, 04/30/18 16:49:26
+LogInit:Display: Running engine for game: MechHackAndSlash
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1458636939) SRandInit(-1458636939).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.082924
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
+LogInit: Base directory: D:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.30-14.49.27:170][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.30-14.49.27:170][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.30-14.49.27:174][  0]LogInit: Computer: DAVIDMASTERRACE
+[2018.04.30-14.49.27:174][  0]LogInit: User: David
+[2018.04.30-14.49.27:174][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.30-14.49.27:174][  0]LogInit: High frequency timer resolution =3.417965 MHz
+[2018.04.30-14.49.27:174][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.04.30-14.49.27:174][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.30-14.49.27:174][  0]LogMemory: Process Physical Memory: 272.25 MB used, 272.25 MB peak
+[2018.04.30-14.49.27:174][  0]LogMemory: Process Virtual Memory: 274.50 MB used, 274.50 MB peak
+[2018.04.30-14.49.27:174][  0]LogMemory: Physical Memory: 7860.20 MB used,  8466.24 MB free, 16326.44 MB total
+[2018.04.30-14.49.27:174][  0]LogMemory: Virtual Memory: 631.00 MB used,  8466.24 MB free, 134217728.00 MB total
+[2018.04.30-14.49.27:217][  0]LogInit: Using OS detected language (es-ES).
+[2018.04.30-14.49.27:217][  0]LogInit: Using OS detected locale (es-ES).
+[2018.04.30-14.49.27:219][  0]LogTextLocalizationManager: No specific localization for 'es-ES' exists, so the 'es' localization will be used.
+[2018.04.30-14.49.27:910][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.30-14.49.27:927][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.04.30-14.49.27:927][  0]LogD3D11RHI:       3975/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.30-14.49.27:928][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.30-14.49.27:928][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.30-14.49.27:928][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.30-14.49.27:931][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.30-14.49.27:931][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.30-14.49.27:931][  0]LogWindows: EnumDisplayDevices:
+[2018.04.30-14.49.27:931][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.04.30-14.49.27:931][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.04.30-14.49.27:931][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.04.30-14.49.27:931][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.04.30-14.49.27:931][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.04.30-14.49.27:931][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.04.30-14.49.27:931][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2018.04.30-14.49.27:931][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2018.04.30-14.49.27:931][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.04.30-14.49.27:942][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.30-14.49.27:993][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.04.30-14.49.28:037][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Intermediate/Shaders/WorkingDirectory/7400/).
+[2018.04.30-14.49.28:037][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/David/AppData/Local/Temp/UnrealShaderWorkingDir/57A594F24EFD852627951CBE081EB7EB/'.
+[2018.04.30-14.49.28:037][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.04.30-14.49.28:882][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.30-14.49.28:913][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.30-14.49.28:945][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.30-14.49.28:970][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.04.30-14.49.28:970][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.04.30-14.49.29:243][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.04.30-14.49.29:329][  0]LogDerivedDataCache: Loaded boot cache 0.09s 91MB C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.04.30-14.49.29:329][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/David/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.04.30-14.49.29:329][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.30-14.49.29:329][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.30-14.49.29:329][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.30-14.49.29:329][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.30-14.49.29:346][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.30-14.49.29:358][  0]LogDerivedDataCache: Using Local data cache path C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.30-14.49.29:366][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.30-14.49.29:367][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.30-14.49.29:367][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.30-14.49.29:367][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.30-14.49.29:568][  0]LogAssetRegistry: FAssetRegistry took 0.0036 seconds to start up
+[2018.04.30-14.49.29:575][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.007082 seconds
+[2018.04.30-14.49.29:644][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.30-14.49.29:704][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2018.04.30-14.49.29:812][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.30-14.49.29:836][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.30-14.49.29:862][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.30-14.49.29:862][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.04.30-14.49.29:862][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.04.30-14.49.30:234][  0]LogNetVersion: MechHackAndSlash , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 86869316)
+[2018.04.30-14.49.30:278][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.30-14.49.30:940][  0]LogMoviePlayer: Initializing movie player
+[2018.04.30-14.49.31:241][  0]LogCollectionManager: Loaded 0 collections in 0.000968 seconds
+[2018.04.30-14.49.31:286][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Collections/' took 0.01s
+[2018.04.30-14.49.31:286][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Developers/David/Collections/' took 0.01s
+[2018.04.30-14.49.31:286][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Collections/' took 0.01s
+[2018.04.30-14.49.31:286][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.04.30-14.49.31:286][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2018.04.30-14.49.31:373][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.30-14.49.31:399][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.30-14.49.31:688][  0]SourceControl: Información El control de código fuente está desactivado
+[2018.04.30-14.49.31:688][  0]SourceControl: Información El control de código fuente está desactivado
+[2018.04.30-14.49.31:713][  0]SourceControl: Información El control de código fuente está desactivado
+[2018.04.30-14.49.31:854][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.30-14.49.32:094][  0]LogUObjectArray: 37242 objects as part of root set at end of initial load.
+[2018.04.30-14.49.32:094][  0]LogUObjectAllocator: 8406880 out of 0 bytes used by permanent object pool.
+[2018.04.30-14.49.32:094][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.30-14.49.32:167][  0]LogEngine: Initializing Engine...
+[2018.04.30-14.49.32:168][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.30-14.49.32:320][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.30-14.49.32:320][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.30-14.49.32:342][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.30-14.49.32:350][  0]LogInit: FAudioDevice initialized.
+[2018.04.30-14.49.32:370][  0]LogInit: Texture streaming: Enabled
+[2018.04.30-14.49.32:394][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.30-14.49.32:625][  0]LogSlateStyle:Warning: No pudo encontrar el estilo del widget del cuadro 'NormalText'. Utilizando FTextBlockStyle predeterminado en su lugar.
+[2018.04.30-14.49.32:625][  0]LogSlateStyle:Warning: No pudo encontrar el estilo del widget del cuadro 'SpinBox'. Utilizando FSpinBoxStyle predeterminado en su lugar.
+[2018.04.30-14.49.32:783][  0]LogInit:Display: Game Engine Initialized.
+[2018.04.30-14.49.32:907][  0]LogInit:Display: Starting Game.
+[2018.04.30-14.49.32:907][  0]LogNet: Browse: /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap?Name=Player
+[2018.04.30-14.49.32:907][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap?Name=Player
+[2018.04.30-14.49.32:949][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.30-14.49.32:949][  0]LogMemory: Process Physical Memory: 754.21 MB used, 887.13 MB peak
+[2018.04.30-14.49.32:949][  0]LogMemory: Process Virtual Memory: 854.78 MB used, 942.42 MB peak
+[2018.04.30-14.49.32:949][  0]LogMemory: Physical Memory: 8229.61 MB used,  8096.83 MB free, 16326.44 MB total
+[2018.04.30-14.49.32:949][  0]LogMemory: Virtual Memory: 1418.96 MB used,  8096.83 MB free, 134217728.00 MB total
+[2018.04.30-14.49.32:949][  0]LogMemory: 
+[2018.04.30-14.49.32:949][  0]Allocator Stats for TBB: (not implemented)
+[2018.04.30-14.49.34:909][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.04.30-14.49.34:910][  0]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.30-14.49.34:918][  0]LogWorld: Bringing World /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.04.30-16.49.34
+[2018.04.30-14.49.34:918][  0]LogWorld: Bringing up level for play took: 0.004790
+[2018.04.30-14.49.34:962][  0]LogLevel: ActivateLevel /Temp/Autosaves/Game/Niveles/UEDPCBlueLevel 0 0 0
+[2018.04.30-14.49.34:962][  0]LogLoad: Took 2.055216 seconds to LoadMap(/Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap)
+[2018.04.30-14.49.35:116][  0]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:1).
+[2018.04.30-14.49.35:116][  0]LogLoad: (Engine Initialization) Total time: 8.97 seconds
+[2018.04.30-14.49.35:116][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.87 seconds
+[2018.04.30-14.49.35:116][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.04.30-14.49.35:116][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.04.30-14.49.35:133][  0]LogOcInput: OculusInput pre-init called
+[2018.04.30-14.49.35:133][  0]LogHMD: Starting GearVRController plugin
+[2018.04.30-14.49.35:135][  0]LogLevel: ActivateLevel /Temp/Autosaves/Game/Niveles/UEDPCRedLevel 0 0 0
+[2018.04.30-14.49.35:149][  1]LogLevel: ActivateLevel /Temp/Autosaves/Game/Niveles/UEDPCLevelTuto 0 0 0
+[2018.04.30-14.49.39:326][250]LogLevel: ActivateLevel /Temp/Autosaves/Game/Niveles/UEDPCLevelTuto 1 1 0
+[2018.04.30-14.49.40:712][305]LogClass:Warning: Enum '/Game/GrassBlueprint/Enumerator/WindAssets.WindAssets' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 0: 0.0
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 0: 6120.0
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 0: 8329.279297
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 0: 13863.910156
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 0: 17972.392578
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 0: 15995.405273
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 0: 13624.892578
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 0: 12574.755859
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 0: 15471.424805
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 0: 15711.413086
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 0: 8380.035156
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 0: 5653.547363
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 0: 3107.442627
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 0: 6680.269531
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 0: 9110.959961
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 0: 8496.705078
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 0: 12564.46582
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 0: 15253.239258
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 0: 18101.128906
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 0: 20604.845703
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 1: 6120.0
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 1: 0.0
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 1: 5650.0
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 1: 12440.0
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 1: 21890.392578
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 1: 18890.023438
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 1: 16918.939453
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 1: 14941.261719
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 1: 16714.957031
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 1: 15652.875
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 1: 10615.921875
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 1: 9270.436523
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 1: 5811.109863
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 1: 12292.84375
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 1: 13184.475586
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 1: 14592.943359
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 1: 18673.173828
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 1: 21237.298828
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 1: 23366.910156
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 1: 25213.085938
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 2: 8329.279297
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 2: 5650.0
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 2: 0.0
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 2: 6790.0
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 2: 18442.960938
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 2: 14757.59082
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 2: 13254.433594
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 2: 10741.638672
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 2: 11683.376953
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 2: 10155.834961
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 2: 7073.846191
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 2: 7471.713379
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 2: 5727.870605
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 2: 11940.791016
+[2018.04.30-14.49.41:801][321]LogBlueprintUserMessages: [LevelTuto_C_1] 2: 10740.246094
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 2: 15290.601563
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 2: 19238.005859
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 2: 20984.384766
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 2: 21444.113281
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 2: 22333.835938
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 3: 13863.910156
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 3: 12440.0
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 3: 6790.0
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 3: 0.0
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 3: 16047.071289
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 3: 11625.49707
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 3: 11281.28125
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 3: 8380.291992
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 3: 7017.820313
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 3: 4136.628906
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 3: 7694.530762
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 3: 10203.107422
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 3: 10775.982422
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 3: 14724.035156
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 3: 11381.740234
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 3: 18529.037109
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 3: 21915.806641
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 3: 22626.951172
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 3: 20994.525391
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 3: 20463.287109
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 4: 17972.392578
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 4: 21890.392578
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 4: 18442.960938
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 4: 16047.071289
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 4: 0.0
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 4: 4510.0
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 4: 5192.494629
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 4: 7935.439453
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 4: 9496.088867
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 4: 12912.419922
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 4: 11489.199219
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 4: 12753.512695
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 4: 16301.916992
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 4: 12242.797852
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 4: 8908.001953
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 4: 14205.988281
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 4: 14479.257813
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 4: 12444.115234
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 4: 6907.155762
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 4: 4494.018066
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 5: 15995.405273
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 5: 18890.023438
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 5: 14757.59082
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 5: 11625.49707
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 5: 4510.0
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 5: 0.0
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 5: 2520.178467
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 5: 4025.23291
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 5: 4991.592773
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 5: 8403.71875
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 5: 8279.250977
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 5: 10376.666016
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 5: 13739.243164
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 5: 11558.762695
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 5: 7178.147461
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 5: 14518.436523
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 5: 15984.855469
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 5: 14866.664063
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 5: 10671.011719
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 5: 9002.004883
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 6: 13624.892578
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 6: 16918.939453
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 6: 13254.433594
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 6: 11281.28125
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 6: 5192.494629
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 6: 2520.178467
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 6: 0.0
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 6: 2909.914063
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 6: 5716.826172
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 6: 8816.450195
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 6: 6367.11084
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 6: 8075.301758
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 6: 11539.171875
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 6: 9042.748047
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 6: 4678.899414
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 6: 12083.678711
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 6: 13810.839844
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 6: 13064.837891
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 6: 9859.512695
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 6: 9325.759766
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 7: 12574.755859
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 7: 14941.261719
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 7: 10741.638672
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 7: 8380.291992
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 7: 7935.439453
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 7: 4025.23291
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 7: 2909.914063
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 7: 0.0
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 7: 3716.51709
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 7: 6243.476563
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 7: 4407.09668
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 7: 6939.920898
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 7: 10035.641602
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 7: 9417.457031
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 7: 4848.391602
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 7: 12958.568359
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 7: 15373.564453
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 7: 15189.154297
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 7: 12666.365234
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 7: 12203.679688
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 8: 15471.424805
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 8: 16714.957031
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 8: 11683.376953
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 8: 7017.820313
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 8: 9496.088867
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 8: 4991.592773
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 8: 5716.826172
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 8: 3716.51709
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 8: 0.0
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 8: 3421.184082
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 8: 7102.816406
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 8: 10044.899414
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 8: 12627.097656
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 8: 13071.227539
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 8: 8545.373047
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 8: 16664.123047
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 8: 19057.648438
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 8: 18686.222656
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 8: 15410.557617
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 8: 13990.042969
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 9: 15711.413086
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 9: 15652.875
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 9: 10155.834961
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 9: 4136.628906
+[2018.04.30-14.49.41:802][321]LogBlueprintUserMessages: [LevelTuto_C_1] 9: 12912.419922
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 9: 8403.71875
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 9: 8816.450195
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 9: 6243.476563
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 9: 3421.184082
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 9: 0.0
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 9: 7889.518555
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 9: 10890.624023
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 9: 12648.924805
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 9: 14750.0
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 9: 10572.099609
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 9: 18522.486328
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 9: 21367.033203
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 9: 21411.029297
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 9: 18653.283203
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 9: 17405.5625
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 10: 8380.035156
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 10: 10615.921875
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 10: 7073.846191
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 10: 7694.530762
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 10: 11489.199219
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 10: 8279.250977
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 10: 6367.11084
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 10: 4407.09668
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 10: 7102.816406
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 10: 7889.518555
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 10: 0.0
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 10: 3029.521484
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 10: 5662.296387
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 10: 7092.037598
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 10: 3967.29126
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 10: 10912.973633
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 10: 14221.392578
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 10: 15088.303711
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 10: 14519.754883
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 10: 15266.083008
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 11: 5653.547363
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 11: 9270.436523
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 11: 7471.713379
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 11: 10203.107422
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 11: 12753.512695
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 11: 10376.666016
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 11: 8075.301758
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 11: 6939.920898
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 11: 10044.899414
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 11: 10890.624023
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 11: 3029.521484
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 11: 0.0
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 11: 3551.056152
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 11: 4695.977051
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 11: 3919.208984
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 11: 8402.868164
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 11: 12074.1875
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 11: 13539.693359
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 11: 14316.651367
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 11: 15942.650391
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 12: 3107.442627
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 12: 5811.109863
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 12: 5727.870605
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 12: 10775.982422
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 12: 16301.916992
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 12: 13739.243164
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 12: 11539.171875
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 12: 10035.641602
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 12: 12627.097656
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 12: 12648.924805
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 12: 5662.296387
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 12: 3551.056152
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 12: 0.0
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 12: 6763.268555
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 12: 7457.251465
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 12: 9723.46582
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 12: 13763.167969
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 12: 15893.28418
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 12: 17570.101563
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 12: 19447.347656
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 13: 6680.269531
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 13: 12292.84375
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 13: 11940.791016
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 13: 14724.035156
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 13: 12242.797852
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 13: 11558.762695
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 13: 9042.748047
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 13: 9417.457031
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 13: 13071.227539
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 13: 14750.0
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 13: 7092.037598
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 13: 4695.977051
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 13: 6763.268555
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 13: 0.0
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 13: 4601.608398
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 13: 3820.994629
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 13: 7382.045898
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 13: 9141.974609
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 13: 11434.005859
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 13: 14218.020508
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 14: 9110.959961
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 14: 13184.475586
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 14: 10740.246094
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 14: 11381.740234
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 14: 8908.001953
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 14: 7178.147461
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 14: 4678.899414
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 14: 4848.391602
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 14: 8545.373047
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 14: 10572.099609
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 14: 3967.29126
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 14: 3919.208984
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 14: 7457.251465
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 14: 4601.608398
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 14: 0.0
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 14: 8119.532227
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 14: 10804.341797
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 14: 11245.856445
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 14: 10704.15332
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 14: 12032.975586
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 15: 8496.705078
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 15: 14592.943359
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 15: 15290.601563
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 15: 18529.037109
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 15: 14205.988281
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 15: 14518.436523
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 15: 12083.678711
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 15: 12958.568359
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 15: 16664.123047
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 15: 18522.486328
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 15: 10912.973633
+[2018.04.30-14.49.41:803][321]LogBlueprintUserMessages: [LevelTuto_C_1] 15: 8402.868164
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 15: 9723.46582
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 15: 3820.994629
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 15: 8119.532227
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 15: 0.0
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 15: 4090.305664
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 15: 6926.738281
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 15: 11396.336914
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 15: 15097.817383
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 16: 12564.46582
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 16: 18673.173828
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 16: 19238.005859
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 16: 21915.806641
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 16: 14479.257813
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 16: 15984.855469
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 16: 13810.839844
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 16: 15373.564453
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 16: 19057.648438
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 16: 21367.033203
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 16: 14221.392578
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 16: 12074.1875
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 16: 13763.167969
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 16: 7382.045898
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 16: 10804.341797
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 16: 4090.305664
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 16: 0.0
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 16: 3623.271973
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 16: 9782.274414
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 16: 14108.000977
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 17: 15253.239258
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 17: 21237.298828
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 17: 20984.384766
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 17: 22626.951172
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 17: 12444.115234
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 17: 14866.664063
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 17: 13064.837891
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 17: 15189.154297
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 17: 18686.222656
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 17: 21411.029297
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 17: 15088.303711
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 17: 13539.693359
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 17: 15893.28418
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 17: 9141.974609
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 17: 11245.856445
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 17: 6926.738281
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 17: 3623.271973
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 17: 0.0
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 17: 6680.0
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 17: 11185.570313
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 18: 18101.128906
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 18: 23366.910156
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 18: 21444.113281
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 18: 20994.525391
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 18: 6907.155762
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 18: 10671.011719
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 18: 9859.512695
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 18: 12666.365234
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 18: 15410.557617
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 18: 18653.283203
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 18: 14519.754883
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 18: 14316.651367
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 18: 17570.101563
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 18: 11434.005859
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 18: 10704.15332
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 18: 11396.336914
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 18: 9782.274414
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 18: 6680.0
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 18: 0.0
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 18: 4528.598145
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 19: 20604.845703
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 19: 25213.085938
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 19: 22333.835938
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 19: 20463.287109
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 19: 4494.018066
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 19: 9002.004883
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 19: 9325.759766
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 19: 12203.679688
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 19: 13990.042969
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 19: 17405.5625
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 19: 15266.083008
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 19: 15942.650391
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 19: 19447.347656
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 19: 14218.020508
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 19: 12032.975586
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 19: 15097.817383
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 19: 14108.000977
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 19: 11185.570313
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 19: 4528.598145
+[2018.04.30-14.49.41:804][321]LogBlueprintUserMessages: [LevelTuto_C_1] 19: 0.0
+[2018.04.30-14.49.41:824][323]LogBlueprintUserMessages: [LevelTuto_C_1] PTO SPAWN: 4
+[2018.04.30-14.49.41:824][323]LogBlueprintUserMessages: [LevelTuto_C_1] roibot
+[2018.04.30-14.49.41:837][323]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-51600.000 Y=470.000 Z=90.000] for [Robot_C]
+[2018.04.30-14.49.41:846][324]LogBlueprintUserMessages: [LevelTuto_C_1] PTO SPAWN: 4
+[2018.04.30-14.49.41:846][324]LogBlueprintUserMessages: [LevelTuto_C_1] roibot
+[2018.04.30-14.49.41:847][324]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-51600.000 Y=470.000 Z=90.000] for [Robot_C]
+[2018.04.30-14.49.41:858][325]LogBlueprintUserMessages: [LevelTuto_C_1] PTO SPAWN: 7
+[2018.04.30-14.49.41:858][325]LogBlueprintUserMessages: [LevelTuto_C_1] fuerte
+[2018.04.30-14.49.44:361][478]LogScriptCore:Warning: Script Msg: Attempted to access index 20 from array CallFunc_GetAllActorsOfClass_OutActors of length 20!
+[2018.04.30-14.49.51:017][890]LogLevel: ActivateLevel /Temp/Autosaves/Game/Niveles/UEDPCBlueLevel 0 0 0
+[2018.04.30-14.49.51:017][890]LogLevel: ActivateLevel /Temp/Autosaves/Game/Niveles/UEDPCRedLevel 0 0 0
+[2018.04.30-14.49.51:026][891]LogLevel: ActivateLevel /Temp/Autosaves/Game/Niveles/UEDPCLevelTuto 0 0 0
+[2018.04.30-14.49.52:523][979]LogLevel: ActivateLevel /Temp/Autosaves/Game/Niveles/UEDPCBlueLevel 1 1 0
+[2018.04.30-14.49.53:114][  5]LogLevel: ActivateLevel /Temp/Autosaves/Game/Niveles/UEDPCRedLevel 0 0 0
+[2018.04.30-14.49.54:243][ 75]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue3
+	ThirdPersonExampleMap_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap_C_0
+	Function /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap_C:ExecuteUbergraph_ThirdPersonExampleMap:0F56
+[2018.04.30-14.49.54:243][ 75]LogScript:Warning: Script call stack:
+	Function /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap_C:InpActEvt_Right_K2Node_InputKeyEvent_8
+	Function /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap_C:ExecuteUbergraph_ThirdPersonExampleMap
+	Function /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap_C:removeStats
+	Function /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap_C:ExecuteUbergraph_ThirdPersonExampleMap
+
+[2018.04.30-14.49.58:050][311]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
+	BlueBoos_C /Temp/Autosaves/Game/Niveles/UEDPCBlueLevel.BlueLevel:PersistentLevel.BlueBoos_2
+	Function /Game/Enemigos/Boss/BlueBoos.BlueBoos_C:ExecuteUbergraph_BlueBoos:0625
+[2018.04.30-14.49.58:050][311]LogScript:Warning: Script call stack:
+	Function /Game/Widgets/menuJuegoAcabar.menuJuegoAcabar_C:BndEvt__Button_118_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
+	Function /Game/Widgets/menuJuegoAcabar.menuJuegoAcabar_C:ExecuteUbergraph_menuJuegoAcabar
+	Function /Game/Enemigos/Boss/BlueBoos.BlueBoos_C:Retry
+	Function /Game/Enemigos/Boss/BlueBoos.BlueBoos_C:ExecuteUbergraph_BlueBoos
+
+[2018.04.30-14.49.58:050][311]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue2
+	Warrior_BP_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Warrior_BP_C_1
+	Function /Game/Jugador/Warrior_BP.Warrior_BP_C:ExecuteUbergraph_Warrior_BP:5252
+[2018.04.30-14.49.58:050][311]LogScript:Warning: Script call stack:
+	Function /Game/Widgets/menuJuegoAcabar.menuJuegoAcabar_C:BndEvt__Button_118_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
+	Function /Game/Widgets/menuJuegoAcabar.menuJuegoAcabar_C:ExecuteUbergraph_menuJuegoAcabar
+	Function /Game/Jugador/Warrior_BP.Warrior_BP_C:Retry
+	Function /Game/Jugador/Warrior_BP.Warrior_BP_C:ExecuteUbergraph_Warrior_BP
+
+[2018.04.30-14.50.04:751][723]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.04.30-14.50.04:753][723]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.04.30-14.50.04:753][723]LogEngine: All Windows Closed
+[2018.04.30-14.50.04:753][723]LogWindows: FPlatformMisc::RequestExit(0)
+[2018.04.30-14.50.05:207][724]LogExit: Preparing to exit.
+[2018.04.30-14.50.05:207][724]LogMoviePlayer: Shutting down movie player
+[2018.04.30-14.50.05:631][724]LogExit: Game engine shut down
+[2018.04.30-14.50.05:696][724]LogObj: Freed 0b from 0 cluster array pools.
+[2018.04.30-14.50.05:696][724]LogExit: Object subsystem successfully closed.
+[2018.04.30-14.50.05:709][724]LogD3D11RHI: Shutdown
+[2018.04.30-14.50.05:709][724]LogD3D11RHI: CleanupD3DDevice
+[2018.04.30-14.50.05:777][724]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.30-14.50.05:781][724]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (298)
+[2018.04.30-14.50.05:781][724]LogModuleManager: Shutting down and abandoning module SequenceRecorder (296)
+[2018.04.30-14.50.05:781][724]LogModuleManager: Shutting down and abandoning module AutomationController (294)
+[2018.04.30-14.50.05:781][724]LogModuleManager: Shutting down and abandoning module AutomationWorker (292)
+[2018.04.30-14.50.05:781][724]LogModuleManager: Shutting down and abandoning module AIModule (290)
+[2018.04.30-14.50.05:781][724]LogModuleManager: Shutting down and abandoning module GameplayDebugger (289)
+[2018.04.30-14.50.05:781][724]LogModuleManager: Shutting down and abandoning module AITestSuite (287)
+[2018.04.30-14.50.05:781][724]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (284)
+[2018.04.30-14.50.05:781][724]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (282)
+[2018.04.30-14.50.05:781][724]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (280)
+[2018.04.30-14.50.05:781][724]LogModuleManager: Shutting down and abandoning module Media (279)
+[2018.04.30-14.50.05:781][724]LogModuleManager: Shutting down and abandoning module CharacterAI (276)
+[2018.04.30-14.50.05:781][724]LogModuleManager: Shutting down and abandoning module SessionServices (274)
+[2018.04.30-14.50.05:781][724]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (272)
+[2018.04.30-14.50.05:781][724]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (270)
+[2018.04.30-14.50.05:781][724]LogModuleManager: Shutting down and abandoning module MovieScene (268)
+[2018.04.30-14.50.05:781][724]LogModuleManager: Shutting down and abandoning module GeometryCache (266)
+[2018.04.30-14.50.05:781][724]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (265)
+[2018.04.30-14.50.05:781][724]LogModuleManager: Shutting down and abandoning module Niagara (262)
+[2018.04.30-14.50.05:781][724]LogModuleManager: Shutting down and abandoning module NiagaraEditor (261)
+[2018.04.30-14.50.05:781][724]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (258)
+[2018.04.30-14.50.05:781][724]LogModuleManager: Shutting down and abandoning module PortalServices (256)
+[2018.04.30-14.50.05:781][724]LogModuleManager: Shutting down and abandoning module PortalRpc (254)
+[2018.04.30-14.50.05:781][724]LogModuleManager: Shutting down and abandoning module MessagingRpc (252)
+[2018.04.30-14.50.05:781][724]LogModuleManager: Shutting down and abandoning module ProfilerService (250)
+[2018.04.30-14.50.05:916][724]LogModuleManager: Shutting down and abandoning module TaskGraph (248)
+[2018.04.30-14.50.05:916][724]LogModuleManager: Shutting down and abandoning module SteamVRController (246)
+[2018.04.30-14.50.05:916][724]LogModuleManager: Shutting down and abandoning module SteamVR (244)
+[2018.04.30-14.50.05:916][724]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (242)
+[2018.04.30-14.50.05:916][724]LogModuleManager: Shutting down and abandoning module OculusLibrary (240)
+[2018.04.30-14.50.05:916][724]LogModuleManager: Shutting down and abandoning module OculusInput (238)
+[2018.04.30-14.50.05:916][724]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (236)
+[2018.04.30-14.50.05:916][724]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (234)
+[2018.04.30-14.50.05:916][724]LogModuleManager: Shutting down and abandoning module CableComponent (232)
+[2018.04.30-14.50.05:916][724]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (230)
+[2018.04.30-14.50.05:916][724]LogModuleManager: Shutting down and abandoning module AndroidPermission (228)
+[2018.04.30-14.50.05:916][724]LogModuleManager: Shutting down and abandoning module HTML5Networking (224)
+[2018.04.30-14.50.05:916][724]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (222)
+[2018.04.30-14.50.05:916][724]LogModuleManager: Shutting down and abandoning module DesktopPlatform (221)
+[2018.04.30-14.50.05:916][724]LogModuleManager: Shutting down and abandoning module HotReload (219)
+[2018.04.30-14.50.05:917][724]LogModuleManager: Shutting down and abandoning module UObjectPlugin (216)
+[2018.04.30-14.50.05:917][724]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (214)
+[2018.04.30-14.50.05:917][724]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (212)
+[2018.04.30-14.50.05:917][724]LogModuleManager: Shutting down and abandoning module SourceControl (211)
+[2018.04.30-14.50.05:917][724]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (208)
+[2018.04.30-14.50.05:917][724]LogModuleManager: Shutting down and abandoning module PhysXVehicles (206)
+[2018.04.30-14.50.05:917][724]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (204)
+[2018.04.30-14.50.05:917][724]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (202)
+[2018.04.30-14.50.05:917][724]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (200)
+[2018.04.30-14.50.05:917][724]LogModuleManager: Shutting down and abandoning module UdpMessaging (198)
+[2018.04.30-14.50.06:018][724]LogModuleManager: Shutting down and abandoning module TcpMessaging (196)
+[2018.04.30-14.50.06:407][724]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (194)
+[2018.04.30-14.50.06:407][724]LogModuleManager: Shutting down and abandoning module FacialAnimation (192)
+[2018.04.30-14.50.06:407][724]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (190)
+[2018.04.30-14.50.06:408][724]LogModuleManager: Shutting down and abandoning module GraphEditor (189)
+[2018.04.30-14.50.06:408][724]LogModuleManager: Shutting down and abandoning module ContentBrowser (187)
+[2018.04.30-14.50.06:408][724]LogModuleManager: Shutting down and abandoning module CollectionManager (186)
+[2018.04.30-14.50.06:408][724]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Collections/' was aborted.
+[2018.04.30-14.50.06:408][724]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Content/Developers/David/Collections/' was aborted.
+[2018.04.30-14.50.06:408][724]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Documents/GitHub/FuturoImperfecto/PRUEBAS/MechHackAndSlash/Saved/Collections/' was aborted.
+[2018.04.30-14.50.06:408][724]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (185)
+[2018.04.30-14.50.06:409][724]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (180)
+[2018.04.30-14.50.06:409][724]LogModuleManager: Shutting down and abandoning module Paper2D (178)
+[2018.04.30-14.50.06:409][724]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (176)
+[2018.04.30-14.50.06:409][724]LogModuleManager: Shutting down and abandoning module WmfMedia (174)
+[2018.04.30-14.50.06:409][724]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (172)
+[2018.04.30-14.50.06:409][724]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (170)
+[2018.04.30-14.50.06:409][724]LogModuleManager: Shutting down and abandoning module MediaAssets (168)
+[2018.04.30-14.50.06:409][724]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (166)
+[2018.04.30-14.50.06:410][724]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (164)
+[2018.04.30-14.50.06:410][724]LogModuleManager: Shutting down and abandoning module VREditor (162)
+[2018.04.30-14.50.06:410][724]LogModuleManager: Shutting down and abandoning module StringTableEditor (160)
+[2018.04.30-14.50.06:410][724]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (158)
+[2018.04.30-14.50.06:410][724]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (156)
+[2018.04.30-14.50.06:410][724]LogModuleManager: Shutting down and abandoning module FunctionalTesting (154)
+[2018.04.30-14.50.06:410][724]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (152)
+[2018.04.30-14.50.06:410][724]LogModuleManager: Shutting down and abandoning module UMG (150)
+[2018.04.30-14.50.06:410][724]LogModuleManager: Shutting down and abandoning module UMGEditor (149)
+[2018.04.30-14.50.06:410][724]LogModuleManager: Shutting down and abandoning module Sequencer (148)
+[2018.04.30-14.50.06:410][724]LogModuleManager: Shutting down and abandoning module AssetTools (146)
+[2018.04.30-14.50.06:410][724]LogModuleManager: Shutting down and abandoning module MessageLog (145)
+[2018.04.30-14.50.06:410][724]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (144)
+[2018.04.30-14.50.06:410][724]LogModuleManager: Shutting down and abandoning module SlateReflector (138)
+[2018.04.30-14.50.06:410][724]LogModuleManager: Shutting down and abandoning module Slate (136)
+[2018.04.30-14.50.06:410][724]LogModuleManager: Shutting down and abandoning module EditorStyle (134)
+[2018.04.30-14.50.06:416][724]LogModuleManager: Shutting down and abandoning module Messaging (132)
+[2018.04.30-14.50.06:416][724]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (130)
+[2018.04.30-14.50.06:416][724]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (128)
+[2018.04.30-14.50.06:416][724]LogModuleManager: Shutting down and abandoning module XAudio2 (126)
+[2018.04.30-14.50.06:416][724]LogModuleManager: Shutting down and abandoning module Networking (124)
+[2018.04.30-14.50.06:416][724]LogModuleManager: Shutting down and abandoning module Core (120)
+[2018.04.30-14.50.06:416][724]LogModuleManager: Shutting down and abandoning module KismetCompiler (118)
+[2018.04.30-14.50.06:416][724]LogModuleManager: Shutting down and abandoning module LevelSequence (116)
+[2018.04.30-14.50.06:416][724]LogModuleManager: Shutting down and abandoning module PhysXFormats (114)
+[2018.04.30-14.50.06:416][724]LogModuleManager: Shutting down and abandoning module MeshUtilities (112)
+[2018.04.30-14.50.06:416][724]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (111)
+[2018.04.30-14.50.06:416][724]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (109)
+[2018.04.30-14.50.06:416][724]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (107)
+[2018.04.30-14.50.06:416][724]LogModuleManager: Shutting down and abandoning module AssetRegistry (104)
+[2018.04.30-14.50.06:417][724]LogModuleManager: Shutting down and abandoning module DerivedDataCache (102)
+[2018.04.30-14.50.06:907][724]LogDerivedDataCache: Shutdown
+[2018.04.30-14.50.06:907][724]LogModuleManager: Shutting down and abandoning module TargetPlatform (100)
+[2018.04.30-14.50.06:907][724]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (99)
+[2018.04.30-14.50.06:907][724]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (97)
+[2018.04.30-14.50.06:907][724]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (95)
+[2018.04.30-14.50.06:907][724]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (93)
+[2018.04.30-14.50.06:907][724]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (91)
+[2018.04.30-14.50.06:907][724]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (89)
+[2018.04.30-14.50.06:907][724]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (87)
+[2018.04.30-14.50.06:907][724]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (85)
+[2018.04.30-14.50.06:907][724]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (83)
+[2018.04.30-14.50.06:907][724]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (81)
+[2018.04.30-14.50.06:907][724]LogModuleManager: Shutting down and abandoning module ImageWrapper (80)
+[2018.04.30-14.50.06:907][724]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (77)
+[2018.04.30-14.50.06:907][724]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (75)
+[2018.04.30-14.50.06:907][724]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (73)
+[2018.04.30-14.50.06:907][724]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (71)
+[2018.04.30-14.50.06:907][724]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
+[2018.04.30-14.50.06:907][724]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
+[2018.04.30-14.50.06:907][724]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
+[2018.04.30-14.50.06:907][724]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
+[2018.04.30-14.50.06:907][724]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.04.30-14.50.06:908][724]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.04.30-14.50.06:908][724]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.04.30-14.50.06:908][724]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.04.30-14.50.06:908][724]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.04.30-14.50.06:908][724]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.04.30-14.50.06:908][724]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.04.30-14.50.06:908][724]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.04.30-14.50.06:908][724]LogOnline:Display: Unloading online subsystem: NULL
+[2018.04.30-14.50.06:908][724]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.30-14.50.06:908][724]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.30-14.50.06:927][724]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.30-14.50.06:931][724]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.04.30-14.50.06:931][724]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.04.30-14.50.06:931][724]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.04.30-14.50.06:931][724]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.04.30-14.50.06:931][724]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.04.30-14.50.06:931][724]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.04.30-14.50.06:931][724]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.04.30-14.50.06:931][724]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.04.30-14.50.06:932][724]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.04.30-14.50.06:932][724]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.04.30-14.50.06:932][724]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.04.30-14.50.06:932][724]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.04.30-14.50.06:932][724]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.04.30-14.50.06:932][724]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.04.30-14.50.06:932][724]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.04.30-14.50.06:932][724]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.30-14.50.06:932][724]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.30-14.50.06:932][724]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.30-14.50.06:935][724]LogExit: Exiting.
+[2018.04.30-14.50.06:940][724]Log file closed, 04/30/18 16:50:06
